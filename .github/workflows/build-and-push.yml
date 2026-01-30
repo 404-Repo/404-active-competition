@@ -1,0 +1,196 @@
+name: Bake and push images GCR
+
+on:
+  push:
+    paths:
+      - '**/submissions.json'
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      submission_file: ${{ steps.find-submissions.outputs.file }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Get changed submissions file
+        id: find-submissions
+        run: |
+          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep 'submissions.json' | head -1)
+          if [ -z "$CHANGED_FILE" ]; then
+            CHANGED_FILE=$(find rounds -maxdepth 2 -name 'submissions.json' | sort -V | tail -1)
+          fi
+          echo "file=$CHANGED_FILE" >> $GITHUB_OUTPUT
+      - name: Set matrix
+        id: set-matrix
+        run: |
+          echo "matrix=$(jq -c 'keys' ${{ steps.find-submissions.outputs.file }})" >> $GITHUB_OUTPUT
+
+  bake-push:
+    name: Bake and push images to Google Cloud
+    runs-on: arc-x86
+    timeout-minutes: 60
+    needs: setup
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        repo: ${{ fromJson(needs.setup.outputs.matrix) }}
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    env:
+      CONTEXT: ${{ matrix.repo }}
+      DOCKERFILE: docker/Dockerfile
+    steps:
+      - 
+        name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          token: ${{ secrets.MINER_GITHUB_TOKEN }} 
+      -
+        name: Get changed submissions file
+        id: find-submissions
+        run: |
+          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep 'submissions.json' | head -1)
+          if [ -z "$CHANGED_FILE" ]; then
+            CHANGED_FILE=$(find rounds -maxdepth 2 -name 'submissions.json' | sort -V | tail -1)
+          fi
+          echo "file=$CHANGED_FILE" >> $GITHUB_OUTPUT
+      -
+        name: Get repository info
+        id: get-repo-info
+        run: |
+          echo "repo-info=$(jq -c '."${{ matrix.repo }}"' ${{ steps.find-submissions.outputs.file }})" >> $GITHUB_OUTPUT
+      -
+        name: Clone repository
+        uses: actions/checkout@v4
+        continue-on-error: true
+        id: clone-repo
+        with:
+          repository: ${{ fromJson(steps.get-repo-info.outputs.repo-info).repo }}
+          ref: ${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}
+          path: ${{ matrix.repo }}
+          token: ${{ secrets.MINER_GITHUB_TOKEN }}
+      -
+        name: Fallback clone with GITHUB_TOKEN
+        if: steps.clone-repo.outcome == 'failure'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ fromJson(steps.get-repo-info.outputs.repo-info).repo }}
+          ref: ${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}
+          path: ${{ matrix.repo }}
+          token: ${{ github.token }}
+      -
+        name: Debug directory structure
+        run: |
+          ls -la ${{ matrix.repo }}
+          ls -la ${{ matrix.repo }}/docker
+      - 
+        name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v3'
+        with:
+          version: '>= 363.0.0'
+      - 
+        name: Log in to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          project_id: gen-456515
+          workload_identity_provider: projects/369621634572/locations/global/workloadIdentityPools/github-actions-pool/providers/github-actions-404-repo
+      - 
+        name: Configure Docker to use gcloud
+        run: |
+          gcloud auth configure-docker europe-docker.pkg.dev
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      -
+        name: Set dynamic tag
+        run: |
+          COMMIT_SHA=$(echo "${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}" | cut -c1-7)
+          ROUND="${{ fromJson(steps.get-repo-info.outputs.repo-info).round }}"
+          MINER_HOTKEY_LOWER=$(echo "${{ matrix.repo }}" | tr '[:upper:]' '[:lower:]' | cut -c1-10)
+          echo "DOCKER_TAG=${COMMIT_SHA}-${ROUND}" >> $GITHUB_ENV
+          echo "MINER_HOTKEY_LOWER=${MINER_HOTKEY_LOWER}" >> $GITHUB_ENV
+      -
+        name: Archive and upload to R2
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install
+          tar -czf ${{ env.MINER_HOTKEY_LOWER }}_${{ env.DOCKER_TAG }}.tar.gz ${{ matrix.repo }}
+          aws s3 cp ${{ env.MINER_HOTKEY_LOWER }}_${{ env.DOCKER_TAG }}.tar.gz s3://miner-repo-archive/${{ env.MINER_HOTKEY_LOWER }}_${{ env.DOCKER_TAG }}.tar.gz --endpoint-url ${{ secrets.REPO_R2_ENDPOINT }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.REPO_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.REPO_R2_SECRET_ACCESS_KEY }}
+      -
+        name: Build and push
+        uses: docker/bake-action@v6
+        continue-on-error: true
+        id: build1
+        timeout-minutes: 30
+        with:
+          source: .
+          files: |
+            ./docker-bake.hcl
+          push: true
+          provenance: false
+        env:
+          VERSION: ${{  env.DOCKER_TAG }}
+          GITHUB_TOKEN: ${{ secrets.MINER_GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.MINER_GITHUB_USER }}
+          CONTEXT: ${{ env.CONTEXT }}
+          MINER_HOTKEY: ${{ env.MINER_HOTKEY_LOWER }}
+          DOCKERFILE: ${{ env.DOCKERFILE }}
+          CACHE_FROM: type=registry,ref=europe-docker.pkg.dev/gen-456515/dockers-cache/shared
+          CACHE_TO: ${{ strategy.job-index == 0 && 'type=registry,ref=europe-docker.pkg.dev/gen-456515/dockers-cache/shared,mode=max,compression=zstd' || '' }}
+      -
+        name: Clean cache after failure
+        if: steps.build1.outcome == 'failure'
+        run: |
+          docker buildx rm --all-inactive || true
+          docker stop $(docker ps -aq) || true
+          docker rm $(docker ps -aq) || true
+          docker rmi $(docker images -aq) || true
+          docker volume rm $(docker volume ls -q) || true
+          docker system prune -af --volumes
+          docker buildx create --use --name fresh-builder
+      -
+        name: Retry build
+        if: steps.build1.outcome == 'failure'
+        uses: docker/bake-action@v6
+        timeout-minutes: 30
+        with:
+          source: .
+          files: |
+            ./docker-bake.hcl
+          push: true
+          provenance: false
+        env:
+          VERSION: ${{  env.DOCKER_TAG }}
+          GITHUB_TOKEN: ${{ secrets.MINER_GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.MINER_GITHUB_USER }}
+          CONTEXT: ${{ env.CONTEXT }}
+          MINER_HOTKEY: ${{ env.MINER_HOTKEY_LOWER }}
+          DOCKERFILE: ${{ env.DOCKERFILE }}
+          CACHE_FROM: type=registry,ref=europe-docker.pkg.dev/gen-456515/dockers-cache/shared
+          CACHE_TO: ${{ strategy.job-index == 0 && 'type=registry,ref=europe-docker.pkg.dev/gen-456515/dockers-cache/shared,mode=max,compression=zstd' || '' }}
+      -
+        name: Display image URL
+        run: |
+          echo "::notice title=Built Image::europe-docker.pkg.dev/gen-456515/competition-0/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}"
+      -
+        name: Add to summary
+        run: |
+          echo "### Built Docker Images :whale:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Submission file:** \`${{ needs.setup.outputs.submission_file }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- \`europe-docker.pkg.dev/gen-456515/competition-0/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}\`" >> $GITHUB_STEP_SUMMARY
