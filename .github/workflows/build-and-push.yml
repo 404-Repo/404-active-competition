@@ -103,7 +103,7 @@ jobs:
       - 
         name: Configure Docker to use gcloud
         run: |
-          gcloud auth configure-docker europe-docker.pkg.dev
+          gcloud auth configure-docker europe-west3-docker.pkg.dev
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -185,7 +185,7 @@ jobs:
       -
         name: Display image URL
         run: |
-          echo "::notice title=Built Image::europe-docker.pkg.dev/gen-456515/competition-0/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}"
+          echo "::notice title=Built Image::europe-west3-docker.pkg.dev/gen-456515/active-competition/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}"
       -
         name: Add to summary
         run: |
@@ -193,4 +193,4 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Submission file:** \`${{ needs.setup.outputs.submission_file }}\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- \`europe-docker.pkg.dev/gen-456515/competition-0/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`europe-west3-docker.pkg.dev/gen-456515/active-competition/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}\`" >> $GITHUB_STEP_SUMMARY
