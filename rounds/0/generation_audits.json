@@ -16,5 +16,14 @@
     "failed_critical": 0,
     "generation_time": 63.91356457117945,
     "reason": "Non-critical mismatches (43) exceed tolerance (6)"
+  },
+  "5FLiyT19Vc2QEiuGkygZ7VZw9Y9i8WkT53k3Kda9FrKUUxuq": {
+    "hotkey": "5FLiyT19Vc2QEiuGkygZ7VZw9Y9i8WkT53k3Kda9FrKUUxuq",
+    "outcome": "rejected",
+    "checked_prompts": 126,
+    "failed_prompts": 9,
+    "failed_critical": 1,
+    "generation_time": 66.49823617329821,
+    "reason": "Non-critical mismatches (9) exceed tolerance (6)"
   }
 }
