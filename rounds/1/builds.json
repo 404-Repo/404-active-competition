@@ -4,7 +4,7 @@
     "commit": "12b14e7e0cf359cb009e7eef319a19508460c688",
     "revealed_at_block": 7456445,
     "tag": "12b14e7-mesh-1",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5GgVxYJS3RsZtdhCVkW9DwBcjojAkcSpZXz6AnefsThrhPJf": {
@@ -20,7 +20,7 @@
     "commit": "be790d60436efd95fcf758a3ffa33d3173896af3",
     "revealed_at_block": 7456445,
     "tag": "be790d6-mesh-1",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EjwzQdAutgZe1xVw5w2hGnwww73htfyRB5aiSs2RFzhnSYa": {
@@ -28,7 +28,7 @@
     "commit": "4a4d02133e299cd5e1e8728f6b12b1257fbf9093",
     "revealed_at_block": 7456445,
     "tag": "4a4d021-mesh-1",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS": {
@@ -36,7 +36,7 @@
     "commit": "76c284dc4ae1de6d2cae7617da35174ea409a372",
     "revealed_at_block": 7456515,
     "tag": "76c284d-mesh-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5DCZ3i1bcBoAe5RD7i5iSiP2vQBSCKr2bsBz4tZ3q6vZ9Srt": {
@@ -60,8 +60,8 @@
     "commit": "2a0b3c2f485467c3920c7aff2a1c5ab1da2f98a3",
     "revealed_at_block": 7463615,
     "tag": "2a0b3c2-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5d2vzzgayq:2a0b3c2-mesh-1"
   },
   "5GTRip78cyK3Vp1MQZR9kMbPCugaw7xHj5Qq8XLL9FZMtne4": {
     "repo": "yukita1975/super-duper-funicular",
@@ -76,7 +76,7 @@
     "commit": "24581f441d22695214d51c80ab6ce4ebf1a020ae",
     "revealed_at_block": 7468812,
     "tag": "24581f4-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5GgpGaDxzTyBAME1Ju9ZhUstWj2VTm1n4tAUkRHLi4birQZg": {
@@ -100,7 +100,7 @@
     "commit": "aa10f6f21a33467c6a31d25d7569ad4c8fd49f62",
     "revealed_at_block": 7468829,
     "tag": "aa10f6f-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EU1ViScfctLpaFGwL1uSQFCDvoyCfLRwYxTDtR37x7HteDH": {
@@ -108,8 +108,8 @@
     "commit": "aa10f6f21a33467c6a31d25d7569ad4c8fd49f62",
     "revealed_at_block": 7468829,
     "tag": "aa10f6f-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eu1viscfc:aa10f6f-mesh-1"
   },
   "5Gv4MJXCUkR9SkmL42nmDdxNZGPG8i8fdPbK5Su8ForEbxbg": {
     "repo": "yukita1975/sturdy-journey",
@@ -156,7 +156,7 @@
     "commit": "9ca5355f26ad3fcc9838c9b6b6e2da5865df97b7",
     "revealed_at_block": 7469646,
     "tag": "9ca5355-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5H9bvDjbYHpCwDfPkcak8wVSAPtkCfb6n9MpVMAvRD3JMkbL": {
@@ -172,23 +172,23 @@
     "commit": "5c22e9662b77a0d8e7940197a5caa885704bfb99",
     "revealed_at_block": 7469646,
     "tag": "5c22e96-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e9yfjf8rw:5c22e96-mesh-1"
   },
   "5CwGtXp12GZnUHwQYJcdkVgZeaBVmMXy34spKkYy3aLcc9Ti": {
     "repo": "yukita1975/fuzzy-system",
     "commit": "3e497759cc82270dfc49ba515cd69240243900a5",
     "revealed_at_block": 7469646,
     "tag": "3e49775-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5cwgtxp12g:3e49775-mesh-1"
   },
   "5FePECsVyZnnuoRmpZMsR99k88ysUsWcMaBfhjjNnYT7WM1h": {
     "repo": "yukita1975/bug-free-robot",
     "commit": "5c22e9662b77a0d8e7940197a5caa885704bfb99",
     "revealed_at_block": 7469668,
     "tag": "5c22e96-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5F4HaNQJAXDhirU51GTz4vBvcEuUo3YSfhKuBT7qix35DkHP": {
@@ -196,7 +196,7 @@
     "commit": "b33c296d2fe167da95f5b62b83b042cd415fadfd",
     "revealed_at_block": 7470648,
     "tag": "b33c296-mesh-1",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5GH72o2fzUNd9FZk86qGKJ9wmWfTQhqXXecUN8HB7cF1mY5U": {
@@ -212,7 +212,7 @@
     "commit": "e1fd3791375e53bdb63690763ff99ce84ce9f12c",
     "revealed_at_block": 7470915,
     "tag": "e1fd379-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5HNgV24igSZcrocncRFEu8p93J5sg6bKSAhAVrbPg2gypVRF": {
@@ -244,7 +244,7 @@
     "commit": "aba4cd1b14b8ffa1e148fde04d6c211e55e1a956",
     "revealed_at_block": 7475900,
     "tag": "aba4cd1-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EU9jUxguB5VBNv7M2QmUzR1WA74VfsHe1bC6xCu5mdc3g98": {
@@ -252,7 +252,7 @@
     "commit": "2f2df0cd8f30744760eb472be64fd943ee8bf899",
     "revealed_at_block": 7475962,
     "tag": "2f2df0c-mesh-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5G6o8LyL62Lza3KJdPnNxoopBf2tf6HLvtFVYUQcEq2XRSdw": {
@@ -260,7 +260,7 @@
     "commit": "b0b20bb008357a6403e66f7fd40a77dcea265c23",
     "revealed_at_block": 7476044,
     "tag": "b0b20bb-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DxxAjWNrCKFgrWpZ6q1xe3bXTVAvCDZM4HoPpJGh4Pof8mx": {
@@ -268,23 +268,23 @@
     "commit": "670328e27dd169571353225bbba68b332f14879d",
     "revealed_at_block": 7476047,
     "tag": "670328e-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dxxajwnrc:670328e-mesh-1"
   },
   "5E5A9q65xzJm8VToNSA898tG4AhjL7H6Ssenmrv3SDn3EtJ8": {
     "repo": "yukita1975/friendly-meme",
     "commit": "851274eff6aa5b487ff33892d99c60a79e6b4247",
     "revealed_at_block": 7476062,
     "tag": "851274e-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e5a9q65xz:851274e-mesh-1"
   },
   "5DcQs3LcdM2SQDTNb1sfPqrGWKBh9sgk2G97RhQzvqsZup2w": {
     "repo": "yukita1975/friendly-meme",
     "commit": "851274eff6aa5b487ff33892d99c60a79e6b4247",
     "revealed_at_block": 7476062,
     "tag": "851274e-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dcqs3lcdm:851274e-mesh-1"
   }
 }
