@@ -36,7 +36,7 @@
     "commit": "76c284dc4ae1de6d2cae7617da35174ea409a372",
     "revealed_at_block": 7456515,
     "tag": "76c284d-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DCZ3i1bcBoAe5RD7i5iSiP2vQBSCKr2bsBz4tZ3q6vZ9Srt": {
@@ -44,15 +44,15 @@
     "commit": "5b1e56b263464daec34aae0ce9fee7c609a4eb07",
     "revealed_at_block": 7456607,
     "tag": "5b1e56b-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dcz3i1bcb:5b1e56b-mesh-1"
   },
   "5EEdbizRinqtCQnjC6d6RuHJwEGgXC79LGT9vXZdGfvSMJfY": {
     "repo": "TuttiGenerator/oliks",
     "commit": "20ca86d1a8d4bf6745ab93d311db71d5eb5fb5bb",
     "revealed_at_block": 7456607,
     "tag": "20ca86d-mesh-1",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5D2vzzgaYq1c9NqyaWAjnK5xWDtrzJMjBeD6ar8W5q5sDh7p": {
@@ -108,7 +108,7 @@
     "commit": "aa10f6f21a33467c6a31d25d7569ad4c8fd49f62",
     "revealed_at_block": 7468829,
     "tag": "aa10f6f-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Gv4MJXCUkR9SkmL42nmDdxNZGPG8i8fdPbK5Su8ForEbxbg": {
@@ -132,23 +132,23 @@
     "commit": "aa10f6f21a33467c6a31d25d7569ad4c8fd49f62",
     "revealed_at_block": 7468865,
     "tag": "aa10f6f-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dfhd4obnq:aa10f6f-mesh-1"
   },
   "5E7BUrU7gbpKTBka78kDdca3NkoZfLVR9jfY8dzd16TzTHAF": {
     "repo": "yukita1975/super-duper-funicular",
     "commit": "aa10f6f21a33467c6a31d25d7569ad4c8fd49f62",
     "revealed_at_block": 7468876,
     "tag": "aa10f6f-mesh-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e7buru7gb:aa10f6f-mesh-1"
   },
   "5EZpt79UEt8QRxbHDFaiup4pg9f1yYUWpJwYuFt3NfF7TzJF": {
     "repo": "yukita1975/fuzzy-system",
     "commit": "3e497759cc82270dfc49ba515cd69240243900a5",
     "revealed_at_block": 7469646,
     "tag": "3e49775-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Fq1Sd89raFdT6CTcUz9fn71RUr5se8rhyogDDQhnfSQFyEY": {
@@ -236,7 +236,7 @@
     "commit": "39a71b308c5aa3c5a9b2e0c445432bc42fc0c15e",
     "revealed_at_block": 7475892,
     "tag": "39a71b3-mesh-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5Ef8XtevYiZXPdNRoQyVCgnqqs9WkhA3BNFfBoL9yb5a3ixA": {
@@ -252,7 +252,7 @@
     "commit": "2f2df0cd8f30744760eb472be64fd943ee8bf899",
     "revealed_at_block": 7475962,
     "tag": "2f2df0c-mesh-1",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5G6o8LyL62Lza3KJdPnNxoopBf2tf6HLvtFVYUQcEq2XRSdw": {
