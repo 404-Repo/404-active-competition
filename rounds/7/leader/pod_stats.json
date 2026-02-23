@@ -28,5 +28,20 @@
     "retry_cumulative_delta": 17.242307047941722,
     "retry_delta_count": 6,
     "termination_reason": "no work available"
+  },
+  "miner-07-leader-2": {
+    "pod_id": "miner-07-leader-2",
+    "processed": 39,
+    "successful": 31,
+    "hard_failed": 2,
+    "hard_overtime": 6,
+    "time_min": 47.76585081696976,
+    "time_max": 165.92623408301733,
+    "time_avg": 84.98199298422193,
+    "time_median": 80.97525165503612,
+    "marked_bad": true,
+    "retry_cumulative_delta": -9.03454901278019,
+    "retry_delta_count": 9,
+    "termination_reason": "2 failures + 6 overtimes >= 8"
   }
 }
