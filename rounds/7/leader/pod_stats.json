@@ -43,5 +43,50 @@
     "retry_cumulative_delta": -9.03454901278019,
     "retry_delta_count": 9,
     "termination_reason": "2 failures + 6 overtimes >= 8"
+  },
+  "miner-07-leader-3": {
+    "pod_id": "miner-07-leader-3",
+    "processed": 52,
+    "successful": 45,
+    "hard_failed": 0,
+    "hard_overtime": 7,
+    "time_min": 51.1238312049536,
+    "time_max": 146.66833643394057,
+    "time_avg": 86.5965058179936,
+    "time_median": 74.74603120196844,
+    "marked_bad": false,
+    "retry_cumulative_delta": -8.362641053507105,
+    "retry_delta_count": 17,
+    "termination_reason": "no work available"
+  },
+  "miner-07-leader-5": {
+    "pod_id": "miner-07-leader-5",
+    "processed": 8,
+    "successful": 8,
+    "hard_failed": 0,
+    "hard_overtime": 0,
+    "time_min": 0.0,
+    "time_max": 0.0,
+    "time_avg": 0.0,
+    "time_median": 0.0,
+    "marked_bad": false,
+    "retry_cumulative_delta": 37.221311597852036,
+    "retry_delta_count": 8,
+    "termination_reason": "stopped"
+  },
+  "miner-07-leader-4": {
+    "pod_id": "miner-07-leader-4",
+    "processed": 10,
+    "successful": 9,
+    "hard_failed": 0,
+    "hard_overtime": 1,
+    "time_min": 0.0,
+    "time_max": 0.0,
+    "time_avg": 0.0,
+    "time_median": 0.0,
+    "marked_bad": false,
+    "retry_cumulative_delta": 56.92889997700695,
+    "retry_delta_count": 10,
+    "termination_reason": "no work available"
   }
 }
