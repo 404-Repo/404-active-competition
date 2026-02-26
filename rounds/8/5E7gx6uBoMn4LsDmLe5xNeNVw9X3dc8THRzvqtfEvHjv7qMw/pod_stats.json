@@ -13,5 +13,50 @@
     "retry_cumulative_delta": 21.94826906900562,
     "retry_delta_count": 1,
     "termination_reason": "no work available"
+  },
+  "miner-08-5e7gx6ubom-0": {
+    "pod_id": "miner-08-5e7gx6ubom-0",
+    "processed": 5,
+    "successful": 5,
+    "hard_failed": 0,
+    "hard_overtime": 0,
+    "time_min": 57.70960113899491,
+    "time_max": 58.29876725500799,
+    "time_avg": 58.00418419700145,
+    "time_median": 58.00418419700145,
+    "marked_bad": false,
+    "retry_cumulative_delta": -17.640778559987666,
+    "retry_delta_count": 1,
+    "termination_reason": "no work available"
+  },
+  "miner-08-5e7gx6ubom-2": {
+    "pod_id": "miner-08-5e7gx6ubom-2",
+    "processed": 26,
+    "successful": 26,
+    "hard_failed": 0,
+    "hard_overtime": 0,
+    "time_min": 34.29743307099852,
+    "time_max": 102.26996551699995,
+    "time_avg": 63.6491449782163,
+    "time_median": 59.648522108007455,
+    "marked_bad": false,
+    "retry_cumulative_delta": -245.19542785799422,
+    "retry_delta_count": 3,
+    "termination_reason": "no work available"
+  },
+  "miner-08-5e7gx6ubom-1": {
+    "pod_id": "miner-08-5e7gx6ubom-1",
+    "processed": 23,
+    "successful": 19,
+    "hard_failed": 0,
+    "hard_overtime": 4,
+    "time_min": 42.11166174701066,
+    "time_max": 159.5767616439989,
+    "time_avg": 95.77210432515896,
+    "time_median": 95.91164341800322,
+    "marked_bad": false,
+    "retry_cumulative_delta": 1.9375011259980965,
+    "retry_delta_count": 1,
+    "termination_reason": "no work available"
   }
 }
