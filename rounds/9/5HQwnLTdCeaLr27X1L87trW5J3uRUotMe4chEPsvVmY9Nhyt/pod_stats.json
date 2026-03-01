@@ -1,0 +1,17 @@
+{
+  "miner-09-5hqwnltdce-0": {
+    "pod_id": "miner-09-5hqwnltdce-0",
+    "processed": 29,
+    "successful": 21,
+    "hard_failed": 8,
+    "hard_overtime": 0,
+    "time_min": 35.10347692196956,
+    "time_max": 143.06690588599304,
+    "time_avg": 66.82005058394445,
+    "time_median": 57.77891099394765,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "8 failures + 0 overtimes >= 8"
+  }
+}
