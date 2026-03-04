@@ -1,0 +1,17 @@
+{
+  "miner-10-5dfhd4obnq-3": {
+    "pod_id": "miner-10-5dfhd4obnq-3",
+    "processed": 11,
+    "successful": 11,
+    "hard_failed": 0,
+    "hard_overtime": 0,
+    "time_min": 65.42458128603175,
+    "time_max": 171.86694745789282,
+    "time_avg": 120.58870987208898,
+    "time_median": 117.82080044597387,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "rolling median 124.1s > 120.0s"
+  }
+}
