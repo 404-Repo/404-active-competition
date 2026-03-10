@@ -1,0 +1,17 @@
+{
+  "miner-12-leader-0": {
+    "pod_id": "miner-12-leader-0",
+    "processed": 34,
+    "successful": 30,
+    "hard_failed": 2,
+    "hard_overtime": 2,
+    "time_min": 29.44511361583136,
+    "time_max": 116.49942047102377,
+    "time_avg": 64.56311665291513,
+    "time_median": 58.36654172791168,
+    "marked_bad": false,
+    "retry_cumulative_delta": -6.530059962067753,
+    "retry_delta_count": 1,
+    "termination_reason": "no work available"
+  }
+}
