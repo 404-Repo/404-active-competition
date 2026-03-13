@@ -7,5 +7,14 @@
     "failed_critical": 3,
     "generation_time": 119.90623446926475,
     "reason": "Trimmed median generation time (119.91s) exceeds limit (90.00s); Non-critical mismatches (83) exceed tolerance (6); Critical mismatches (3) exceed tolerance (1)"
+  },
+  "5E9YfJF8RwsUmq4RdDWAtXJhq1cRvBDFeTtHrmo1mEHwT3pA": {
+    "hotkey": "5E9YfJF8RwsUmq4RdDWAtXJhq1cRvBDFeTtHrmo1mEHwT3pA",
+    "outcome": "rejected",
+    "checked_prompts": 127,
+    "failed_prompts": 85,
+    "failed_critical": 0,
+    "generation_time": 118.96611033007503,
+    "reason": "Trimmed median generation time (118.97s) exceeds limit (90.00s); Non-critical mismatches (85) exceed tolerance (6)"
   }
 }
