@@ -1,0 +1,17 @@
+{
+  "miner-13-5e9yfjf8rw-0": {
+    "pod_id": "miner-13-5e9yfjf8rw-0",
+    "processed": 12,
+    "successful": 11,
+    "hard_failed": 0,
+    "hard_overtime": 1,
+    "time_min": 98.3473061081022,
+    "time_max": 165.39295921102166,
+    "time_avg": 124.10775149139491,
+    "time_median": 128.51485860720277,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "rolling median 129.1s > 120.0s"
+  }
+}
