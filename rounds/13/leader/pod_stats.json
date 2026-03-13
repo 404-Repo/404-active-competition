@@ -1,0 +1,32 @@
+{
+  "miner-13-leader-0": {
+    "pod_id": "miner-13-leader-0",
+    "processed": 30,
+    "successful": 26,
+    "hard_failed": 3,
+    "hard_overtime": 1,
+    "time_min": 31.396231960505247,
+    "time_max": 164.06732616387308,
+    "time_avg": 62.100679107010365,
+    "time_median": 50.92191835306585,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "no work available"
+  },
+  "miner-13-leader-3": {
+    "pod_id": "miner-13-leader-3",
+    "processed": 36,
+    "successful": 33,
+    "hard_failed": 2,
+    "hard_overtime": 1,
+    "time_min": 30.537136947736144,
+    "time_max": 91.85774924978614,
+    "time_avg": 53.15253025678297,
+    "time_median": 51.30319027416408,
+    "marked_bad": false,
+    "retry_cumulative_delta": 17.72432872466743,
+    "retry_delta_count": 1,
+    "termination_reason": "no work available"
+  }
+}
