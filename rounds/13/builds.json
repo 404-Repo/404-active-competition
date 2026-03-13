@@ -76,7 +76,7 @@
     "commit": "a747c6c29fcc1a859fcee542af1747ab52515d19",
     "revealed_at_block": 7713465,
     "tag": "a747c6c-mesh-13",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5F4HaNQJAXDhirU51GTz4vBvcEuUo3YSfhKuBT7qix35DkHP": {
@@ -84,15 +84,15 @@
     "commit": "dfef6804843002f5d5d1bb3daa5ecfc968270a83",
     "revealed_at_block": 7713466,
     "tag": "dfef680-mesh-13",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f4hanqjax:dfef680-mesh-13"
   },
   "5Gj2dmSDgj9nkSSJX5gUYgxpzZMrRGsBgohPfujkzcCLvY3c": {
     "repo": "Uglejo/shadow-commit",
     "commit": "a114f18ef58b7fb44f6cf17b5a2006237d8f982a",
     "revealed_at_block": 7713466,
     "tag": "a114f18-mesh-13",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5HgGDgMf4VEwRdVNdoXRMaqATbws8PrBe8qRbaAmiVSGy2Up": {
@@ -124,7 +124,7 @@
     "commit": "39fce90717019083337906e2c8a8e2bdecf34e03",
     "revealed_at_block": 7713494,
     "tag": "39fce90-mesh-13",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5E9YfJF8RwsUmq4RdDWAtXJhq1cRvBDFeTtHrmo1mEHwT3pA": {
@@ -172,7 +172,7 @@
     "commit": "f91a4459c04506618addd1e1141369b3f0b77db4",
     "revealed_at_block": 7713509,
     "tag": "f91a445-mesh-13",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DcQs3LcdM2SQDTNb1sfPqrGWKBh9sgk2G97RhQzvqsZup2w": {
@@ -212,8 +212,8 @@
     "commit": "915a1edd0cc05cf28f82192cc2e5e142b9e68a4f",
     "revealed_at_block": 7733504,
     "tag": "915a1ed-mesh-13",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fgxe3afaj:915a1ed-mesh-13"
   },
   "5Ebm5cRFAzkHGtq3myyvnL3w6GVSPrAy4LY6HSFMNdQLnomj": {
     "repo": "itwm13/opitum",
@@ -276,8 +276,8 @@
     "commit": "da4e85b32956b65fe8997a128422dee0ff2ab58c",
     "revealed_at_block": 7734661,
     "tag": "da4e85b-mesh-13",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gckseffmq:da4e85b-mesh-13"
   },
   "5EaA6wcoaf9yeYzFBmwmtxuXUsjcFdeVEHfVRFi4PY7Gd196": {
     "repo": "Rabbit692/lunar-hot-1-round-13",
@@ -292,15 +292,15 @@
     "commit": "98ab3af139bf97fff57c39c1ea694ac225796280",
     "revealed_at_block": 7734853,
     "tag": "98ab3af-mesh-13",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f9jymtemr:98ab3af-mesh-13"
   },
   "5H1grUKC32Wyq1JVZdKvJsM5vcQgWRv57TEBtmkH3i7nGK4u": {
     "repo": "Uglejo/kernel-drift",
     "commit": "9bd026f3cefd608cd77a8f02d744240eb12be3b5",
     "revealed_at_block": 7734867,
     "tag": "9bd026f-mesh-13",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5F1bRcTrAsj2xX6B9A6f61NZd3AinDbhN7yemX8iVbXxS1uP": {
@@ -316,7 +316,7 @@
     "commit": "1562e2a762be73c2a8dd5d4afcdb67a458cc39f2",
     "revealed_at_block": 7734867,
     "tag": "1562e2a-mesh-13",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5FNWUfhA3Wwq5wvbP9ci3gstHssqDvYSygRQ5aZY4n6Rukyn": {
@@ -324,8 +324,8 @@
     "commit": "acab7efce8496126327ee8c8ac1ec3aef86502ce",
     "revealed_at_block": 7734867,
     "tag": "acab7ef-mesh-13",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fnwufha3w:acab7ef-mesh-13"
   },
   "5GR2uZCG8YU1v5x2ycbzxPm9J2f9qE2JJFrWir1oxa9eYKye": {
     "repo": "onwalk1/sn17_13_one",
@@ -340,8 +340,8 @@
     "commit": "0a999d8d107d29d789f4b8a154a7cc583b629cfc",
     "revealed_at_block": 7735050,
     "tag": "0a999d8-mesh-13",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fc3fchqpd:0a999d8-mesh-13"
   },
   "5EhyeX1feuT5Ak9cwTqnuDvUBcGLTPvD4o75ciqABjo5veyR": {
     "repo": "jyotinayarman/crust-m-kl",
