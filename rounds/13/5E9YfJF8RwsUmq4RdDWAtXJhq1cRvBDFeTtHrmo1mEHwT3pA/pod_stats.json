@@ -43,5 +43,20 @@
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "6 failures + 2 overtimes >= 8"
+  },
+  "miner-13-5e9yfjf8rw-3": {
+    "pod_id": "miner-13-5e9yfjf8rw-3",
+    "processed": 13,
+    "successful": 2,
+    "hard_failed": 11,
+    "hard_overtime": 0,
+    "time_min": 146.7073529418558,
+    "time_max": 160.4722616057843,
+    "time_avg": 153.58980727382004,
+    "time_median": 153.58980727382004,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "8 failures + 0 overtimes >= 8"
   }
 }
