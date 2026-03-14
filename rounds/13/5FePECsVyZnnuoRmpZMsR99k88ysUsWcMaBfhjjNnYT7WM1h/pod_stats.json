@@ -13,5 +13,20 @@
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "rolling median 121.8s > 120.0s"
+  },
+  "miner-13-5fepecsvyz-1": {
+    "pod_id": "miner-13-5fepecsvyz-1",
+    "processed": 33,
+    "successful": 22,
+    "hard_failed": 4,
+    "hard_overtime": 7,
+    "time_min": 46.068709414452314,
+    "time_max": 163.24915014207363,
+    "time_avg": 106.88104785953395,
+    "time_median": 103.70166526921093,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "1 failures + 7 overtimes >= 8"
   }
 }
