@@ -12,7 +12,7 @@
     "commit": "aaca9a9dd3db3be94e04b25aea03a1c064283435",
     "revealed_at_block": 7756640,
     "tag": "aaca9a9-mesh-15",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EyWqtoQkQCHFKNGkbCu1p7YCa6HhQHxXmNm2S9Jra3B9Yeg": {
@@ -36,8 +36,8 @@
     "commit": "96aa85a9d6e639122474a41ec8f88d0abed01f4d",
     "revealed_at_block": 7756642,
     "tag": "96aa85a-mesh-15",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5ecrcvtp1q:96aa85a-mesh-15"
   },
   "5DWqUrHcWut49u5bUX6z95rxSuFxZoTsySpAgLkmmv6q1B2Z": {
     "repo": "mokabetrade/nebula-orchestrator",
@@ -172,7 +172,7 @@
     "commit": "4e2ebbfa480e4b8cd68886a18934569c505fea81",
     "revealed_at_block": 7771638,
     "tag": "4e2ebbf-mesh-15",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5Dhie1cz1a987kPFkvsVwxjKEg2uUMbSgm5N5vq6Drr8mDFH": {
@@ -188,7 +188,7 @@
     "commit": "a122c66fed28f5d793dfc0b6cf347bcf6f2cd5e0",
     "revealed_at_block": 7774274,
     "tag": "a122c66-mesh-15",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5E5A9q65xzJm8VToNSA898tG4AhjL7H6Ssenmrv3SDn3EtJ8": {
