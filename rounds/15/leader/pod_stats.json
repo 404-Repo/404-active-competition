@@ -1,0 +1,62 @@
+{
+  "miner-15-leader-3": {
+    "pod_id": "miner-15-leader-3",
+    "processed": 28,
+    "successful": 27,
+    "hard_failed": 1,
+    "hard_overtime": 0,
+    "time_min": 29.86656453460455,
+    "time_max": 106.86284000240266,
+    "time_avg": 53.64013042901125,
+    "time_median": 43.23201698809862,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "no work available"
+  },
+  "miner-15-leader-2": {
+    "pod_id": "miner-15-leader-2",
+    "processed": 27,
+    "successful": 27,
+    "hard_failed": 0,
+    "hard_overtime": 0,
+    "time_min": 28.821837659925222,
+    "time_max": 162.659085823223,
+    "time_avg": 72.0684724162519,
+    "time_median": 63.79656726680696,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "no work available"
+  },
+  "miner-15-leader-0": {
+    "pod_id": "miner-15-leader-0",
+    "processed": 38,
+    "successful": 37,
+    "hard_failed": 1,
+    "hard_overtime": 0,
+    "time_min": 27.603158636018634,
+    "time_max": 143.70319930277765,
+    "time_avg": 60.67159574090814,
+    "time_median": 50.97094592452049,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "no work available"
+  },
+  "miner-15-leader-1": {
+    "pod_id": "miner-15-leader-1",
+    "processed": 38,
+    "successful": 37,
+    "hard_failed": 1,
+    "hard_overtime": 0,
+    "time_min": 30.689304070547223,
+    "time_max": 172.58874560706317,
+    "time_avg": 59.88666082218894,
+    "time_median": 50.92195359803736,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "no work available"
+  }
+}
