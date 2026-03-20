@@ -142,5 +142,14 @@
     "failed_critical": 3,
     "generation_time": 107.3580921124667,
     "reason": "Trimmed median generation time (107.36s) exceeds limit (90.00s); Non-critical mismatches (64) exceed tolerance (6); Critical mismatches (3) exceed tolerance (1)"
+  },
+  "5Dhie1cz1a987kPFkvsVwxjKEg2uUMbSgm5N5vq6Drr8mDFH": {
+    "hotkey": "5Dhie1cz1a987kPFkvsVwxjKEg2uUMbSgm5N5vq6Drr8mDFH",
+    "outcome": "rejected",
+    "checked_prompts": 0,
+    "failed_prompts": 0,
+    "failed_critical": 0,
+    "generation_time": null,
+    "reason": "Failed to build a docker image"
   }
 }
