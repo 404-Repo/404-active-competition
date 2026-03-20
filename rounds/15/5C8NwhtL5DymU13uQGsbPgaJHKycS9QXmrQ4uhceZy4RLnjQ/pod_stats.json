@@ -73,5 +73,20 @@
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "mismatch limit"
+  },
+  "miner-15-5c8nwhtl5d-4": {
+    "pod_id": "miner-15-5c8nwhtl5d-4",
+    "processed": 0,
+    "successful": 0,
+    "hard_failed": 0,
+    "hard_overtime": 0,
+    "time_min": 0.0,
+    "time_max": 0.0,
+    "time_avg": 0.0,
+    "time_median": 0.0,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "mismatch limit"
   }
 }
