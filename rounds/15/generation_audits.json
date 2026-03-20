@@ -106,5 +106,14 @@
     "failed_critical": 0,
     "generation_time": null,
     "reason": "Failed to build a docker image"
+  },
+  "5Ebm5cRFAzkHGtq3myyvnL3w6GVSPrAy4LY6HSFMNdQLnomj": {
+    "hotkey": "5Ebm5cRFAzkHGtq3myyvnL3w6GVSPrAy4LY6HSFMNdQLnomj",
+    "outcome": "rejected",
+    "checked_prompts": 127,
+    "failed_prompts": 47,
+    "failed_critical": 4,
+    "generation_time": 50.33042217139155,
+    "reason": "Non-critical mismatches (47) exceed tolerance (6); Critical mismatches (4) exceed tolerance (1)"
   }
 }
