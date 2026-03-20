@@ -1,0 +1,17 @@
+{
+  "miner-15-5c8nwhtl5d-1": {
+    "pod_id": "miner-15-5c8nwhtl5d-1",
+    "processed": 20,
+    "successful": 16,
+    "hard_failed": 1,
+    "hard_overtime": 3,
+    "time_min": 59.88359688408673,
+    "time_max": 165.08437068760395,
+    "time_avg": 116.73944692581426,
+    "time_median": 123.07653601188213,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "rolling median 123.1s > 120.0s"
+  }
+}
