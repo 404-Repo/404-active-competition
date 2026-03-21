@@ -31,7 +31,7 @@ jobs:
   bake-push:
     name: Bake and push images to Google Cloud
     runs-on: arc-x86
-    timeout-minutes: 60
+    timeout-minutes: 135
     needs: setup
     strategy:
       fail-fast: false
@@ -135,7 +135,7 @@ jobs:
         uses: docker/bake-action@v6
         continue-on-error: true
         id: build1
-        timeout-minutes: 30
+        timeout-minutes: 45
         with:
           source: .
           files: |
@@ -166,7 +166,7 @@ jobs:
         name: Retry build
         if: steps.build1.outcome == 'failure'
         uses: docker/bake-action@v6
-        timeout-minutes: 30
+        timeout-minutes: 45
         with:
           source: .
           files: |
