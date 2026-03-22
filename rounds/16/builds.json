@@ -236,7 +236,7 @@
     "commit": "9dc43a4c638b9bb5be19678e6762fe074da987d4",
     "revealed_at_block": 7786773,
     "tag": "9dc43a4-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5CwGtXp12GZnUHwQYJcdkVgZeaBVmMXy34spKkYy3aLcc9Ti": {
@@ -396,8 +396,8 @@
     "commit": "f34855a788cd6457d2daf2a54241aeb6215d2433",
     "revealed_at_block": 7799604,
     "tag": "f34855a-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fu5etcrt5:f34855a-mesh-16"
   },
   "5EaA6wcoaf9yeYzFBmwmtxuXUsjcFdeVEHfVRFi4PY7Gd196": {
     "repo": "demonwizard0/can_0",
