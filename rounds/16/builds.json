@@ -52,7 +52,7 @@
     "commit": "7b5d63995dc70f7c56a0bf97c4343827ccc7a657",
     "revealed_at_block": 7778230,
     "tag": "7b5d639-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5FtEaPBYm8d8ynAjkzopZi9trJmL976ptycCZcy7sF487p1h": {
@@ -76,8 +76,8 @@
     "commit": "5cba43e247e7c6c39412e2cc4f4f848bc89ba58c",
     "revealed_at_block": 7778231,
     "tag": "5cba43e-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5h6yeb1drn:5cba43e-mesh-16"
   },
   "5Gj2dmSDgj9nkSSJX5gUYgxpzZMrRGsBgohPfujkzcCLvY3c": {
     "repo": "Uglejo/shadow-commit",
@@ -92,8 +92,8 @@
     "commit": "f4a2a782dd4ab912b631b32b715f39980a6f6cc5",
     "revealed_at_block": 7778232,
     "tag": "f4a2a78-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5hggdgmf4v:f4a2a78-mesh-16"
   },
   "5F1bRcTrAsj2xX6B9A6f61NZd3AinDbhN7yemX8iVbXxS1uP": {
     "repo": "Uglejo/vault-stream",
@@ -308,7 +308,7 @@
     "commit": "acf865e5c04cb6b17cd11b6775966a6ab4cb9ab2",
     "revealed_at_block": 7794673,
     "tag": "acf865e-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5E9YfJF8RwsUmq4RdDWAtXJhq1cRvBDFeTtHrmo1mEHwT3pA": {
@@ -324,7 +324,7 @@
     "commit": "9de2710934f4717e9be2d7e453dc0f6924165022",
     "revealed_at_block": 7798748,
     "tag": "9de2710-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5GgpGaDxzTyBAME1Ju9ZhUstWj2VTm1n4tAUkRHLi4birQZg": {
