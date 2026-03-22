@@ -4,7 +4,7 @@
     "commit": "b6d9347627f2e219c65f49b9e7c3ee2c88cf039d",
     "revealed_at_block": 7778227,
     "tag": "b6d9347-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DX28pu2Zjjg9d5rGihvdBfmg5gP2uVPUMMiTvkUsrvJF3pN": {
@@ -28,16 +28,16 @@
     "commit": "ef454fb8264af1487be1b26a6b7fef4c918c36bf",
     "revealed_at_block": 7778228,
     "tag": "ef454fb-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5exh17xsm1:ef454fb-mesh-16"
   },
   "5ExgC2o4KF3afjTeYzx3uTbtfoVyCCUfxiwbdKPRqaqcYKY4": {
     "repo": "mokabetrade/voxali",
     "commit": "1da379f0adc0f8b57089fee84dccbe6678e9e4d5",
     "revealed_at_block": 7778229,
     "tag": "1da379f-mesh-16",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5exgc2o4kf:1da379f-mesh-16"
   },
   "5C5Ni3xED3RmF6QXLc8drg2Wm3WV7bZ7GsQsuKimMqym3fvP": {
     "repo": "Uglejo/flux-engine",
@@ -100,7 +100,7 @@
     "commit": "ae1bc73e777fc77626f25a219b8555ed626503ae",
     "revealed_at_block": 7778233,
     "tag": "ae1bc73-mesh-16",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5F4HaNQJAXDhirU51GTz4vBvcEuUo3YSfhKuBT7qix35DkHP": {
@@ -108,7 +108,7 @@
     "commit": "8b027d77a8b63dd63a6f159e7a6b4277b57757b0",
     "revealed_at_block": 7778346,
     "tag": "8b027d7-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Dhie1cz1a987kPFkvsVwxjKEg2uUMbSgm5N5vq6Drr8mDFH": {
@@ -204,7 +204,7 @@
     "commit": "96dce2dbd127cde4960a58a2b4d90bc1ede55dbf",
     "revealed_at_block": 7785714,
     "tag": "96dce2d-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5EZpt79UEt8QRxbHDFaiup4pg9f1yYUWpJwYuFt3NfF7TzJF": {
@@ -212,7 +212,7 @@
     "commit": "6e4dff6ce1a50a31bdf3ced341d921b7d4533008",
     "revealed_at_block": 7785728,
     "tag": "6e4dff6-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5FePECsVyZnnuoRmpZMsR99k88ysUsWcMaBfhjjNnYT7WM1h": {
@@ -252,7 +252,7 @@
     "commit": "8fbf33e34ea5c79b04981f19564be4df1e53741e",
     "revealed_at_block": 7787011,
     "tag": "8fbf33e-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5E7gx6uBoMn4LsDmLe5xNeNVw9X3dc8THRzvqtfEvHjv7qMw": {
@@ -260,8 +260,8 @@
     "commit": "706693d1ef1a3da11cc012bda4015e09f077f08d",
     "revealed_at_block": 7787568,
     "tag": "706693d-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e7gx6ubom:706693d-mesh-16"
   },
   "5CJuMJ3xc7swohhb5aedPvZXJ1n7k95YnvWhT77cCVp5R5nJ": {
     "repo": "mokabetrade/experiment_8",
@@ -404,7 +404,7 @@
     "commit": "2879572c44f5e9bdbbfe08502b342ad096a5438f",
     "revealed_at_block": 7799618,
     "tag": "2879572-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5CS3ghzhkHNZSBZG8DkbjQmjur5AL97wx8vknE36J3kzrNBV": {
@@ -420,7 +420,7 @@
     "commit": "e6d6a8952eab17f45737bc806cba5b6bd6049def",
     "revealed_at_block": 7799737,
     "tag": "e6d6a89-mesh-16",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eqtwx8fno:e6d6a89-mesh-16"
   }
 }
