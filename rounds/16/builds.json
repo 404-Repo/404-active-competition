@@ -52,7 +52,7 @@
     "commit": "7b5d63995dc70f7c56a0bf97c4343827ccc7a657",
     "revealed_at_block": 7778230,
     "tag": "7b5d639-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5FtEaPBYm8d8ynAjkzopZi9trJmL976ptycCZcy7sF487p1h": {
@@ -60,7 +60,7 @@
     "commit": "fba365a661030635c8dd4c87801719fa8ea5f7bb",
     "revealed_at_block": 7778230,
     "tag": "fba365a-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5DHXCiLFJgZZEedFqqVL7VYSSksYoiNtaHccQvgPSNf3GSvc": {
@@ -76,7 +76,7 @@
     "commit": "5cba43e247e7c6c39412e2cc4f4f848bc89ba58c",
     "revealed_at_block": 7778231,
     "tag": "5cba43e-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Gj2dmSDgj9nkSSJX5gUYgxpzZMrRGsBgohPfujkzcCLvY3c": {
@@ -84,15 +84,15 @@
     "commit": "ae1946d8b1ffef2a9a290842a1f9f213c5beb1a9",
     "revealed_at_block": 7778232,
     "tag": "ae1946d-mesh-16",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gj2dmsdgj:ae1946d-mesh-16"
   },
   "5HgGDgMf4VEwRdVNdoXRMaqATbws8PrBe8qRbaAmiVSGy2Up": {
     "repo": "mokabetrade/cloud-forge",
     "commit": "f4a2a782dd4ab912b631b32b715f39980a6f6cc5",
     "revealed_at_block": 7778232,
     "tag": "f4a2a78-mesh-16",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5F1bRcTrAsj2xX6B9A6f61NZd3AinDbhN7yemX8iVbXxS1uP": {
@@ -108,8 +108,8 @@
     "commit": "8b027d77a8b63dd63a6f159e7a6b4277b57757b0",
     "revealed_at_block": 7778346,
     "tag": "8b027d7-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f4hanqjax:8b027d7-mesh-16"
   },
   "5Dhie1cz1a987kPFkvsVwxjKEg2uUMbSgm5N5vq6Drr8mDFH": {
     "repo": "kostik46/404-base-miner-mesh-multiview-v4",
@@ -124,7 +124,7 @@
     "commit": "ea640a5aa8f0bc476252a0da9e26acb9b66ecff3",
     "revealed_at_block": 7778972,
     "tag": "ea640a5-mesh-16",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5ESNWPgy8YcU5MzmLZ2GHyUirQkoBrKSdGZWJbwxZLD4g2Ex": {
@@ -148,7 +148,7 @@
     "commit": "1b7e72d17f643b47d593038b47141bbf15270dee",
     "revealed_at_block": 7785402,
     "tag": "1b7e72d-mesh-16",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5H1grUKC32Wyq1JVZdKvJsM5vcQgWRv57TEBtmkH3i7nGK4u": {
@@ -156,7 +156,7 @@
     "commit": "e5d5460cd47f0d01503aa06ed15f55a75e06f897",
     "revealed_at_block": 7785433,
     "tag": "e5d5460-mesh-16",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5CV4JwN8bVxQwArFiUqvDsibWiMsLiz8YW44yfo4KD3TmpZF": {
@@ -172,8 +172,8 @@
     "commit": "f3dd7afcfb01130b052eec92ae1778dc855bc990",
     "revealed_at_block": 7785433,
     "tag": "f3dd7af-mesh-16",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5guajgcqxr:f3dd7af-mesh-16"
   },
   "5FNWUfhA3Wwq5wvbP9ci3gstHssqDvYSygRQ5aZY4n6Rukyn": {
     "repo": "Uglejo/trenzik",
@@ -188,7 +188,7 @@
     "commit": "b49a171e8191aafd2fad9a86fd876f4ed832958a",
     "revealed_at_block": 7785633,
     "tag": "b49a171-mesh-16",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5H9bvDjbYHpCwDfPkcak8wVSAPtkCfb6n9MpVMAvRD3JMkbL": {
@@ -196,7 +196,7 @@
     "commit": "dee903f88e88f9fbd22f2d7bba6e30f0bcfa3be8",
     "revealed_at_block": 7785714,
     "tag": "dee903f-mesh-16",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EU1ViScfctLpaFGwL1uSQFCDvoyCfLRwYxTDtR37x7HteDH": {
@@ -276,24 +276,24 @@
     "commit": "2d6f68b529ee0017f7c623bf2c9f5fa72c5788db",
     "revealed_at_block": 7787568,
     "tag": "2d6f68b-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fwehd7wgy:2d6f68b-mesh-16"
   },
   "5Fs844KLMnqRJq1yoCiiJjK6RGNsVLJ2gxpAsy6CoXs1YC7E": {
     "repo": "mokabetrade/experiment_v2_4",
     "commit": "f07133f793b432c5f1cefe4857fa02c0aa2ca126",
     "revealed_at_block": 7787568,
     "tag": "f07133f-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fs844klmn:f07133f-mesh-16"
   },
   "5E1kCdhBnxgtMun9ERi7YJbGKMsJpuzpWoVNXdJFB7ejmo5Z": {
     "repo": "Uglejo/zero-latency",
     "commit": "912ff61f84f9cc449ff3627f33fda693e8ad3f47",
     "revealed_at_block": 7787568,
     "tag": "912ff61-mesh-16",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e1kcdhbnx:912ff61-mesh-16"
   },
   "5DZzRKab6FjWzAZ255CQoFjSSgWkCo9GXcyJQ95RnXDfeAmw": {
     "repo": "404-miner/round16",
@@ -332,8 +332,8 @@
     "commit": "e0892b92dee732ee8ee5bd3b486eceb97cec03e3",
     "revealed_at_block": 7798847,
     "tag": "e0892b9-mesh-16",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5ggpgadxzt:e0892b9-mesh-16"
   },
   "5E5A9q65xzJm8VToNSA898tG4AhjL7H6Ssenmrv3SDn3EtJ8": {
     "repo": "huypg-zenai/cat2",
@@ -364,8 +364,8 @@
     "commit": "5dd9932530eeb8e1b0060715e9e5fe6f5ab2c5b4",
     "revealed_at_block": 7799199,
     "tag": "5dd9932-mesh-16",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gv3czbdtf:5dd9932-mesh-16"
   },
   "5DFHd4oBNQPf6PS65qD3HCopaVHBMw9cMdnGZNjqDgPwJLXf": {
     "repo": "huypg-zenai/cat5",
