@@ -28,5 +28,20 @@
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "rolling median 133.3s > 120.0s"
+  },
+  "miner-16-5dcqs3lcdm-5": {
+    "pod_id": "miner-16-5dcqs3lcdm-5",
+    "processed": 28,
+    "successful": 21,
+    "hard_failed": 2,
+    "hard_overtime": 5,
+    "time_min": 61.08234256133437,
+    "time_max": 177.93798494525254,
+    "time_avg": 122.08219928117026,
+    "time_median": 124.02872041985393,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "rolling median 121.2s > 120.0s"
   }
 }
