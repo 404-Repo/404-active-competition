@@ -28,5 +28,35 @@
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "no work available"
+  },
+  "miner-16-leader-0": {
+    "pod_id": "miner-16-leader-0",
+    "processed": 70,
+    "successful": 69,
+    "hard_failed": 1,
+    "hard_overtime": 0,
+    "time_min": 44.144491808488965,
+    "time_max": 125.95230833254755,
+    "time_avg": 66.92749765098972,
+    "time_median": 61.394920027814806,
+    "marked_bad": false,
+    "retry_cumulative_delta": -66.07380990684032,
+    "retry_delta_count": 1,
+    "termination_reason": "no work available"
+  },
+  "miner-16-leader-3": {
+    "pod_id": "miner-16-leader-3",
+    "processed": 23,
+    "successful": 21,
+    "hard_failed": 1,
+    "hard_overtime": 1,
+    "time_min": 59.996852066367865,
+    "time_max": 136.9735315348953,
+    "time_avg": 95.07695610802621,
+    "time_median": 94.98485290911049,
+    "marked_bad": false,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "no work available"
   }
 }
