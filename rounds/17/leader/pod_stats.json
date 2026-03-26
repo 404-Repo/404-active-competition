@@ -1,0 +1,17 @@
+{
+  "miner-17-leader-0": {
+    "pod_id": "miner-17-leader-0",
+    "processed": 39,
+    "successful": 28,
+    "hard_failed": 11,
+    "hard_overtime": 0,
+    "time_min": 44.456185940653086,
+    "time_max": 125.58054014109075,
+    "time_avg": 70.4823871942104,
+    "time_median": 66.50102134328336,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "8 failures + 0 overtimes >= 8"
+  }
+}
