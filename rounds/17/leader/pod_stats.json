@@ -13,5 +13,20 @@
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "8 failures + 0 overtimes >= 8"
+  },
+  "miner-17-leader-4": {
+    "pod_id": "miner-17-leader-4",
+    "processed": 21,
+    "successful": 17,
+    "hard_failed": 2,
+    "hard_overtime": 2,
+    "time_min": 78.02673077583313,
+    "time_max": 159.41279491595924,
+    "time_avg": 116.71837396996425,
+    "time_median": 114.3694777097553,
+    "marked_bad": true,
+    "retry_cumulative_delta": 0.0,
+    "retry_delta_count": 0,
+    "termination_reason": "rolling median 121.6s > 120.0s"
   }
 }
