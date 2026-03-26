@@ -1,32 +1,17 @@
 {
-  "miner-17-leader-0": {
-    "pod_id": "miner-17-leader-0",
-    "processed": 39,
-    "successful": 28,
+  "miner-17-leader-1": {
+    "pod_id": "miner-17-leader-1",
+    "processed": 29,
+    "successful": 18,
     "hard_failed": 11,
     "hard_overtime": 0,
-    "time_min": 44.456185940653086,
-    "time_max": 125.58054014109075,
-    "time_avg": 70.4823871942104,
-    "time_median": 66.50102134328336,
+    "time_min": 47.21914808638394,
+    "time_max": 172.32637472450733,
+    "time_avg": 78.21978449924953,
+    "time_median": 62.49879752192646,
     "marked_bad": true,
     "retry_cumulative_delta": 0.0,
     "retry_delta_count": 0,
     "termination_reason": "8 failures + 0 overtimes >= 8"
-  },
-  "miner-17-leader-4": {
-    "pod_id": "miner-17-leader-4",
-    "processed": 21,
-    "successful": 17,
-    "hard_failed": 2,
-    "hard_overtime": 2,
-    "time_min": 78.02673077583313,
-    "time_max": 159.41279491595924,
-    "time_avg": 116.71837396996425,
-    "time_median": 114.3694777097553,
-    "marked_bad": true,
-    "retry_cumulative_delta": 0.0,
-    "retry_delta_count": 0,
-    "termination_reason": "rolling median 121.6s > 120.0s"
   }
 }
