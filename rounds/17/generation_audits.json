@@ -1,4 +1,13 @@
 {
+  "5FGxe3AFaJ3LsM5LJtxdBS8143WFEd9eNWVKErr29uV1K8wt": {
+    "hotkey": "5FGxe3AFaJ3LsM5LJtxdBS8143WFEd9eNWVKErr29uV1K8wt",
+    "outcome": "rejected",
+    "checked_prompts": 128,
+    "failed_prompts": 7,
+    "failed_critical": 1,
+    "generation_time": 31.60087598860264,
+    "reason": "Non-critical mismatches (7) exceed tolerance (6)"
+  },
   "5F1ad1Cfvy94ckVyQb1cEntH3YkmzJCu4WGGiHTWEJqEEmHU": {
     "hotkey": "5F1ad1Cfvy94ckVyQb1cEntH3YkmzJCu4WGGiHTWEJqEEmHU",
     "outcome": "rejected",
@@ -7,5 +16,23 @@
     "failed_critical": 2,
     "generation_time": 74.81081082578748,
     "reason": "Non-critical mismatches (14) exceed tolerance (6); Critical mismatches (2) exceed tolerance (1)"
+  },
+  "5G1Vnk2D2nVkZcB1MfUb2sgRvS1diUzd1W4ygbVqkBKHwDbN": {
+    "hotkey": "5G1Vnk2D2nVkZcB1MfUb2sgRvS1diUzd1W4ygbVqkBKHwDbN",
+    "outcome": "rejected",
+    "checked_prompts": 128,
+    "failed_prompts": 9,
+    "failed_critical": 2,
+    "generation_time": 59.5222108727321,
+    "reason": "Non-critical mismatches (9) exceed tolerance (6); Critical mismatches (2) exceed tolerance (1)"
+  },
+  "5E7BUrU7gbpKTBka78kDdca3NkoZfLVR9jfY8dzd16TzTHAF": {
+    "hotkey": "5E7BUrU7gbpKTBka78kDdca3NkoZfLVR9jfY8dzd16TzTHAF",
+    "outcome": "rejected",
+    "checked_prompts": 0,
+    "failed_prompts": 0,
+    "failed_critical": 0,
+    "generation_time": null,
+    "reason": "Failed to deploy a docker image"
   }
 }
