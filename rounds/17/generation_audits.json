@@ -43,5 +43,14 @@
     "failed_critical": 0,
     "generation_time": null,
     "reason": "Failed to deploy a docker image"
+  },
+  "5G1Vnk2D2nVkZcB1MfUb2sgRvS1diUzd1W4ygbVqkBKHwDbN": {
+    "hotkey": "5G1Vnk2D2nVkZcB1MfUb2sgRvS1diUzd1W4ygbVqkBKHwDbN",
+    "outcome": "rejected",
+    "checked_prompts": 128,
+    "failed_prompts": 4,
+    "failed_critical": 2,
+    "generation_time": 59.62656630575657,
+    "reason": "Critical mismatches (2) exceed tolerance (1)"
   }
 }
