@@ -1,9 +1,17 @@
 {
-  "5EhrAFV5Jv5BBNX8fuybxeUiUu9NaRN2U84xb88yZxhGgsWL": {
-    "repo": "no-repo/no-repo",
-    "commit": "6ff9eb5179c41281d9b61d65bc08383b683cb8a2",
+  "5TestMinimaxMiner000000000000000000000000000000A": {
+    "repo": "test-fake/minimax-miner",
+    "commit": "1111111111111111111111111111111111111111",
     "revealed_at_block": 0,
-    "tag": "6ff9eb5-test-threejs-0",
+    "tag": "1111111-test-threejs-0",
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/dendrite-test:0.0.1"
+  },
+  "5TestQwenMiner000000000000000000000000000000000B": {
+    "repo": "test-fake/qwen-miner",
+    "commit": "2222222222222222222222222222222222222222",
+    "revealed_at_block": 0,
+    "tag": "2222222-test-threejs-0",
     "status": "success",
     "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/dendrite-test:0.0.1"
   }
