@@ -204,7 +204,7 @@
     "commit": "5227fff24f8d86fdc2ce63a255497390f07fd03f",
     "revealed_at_block": 7837346,
     "tag": "5227fff-threejs-0",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Fqc6PRkG4VyFzzpWWMk5MWfwmUMfdFkhxDqfiYU37nFB8FW": {
@@ -228,8 +228,8 @@
     "commit": "bb6aad8ae9b9947963ea330d26c9106b6a32b001",
     "revealed_at_block": 7881164,
     "tag": "bb6aad8-threejs-0",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5enexphbll:bb6aad8-threejs-0"
   },
   "5E2WuWN1d56BQUcaipsdMEWqUaQScbNdtgGgBdRWq1qdzfLC": {
     "repo": "TuttiGenerator/alipna",
@@ -284,8 +284,8 @@
     "commit": "b892ad0c01057d733572cd60c9f27f78010af440",
     "revealed_at_block": 8072474,
     "tag": "b892ad0-threejs-0",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gtrip78cy:b892ad0-threejs-0"
   },
   "5GGsuLzc5aTW6n6CWtrncf4aYmePuVKHDemjdgHQyqY5ea1Y": {
     "repo": "huynh-zenai/new1",
@@ -300,7 +300,7 @@
     "commit": "0a85e128d3a83d12959ba788ebab93c2c8b8dde3",
     "revealed_at_block": 8072688,
     "tag": "0a85e12-threejs-0",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   }
 }
