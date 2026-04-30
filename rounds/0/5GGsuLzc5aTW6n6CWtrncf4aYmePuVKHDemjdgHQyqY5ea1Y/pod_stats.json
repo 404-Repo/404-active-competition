@@ -1,0 +1,56 @@
+{
+  "miner-00-5ggsulzc5a-0": {
+    "pod_id": "miner-00-5ggsulzc5a-0",
+    "provider": "targon",
+    "batch_times": [
+      1041.4001856073737,
+      971.9480046033859
+    ],
+    "total_generation_time": 2013.3481902107596,
+    "termination_reason": "requested",
+    "payload": {
+      "benchmark": "gpu_health",
+      "threshold_tflops": 40.0,
+      "threshold_vram_gb": 134.0,
+      "all_passed": false,
+      "gpus": [
+        {
+          "gpu_id": 0,
+          "gpu_name": "NVIDIA H200",
+          "tflops": 18.64,
+          "compute_passed": false,
+          "vram_gb": 139.4,
+          "vram_passed": true,
+          "passed": false
+        },
+        {
+          "gpu_id": 1,
+          "gpu_name": "NVIDIA H200",
+          "tflops": 18.61,
+          "compute_passed": false,
+          "vram_gb": 139.4,
+          "vram_passed": true,
+          "passed": false
+        },
+        {
+          "gpu_id": 2,
+          "gpu_name": "NVIDIA H200",
+          "tflops": 18.78,
+          "compute_passed": false,
+          "vram_gb": 139.4,
+          "vram_passed": true,
+          "passed": false
+        },
+        {
+          "gpu_id": 3,
+          "gpu_name": "NVIDIA H200",
+          "tflops": 18.64,
+          "compute_passed": false,
+          "vram_gb": 139.4,
+          "vram_passed": true,
+          "passed": false
+        }
+      ]
+    }
+  }
+}
