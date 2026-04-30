@@ -286,5 +286,13 @@
     "failed_prompts": 127,
     "generation_time": null,
     "reason": "Failed prompts (127) exceed tolerance (6)"
+  },
+  "5GGsuLzc5aTW6n6CWtrncf4aYmePuVKHDemjdgHQyqY5ea1Y": {
+    "hotkey": "5GGsuLzc5aTW6n6CWtrncf4aYmePuVKHDemjdgHQyqY5ea1Y",
+    "outcome": "rejected",
+    "checked_prompts": 127,
+    "failed_prompts": 10,
+    "generation_time": 4027.5366817824543,
+    "reason": "Failed prompts (10) exceed tolerance (6)"
   }
 }
