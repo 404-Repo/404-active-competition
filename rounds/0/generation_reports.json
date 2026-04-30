@@ -257,10 +257,18 @@
   },
   "5EnexPHBLLJBBaaU9jDAA6qKa3vUXD1vqpkMCVRJYxDVcQAW": {
     "hotkey": "5EnexPHBLLJBBaaU9jDAA6qKa3vUXD1vqpkMCVRJYxDVcQAW",
+    "outcome": "completed",
+    "checked_prompts": 0,
+    "failed_prompts": 0,
+    "generation_time": null,
+    "reason": ""
+  },
+  "5DZzRKab6FjWzAZ255CQoFjSSgWkCo9GXcyJQ95RnXDfeAmw": {
+    "hotkey": "5DZzRKab6FjWzAZ255CQoFjSSgWkCo9GXcyJQ95RnXDfeAmw",
     "outcome": "rejected",
     "checked_prompts": 0,
     "failed_prompts": 0,
     "generation_time": null,
-    "reason": "no results"
+    "reason": "Failed to build a docker image"
   }
 }
