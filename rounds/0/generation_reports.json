@@ -214,5 +214,13 @@
     "failed_prompts": 0,
     "generation_time": null,
     "reason": "Submitted commit contains a Trellis pipeline (previous competition)"
+  },
+  "5E2WuWN1d56BQUcaipsdMEWqUaQScbNdtgGgBdRWq1qdzfLC": {
+    "hotkey": "5E2WuWN1d56BQUcaipsdMEWqUaQScbNdtgGgBdRWq1qdzfLC",
+    "outcome": "rejected",
+    "checked_prompts": 0,
+    "failed_prompts": 0,
+    "generation_time": null,
+    "reason": "Failed to build a docker image"
   }
 }
