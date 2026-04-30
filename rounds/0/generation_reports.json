@@ -278,5 +278,13 @@
     "failed_prompts": 0,
     "generation_time": null,
     "reason": "Failed to build a docker image"
+  },
+  "5GTRip78cyK3Vp1MQZR9kMbPCugaw7xHj5Qq8XLL9FZMtne4": {
+    "hotkey": "5GTRip78cyK3Vp1MQZR9kMbPCugaw7xHj5Qq8XLL9FZMtne4",
+    "outcome": "rejected",
+    "checked_prompts": 127,
+    "failed_prompts": 127,
+    "generation_time": null,
+    "reason": "Failed prompts (127) exceed tolerance (6)"
   }
 }
