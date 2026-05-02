@@ -44,7 +44,7 @@
     "commit": "b892ad0c01057d733572cd60c9f27f78010af440",
     "revealed_at_block": 8073070,
     "tag": "b892ad0-threejs-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5GgpGaDxzTyBAME1Ju9ZhUstWj2VTm1n4tAUkRHLi4birQZg": {
@@ -108,7 +108,7 @@
     "commit": "45c63cc2f74f19d8af1b57ab911fdde80c459c57",
     "revealed_at_block": 8085727,
     "tag": "45c63cc-threejs-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5E9YfJF8RwsUmq4RdDWAtXJhq1cRvBDFeTtHrmo1mEHwT3pA": {
@@ -116,7 +116,7 @@
     "commit": "7de3fe8b6f85a65a5ddde80c0635bd0e6e2dc430",
     "revealed_at_block": 8088223,
     "tag": "7de3fe8-threejs-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5FgXfQSK3tZ9rHMjB9gY25gsoGZtxa78wH2TGUPajNjd5vwt": {
@@ -132,8 +132,8 @@
     "commit": "10d6afbd5eeccb7ca606a2134fe56094a7a89000",
     "revealed_at_block": 8089121,
     "tag": "10d6afb-threejs-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5ggsulzc5a:10d6afb-threejs-1"
   },
   "5F4HaNQJAXDhirU51GTz4vBvcEuUo3YSfhKuBT7qix35DkHP": {
     "repo": "kostik46/pytorch-utils-v4",
@@ -180,15 +180,15 @@
     "commit": "fbc107c17ef19e974e06150ae640f240c9066cf7",
     "revealed_at_block": 8094162,
     "tag": "fbc107c-threejs-1",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5evt9qsah4:fbc107c-threejs-1"
   },
   "5EhVs9CEosfkCMDV1ZdiiArADxgCxiTBqGeFQZvFynN9R2LT": {
     "repo": "yaboiiiii5/yaboiiiii-404-gen-r0-",
     "commit": "b9fd47cad1a934d082f45e5fba04eb0075a29f8d",
     "revealed_at_block": 8094425,
     "tag": "b9fd47c-threejs-1",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   }
 }
