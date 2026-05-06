@@ -25,5 +25,14 @@
     "checked_prompts": 128,
     "drawn": 20,
     "reason": "score=2 ≥ 0 over 128 checked (108 decided, 20 drawn)"
+  },
+  "5CwGtXp12GZnUHwQYJcdkVgZeaBVmMXy34spKkYy3aLcc9Ti": {
+    "hotkey": "5CwGtXp12GZnUHwQYJcdkVgZeaBVmMXy34spKkYy3aLcc9Ti",
+    "outcome": "failed",
+    "score": -8,
+    "total_prompts": 128,
+    "checked_prompts": 128,
+    "drawn": 26,
+    "reason": "score=-8 < 0 over 128 checked (102 decided, 26 drawn)"
   }
 }
