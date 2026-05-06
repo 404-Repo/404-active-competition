@@ -1,8 +1,8 @@
 {
   "left": "submitted",
   "right": "5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA",
-  "score": -94,
-  "margin": -0.734375,
+  "score": -95,
+  "margin": -0.7421875,
   "duels": [
     {
       "name": "023280cf20e8128d26fb393b9ddd0986b2ea1c4ed9dc2bcae72380bad6fc3c38",
@@ -21,7 +21,7 @@
             {
               "label": "front_left",
               "pen_a": 5.0,
-              "pen_b": 4.5
+              "pen_b": 5.0
             },
             {
               "label": "front_right",
@@ -76,7 +76,7 @@
             {
               "label": "front_above",
               "pen_a": 6.0,
-              "pen_b": 6.5
+              "pen_b": 7.5
             }
           ]
         },
@@ -127,7 +127,7 @@
                 "side_b": "no"
               },
               {
-                "feature": "black front grille with logo",
+                "feature": "black front grille with central logo",
                 "side_a": "no",
                 "side_b": "no"
               }
@@ -158,7 +158,7 @@
           }
         },
         "decided_by": "S2 strong_voter [bv|-2.0|]",
-        "issues": "Model A has severe geometric distortion, missing key features like the car's body shape, windows, and proper wheel design, and incorrect proportions. Model B is a simplified box-like shape with missing car features, incorrect proportions, and wrong color scheme."
+        "issues": "Model A has severe geometric distortion, missing key features like the car's body shape, windows, and proper wheel design, and incorrect proportions. Model B is a simplified abstract shape with no recognizable car features, missing all reference details."
       }
     },
     {
@@ -178,7 +178,7 @@
             {
               "label": "front_left",
               "pen_a": 5.0,
-              "pen_b": 7.0
+              "pen_b": 7.5
             },
             {
               "label": "front_right",
@@ -257,7 +257,7 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 5.0,
+              "pen_a": 4.0,
               "pen_b": 7.0
             },
             {
@@ -278,7 +278,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed textures (wood grain, metal accents), incorrect knob shapes, and simplified handle; Model B has a completely different form factor with a cylindrical top and missing key features like the front grille and knobs."
+        "issues": "Model A lacks detailed textures (wood grain, metal accents), incorrect knob shapes, and simplified handle; Model B has a completely different form factor with a cylindrical top and missing key features like the handle and knobs."
       }
     },
     {
@@ -318,7 +318,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified geometry with missing tufting, incorrect armrest shape, and wrong leg design. Model B has blocky, non-organic shapes, missing tufting, and incorrect seat/leg proportions, with no resemblance to the reference's detailed upholstery and structure."
+        "issues": "Model A has simplified geometry with missing tufting, incorrect armrest shape, and wrong leg design. Model B has blocky, non-organic shapes, incorrect proportions, and missing tufting details, with a more abstract form than the reference."
       }
     },
     {
@@ -368,12 +368,12 @@
       "left_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/submitted/0c00acd1b09905b86b05a82a56ac34e7de939ba3e4e18c712f2bacc0a420e4e8/grid.png",
       "right_js": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/0c00acd1b09905b86b05a82a56ac34e7de939ba3e4e18c712f2bacc0a420e4e8.js",
       "right_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/0c00acd1b09905b86b05a82a56ac34e7de939ba3e4e18c712f2bacc0a420e4e8/grid.png",
-      "winner": "draw",
+      "winner": "right",
       "detail": {
         "s1": {
-          "choice": "draw",
+          "choice": "B",
           "n_total": 4,
-          "n_consistent": 0,
+          "n_consistent": 1,
           "angles": [
             {
               "label": "front_left",
@@ -382,7 +382,7 @@
             },
             {
               "label": "front_right",
-              "pen_a": 6.0,
+              "pen_a": 7.5,
               "pen_b": 6.0
             },
             {
@@ -397,89 +397,8 @@
             }
           ]
         },
-        "s2": {
-          "choice": "draw",
-          "source": "consensus_3",
-          "best_view": {
-            "penalty_a": 6.0,
-            "penalty_b": 6.0
-          },
-          "artifact_compare": {
-            "penalty_a": 7.0,
-            "penalty_b": 7.0
-          },
-          "checklist": {
-            "main_object": "black compact car",
-            "main_object_correct_a": false,
-            "main_object_correct_b": false,
-            "features": [
-              {
-                "feature": "four doors",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "curved roofline",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "round headlights with orange lenses",
-                "side_a": "partial",
-                "side_b": "no"
-              },
-              {
-                "feature": "front grille with mesh pattern",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "black license plate with white text",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "black wheels with silver rims",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "small side mirror on each door",
-                "side_a": "no",
-                "side_b": "no"
-              }
-            ],
-            "score_a": 1,
-            "score_b": 0
-          }
-        },
-        "s3": {
-          "fired": false,
-          "choice": null
-        },
-        "s4": {
-          "choice": "draw",
-          "side_verdicts": {
-            "a": "ok",
-            "b": "ok"
-          },
-          "per_angle": {
-            "a": {
-              "right": "ok",
-              "back": "ok",
-              "left": "ok",
-              "top_down": "ok"
-            },
-            "b": {
-              "right": "ok",
-              "back": "ok",
-              "left": "ok",
-              "top_down": "ok"
-            }
-          }
-        },
-        "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has severe geometric distortion, missing detailed features like headlights, grille, and realistic wheels, and uses a simplified blocky shape. Model B is a low-poly, stylized version with missing details and incorrect proportions compared to the reference's realistic car."
+        "decided_by": "S1",
+        "issues": "Model A has severe geometric distortion, missing detailed features like headlights, grille, and wheels, and incorrect proportions. Model B is a low-poly simplified version with missing details and incorrect proportions, but less severe geometric distortion than Model A."
       }
     },
     {
@@ -519,7 +438,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect shape and missing shell details; Model B lacks the shell structure entirely, featuring rings and scattered spheres instead."
+        "issues": "Model A has significant geometric distortion and missing detailed surface textures compared to the reference shell, while Model B lacks the target object entirely, showing unrelated ring and particle elements instead."
       }
     },
     {
@@ -539,7 +458,7 @@
             {
               "label": "front_left",
               "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             },
             {
               "label": "front_right",
@@ -559,7 +478,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect structure with extra orbital rings and spheres, while Model B is a completely different object (top-heavy disc with spiral) and lacks the armillary sphere's complexity."
+        "issues": "Model A has incorrect structure with extra orbital rings and spheres, while Model B is a completely different object (top-heavy disc with spiral) and lacks the reference's armillary sphere design."
       }
     },
     {
@@ -639,7 +558,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the reference's detailed texture, lighting, and structural elements like the rope and handle. Model B is a completely unrelated object (a mug) with incorrect shape and features, failing to match the reference's lantern structure."
+        "issues": "Model A lacks the lantern's distinctive wooden texture, curved top, and hanging cord; Model B is a completely unrelated mug with incorrect shape and features."
       }
     },
     {
@@ -679,7 +598,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed facial features like eyelashes, proper blush shading, and realistic skin tone; Model B has exaggerated, cartoonish features with incorrect proportions and colors, including oversized cheeks and eyes."
+        "issues": "Model A lacks detailed facial features like eyelashes, proper blush shading, and realistic skin texture; Model B has exaggerated, cartoonish features with incorrect proportions and color scheme, including oversized cheeks and eyes."
       }
     },
     {
@@ -719,7 +638,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the neon sign's text and glowing effect, using a circular frame instead. Model B uses solid colors without neon lighting and incorrect shape for the sign."
+        "issues": "Model A lacks the neon sign's text and glowing effect, using a circular frame instead. Model B has no neon lighting or text, with a solid blue frame and plain screen."
       }
     },
     {
@@ -767,7 +686,7 @@
           },
           "artifact_compare": {
             "penalty_a": 7.0,
-            "penalty_b": 7.0
+            "penalty_b": 6.0
           },
           "checklist": {
             "main_object": "silver ring",
@@ -785,18 +704,18 @@
                 "side_b": "no"
               },
               {
-                "feature": "silver band with a small spherical detail on the side",
+                "feature": "silver band with a small spherical accent",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
                 "feature": "smooth, polished silver surface",
                 "side_a": "partial",
-                "side_b": "partial"
+                "side_b": "yes"
               }
             ],
             "score_a": 1,
-            "score_b": 1
+            "score_b": 2
           }
         },
         "s3": {
@@ -945,7 +864,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect shape and missing details like the central hole and nozzle design; Model B has severe geometric distortion, incorrect structure, and missing key features compared to the reference."
+        "issues": "Model A has incorrect shape and missing details like the central hole and nozzle design. Model B has severe geometric distortion, incorrect structure, and missing key features compared to the reference."
       }
     },
     {
@@ -997,7 +916,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A is a simplified line drawing of glasses with missing details like the reference's metallic texture and shape, while Model B consists of two black spheres with no resemblance to glasses, showing significant shape and feature mismatch."
+        "issues": "Model A is a simplified line drawing of glasses with missing details like the reference's metallic texture and shape, while Model B consists of two black spheres with no resemblance to glasses, showing complete misrepresentation of the target object."
       }
     },
     {
@@ -1056,8 +975,8 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_a": 5.0,
+              "pen_b": 8.0
             },
             {
               "label": "front_right",
@@ -1077,7 +996,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect geometric shape (not a realistic kite), wrong color distribution, and simplified tail. Model B is completely unrelated (balloons instead of kites), with wrong shape and no matching features."
+        "issues": "Model A has incorrect geometric shape (not a realistic kite), wrong color distribution, and simplified tail. Model B is completely unrelated (balloons instead of kites) with wrong shape and features."
       }
     },
     {
@@ -1102,7 +1021,7 @@
             {
               "label": "front_right",
               "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_b": 8.0
             },
             {
               "label": "front_below",
@@ -1147,17 +1066,17 @@
             {
               "label": "front_below",
               "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             },
             {
               "label": "front_above",
-              "pen_a": 4.0,
+              "pen_a": 5.0,
               "pen_b": 7.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks realistic jellyfish anatomy, with simplified shapes and missing details like the bell's texture and tentacles' structure. Model B completely misrepresents the subject, showing a sphere on a wireframe base instead of a jellyfish, with no anatomical features matching the reference."
+        "issues": "Model A lacks realistic texture, detail, and proper jellyfish anatomy, while Model B completely misrepresents the subject as a sphere with a wireframe base, failing to match the jellyfish reference entirely."
       }
     },
     {
@@ -1187,7 +1106,7 @@
             {
               "label": "front_below",
               "pen_a": 6.0,
-              "pen_b": 6.0
+              "pen_b": 6.5
             },
             {
               "label": "front_above",
@@ -1224,7 +1143,7 @@
               },
               {
                 "feature": "curved side profile",
-                "side_a": "yes",
+                "side_a": "no",
                 "side_b": "no"
               },
               {
@@ -1238,12 +1157,12 @@
                 "side_b": "no"
               },
               {
-                "feature": "black color",
+                "feature": "black matte finish",
                 "side_a": "yes",
                 "side_b": "yes"
               }
             ],
-            "score_a": 6,
+            "score_a": 4,
             "score_b": 4
           }
         },
@@ -1293,7 +1212,7 @@
             {
               "label": "front_left",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 8.0
             },
             {
               "label": "front_right",
@@ -1302,7 +1221,7 @@
             },
             {
               "label": "front_below",
-              "pen_a": 5.0,
+              "pen_a": 4.0,
               "pen_b": 8.0
             },
             {
@@ -1313,7 +1232,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed features like the shiny metal surface, control knobs, and realistic bread slices, while Model B is a simplified black block with no toaster features at all."
+        "issues": "Model A lacks detailed features like the shiny metal surface, control knobs, and realistic bread slices, with simplified shapes and colors. Model B is a generic black block with no resemblance to a toaster, missing all key features and details."
       }
     },
     {
@@ -1363,7 +1282,7 @@
       "left_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/submitted/32166215bfd0e3f45e9abb20fa046d75275987f69495f61727eaa077b36d7a89/grid.png",
       "right_js": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/32166215bfd0e3f45e9abb20fa046d75275987f69495f61727eaa077b36d7a89.js",
       "right_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/32166215bfd0e3f45e9abb20fa046d75275987f69495f61727eaa077b36d7a89/grid.png",
-      "winner": "draw",
+      "winner": "left",
       "detail": {
         "s1": {
           "choice": "draw",
@@ -1393,24 +1312,24 @@
           ]
         },
         "s2": {
-          "choice": "draw",
-          "source": "consensus_3",
+          "choice": "A",
+          "source": "strong_voter",
           "best_view": {
             "penalty_a": 6.0,
             "penalty_b": 6.0
           },
           "artifact_compare": {
-            "penalty_a": 5.0,
+            "penalty_a": 6.0,
             "penalty_b": 7.0
           },
           "checklist": {
             "main_object": "blue pulley",
-            "main_object_correct_a": false,
+            "main_object_correct_a": true,
             "main_object_correct_b": false,
             "features": [
               {
                 "feature": "two large circular flanges",
-                "side_a": "no",
+                "side_a": "yes",
                 "side_b": "no"
               },
               {
@@ -1424,21 +1343,22 @@
                 "side_b": "yes"
               },
               {
-                "feature": "symmetrical design",
-                "side_a": "no",
+                "feature": "blue color with metallic sheen",
+                "side_a": "yes",
                 "side_b": "yes"
+              },
+              {
+                "feature": "flanges have a slight taper towards the center",
+                "side_a": "partial",
+                "side_b": "no"
               }
             ],
-            "score_a": 3,
+            "score_a": 11,
             "score_b": 5
           }
         },
-        "s3": {
-          "fired": false,
-          "choice": null
-        },
         "s4": {
-          "choice": "draw",
+          "choice": "A",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -1458,7 +1378,7 @@
             }
           }
         },
-        "decided_by": "S3 (gate did not fire) → draw",
+        "decided_by": "S2 strong_voter [cl|+6|]",
         "issues": "Model A has significant geometric distortions and missing structural details compared to the reference, while Model B has incorrect internal components and lacks the reference's detailed central ring structure."
       }
     },
@@ -1510,43 +1430,43 @@
             "penalty_b": 7.0
           },
           "checklist": {
-            "main_object": "perfume bottles",
-            "main_object_correct_a": true,
+            "main_object": "perfume bottle set",
+            "main_object_correct_a": false,
             "main_object_correct_b": false,
             "features": [
               {
-                "feature": "two bottles in the scene",
-                "side_a": "yes",
-                "side_b": "yes"
-              },
-              {
                 "feature": "large ribbed glass jar with spherical lid",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "small rectangular perfume bottle with gold cap",
                 "side_a": "yes",
                 "side_b": "yes"
               },
               {
-                "feature": "small rectangular bottle with gold cap and pump",
-                "side_a": "yes",
-                "side_b": "yes"
-              },
-              {
-                "feature": "number '53' on the small bottle",
+                "feature": "number '53' on circular label on small bottle",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "dark liquid inside both bottles",
+                "feature": "gold-colored pump mechanism on small bottle",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "gold accents on the small bottle",
+                "feature": "dark liquid inside both containers",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "jar is taller than small bottle",
                 "side_a": "yes",
                 "side_b": "yes"
               }
             ],
-            "score_a": 11,
-            "score_b": 8
+            "score_a": 5,
+            "score_b": 5
           }
         },
         "s3": {
@@ -1575,7 +1495,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has simplified shapes, missing details like the ribbed texture, transparent glass, and the '53' label, with incorrect colors and proportions. Model B uses wrong object types (cylindrical container instead of ribbed jar, blue cube instead of gold-accented bottle) and incorrect colors, with geometric distortions."
+        "issues": "Model A has simplified shapes, missing details like the ribbed texture and gold accents, and incorrect color scheme. Model B uses wrong object types (cylindrical container instead of jar, blue cube instead of gold-accented bottle) and incorrect colors, with geometric distortions."
       }
     },
     {
@@ -1610,12 +1530,12 @@
             {
               "label": "front_above",
               "pen_a": 5.0,
-              "pen_b": 7.0
+              "pen_b": 7.5
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed textures, accurate propeller shapes, and proper lighting; Model B is overly simplified with missing components and incorrect structural proportions."
+        "issues": "Model A lacks detailed textures, accurate propeller shapes, and proper lighting/color matching; Model B is overly simplified with missing components and incorrect structural proportions."
       }
     },
     {
@@ -1630,7 +1550,7 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -1644,8 +1564,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 6.5,
-              "pen_b": 8.5
+              "pen_a": 6.0,
+              "pen_b": 6.5
             },
             {
               "label": "front_above",
@@ -1721,7 +1641,7 @@
                 "side_b": "no"
               },
               {
-                "feature": "rope-style gold chain with interlocking links",
+                "feature": "rope-style gold chain with uniform links",
                 "side_a": "no",
                 "side_b": "no"
               },
@@ -1733,16 +1653,16 @@
               {
                 "feature": "gold-colored metal material for the chain and setting",
                 "side_a": "yes",
-                "side_b": "yes"
+                "side_b": "no"
               },
               {
-                "feature": "gemstone with faceted surface showing reflections",
+                "feature": "pendant attached to the chain via two gold links",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
             "score_a": 4,
-            "score_b": 2
+            "score_b": 0
           }
         },
         "s3": {
@@ -1771,7 +1691,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A fails to match the reference's bracelet shape and gemstone details, while Model B has no bracelet or gemstone, featuring unrelated ornamental designs instead."
+        "issues": "Model A fails to match the reference's bracelet shape and gemstone details, while Model B has no bracelet or gemstone, featuring unrelated ornamental objects instead."
       }
     },
     {
@@ -1791,7 +1711,7 @@
             {
               "label": "front_left",
               "pen_a": 4.0,
-              "pen_b": 8.0
+              "pen_b": 7.5
             },
             {
               "label": "front_right",
@@ -1811,7 +1731,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks intricate cutout patterns, has incorrect top shape and color, and shows surface artifacts. Model B is a completely different object with no resemblance to the lantern in the reference."
+        "issues": "Model A lacks intricate cutout patterns, has incorrect top details, and simplified glass textures. Model B is a completely unrelated object with no resemblance to the lantern reference."
       }
     },
     {
@@ -1891,7 +1811,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified geometry and incorrect color tones for the wooden handle and bundle, while Model B significantly deviates from the reference with a completely different shape of the bundle and handle, losing all key features."
+        "issues": "Model A has simplified geometry, incorrect color tones, and missing details like the wooden texture and handle shape. Model B significantly deviates from the reference, with incorrect plant shape (flattened, clustered), wrong color, and missing the wooden tool's structure."
       }
     },
     {
@@ -1916,7 +1836,7 @@
             {
               "label": "front_right",
               "pen_a": 6.0,
-              "pen_b": 6.0
+              "pen_b": 6.5
             },
             {
               "label": "front_below",
@@ -1956,7 +1876,7 @@
             {
               "label": "front_right",
               "pen_a": 3.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             },
             {
               "label": "front_below",
@@ -2006,7 +1926,7 @@
             {
               "label": "front_above",
               "pen_a": 6.0,
-              "pen_b": 6.5
+              "pen_b": 6.0
             }
           ]
         },
@@ -2082,7 +2002,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A lacks the umbrella's structural details like the canopy ribs, metal trim, and proper handle shape; Model B is completely unrelated to an umbrella, resembling a goblet with missing elements."
+        "issues": "Model A lacks the umbrella's structural details like the canopy segments, metal trim, and proper handle shape; Model B is completely unrelated, depicting a goblet-like object instead of an umbrella."
       }
     },
     {
@@ -2156,8 +2076,8 @@
             },
             {
               "label": "front_above",
-              "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_a": 5.0,
+              "pen_b": 8.0
             }
           ]
         },
@@ -2237,12 +2157,12 @@
             {
               "label": "front_above",
               "pen_a": 6.0,
-              "pen_b": 9.5
+              "pen_b": 9.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed gemstone facets, incorrect chain and setting design, and simplified geometry. Model B features unrelated mechanical components instead of the pendant, with wrong shapes and materials."
+        "issues": "Model A lacks detailed gemstone facets and realistic gemstone color, while Model B features unrelated mechanical components instead of the pendant."
       }
     },
     {
@@ -2419,7 +2339,7 @@
             {
               "label": "front_below",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 8.0
             },
             {
               "label": "front_above",
@@ -2429,7 +2349,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified shapes, missing details like the clear acrylic top and YAMAHA logo, and incorrect color tones. Model B is a completely unrelated abstract shape with no resemblance to the drum set, featuring wrong geometry and missing all drum components."
+        "issues": "Model A has simplified shapes, missing details like the clear acrylic top and realistic wood texture, and incorrect drum hardware. Model B is a completely unrelated abstract shape with no resemblance to the drum set, featuring circular forms and rings instead of drums and stands."
       }
     },
     {
@@ -2454,7 +2374,7 @@
             {
               "label": "front_right",
               "pen_a": 7.5,
-              "pen_b": 4.0
+              "pen_b": 3.0
             },
             {
               "label": "front_below",
@@ -2512,7 +2432,7 @@
           "choice": "draw",
           "source": "consensus_3",
           "best_view": {
-            "penalty_a": 10.0,
+            "penalty_a": 8.5,
             "penalty_b": 10.0
           },
           "artifact_compare": {
@@ -2525,7 +2445,7 @@
             "main_object_correct_b": false,
             "features": [
               {
-                "feature": "4 doors",
+                "feature": "Four doors",
                 "side_a": "no",
                 "side_b": "no"
               },
@@ -2552,11 +2472,11 @@
               {
                 "feature": "Matte black exterior finish",
                 "side_a": "no",
-                "side_b": "no"
+                "side_b": "yes"
               }
             ],
             "score_a": 0,
-            "score_b": 0
+            "score_b": 2
           }
         },
         "s3": {
@@ -2641,43 +2561,43 @@
             "main_object_correct_b": false,
             "features": [
               {
-                "feature": "white hull with blue waterline",
+                "feature": "white hull with blue bottom",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "large blue sofa on deck",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "blue cushioned seating on the bow",
+                "feature": "two levels with enclosed cabin",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "small cabin with person",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "wooden handrails on the deck",
+                "feature": "antenna and flag on top",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "wooden railings on deck",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "cabin windows on the main deck",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "blue seating in the flybridge",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "antenna and radar dome on the flybridge",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "flag on the flybridge mast",
+                "feature": "multiple portholes on side",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
-            "score_a": 0,
-            "score_b": 0
+            "score_a": 2,
+            "score_b": 3
           }
         },
         "s3": {
@@ -2746,7 +2666,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect frame color (black instead of silver) and missing internal structural details. Model B has significant geometric distortion, incorrect shape, and lacks transparency and proper glass material."
+        "issues": "Model A has incorrect frame color (black instead of silver) and simplified geometry with missing details like the reference's top rail and corner fixtures. Model B has significant geometric distortions, incorrect proportions, and missing structural elements compared to the reference."
       }
     },
     {
@@ -2797,12 +2717,12 @@
             "penalty_b": 7.0
           },
           "checklist": {
-            "main_object": "green armored outfit",
+            "main_object": "green armor set",
             "main_object_correct_a": false,
             "main_object_correct_b": false,
             "features": [
               {
-                "feature": "dark gray upper body without head",
+                "feature": "gray torso with no head or arms",
                 "side_a": "no",
                 "side_b": "yes"
               },
@@ -2827,12 +2747,12 @@
                 "side_b": "no"
               },
               {
-                "feature": "two circular metal plates on each knee guard",
+                "feature": "two circular metal plates on each boot",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "metallic accents on belt and knee guards",
+                "feature": "metallic accents on belt and armor plates",
                 "side_a": "no",
                 "side_b": "no"
               }
@@ -2930,12 +2850,12 @@
               {
                 "feature": "blue ocean areas",
                 "side_a": null,
-                "side_b": null
+                "side_b": "yes"
               },
               {
                 "feature": "white landmasses",
                 "side_a": null,
-                "side_b": null
+                "side_b": "yes"
               },
               {
                 "feature": "visible continents including Africa, Europe, and Asia",
@@ -2983,7 +2903,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A lacks the white landmasses and correct color scheme of the reference, while Model B features an incorrect shape with additional white spheres instead of a globe."
+        "issues": "Model A lacks the detailed map texture and correct color scheme of the reference, while Model B deviates significantly in shape and structure, featuring additional spherical elements not present in the reference."
       }
     },
     {
@@ -3003,7 +2923,7 @@
             {
               "label": "front_left",
               "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             },
             {
               "label": "front_right",
@@ -3143,7 +3063,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the reference's detailed lantern structure, including the domed top, curved roof, and glass panes. Model B is a completely different object with a cylindrical shape and dome top, missing all key lantern features."
+        "issues": "Model A lacks the detailed lantern structure, curved top, and glass panels seen in the reference, with simplified shapes and missing elements. Model B is a completely different object type with a cylindrical shape and dome top, not resembling a lantern at all."
       }
     },
     {
@@ -3172,8 +3092,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 6.5,
-              "pen_b": 6.5
+              "pen_a": 6.0,
+              "pen_b": 5.5
             },
             {
               "label": "front_above",
@@ -3193,7 +3113,7 @@
       "left_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/submitted/77ff1beb14339ff2c6cd24977d024cd2115dd8a1216f0ff57bc316b07e600048/grid.png",
       "right_js": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/77ff1beb14339ff2c6cd24977d024cd2115dd8a1216f0ff57bc316b07e600048.js",
       "right_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/77ff1beb14339ff2c6cd24977d024cd2115dd8a1216f0ff57bc316b07e600048/grid.png",
-      "winner": "left",
+      "winner": "draw",
       "detail": {
         "s1": {
           "choice": "draw",
@@ -3212,7 +3132,7 @@
             },
             {
               "label": "front_below",
-              "pen_a": 5.0,
+              "pen_a": 6.0,
               "pen_b": 6.0
             },
             {
@@ -3223,15 +3143,15 @@
           ]
         },
         "s2": {
-          "choice": "A",
+          "choice": "draw",
           "source": "consensus_3",
           "best_view": {
             "penalty_a": 6.0,
             "penalty_b": 6.0
           },
           "artifact_compare": {
-            "penalty_a": 5.0,
-            "penalty_b": 7.0
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
           },
           "checklist": {
             "main_object": "jack-o'-lantern",
@@ -3278,8 +3198,12 @@
             "score_b": 0
           }
         },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
         "s4": {
-          "choice": "A",
+          "choice": "draw",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -3299,8 +3223,8 @@
             }
           }
         },
-        "decided_by": "S2 consensus",
-        "issues": "Model A lacks detailed facial features, has incorrect stem shape and color, and includes extraneous elements like sticks and a base. Model B is a completely different object (a stacked shape with eyes and mouth) rather than a pumpkin, with no facial features matching the reference."
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A lacks detailed facial features and has incorrect shape and texture compared to the reference pumpkin. Model B is a completely different object (a stacked shape with eyes and mouth) and does not match the reference pumpkin at all."
       }
     },
     {
@@ -3315,7 +3239,7 @@
         "s1": {
           "choice": "B",
           "n_total": 4,
-          "n_consistent": 2,
+          "n_consistent": 3,
           "angles": [
             {
               "label": "front_left",
@@ -3324,8 +3248,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 6.0,
-              "pen_b": 6.0
+              "pen_a": 7.0,
+              "pen_b": 5.0
             },
             {
               "label": "front_below",
@@ -3334,13 +3258,13 @@
             },
             {
               "label": "front_above",
-              "pen_a": 6.0,
-              "pen_b": 4.0
+              "pen_a": 7.0,
+              "pen_b": 5.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect shape (solid red circle with star cutout instead of transparent ring), wrong material (matte instead of glossy), and missing details (no sparkles). Model B has incorrect shape (ring with small inner ring and tiny star instead of star cutout), wrong material (metallic instead of translucent), and missing details (no sparkles)."
+        "issues": "Model A has incorrect shape (solid red circle with star cutout instead of transparent ring), missing transparency and glitter details, and wrong color tone. Model B has incorrect shape (ring with small inner ring and tiny star instead of star cutout), missing transparency and glitter details, and wrong color tone."
       }
     },
     {
@@ -3374,7 +3298,7 @@
             },
             {
               "label": "front_above",
-              "pen_a": 3.0,
+              "pen_a": 4.0,
               "pen_b": 7.5
             }
           ]
@@ -3443,7 +3367,7 @@
               {
                 "feature": "white base color with blue floral patterns",
                 "side_a": "no",
-                "side_b": "partial"
+                "side_b": "yes"
               },
               {
                 "feature": "5 large blue flowers with visible petals and centers",
@@ -3461,13 +3385,13 @@
                 "side_b": "no"
               },
               {
-                "feature": "single blue flower near the top curve",
+                "feature": "single blue flower near the curved tip",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
             "score_a": 0,
-            "score_b": 3
+            "score_b": 4
           }
         },
         "s3": {
@@ -3496,7 +3420,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has significant geometric distortion, missing the crescent shape and floral details of the reference. Model B has a completely different shape, lacks the curved form and floral patterns, and features small blue elements that don't match the reference's design."
+        "issues": "Model A has significant geometric distortion, incorrect shape, and missing floral details. Model B has a simplified shape with incorrect proportions and missing detailed floral patterns."
       }
     },
     {
@@ -3515,8 +3439,8 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 5.0,
-              "pen_b": 8.0
+              "pen_a": 4.0,
+              "pen_b": 7.5
             },
             {
               "label": "front_right",
@@ -3536,7 +3460,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the wave logo, has incorrect cap color and shape, and wrong bottle geometry. Model B is a completely different object (cylinder) with no bottle features, wrong shape, and missing liquid/wave details."
+        "issues": "Model A lacks the transparent glass material, wave logo, and correct bottle shape; Model B is a completely different object (cylinder with ring) with no resemblance to the reference bottle."
       }
     },
     {
@@ -3577,7 +3501,7 @@
         },
         "s2": {
           "choice": "A",
-          "source": "strong_voter",
+          "source": "consensus_3",
           "best_view": {
             "penalty_a": 6.0,
             "penalty_b": 6.0
@@ -3597,22 +3521,17 @@
                 "side_b": "no"
               },
               {
-                "feature": "pestle with cylindrical shape and rounded end",
-                "side_a": "yes",
-                "side_b": "no"
+                "feature": "short, thick pestle with rounded end",
+                "side_a": "partial",
+                "side_b": "partial"
               },
               {
                 "feature": "pestle resting inside mortar bowl",
                 "side_a": "yes",
-                "side_b": "no"
+                "side_b": "yes"
               },
               {
-                "feature": "mortar has a short, wide base",
-                "side_a": "yes",
-                "side_b": "no"
-              },
-              {
-                "feature": "pestle is positioned diagonally in mortar",
+                "feature": "mortar has a small footed base",
                 "side_a": "yes",
                 "side_b": "no"
               },
@@ -3620,10 +3539,15 @@
                 "feature": "both mortar and pestle have a rough, stone-like texture",
                 "side_a": "no",
                 "side_b": "no"
+              },
+              {
+                "feature": "pestle is positioned diagonally within the mortar",
+                "side_a": "yes",
+                "side_b": "no"
               }
             ],
-            "score_a": 9,
-            "score_b": 0
+            "score_a": 8,
+            "score_b": 3
           }
         },
         "s4": {
@@ -3647,8 +3571,8 @@
             }
           }
         },
-        "decided_by": "S2 strong_voter [cl|+9|]",
-        "issues": "Model A has incorrect shape (rounded bowl instead of mortar's bowl, missing base ring), wrong color tone, and simplified geometry. Model B has completely wrong shape (ring base, boat-like bowl) and missing mortar features."
+        "decided_by": "S2 consensus",
+        "issues": "Model A has simplified geometry with incorrect shape and missing details like the mortar's base and texture. Model B is completely unrelated, featuring a ring base and a different tool shape, with no resemblance to the mortar and pestle."
       }
     },
     {
@@ -3663,11 +3587,11 @@
         "s1": {
           "choice": "draw",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 4,
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 4.0,
+              "pen_a": 6.0,
               "pen_b": 4.0
             },
             {
@@ -3682,7 +3606,7 @@
             },
             {
               "label": "front_above",
-              "pen_a": 4.0,
+              "pen_a": 5.0,
               "pen_b": 7.0
             }
           ]
@@ -3754,7 +3678,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has simplified geometry, incorrect color scheme, and missing details like the watermelon's texture and interior. Model B is a spherical shape with incorrect proportions, missing the watermelon's characteristic oval shape and interior, and has wrong color accents."
+        "issues": "Model A has simplified geometry, missing realistic texture details, and incorrect color shading. Model B is a spherical shape with minimal red details, lacking the cut section and texture of the reference watermelon."
       }
     },
     {
@@ -3778,8 +3702,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 4.0,
-              "pen_b": 9.0
+              "pen_a": 5.0,
+              "pen_b": 8.0
             },
             {
               "label": "front_below",
@@ -3794,7 +3718,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the transparent cylindrical section, internal wooden element, and text details seen in the reference. Model B is completely unrelated in shape and structure, featuring curved black panels and metal rings instead of the cylindrical container with internal components."
+        "issues": "Model A lacks the transparent cylindrical section, internal wooden element, and text details seen in the reference. Model B is completely unrelated in shape and structure, featuring curved black panels and metal rings instead of the cylindrical object with transparent parts."
       }
     },
     {
@@ -3823,8 +3747,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 4.0,
-              "pen_b": 9.0
+              "pen_a": 5.0,
+              "pen_b": 8.0
             },
             {
               "label": "front_above",
@@ -3869,7 +3793,7 @@
             {
               "label": "front_above",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             }
           ]
         },
@@ -3914,7 +3838,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect string and tuning peg details, while Model B lacks the main string and soundhole features of the reference, with simplified shapes and missing elements."
+        "issues": "Model A has incorrect string and tuning peg details, while Model B is a completely unrelated object with missing reference features."
       }
     },
     {
@@ -3954,7 +3878,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect shape with protruding lines and wrong color tones; Model B is a simplified cylinder with missing details like texture and shape, both deviating from the reference zucchini."
+        "issues": "Model A has incorrect shape with protruding lines and simplified features, while Model B is a cylindrical shape with no resemblance to a zucchini, both failing to match the reference's organic form and details."
       }
     },
     {
@@ -4011,7 +3935,7 @@
             "features": [
               {
                 "feature": "rectangular weighing platform with rounded corners",
-                "side_a": "yes",
+                "side_a": "partial",
                 "side_b": "no"
               },
               {
@@ -4030,17 +3954,17 @@
                 "side_b": "no"
               },
               {
-                "feature": "slanted hinge mechanism connecting platform to base",
-                "side_a": "no",
+                "feature": "slanted base for stability",
+                "side_a": "yes",
                 "side_b": "no"
               },
               {
-                "feature": "single circular button on the base",
+                "feature": "single power button on the side of the base",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
-            "score_a": 4,
+            "score_a": 5,
             "score_b": 2
           }
         },
@@ -4133,17 +4057,17 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 2,
+          "n_consistent": 3,
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 5.0,
-              "pen_b": 5.0
+              "pen_a": 4.0,
+              "pen_b": 6.5
             },
             {
               "label": "front_right",
               "pen_a": 5.0,
-              "pen_b": 5.5
+              "pen_b": 5.0
             },
             {
               "label": "front_below",
@@ -4152,13 +4076,13 @@
             },
             {
               "label": "front_above",
-              "pen_a": 5.0,
-              "pen_b": 7.0
+              "pen_a": 4.0,
+              "pen_b": 6.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color scheme (silver top instead of black), missing record details, and simplified geometry. Model B lacks the turntable's distinctive wooden texture and record details, with a simplified design and missing components like the tonearm and record labels."
+        "issues": "Model A lacks detailed components like the tonearm, record labels, and realistic wood texture, with simplified shapes. Model B has a completely different design with a flat top, missing the record player's key features and incorrect color scheme."
       }
     },
     {
@@ -4318,7 +4242,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the green leaf wrapping and has simplified, incorrect calyx details. Model B is missing the green leaf wrapping and has overly simplified, incorrect calyx and leaf shapes."
+        "issues": "Model A lacks the green leaf wrapping around the eggplant, has simplified and incorrect leaf shapes, and missing surface details like the reference's speckles. Model B has significantly reduced leaf coverage, incorrect leaf shapes, and lacks the reference's detailed texture and color variation."
       }
     },
     {
@@ -4358,7 +4282,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed architectural features like the reference's ornate top, curved glass panes, and textured wood, using simple geometric shapes. Model B has extreme geometric distortion, with non-geometric, faceted shapes and missing key structural elements compared to the reference."
+        "issues": "Model A lacks detailed architectural features like the reference's ornate top, curved glass panes, and textured wood-like surfaces, resulting in a simplified, generic design. Model B has severe geometric distortion, with an irregular, faceted shape that deviates significantly from the reference's smooth, structured form."
       }
     },
     {
@@ -4456,17 +4380,17 @@
               {
                 "feature": "fluted rim with vertical ridges",
                 "side_a": null,
-                "side_b": "no"
+                "side_b": null
               },
               {
                 "feature": "blue decorative border along the edge",
                 "side_a": null,
-                "side_b": "no"
+                "side_b": null
               },
               {
                 "feature": "central raised circular well",
                 "side_a": null,
-                "side_b": "no"
+                "side_b": null
               },
               {
                 "feature": "small white circular object in the center",
@@ -4476,12 +4400,12 @@
               {
                 "feature": "white main body with blue accents",
                 "side_a": null,
-                "side_b": "no"
+                "side_b": null
               },
               {
                 "feature": "scalloped edge with blue detailing",
                 "side_a": null,
-                "side_b": "no"
+                "side_b": null
               }
             ],
             "score_a": 8,
@@ -4510,7 +4434,7 @@
           }
         },
         "decided_by": "S2 strong_voter [cl|+8|]",
-        "issues": "Model A lacks the detailed blue floral pattern and fluted texture of the reference, with simplified shapes and missing decorative elements. Model B is a plain gray disk with minimal features, completely missing the blue and white color scheme, decorative patterns, and central object of the reference."
+        "issues": "Model A lacks the detailed blue floral pattern and fluted texture of the reference, with simplified shapes and missing decorative elements. Model B is a plain gray disk with minimal features, completely missing the blue and white color scheme, decorative patterns, and central raised element of the reference."
       }
     },
     {
@@ -4666,7 +4590,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect metal frame color (black instead of gray) and simplified, distorted metal structure. Model B has wrong color (dark brown instead of light wood) and missing slats and detailed metal components."
+        "issues": "Model A has incorrect metal color (black instead of gray), simplified metal structure, and missing wood grain details. Model B has wrong color (dark brown instead of light wood), simplified structure, and missing slats and wood texture."
       }
     },
     {
@@ -4767,22 +4691,17 @@
                 "side_b": "no"
               },
               {
-                "feature": "curved roofline",
+                "feature": "curved body with rounded roof",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "chrome front bumper with two vertical bars",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "chrome front bumper",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "4 visible wheels",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "windshield wiper on front window",
+                "feature": "4 visible wheels with black tires and silver rims",
                 "side_a": "no",
                 "side_b": "no"
               },
@@ -4792,13 +4711,18 @@
                 "side_b": "no"
               },
               {
-                "feature": "small rear light on right side",
+                "feature": "single windshield wiper on front window",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "red paint with glossy finish",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
             "score_a": 0,
-            "score_b": 0
+            "score_b": 1
           }
         },
         "s3": {
@@ -4852,7 +4776,7 @@
             {
               "label": "front_right",
               "pen_a": 6.0,
-              "pen_b": 6.5
+              "pen_b": 6.0
             },
             {
               "label": "front_below",
@@ -4883,12 +4807,12 @@
             "main_object_correct_b": false,
             "features": [
               {
-                "feature": "two separate hoop earrings",
+                "feature": "two hoop earrings",
                 "side_a": "yes",
                 "side_b": "yes"
               },
               {
-                "feature": "circular shape with open center",
+                "feature": "circular shape with inner hollow",
                 "side_a": "yes",
                 "side_b": "yes"
               },
@@ -4906,15 +4830,10 @@
                 "feature": "slightly tapered at the top",
                 "side_a": "no",
                 "side_b": "no"
-              },
-              {
-                "feature": "smooth inner surface",
-                "side_a": "yes",
-                "side_b": "yes"
               }
             ],
-            "score_a": 8,
-            "score_b": 6
+            "score_a": 6,
+            "score_b": 4
           }
         },
         "s3": {
@@ -4983,7 +4902,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified geometry, missing details like the label text and leaf logo, and incorrect color for the bottle and cap. Model B has incorrect material appearance with a transparent blue tint, oversized and misshapen handle, and wrong cap design."
+        "issues": "Model A has simplified geometry, missing details like the label text and leaf logo, and incorrect color for the bottle and cap. Model B has wrong material (transparent glass instead of opaque glass), incorrect cap design, and misaligned handle."
       }
     },
     {
@@ -5059,23 +4978,23 @@
                 "side_b": "yes"
               },
               {
-                "feature": "blue indicator light on front",
-                "side_a": "no",
-                "side_b": "partial"
-              },
-              {
-                "feature": "brand name 'TRUIGRINT' on front",
+                "feature": "blue indicator light on front panel",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "wooden surface beneath the maker",
+                "feature": "brand name 'TRUIGRINT' on front panel",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "wooden surface the coffee maker sits on",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
             "score_a": 3,
-            "score_b": 3
+            "score_b": 2
           }
         },
         "s3": {
@@ -5104,7 +5023,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A lacks the coffee pot, coffee grounds, and detailed control panel; Model B has incorrect cylindrical shape and missing coffee pot features."
+        "issues": "Model A lacks the coffee pot, coffee grounds, and detailed control panel; Model B has incorrect cylindrical shape, missing coffee pot, and wrong top structure compared to the reference coffee machine."
       }
     },
     {
@@ -5114,12 +5033,12 @@
       "left_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/submitted/b883fba9daf5f354b6c5611ba114532dc768cc1aa92c2dd9d30e7315bfa41663/grid.png",
       "right_js": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/b883fba9daf5f354b6c5611ba114532dc768cc1aa92c2dd9d30e7315bfa41663.js",
       "right_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/b883fba9daf5f354b6c5611ba114532dc768cc1aa92c2dd9d30e7315bfa41663/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
         "s1": {
-          "choice": "draw",
+          "choice": "A",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -5138,80 +5057,13 @@
             },
             {
               "label": "front_above",
-              "pen_a": 7.0,
-              "pen_b": 5.0
+              "pen_a": 6.0,
+              "pen_b": 6.0
             }
           ]
         },
-        "s2": {
-          "choice": "B",
-          "source": "strong_voter",
-          "best_view": {
-            "penalty_a": 6.0,
-            "penalty_b": 6.0
-          },
-          "artifact_compare": {
-            "penalty_a": 6.0,
-            "penalty_b": 7.0
-          },
-          "checklist": {
-            "main_object": "wooden stool",
-            "main_object_correct_a": false,
-            "main_object_correct_b": true,
-            "features": [
-              {
-                "feature": "4 curved legs",
-                "side_a": "no",
-                "side_b": "yes"
-              },
-              {
-                "feature": "rectangular seat with rounded edges",
-                "side_a": "partial",
-                "side_b": "yes"
-              },
-              {
-                "feature": "central open shelf on seat",
-                "side_a": "no",
-                "side_b": "yes"
-              },
-              {
-                "feature": "horizontal support bar connecting legs",
-                "side_a": "no",
-                "side_b": "yes"
-              },
-              {
-                "feature": "light brown wood texture",
-                "side_a": "no",
-                "side_b": "yes"
-              }
-            ],
-            "score_a": 1,
-            "score_b": 13
-          }
-        },
-        "s4": {
-          "choice": "B",
-          "side_verdicts": {
-            "a": "ok",
-            "b": "ok"
-          },
-          "per_angle": {
-            "a": {
-              "right": "ok",
-              "back": "ok",
-              "left": "ok",
-              "top_down": "ok"
-            },
-            "b": {
-              "right": "ok",
-              "back": "ok",
-              "left": "ok",
-              "top_down": "ok"
-            }
-          }
-        },
-        "decided_by": "S2 strong_voter [cl|-12|]",
-        "issues": "Model A has incorrect color (darker brown), missing the central shelf cutout, and simplified leg structure. Model B is incomplete with separate components and lacks the stool's overall shape and structural details."
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color (darker brown), missing the central shelf cutout, and simplified leg structure. Model B is incomplete with separate components and lacks the stool's unified structure."
       }
     },
     {
@@ -5230,7 +5082,7 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 3.0,
+              "pen_a": 4.0,
               "pen_b": 8.0
             },
             {
@@ -5251,7 +5103,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed cutouts and surface texture, while Model B has incorrect shape, missing elements, and wrong color."
+        "issues": "Model A lacks detailed black gemstones and has simplified geometry; Model B has incorrect color (black instead of silver) and distorted shape with missing components."
       }
     },
     {
@@ -5316,7 +5168,7 @@
             {
               "label": "front_right",
               "pen_a": 5.0,
-              "pen_b": 8.0
+              "pen_b": 7.5
             },
             {
               "label": "front_below",
@@ -5411,7 +5263,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed engravings and metallic accents, while Model B has simplified structural elements and missing decorative details compared to the reference."
+        "issues": "Model A lacks detailed engravings and metallic accents; Model B has simplified structural elements and missing decorative details compared to the reference."
       }
     },
     {
@@ -5473,7 +5325,7 @@
               },
               {
                 "feature": "arched opening in the front",
-                "side_a": "partial",
+                "side_a": "no",
                 "side_b": "no"
               },
               {
@@ -5497,7 +5349,7 @@
                 "side_b": "no"
               }
             ],
-            "score_a": 3,
+            "score_a": 2,
             "score_b": 0
           }
         },
@@ -5523,7 +5375,7 @@
           }
         },
         "decided_by": "S2 consensus",
-        "issues": "Model A lacks the organic texture, detailed wood grain, and proper candle structure of the reference, with a simplified cylindrical shape and incorrect enclosure design. Model B is too small and stylized, missing the main lantern body, detailed wood texture, and proper candle placement."
+        "issues": "Model A lacks the organic texture, curved shape, and detailed top of the reference; its structure is cylindrical with incorrect cutouts and a flat base. Model B is too small, simplified, and missing the main lantern body and flame structure."
       }
     },
     {
@@ -5557,13 +5409,13 @@
             },
             {
               "label": "front_above",
-              "pen_a": 5.0,
-              "pen_b": 5.0
+              "pen_a": 6.0,
+              "pen_b": 6.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified geometry with missing detailed features and incorrect proportions compared to the reference. Model B is completely unrelated, featuring small spherical objects instead of the mechanical component."
+        "issues": "Model A has simplified geometry with missing detailed features like the central gear and textured surfaces, while Model B is completely unrelated, depicting small spherical objects instead of the mechanical component."
       }
     },
     {
@@ -5583,7 +5435,7 @@
             {
               "label": "front_left",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 8.0
             },
             {
               "label": "front_right",
@@ -5598,7 +5450,7 @@
             {
               "label": "front_above",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 8.0
             }
           ]
         },
@@ -5668,7 +5520,7 @@
             {
               "label": "front_right",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             },
             {
               "label": "front_below",
@@ -5683,7 +5535,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified floral patterns and missing details compared to the reference. Model B incorrectly adds a pink bear-like object on top of the cup, which is not present in the reference."
+        "issues": "Model A has simplified floral patterns and missing details compared to the reference; Model B incorrectly adds a pink bear on top of the cup, which is not present in the reference."
       }
     },
     {
@@ -5778,12 +5630,12 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 1,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
               "pen_a": 5.0,
-              "pen_b": 5.0
+              "pen_b": 7.5
             },
             {
               "label": "front_right",
@@ -5803,7 +5655,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect geometry with slatted top and overly thick legs, while Model B is too small and simplified, missing detailed wood texture and proper proportions."
+        "issues": "Model A has incorrect shape with slatted top and different leg structure; Model B is overly simplified with missing details and incorrect proportions."
       }
     },
     {
@@ -5843,7 +5695,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed textures, accurate color matching, and proper button/panel design; Model B is highly simplified with missing components and incorrect proportions."
+        "issues": "Model A lacks detailed textures, accurate color matching, and proper button/panel design; Model B is highly simplified with missing main body parts and incorrect proportions."
       }
     },
     {
@@ -6037,7 +5889,7 @@
             "penalty_b": 6.0
           },
           "artifact_compare": {
-            "penalty_a": 6.0,
+            "penalty_a": 7.0,
             "penalty_b": 6.0
           },
           "checklist": {
@@ -6136,7 +5988,7 @@
             {
               "label": "front_below",
               "pen_a": 5.0,
-              "pen_b": 7.5
+              "pen_b": 8.0
             },
             {
               "label": "front_above",
@@ -6146,7 +5998,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the detailed glass texture, gold neck label, and central emblem; Model B is a simplified cylindrical shape with no glass bottle features, missing all reference details."
+        "issues": "Model A lacks the detailed glass texture, gold neck label, and central decorative band seen in the reference. Model B is a completely different cylindrical object with no resemblance to the bottle, featuring incorrect shape, missing glass transparency, and wrong color scheme."
       }
     },
     {
@@ -6166,7 +6018,7 @@
             {
               "label": "front_left",
               "pen_a": 6.0,
-              "pen_b": 8.5
+              "pen_b": 8.0
             },
             {
               "label": "front_right",
@@ -6199,9 +6051,9 @@
       "winner": "left",
       "detail": {
         "s1": {
-          "choice": "A",
+          "choice": "draw",
           "n_total": 4,
-          "n_consistent": 2,
+          "n_consistent": 0,
           "angles": [
             {
               "label": "front_left",
@@ -6210,23 +6062,100 @@
             },
             {
               "label": "front_right",
-              "pen_a": 6.0,
+              "pen_a": 6.5,
               "pen_b": 6.5
             },
             {
               "label": "front_below",
-              "pen_a": 5.0,
-              "pen_b": 8.0
+              "pen_a": 6.0,
+              "pen_b": 6.5
             },
             {
               "label": "front_above",
               "pen_a": 6.0,
-              "pen_b": 8.5
+              "pen_b": 6.5
             }
           ]
         },
-        "decided_by": "S1",
-        "issues": "Model A lacks detailed features like laces, stitching, and realistic leather texture; Model B is geometrically distorted, missing shoe-specific details, and has incorrect proportions."
+        "s2": {
+          "choice": "A",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 7.5
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 7.5
+          },
+          "checklist": {
+            "main_object": "brown leather shoes",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "two shoes",
+                "side_a": "yes",
+                "side_b": "no"
+              },
+              {
+                "feature": "lace-up closure with bow",
+                "side_a": "partial",
+                "side_b": "no"
+              },
+              {
+                "feature": "moc-toe design",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "black rubber sole",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "visible stitching details",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "rounded toe shape",
+                "side_a": "yes",
+                "side_b": "no"
+              },
+              {
+                "feature": "tan interior lining",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 7,
+            "score_b": 2
+          }
+        },
+        "s4": {
+          "choice": "A",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 consensus",
+        "issues": "Model A lacks detailed features like laces, stitching, and realistic leather texture; Model B is geometrically distorted, missing shoe-specific details, and has incorrect proportions and shape."
       }
     },
     {
@@ -6236,7 +6165,7 @@
       "left_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/submitted/d9e3b0771520afaaa596671fd63ac81fb4e33b189d6564ed987d07ce5e60a0a6/grid.png",
       "right_js": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/d9e3b0771520afaaa596671fd63ac81fb4e33b189d6564ed987d07ce5e60a0a6.js",
       "right_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/d9e3b0771520afaaa596671fd63ac81fb4e33b189d6564ed987d07ce5e60a0a6/grid.png",
-      "winner": "draw",
+      "winner": "left",
       "detail": {
         "s1": {
           "choice": "draw",
@@ -6266,15 +6195,15 @@
           ]
         },
         "s2": {
-          "choice": "draw",
+          "choice": "A",
           "source": "consensus_3",
           "best_view": {
-            "penalty_a": 10.0,
-            "penalty_b": 10.0
+            "penalty_a": 8.5,
+            "penalty_b": 7.5
           },
           "artifact_compare": {
-            "penalty_a": 7.0,
-            "penalty_b": 8.0
+            "penalty_a": 8.0,
+            "penalty_b": 9.0
           },
           "checklist": {
             "main_object": "convertible car",
@@ -6297,31 +6226,27 @@
                 "side_b": "no"
               },
               {
-                "feature": "curved side profile with smooth body lines",
+                "feature": "curved side body panels",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "silver metallic paint finish",
-                "side_a": "partial",
+                "feature": "silver metallic paint",
+                "side_a": "yes",
                 "side_b": "no"
               },
               {
-                "feature": "rear red taillight with horizontal design",
+                "feature": "rear red taillight",
                 "side_a": "no",
                 "side_b": "no"
               }
             ],
-            "score_a": 1,
+            "score_a": 2,
             "score_b": 0
           }
         },
-        "s3": {
-          "fired": true,
-          "choice": null
-        },
         "s4": {
-          "choice": "draw",
+          "choice": "A",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -6341,8 +6266,8 @@
             }
           }
         },
-        "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has severe geometric distortion, missing details like the convertible top, seats, and proper wheel design. Model B is a simplified blocky shape with incorrect proportions and missing key features like the convertible top and seats, but its overall shape is less distorted than Model A."
+        "decided_by": "S2 consensus",
+        "issues": "Model A has severe geometric distortion, missing details like the convertible top, seats, and proper wheel design. Model B is a simplified blocky shape with incorrect proportions and missing key features compared to the reference."
       }
     },
     {
@@ -6382,7 +6307,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color (brown instead of gold) and simplified geometry (missing lid details, handle shape). Model B is completely unrelated (broken teapot parts instead of a whole teapot)."
+        "issues": "Model A has incorrect color (brown instead of gold) and simplified geometry with missing details like the lid knob and handle structure. Model B is completely unrelated, featuring a broken, abstract object with no resemblance to a teapot, including missing main components like the body and spout."
       }
     },
     {
@@ -6407,7 +6332,7 @@
             {
               "label": "front_right",
               "pen_a": 4.0,
-              "pen_b": 7.5
+              "pen_b": 7.0
             },
             {
               "label": "front_below",
@@ -6462,7 +6387,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed texture, realistic color variation, and accurate internal structure; Model B has significant geometric distortion, incorrect shape, and missing organic details."
+        "issues": "Model A lacks detailed texture and realistic internal structure; Model B has incorrect shape with cylindrical elements and misaligned features."
       }
     },
     {
@@ -6491,7 +6416,7 @@
             },
             {
               "label": "front_below",
-              "pen_a": 4.0,
+              "pen_a": 5.0,
               "pen_b": 8.0
             },
             {
@@ -6582,7 +6507,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified geometry with missing details like the umbrella's texture and structural lines, while Model B is a completely different object (resembling a bowl or dish) with no resemblance to an umbrella, lacking all key features from the reference."
+        "issues": "Model A has simplified geometry with missing details like the umbrella's texture and structural lines, while Model B is a completely different object (resembling a bowl or dish) with no similarity to the reference umbrella."
       }
     },
     {
@@ -6697,12 +6622,12 @@
             {
               "label": "front_above",
               "pen_a": 5.0,
-              "pen_b": 7.0
+              "pen_b": 7.5
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the reflective surface, iridescent colors, and detailed center label of the reference; Model B fails to represent the disc shape, reflective properties, and central hole structure."
+        "issues": "Model A lacks the reflective surface, iridescent colors, and detailed center label of the reference; Model B fails to represent the disc shape, reflective properties, and central hole structure of the reference."
       }
     },
     {
@@ -6742,7 +6667,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed textures and realistic lighting, while Model B is completely unrelated to a stapler, featuring a different object shape and color scheme."
+        "issues": "Model A has simplified geometry, missing detailed components like the metallic ring and textured handle, and incorrect color tone. Model B is a completely unrelated object with wrong shape and color, lacking any stapler features."
       }
     },
     {
@@ -6757,7 +6682,7 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -6777,12 +6702,12 @@
             {
               "label": "front_above",
               "pen_a": 6.0,
-              "pen_b": 7.5
+              "pen_b": 6.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the dolphin's distinct shape, color, and key features like the eye, beak, and body structure. Model B is a spherical object with spikes and a base, which is unrelated to the dolphin reference, featuring incorrect geometry and color."
+        "issues": "Model A is a simplified, abstract shape with missing dolphin features like the beak, eye, and body structure. Model B is a spherical object with spikes and a base, completely unrelated to a dolphin, featuring wrong geometry and color."
       }
     },
     {
@@ -6817,12 +6742,12 @@
             {
               "label": "front_above",
               "pen_a": 4.0,
-              "pen_b": 8.0
+              "pen_b": 8.5
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed features like the decorative engravings, soundhole, and correct headstock design; Model B is severely distorted and missing most structural elements of the lute, with only partial shapes visible."
+        "issues": "Model A lacks detailed features like the decorative engravings, soundhole, and correct headstock design; Model B is severely distorted and missing most structural elements of the instrument."
       }
     },
     {
@@ -6874,7 +6799,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect proportions, missing wood grain details, and simplified seat/cushion design. Model B is a completely different furniture type (bed-like structure) with missing chair components and wrong proportions."
+        "issues": "Model A has incorrect proportions, missing wood grain details, and simplified seat/cushion. Model B is a completely different furniture type (bed-like structure) with missing chair components and wrong shape."
       }
     },
     {
@@ -6950,17 +6875,17 @@
                 "side_b": "no"
               },
               {
+                "feature": "black side mirrors",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
                 "feature": "black grille",
                 "side_a": "no",
                 "side_b": "no"
               },
               {
-                "feature": "silver metallic paint",
-                "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "windshield wipers",
+                "feature": "LED headlights",
                 "side_a": "no",
                 "side_b": "no"
               }
@@ -6995,7 +6920,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A is a low-poly, blocky vehicle with missing details like headlights, grille, and aerodynamic features compared to the reference car. Model B is a simplified rectangular block with no car-like features, significantly deviating from the reference's car shape and details."
+        "issues": "Model A is a low-poly, blocky vehicle with missing details like headlights, grille, and aerodynamic features compared to the reference car. Model B is a simplified rectangular block with no vehicle-like features, missing all car-specific elements such as wheels, body shape, and windows."
       }
     },
     {
@@ -7035,7 +6960,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks the bathtub's shape, water, and surrounding environment details; Model B is a simplified box-like object with no bathtub features, water, or environment elements."
+        "issues": "Model A lacks the bathtub's shape, water, and surrounding environment details; Model B is unrelated to the bathtub scene, featuring a different object with incorrect shape and missing context elements."
       }
     },
     {
@@ -7059,8 +6984,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 6.0,
-              "pen_b": 6.0
+              "pen_a": 6.5,
+              "pen_b": 7.0
             },
             {
               "label": "front_below",
@@ -7152,7 +7077,7 @@
           }
         },
         "decided_by": "S2 consensus",
-        "issues": "Model A lacks detailed features like the hood scoop, chrome grille, and realistic headlights, resulting in a simplified, blocky appearance. Model B has a more abstract, boxy shape with missing car-specific details and incorrect proportions, making it less similar to the reference."
+        "issues": "Model A lacks detailed features like the hood scoop, chrome grille, and realistic wheels, resulting in a simplified, blocky appearance. Model B has a more abstract, boxy shape with missing car-specific details and incorrect proportions, making it less similar to the reference."
       }
     },
     {
@@ -7162,12 +7087,12 @@
       "left_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/submitted/f89366c64432636c1310dc6833651d98b8324393469889be709255ac0725e0c3/grid.png",
       "right_js": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/f89366c64432636c1310dc6833651d98b8324393469889be709255ac0725e0c3.js",
       "right_png": "https://subnet404.xyz/rounds/2/5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA/generated/f89366c64432636c1310dc6833651d98b8324393469889be709255ac0725e0c3/grid.png",
-      "winner": "left",
+      "winner": "draw",
       "detail": {
         "s1": {
-          "choice": "A",
+          "choice": "draw",
           "n_total": 4,
-          "n_consistent": 1,
+          "n_consistent": 0,
           "angles": [
             {
               "label": "front_left",
@@ -7182,17 +7107,88 @@
             {
               "label": "front_below",
               "pen_a": 6.0,
-              "pen_b": 7.5
+              "pen_b": 6.0
             },
             {
               "label": "front_above",
               "pen_a": 6.0,
-              "pen_b": 6.5
+              "pen_b": 6.0
             }
           ]
         },
-        "decided_by": "S1",
-        "issues": "Model A fails to match the reference's fan-like radial structure, using a square frame and incorrect base. Model B uses an octagonal frame with jagged edges and incorrect central elements, deviating from the reference's smooth, radial design."
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 7.0
+          },
+          "checklist": {
+            "main_object": "fan",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "circular fan blades radiating from central hub",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "central circular hub with concentric rings",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "tapered cylindrical stand with flared base",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "alternating black and light gray fan blades",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "black central hub and stand",
+                "side_a": "yes",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 2,
+            "score_b": 1
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A fails to match the reference's fan structure, using a square frame and incorrect base. Model B uses an octagonal frame and simplified central elements, deviating from the reference's radial fan blades and central design."
       }
     },
     {
@@ -7232,7 +7228,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed butter texture and correct shape, with incorrect knife color and position. Model B has wrong object type (not butter) and incorrect color and shape."
+        "issues": "Model A lacks detailed butter texture and correct shape, with incorrect knife color and missing butter details. Model B has wrong object type (not butter) and incorrect color and shape."
       }
     },
     {
@@ -7252,7 +7248,7 @@
             {
               "label": "front_left",
               "pen_a": 6.0,
-              "pen_b": 5.0
+              "pen_b": 5.5
             },
             {
               "label": "front_right",
@@ -7276,7 +7272,7 @@
           "source": "strong_voter",
           "best_view": {
             "penalty_a": 6.0,
-            "penalty_b": 6.5
+            "penalty_b": 6.0
           },
           "artifact_compare": {
             "penalty_a": 6.0,
@@ -7344,7 +7340,7 @@
           }
         },
         "decided_by": "S2 strong_voter [cl|-11|]",
-        "issues": "Model A lacks the wide brim, fur pom-pom, and accurate shape details; Model B has incorrect color scheme, simplified shapes, and missing key features like the brim and pom-pom."
+        "issues": "Model A lacks the wide brim, fur pom-pom, and correct hat shape; Model B has incorrect color scheme, missing fur pom-pom, and distorted hat geometry."
       }
     }
   ]
