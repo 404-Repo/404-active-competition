@@ -28,12 +28,12 @@
   },
   "5H9bvDjbYHpCwDfPkcak8wVSAPtkCfb6n9MpVMAvRD3JMkbL": {
     "hotkey": "5H9bvDjbYHpCwDfPkcak8wVSAPtkCfb6n9MpVMAvRD3JMkbL",
-    "outcome": "failed",
-    "score": -4,
+    "outcome": "passed",
+    "score": 2,
     "total_prompts": 128,
     "checked_prompts": 128,
-    "drawn": 24,
-    "reason": "score=-4 < 0 over 128 checked (104 decided, 24 drawn)"
+    "drawn": 20,
+    "reason": "score=2 ≥ 0 over 128 checked (108 decided, 20 drawn)"
   },
   "5HgGDgMf4VEwRdVNdoXRMaqATbws8PrBe8qRbaAmiVSGy2Up": {
     "hotkey": "5HgGDgMf4VEwRdVNdoXRMaqATbws8PrBe8qRbaAmiVSGy2Up",
