@@ -1,10 +1,15 @@
 {
   "miner-04-leader-0": {
     "pod_id": "miner-04-leader-0",
-    "provider": "verda",
-    "batch_times": [],
-    "total_generation_time": 0.0,
-    "termination_reason": "requested",
+    "provider": "runpod",
+    "batch_times": [
+      951.7835667878389,
+      1111.5498058274388,
+      890.301874063909,
+      941.9477601200342
+    ],
+    "total_generation_time": 3895.583006799221,
+    "termination_reason": "completed",
     "payload": null
   }
 }
