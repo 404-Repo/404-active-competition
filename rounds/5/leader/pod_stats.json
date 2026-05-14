@@ -1,14 +1,15 @@
 {
-  "miner-05-leader-0": {
+  "miner-05-leader-0-r1": {
     "pod_id": "miner-05-leader-0",
+    "repeat_index": 1,
     "provider": "runpod",
     "batch_times": [
-      1190.7066145315766,
-      1232.9314957633615,
-      1129.5414198338985,
-      1169.5075154975057
+      1327.0280817747116,
+      1207.0226892009377,
+      1255.076519832015,
+      1202.1655991747975
     ],
-    "total_generation_time": 4722.687045626342,
+    "total_generation_time": 4991.292889982462,
     "termination_reason": "completed",
     "payload": null
   }
