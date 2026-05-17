@@ -4,7 +4,7 @@
     "commit": "d52a5b84149c815698efa236ba4845b2705a15bb",
     "revealed_at_block": 8180616,
     "tag": "d52a5b8-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5C5Ni3xED3RmF6QXLc8drg2Wm3WV7bZ7GsQsuKimMqym3fvP": {
@@ -12,7 +12,7 @@
     "commit": "f93896464d1630cea9592ce5cd499f0d229ec54d",
     "revealed_at_block": 8180616,
     "tag": "f938964-threejs-6",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5DhWXBa6797oLDCSL3twzJni8EGz8qiAVfzuM8Csx3avoFNX": {
@@ -20,7 +20,7 @@
     "commit": "55edcc8c70bcf6cc625a9e748cf82a7fdfb1f943",
     "revealed_at_block": 8180617,
     "tag": "55edcc8-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5ExgC2o4KF3afjTeYzx3uTbtfoVyCCUfxiwbdKPRqaqcYKY4": {
@@ -28,7 +28,7 @@
     "commit": "f75ddb342daf403714df11a0c602d124129c8465",
     "revealed_at_block": 8180617,
     "tag": "f75ddb3-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5FWEHD7wgy8GMrSC1JWTvHBUPfrHQV8ZcgNWCdF4eb6kMwUt": {
@@ -36,7 +36,7 @@
     "commit": "f4a0b9a647b844c2af128a5232aabac83b1393e2",
     "revealed_at_block": 8180618,
     "tag": "f4a0b9a-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5Fs844KLMnqRJq1yoCiiJjK6RGNsVLJ2gxpAsy6CoXs1YC7E": {
@@ -44,15 +44,15 @@
     "commit": "b3c3f8113dac88675cb6085f14715043e4500835",
     "revealed_at_block": 8180618,
     "tag": "b3c3f81-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fs844klmn:b3c3f81-threejs-6"
   },
   "5CJuMJ3xc7swohhb5aedPvZXJ1n7k95YnvWhT77cCVp5R5nJ": {
     "repo": "Uglejo/trenzik",
     "commit": "16edd723ebfb5bbc7099925b04c482fbff92a695",
     "revealed_at_block": 8180619,
     "tag": "16edd72-threejs-6",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5E1kCdhBnxgtMun9ERi7YJbGKMsJpuzpWoVNXdJFB7ejmo5Z": {
@@ -60,7 +60,7 @@
     "commit": "e09034443c525f1398168246fcafd073cae6796e",
     "revealed_at_block": 8180619,
     "tag": "e090344-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5E7gx6uBoMn4LsDmLe5xNeNVw9X3dc8THRzvqtfEvHjv7qMw": {
@@ -68,7 +68,7 @@
     "commit": "3c82414efbaeebf383f1ec383615f59e7c518538",
     "revealed_at_block": 8180620,
     "tag": "3c82414-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5HQVgtK5qV2RGXqAYPXagTUtwUB7KCPuoqLakmuH5JpdJVaw": {
@@ -76,7 +76,7 @@
     "commit": "9dd63d023233ab5d86b6a32f3a36bdc82304fa74",
     "revealed_at_block": 8180620,
     "tag": "9dd63d0-threejs-6",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Dxw1CC8KpLjD2xGF4kTyfNQK8P6e7v54LzccUdMLMJ9Vqps": {
@@ -84,7 +84,7 @@
     "commit": "316fc2863c9807fe40f3501406214a9ae623be82",
     "revealed_at_block": 8180638,
     "tag": "316fc28-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5E4yymYX8hgqTG3BR2EuRk1DYd5gYxHuks6Xq4WU3wbajzRp": {
@@ -92,15 +92,15 @@
     "commit": "12b2541e368dae4bc577d1291aa8c72e1924553f",
     "revealed_at_block": 8180639,
     "tag": "12b2541-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e4yymyx8h:12b2541-threejs-6"
   },
   "5Gdoar98ukJYAdR7CWUdXu2twsGBYvUKoHkAJxfQfSe6SQug": {
     "repo": "Uglejo/code-furnace",
     "commit": "fd6e5a3c9a20ca5819cb00359a757ac5aa3b8033",
     "revealed_at_block": 8180639,
     "tag": "fd6e5a3-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5GH1yvkPCTpFLY5vaEhfh3pBhUABrtMmcAb8HJcDDn3ryjTZ": {
@@ -108,7 +108,7 @@
     "commit": "7bf600f44ef91195a68aaccc3af7c850bfed0763",
     "revealed_at_block": 8180639,
     "tag": "7bf600f-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5Djx9kScy7U2nUmZsFPNwuH3LWAXGR6GuoXBv7UWmgaZLqdz": {
@@ -116,7 +116,7 @@
     "commit": "9bcb271d69cfac2c9c8e1e173b53e40317959936",
     "revealed_at_block": 8180639,
     "tag": "9bcb271-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5En4U32C57dPCV5X1tQaDvGwWSKSdHyFuJz525mqWjyyPwcy": {
@@ -124,7 +124,7 @@
     "commit": "90492fee5a6b193a08a59e1a47a0771bc83c12b4",
     "revealed_at_block": 8180639,
     "tag": "90492fe-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5DLKzFZFKL1v71v6y39LHPqeRf2iR5cR8yCChqaa3vDM1rYD": {
@@ -132,31 +132,31 @@
     "commit": "fa72f44eb552d902c93b550db1d78a5236d4486c",
     "revealed_at_block": 8180640,
     "tag": "fa72f44-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dlkzfzfkl:fa72f44-threejs-6"
   },
   "5F6aRio7TBik1EodJVeMy6k8KXcaEoc1LFELV8E6oTQoRyjV": {
     "repo": "Fluxmire/enigma-miniature",
     "commit": "c15db5f80cba1cf991b48df84f045ef1754f2ecf",
     "revealed_at_block": 8180653,
     "tag": "c15db5f-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f6ario7tb:c15db5f-threejs-6"
   },
   "5DfiVkeWFAGDqUE1cEuFUX3ubB1tUXpJo1eK6i864PZvpshb": {
     "repo": "Uglejo/echo-runtime",
     "commit": "a04c38261da766f95212f2c5839f2e1efc08423f",
     "revealed_at_block": 8188930,
     "tag": "a04c382-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dfivkewfa:a04c382-threejs-6"
   },
   "5HddK3Uh1Hdrx9Uvv6qKqoqvQynReQ3RqtQuPD6q8bp2QgKR": {
     "repo": "Uglejo/data-basilisk",
     "commit": "104b8bca9d19e847cd016aeeff48d71f310a263c",
     "revealed_at_block": 8188930,
     "tag": "104b8bc-threejs-6",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EPGbFrb3BsgXVs1DaB9ReRQGZZxTNzHPABZuJHP3jrc3jST": {
@@ -164,31 +164,31 @@
     "commit": "5310a9c935b8f57fd888265e3838e624f2d758f9",
     "revealed_at_block": 8188930,
     "tag": "5310a9c-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5epgbfrb3b:5310a9c-threejs-6"
   },
   "5G9t6QcJTVWkLsT3u7F1eLXDn4xQ7MoXnuBTEBVhXq6NQ4xG": {
     "repo": "huynh-zenai/putithere",
     "commit": "b9b8130dbad4c4f37fecd832bf4e0f702d90860a",
     "revealed_at_block": 8195231,
     "tag": "b9b8130-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5g9t6qcjtv:b9b8130-threejs-6"
   },
   "5D1y3ki9Gb2PhSeGZLdKw6NEBggjCJoLaSwfZPQYRZmZuBjD": {
     "repo": "huypg-zenai/alo1",
     "commit": "54663e87da78beb8644c630ffb3f521c3e655716",
     "revealed_at_block": 8195297,
     "tag": "54663e8-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5d1y3ki9gb:54663e8-threejs-6"
   },
   "5H8ophuGFmq1H1uZ1RrReQ5ZrJWr9LgVppzK9ZrsTNfAJEx4": {
     "repo": "morphozhub/lathemix",
     "commit": "735a99348a0829a1b851b01d982423d95623dfc6",
     "revealed_at_block": 8196379,
     "tag": "735a993-threejs-6",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DPWTe7dDaaibdJepuhzYJyVBN8vBn13ngWPwVg6LJdpiF8G": {
@@ -196,15 +196,15 @@
     "commit": "3baa3229112ccd2c6c397e927af5ee6c97d312ec",
     "revealed_at_block": 8197617,
     "tag": "3baa322-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dpwte7dda:3baa322-threejs-6"
   },
   "5GbEreVpc4AqUiuHQUTethLyAFdPJJkAcznWLZXafk4rhHdc": {
     "repo": "Uglejo/graphite-mesh",
     "commit": "9bdb4edfd67376917ea7033c1fb36fd636da447d",
     "revealed_at_block": 8198123,
     "tag": "9bdb4ed-threejs-6",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5DCceextJ25dS1ZHERv7Td7qkoGYniDw3TEvSsjvnR5B7uop": {
@@ -212,8 +212,8 @@
     "commit": "ea0693cc14cdc9e74bd2f5d4785797d06fc3fffb",
     "revealed_at_block": 8198124,
     "tag": "ea0693c-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dcceextj2:ea0693c-threejs-6"
   },
   "5HgFLnnNj27wEq9WPNwjG6QTzcSZGU7mAZHYBMo3JUhc9DeC": {
     "repo": "Uglejo/micro-orbit",
@@ -228,7 +228,7 @@
     "commit": "912145b07030882420080c78328d199339e21dcc",
     "revealed_at_block": 8200626,
     "tag": "912145b-threejs-6",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Gzki9BoAZVBC7bGVmjdcXwAGsjA3zGwSMiT2B1mM1bg77ea": {
@@ -236,7 +236,7 @@
     "commit": "755e90d135df014165adfb09a23a8c8c899831f9",
     "revealed_at_block": 8200626,
     "tag": "755e90d-threejs-6",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EeRZbouPvGvRZ4mcqbJsjHg7FSd9kxRDh7Q4dot59AT7i5L": {
@@ -244,47 +244,47 @@
     "commit": "649461584d8d80dbe91acc9e21b354e026d86993",
     "revealed_at_block": 8200725,
     "tag": "6494615-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eerzboupv:6494615-threejs-6"
   },
   "5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF": {
     "repo": "Fluxmire/symmetrical-octo-waffle",
     "commit": "31af1f292e3513a82b75f3f03bf12ce6902c5e02",
     "revealed_at_block": 8200725,
     "tag": "31af1f2-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5cd8dxzgxq:31af1f2-threejs-6"
   },
   "5FxWVY4NwvYvXJkLC9x5UJAWSZnpvQZEBgVTGsHjMiJKbNky": {
     "repo": "huypg-zenai/alo2",
     "commit": "168e14caef9e93a613a4c0dfd623450e95599f07",
     "revealed_at_block": 8200751,
     "tag": "168e14c-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fxwvy4nwv:168e14c-threejs-6"
   },
   "5ELoQxfLuzMobTVuywjSJjHfZrQhz1bzbxb2yygX5yox9NQB": {
     "repo": "Fluxmire/upgraded-telegram",
     "commit": "7cae786071918aecdbb0e3bbf8ddb27ee2ca22ad",
     "revealed_at_block": 8200925,
     "tag": "7cae786-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eloqxfluz:7cae786-threejs-6"
   },
   "5DoTES2gKUKE67h7D6qQ54UXUwqTDdk9aV5kLN7DYZuzJjHG": {
     "repo": "Fluxmire/stunning-pancake",
     "commit": "40f0b4025e09dd8a17d4b0f56deddbc38481f57c",
     "revealed_at_block": 8200925,
     "tag": "40f0b40-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dotes2gku:40f0b40-threejs-6"
   },
   "5GRfjMnqxFAtPNXzgTAgprm361adtSLcQfaVPtcfMPVEV4Ux": {
     "repo": "huypg-zenai/alo3",
     "commit": "3a5b060dccd865f2c1008e9b12f4f40202ae29fd",
     "revealed_at_block": 8200993,
     "tag": "3a5b060-threejs-6",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DJHG8HVtRCmHk3LnJho4YecVgafJo6AByTcwDtshWDhS1vD": {
@@ -292,63 +292,63 @@
     "commit": "a536ca3ea73b14845dd4e8c1fe22daa3834063f0",
     "revealed_at_block": 8201070,
     "tag": "a536ca3-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5djhg8hvtr:a536ca3-threejs-6"
   },
   "5En5h66xHSPrXtepPcTLmHgH8aFbGhnmaU1tFQ6irGXiYkiN": {
     "repo": "huynh-zenai/grass",
     "commit": "bb955bd777ae7fafae6d91742c4e41dbcb3f2ccf",
     "revealed_at_block": 8201558,
     "tag": "bb955bd-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5en5h66xhs:bb955bd-threejs-6"
   },
   "5Evt9QSAh4CLTNQ5Sq6d1zVga6nKLpfVFwsGvbHtj4hSJ3sA": {
     "repo": "loquacious-octopus/silver-grove",
     "commit": "44d1ac6149dd01e26aae7ee51bb7c794b1764c41",
     "revealed_at_block": 8201916,
     "tag": "44d1ac6-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5evt9qsah4:44d1ac6-threejs-6"
   },
   "5Ckkr8PhEHnJjfTkD4wHMA5rXWG4QK8KR9BAiNiWpb3P5WSv": {
     "repo": "loquacious-octopus/brisk-citadel",
     "commit": "13fcfb10238ba2a9e6206822beb5c83b0f6b2cdd",
     "revealed_at_block": 8201920,
     "tag": "13fcfb1-threejs-6",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5ckkr8pheh:13fcfb1-threejs-6"
   },
   "5ELwuEcmEssz8FbKBURCCTmTdFLJje8qDucNBECWSLHcF59B": {
     "repo": "loquacious-octopus/quiet-lantern",
     "commit": "4628c029ff35811a366a64f3e168c10be9a9e948",
     "revealed_at_block": 8201923,
     "tag": "4628c02-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5elwuecmes:4628c02-threejs-6"
   },
   "5FcYvtcCyudFQp3z5Uyvz1JPfgPevAJRwwwNQJ822pUN7LY8": {
     "repo": "loquacious-octopus/bright-anchor",
     "commit": "4b7799e7636c8c70649d618b35d8a0ab582e91c7",
     "revealed_at_block": 8201927,
     "tag": "4b7799e-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fcyvtccyu:4b7799e-threejs-6"
   },
   "5F3v8Kd41wz8SGyRPyb27LPY3rByVF3kwCAiG5QpJrnQA85Z": {
     "repo": "loquacious-octopus/calm-summit",
     "commit": "777c2df9a0ccffce856048812f66e32f6afb6eb5",
     "revealed_at_block": 8201930,
     "tag": "777c2df-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f3v8kd41w:777c2df-threejs-6"
   },
   "5F1dFazMYBsNZjm9YjzpAubQSsY2BKvVxJDwZFcjHrJkETKR": {
     "repo": "Fluxmire/super-duper-octo-chainsaw",
     "commit": "afad8bb93e1fb404ae5c547fface7ee55288ee9e",
     "revealed_at_block": 8201944,
     "tag": "afad8bb-threejs-6",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f1dfazmyb:afad8bb-threejs-6"
   }
 }
