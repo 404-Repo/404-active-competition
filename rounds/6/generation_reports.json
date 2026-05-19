@@ -48,5 +48,30 @@
       }
     ],
     "reason": ""
+  },
+  "5Gzki9BoAZVBC7bGVmjdcXwAGsjA3zGwSMiT2B1mM1bg77ea": {
+    "hotkey": "5Gzki9BoAZVBC7bGVmjdcXwAGsjA3zGwSMiT2B1mM1bg77ea",
+    "outcome": "completed",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6205.478989429772
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6141.949250802398
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 127,
+        "failed_prompts": 1,
+        "generation_time": 6125.637077376246
+      }
+    ],
+    "reason": ""
   }
 }
