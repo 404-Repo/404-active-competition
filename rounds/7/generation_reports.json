@@ -23,5 +23,30 @@
       }
     ],
     "reason": ""
+  },
+  "5DX28pu2Zjjg9d5rGihvdBfmg5gP2uVPUMMiTvkUsrvJF3pN": {
+    "hotkey": "5DX28pu2Zjjg9d5rGihvdBfmg5gP2uVPUMMiTvkUsrvJF3pN",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7539.485294394195
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7531.969123288989
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7389.779140919447
+      }
+    ],
+    "reason": "Repeat 1: time (7539.5s) exceeds limit (7200.0s); Repeat 2: time (7532.0s) exceeds limit (7200.0s); Repeat 3: time (7389.8s) exceeds limit (7200.0s)"
   }
 }
