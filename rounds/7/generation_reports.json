@@ -48,5 +48,30 @@
       }
     ],
     "reason": "Repeat 1: time (7539.5s) exceeds limit (7200.0s); Repeat 2: time (7532.0s) exceeds limit (7200.0s); Repeat 3: time (7389.8s) exceeds limit (7200.0s)"
+  },
+  "5EXH17xsM187Fj4XrmDAFJXUiYDcFBi8zbdPBV47CBKQRyai": {
+    "hotkey": "5EXH17xsM187Fj4XrmDAFJXUiYDcFBi8zbdPBV47CBKQRyai",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7479.965086109936
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7488.267843939364
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7627.341080412269
+      }
+    ],
+    "reason": "Repeat 1: time (7480.0s) exceeds limit (7200.0s); Repeat 2: time (7488.3s) exceeds limit (7200.0s); Repeat 3: time (7627.3s) exceeds limit (7200.0s)"
   }
 }
