@@ -1,0 +1,42 @@
+{
+  "miner-07-5exh17xsm1-0-r1": {
+    "pod_id": "miner-07-5exh17xsm1-0",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1766.6569379344583,
+      1992.3698378875852,
+      1826.4209481999278,
+      1894.517362087965
+    ],
+    "total_generation_time": 7479.965086109936,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-07-5exh17xsm1-0-r2": {
+    "pod_id": "miner-07-5exh17xsm1-0",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1780.1954110115767,
+      2000.6732846423984,
+      1839.7085407972336,
+      1867.6906074881554
+    ],
+    "total_generation_time": 7488.267843939364,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-07-5exh17xsm1-0-r3": {
+    "pod_id": "miner-07-5exh17xsm1-0",
+    "repeat_index": 3,
+    "provider": "runpod",
+    "batch_times": [
+      1821.4681184440851,
+      1969.4811459183693
+    ],
+    "total_generation_time": 3790.9492643624544,
+    "termination_reason": "download_failed",
+    "payload": null
+  }
+}
