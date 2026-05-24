@@ -73,5 +73,30 @@
       }
     ],
     "reason": ""
+  },
+  "5HJvp6ZSTt9qV3sLnrwqsmQX4AibV2WcyzERxGz9qo87hcGq": {
+    "hotkey": "5HJvp6ZSTt9qV3sLnrwqsmQX4AibV2WcyzERxGz9qo87hcGq",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 54,
+        "failed_prompts": 74,
+        "generation_time": 5963.650290206075
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 49,
+        "failed_prompts": 79,
+        "generation_time": 5982.4683286473155
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 50,
+        "failed_prompts": 78,
+        "generation_time": 5581.773936584592
+      }
+    ],
+    "reason": "Repeat 1: 74 failed prompts exceed tolerance (12); Repeat 2: 79 failed prompts exceed tolerance (12); Repeat 3: 78 failed prompts exceed tolerance (12)"
   }
 }
