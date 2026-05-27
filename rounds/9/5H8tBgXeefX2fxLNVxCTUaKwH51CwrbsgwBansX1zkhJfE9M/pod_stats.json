@@ -16,5 +16,47 @@
     "total_generation_time": 0.0,
     "termination_reason": "requested",
     "payload": null
+  },
+  "miner-09-5h8tbgxeef-2-r1": {
+    "pod_id": "miner-09-5h8tbgxeef-2",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1113.0003420338035,
+      1078.3451417684555,
+      890.5536165833473,
+      1257.3483133167028
+    ],
+    "total_generation_time": 4339.247413702309,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-09-5h8tbgxeef-2-r2": {
+    "pod_id": "miner-09-5h8tbgxeef-2",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1173.0174778699875,
+      1068.6326817721128,
+      1017.1775607913733,
+      1100.6711066290736
+    ],
+    "total_generation_time": 4359.498827062547,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-09-5h8tbgxeef-2-r3": {
+    "pod_id": "miner-09-5h8tbgxeef-2",
+    "repeat_index": 3,
+    "provider": "runpod",
+    "batch_times": [
+      1110.8944586589932,
+      995.7404534518719,
+      912.4568084925413,
+      1057.7067127972841
+    ],
+    "total_generation_time": 4076.7984334006906,
+    "termination_reason": "completed",
+    "payload": null
   }
 }
