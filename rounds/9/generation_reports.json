@@ -148,5 +148,30 @@
       }
     ],
     "reason": ""
+  },
+  "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf": {
+    "hotkey": "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf",
+    "outcome": "completed",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 125,
+        "failed_prompts": 3,
+        "generation_time": 6069.522888720036
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 127,
+        "failed_prompts": 1,
+        "generation_time": 5879.626942873001
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 127,
+        "failed_prompts": 1,
+        "generation_time": 5850.605426624417
+      }
+    ],
+    "reason": ""
   }
 }
