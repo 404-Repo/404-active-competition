@@ -98,5 +98,30 @@
       }
     ],
     "reason": "Repeat 1: 128 failed prompts exceed tolerance (12); Repeat 2: 128 failed prompts exceed tolerance (12); Repeat 3: 128 failed prompts exceed tolerance (12)"
+  },
+  "5FF5opUuiLneZvN7j5cSLCjjGt967b8Ew3uLT1BwuMGwaqhP": {
+    "hotkey": "5FF5opUuiLneZvN7j5cSLCjjGt967b8Ew3uLT1BwuMGwaqhP",
+    "outcome": "completed",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5350.501954339445
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5115.266170963645
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5118.762572295964
+      }
+    ],
+    "reason": ""
   }
 }
