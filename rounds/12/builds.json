@@ -12,7 +12,7 @@
     "commit": "1106bfb242a5732bcd8c474ec7106bdb8ad905ff",
     "revealed_at_block": 8310204,
     "tag": "1106bfb-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5GZSyVqHsTQK8BFLpTrKSFTYjffUGC1dY6fNxA9LnSCFLo7G": {
@@ -124,7 +124,7 @@
     "commit": "05a893e79c9cf08fbc7a5bb7e6ef997162726675",
     "revealed_at_block": 8310233,
     "tag": "05a893e-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5D7qugUXqThX5obTBfke1q6P8V6QGn2ii882z9xjDJgNCeNc": {
@@ -148,7 +148,7 @@
     "commit": "07f5aca6905477d2e5c01efbadfa709f406839b1",
     "revealed_at_block": 8310233,
     "tag": "07f5aca-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS": {
@@ -156,7 +156,7 @@
     "commit": "d5106308459835653a18c33c8e5908c4d74c338c",
     "revealed_at_block": 8310234,
     "tag": "d510630-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5GgNFTyDKaufv1wLKQCjrcGUxujt1jg4jbFZYJnhv245cTsM": {
@@ -180,7 +180,7 @@
     "commit": "99ae813104bef37b05fab754549850ebc5c8e929",
     "revealed_at_block": 8310234,
     "tag": "99ae813-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5FcKB8JfSurdR5TLv9vqsiNVefYKGvd4ZQx3ojLMp9JAXzME": {
@@ -188,7 +188,7 @@
     "commit": "04008e4617a9717ede8f820ada92b27655e77843",
     "revealed_at_block": 8310248,
     "tag": "04008e4-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5GgEDzkWvGyQQSpXJ3Yxbdi981iK9CHyjqs1vzvLuPJMx7rk": {
@@ -212,7 +212,7 @@
     "commit": "fac8ffacd75fd6cfb20289cb93a53390ced648c8",
     "revealed_at_block": 8310249,
     "tag": "fac8ffa-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EfAQLaGQz6o7AJcuSeTbMxwb9BScHA2W9WmjjBVqtanr22R": {
@@ -220,7 +220,7 @@
     "commit": "bf7d9e338f85263c6088764a254ef4ff7b5027a1",
     "revealed_at_block": 8310249,
     "tag": "bf7d9e3-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5FsXdxB3TJ6oRt6zYzux45eDivwZxthQTGqf2gdAx7yWh4D1": {
@@ -268,7 +268,7 @@
     "commit": "ffbad09b3e280e3a70ad1230e34073598100da21",
     "revealed_at_block": 8310256,
     "tag": "ffbad09-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EvWt42rQy9sWXq5GkP6THgojKsVKemo7HZFBdjLBhpqgNSJ": {
@@ -276,8 +276,8 @@
     "commit": "9ea7bbebcd27e7fd857ec2f0307af0138e622558",
     "revealed_at_block": 8310256,
     "tag": "9ea7bbe-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5evwt42rqy:9ea7bbe-threejs-12"
   },
   "5Gj2dmSDgj9nkSSJX5gUYgxpzZMrRGsBgohPfujkzcCLvY3c": {
     "repo": "mokabetrade/ironfox-daemon",
@@ -300,8 +300,8 @@
     "commit": "35775013cffcf6a2917be46fd38e463c503b91db",
     "revealed_at_block": 8310275,
     "tag": "3577501-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eua1oqqym:3577501-threejs-12"
   },
   "5H74pChwrZW97jTeKmujnNf6hcV6QzBK9Lr8qSo5Ws9XukRY": {
     "repo": "TSH483/DoubleRabbits",
@@ -380,8 +380,8 @@
     "commit": "2a66db06222dfa4b6c0e658a790e9603c82decf9",
     "revealed_at_block": 8310298,
     "tag": "2a66db0-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eeyvqsfh5:2a66db0-threejs-12"
   },
   "5HTW4RXQMzw38TryuNQo4xwkqXhsR7qJYosgXDd1PJzgd3PW": {
     "repo": "yuriidev07/Microsoft",
@@ -436,7 +436,7 @@
     "commit": "68003a7b11081755550356e0a43615de0d26e341",
     "revealed_at_block": 8310353,
     "tag": "68003a7-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5C5AsCSxckXFgxYrWzZoVt1CftBkXiEohq2b3FnVZPwL9ycp": {
@@ -460,8 +460,8 @@
     "commit": "f030d7e5f909b2077533cb8d803ceaa66e72514c",
     "revealed_at_block": 8310364,
     "tag": "f030d7e-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5flnospevw:f030d7e-threejs-12"
   },
   "5DPWTe7dDaaibdJepuhzYJyVBN8vBn13ngWPwVg6LJdpiF8G": {
     "repo": "huypg-zenai/ore3",
@@ -484,8 +484,8 @@
     "commit": "d9463253421efb64823b7dcb301ad351f31d79b9",
     "revealed_at_block": 8310378,
     "tag": "d946325-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5en5h66xhs:d946325-threejs-12"
   },
   "5GRfjMnqxFAtPNXzgTAgprm361adtSLcQfaVPtcfMPVEV4Ux": {
     "repo": "huypg-zenai/spec4",
@@ -508,7 +508,7 @@
     "commit": "77ba1761909dd424a5cf3de59914b5888f2c65d4",
     "revealed_at_block": 8312249,
     "tag": "77ba176-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Ckkr8PhEHnJjfTkD4wHMA5rXWG4QK8KR9BAiNiWpb3P5WSv": {
@@ -556,8 +556,8 @@
     "commit": "a5f69294499ff50b5a25692cb0be784bfe5e20d0",
     "revealed_at_block": 8325001,
     "tag": "a5f6929-threejs-12",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eedbizrin:a5f6929-threejs-12"
   },
   "5HanjL5MJCkUVWjKTEFhzqjy3yVraYrWJopVm5GzYNpzYhF5": {
     "repo": "crismacv/r12-miner",
@@ -636,8 +636,8 @@
     "commit": "76efac982d872355bbc80904ec7fb038579b40b7",
     "revealed_at_block": 8327608,
     "tag": "76efac9-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fey5v5h3a:76efac9-threejs-12"
   },
   "5HNbCuMPbS4hRMkxWRQb9gVVxhk6DkmHantG8Ac8fXoi94y5": {
     "repo": "huypg-zenai/pea4",
@@ -652,23 +652,23 @@
     "commit": "86126e0aaa77fd7342706f9609daa8d324c267b1",
     "revealed_at_block": 8330976,
     "tag": "86126e0-threejs-12",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5elwuecmes:86126e0-threejs-12"
   },
   "5F6aRio7TBik1EodJVeMy6k8KXcaEoc1LFELV8E6oTQoRyjV": {
     "repo": "Fluxmire/didactic-pancake",
     "commit": "a22fb7032695d699df2f2f17dc09858b01a61ae6",
     "revealed_at_block": 8331523,
     "tag": "a22fb70-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f6ario7tb:a22fb70-threejs-12"
   },
   "5EeRZbouPvGvRZ4mcqbJsjHg7FSd9kxRDh7Q4dot59AT7i5L": {
     "repo": "Fluxmire/glowing-robot",
     "commit": "c9bcb4b81a39d73e395c41f5853c2c4042a40e07",
     "revealed_at_block": 8331619,
     "tag": "c9bcb4b-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eerzboupv:c9bcb4b-threejs-12"
   }
 }
