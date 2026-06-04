@@ -84,7 +84,7 @@
     "commit": "98ef7df467b73d2f6e38b02f9feb85ab2b379a89",
     "revealed_at_block": 8310216,
     "tag": "98ef7df-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk": {
@@ -92,7 +92,7 @@
     "commit": "0e2c8f53511c8c8e73b210c9d835336a9c4b7340",
     "revealed_at_block": 8310216,
     "tag": "0e2c8f5-threejs-12",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DkXN7ud64FgVx1TcdpaBqaehCKRgjpy5jFP5NYTHtELJ4xG": {
@@ -332,7 +332,7 @@
     "commit": "8b2547646c7e6afec4e96607da1d99e785820777",
     "revealed_at_block": 8310275,
     "tag": "8b25476-threejs-12",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5Gdk9pEHKZi6rX6q5F9aa4uBzTaS8n1Pq3dmoQEnSuGAwLUS": {
@@ -524,8 +524,8 @@
     "commit": "f02bdfc21948002f847aa9a29a39aaf52d3a03d2",
     "revealed_at_block": 8319635,
     "tag": "f02bdfc-threejs-12",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7fuu3re5:f02bdfc-threejs-12"
   },
   "5CwmaRVvvAqeETVuvKwtmmr2iqVd9NGqAsJnRWEorKyg4noR": {
     "repo": "TuttiGenerator/animated-copper",
@@ -572,8 +572,8 @@
     "commit": "dd4a55061b293b0bc877a16bb49072b5bf24a74a",
     "revealed_at_block": 8327308,
     "tag": "dd4a550-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dlkzfzfkl:dd4a550-threejs-12"
   },
   "5GgMJV2nfnJP5ge2JmcoejC3YZSEo5DWDktBNt9LCfvar9hZ": {
     "repo": "Fluxmire/curly-happiness",
@@ -628,8 +628,8 @@
     "commit": "5b4778e65b12640697a9c782d200c173b14ae8ef",
     "revealed_at_block": 8327608,
     "tag": "5b4778e-threejs-12",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dfgtwcmb5:5b4778e-threejs-12"
   },
   "5FEy5v5H3ABUHCPQcqhYUvQGaasjhzomBFzyKKsVXyaqwZvt": {
     "repo": "huypg-zenai/spec22",
