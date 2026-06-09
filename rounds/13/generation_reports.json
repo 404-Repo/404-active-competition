@@ -131,5 +131,18 @@
       }
     ],
     "reason": ""
+  },
+  "5DFGtwcMb5Zeva3KEEyGihaZoGoQPoDmZv25sZJupDvoFdio": {
+    "hotkey": "5DFGtwcMb5Zeva3KEEyGihaZoGoQPoDmZv25sZJupDvoFdio",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 79,
+        "failed_prompts": 49,
+        "generation_time": 6560.2979825511575
+      }
+    ],
+    "reason": "Repeat 1: 49 failed prompts exceed tolerance (12)"
   }
 }
