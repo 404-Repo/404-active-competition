@@ -92,7 +92,7 @@
     "commit": "14f5e47c1ac6ecc9a2036133514da2c22928a544",
     "revealed_at_block": 8353408,
     "tag": "14f5e47-threejs-14",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5C5AsCSxckXFgxYrWzZoVt1CftBkXiEohq2b3FnVZPwL9ycp": {
@@ -100,8 +100,8 @@
     "commit": "08b8328557b71ec41bee7c6e866fdde55c07dc89",
     "revealed_at_block": 8353416,
     "tag": "08b8328-threejs-14",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c5ascsxck:08b8328-threejs-14"
   },
   "5GUNECfUwTFCgCbR5uppMS9PogXjCL4WJeKaAk7QWaqk9byz": {
     "repo": "huypg-zenai/river2",
@@ -156,7 +156,7 @@
     "commit": "a218f6507b01a3ced44866d4678dc86f5535e5c2",
     "revealed_at_block": 8353426,
     "tag": "a218f65-threejs-14",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EyWqtoQkQCHFKNGkbCu1p7YCa6HhQHxXmNm2S9Jra3B9Yeg": {
@@ -228,16 +228,16 @@
     "commit": "d061d0015b25727ab414837d4c8f0f40a0dfdc27",
     "revealed_at_block": 8353431,
     "tag": "d061d00-threejs-14",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5d1y3ki9gb:d061d00-threejs-14"
   },
   "5C7fUU3RE5iMsCtZqRedkZDQYobEMi7R7SeC8MqkRATm5uAN": {
     "repo": "huypg-zenai/ore3",
     "commit": "f02bdfc21948002f847aa9a29a39aaf52d3a03d2",
     "revealed_at_block": 8353431,
     "tag": "f02bdfc-threejs-14",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7fuu3re5:f02bdfc-threejs-14"
   },
   "5FLNoSPEvwjgUGATeeAQPV6eEkPUyNqzTJN1bVMAR4524hQo": {
     "repo": "huypg-zenai/ore2",
@@ -468,8 +468,8 @@
     "commit": "8192770b36a553fd3a0ff8adfde7611210435e10",
     "revealed_at_block": 8362312,
     "tag": "8192770-threejs-14",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5d2vzzgayq:8192770-threejs-14"
   },
   "5ExhiJkJubyzciUVj6j4CdLGCTqbbmGteCjJszhS14j1JbSa": {
     "repo": "mokabetrade/zfs-harvester",
@@ -604,7 +604,7 @@
     "commit": "da3a608adbbef1c8ef4f6b686f30d5443df94386",
     "revealed_at_block": 8375002,
     "tag": "da3a608-threejs-14",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EeRZbouPvGvRZ4mcqbJsjHg7FSd9kxRDh7Q4dot59AT7i5L": {
