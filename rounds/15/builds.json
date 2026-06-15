@@ -12,7 +12,7 @@
     "commit": "fd9ae2e0b5c55a4c886dc034396a45ba7e541539",
     "revealed_at_block": 8389390,
     "tag": "fd9ae2e-threejs-15",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5EeRZbouPvGvRZ4mcqbJsjHg7FSd9kxRDh7Q4dot59AT7i5L": {
@@ -36,8 +36,8 @@
     "commit": "c796684abc346cda403a0ee502cf594bdd66d68e",
     "revealed_at_block": 8389390,
     "tag": "c796684-threejs-15",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gzki9boaz:c796684-threejs-15"
   },
   "5D2vwjResmZJ3ZWpX4Z7kG85cZT4Ymd6i1FeE262QNM7ze6L": {
     "repo": "Fluxmire/super-duper-chainsaw",
@@ -220,8 +220,8 @@
     "commit": "ceec273a2ef5c02b1b3c11edf0c476d89a353ab5",
     "revealed_at_block": 8410506,
     "tag": "ceec273-threejs-15",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5hevxjzpzi:ceec273-threejs-15"
   },
   "5C5AsCSxckXFgxYrWzZoVt1CftBkXiEohq2b3FnVZPwL9ycp": {
     "repo": "huypg-zenai/mesiu2",
