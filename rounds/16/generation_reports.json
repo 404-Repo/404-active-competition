@@ -26,7 +26,7 @@
   },
   "5GUNECfUwTFCgCbR5uppMS9PogXjCL4WJeKaAk7QWaqk9byz": {
     "hotkey": "5GUNECfUwTFCgCbR5uppMS9PogXjCL4WJeKaAk7QWaqk9byz",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
@@ -39,6 +39,12 @@
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 3356.82553884387
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 3257.690218307078
       }
     ],
     "reason": ""
