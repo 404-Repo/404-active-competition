@@ -3,5 +3,10 @@
     "hotkey": "5F6aRio7TBik1EodJVeMy6k8KXcaEoc1LFELV8E6oTQoRyjV",
     "reason": "No issues found",
     "verdict": "passed"
+  },
+  {
+    "hotkey": "5EeRZbouPvGvRZ4mcqbJsjHg7FSd9kxRDh7Q4dot59AT7i5L",
+    "reason": "Byte-identical reuse on 7/128 prompts, but net-zero impact on the duel margin (3W-3L-1T); qualification (+18) holds with those prompts excluded - not outcome-determinative.",
+    "verdict": "passed"
   }
 ]
