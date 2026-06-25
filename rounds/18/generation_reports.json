@@ -14,7 +14,7 @@
   },
   "5H1grUKC32Wyq1JVZdKvJsM5vcQgWRv57TEBtmkH3i7nGK4u": {
     "hotkey": "5H1grUKC32Wyq1JVZdKvJsM5vcQgWRv57TEBtmkH3i7nGK4u",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
@@ -27,6 +27,12 @@
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 5428.210015140474
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5511.126582205296
       }
     ],
     "reason": ""
