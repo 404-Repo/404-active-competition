@@ -1,0 +1,3323 @@
+{
+  "left": "leader",
+  "right": "5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS",
+  "score": 102,
+  "margin": 0.796875,
+  "duels": [
+    {
+      "name": "01a208b9d69332c12549e053b74dacaeadab23e0c19192c5543999642ee1c83f",
+      "prompt": "https://sn12domain.org/procgen/01a208b9d69332c12549e053b74dacaeadab23e0c19192c5543999642ee1c83f.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/01a208b9d69332c12549e053b74dacaeadab23e0c19192c5543999642ee1c83f.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/01a208b9d69332c12549e053b74dacaeadab23e0c19192c5543999642ee1c83f/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "089d43302b0feb41a12e097c7b299530f789cb98d231cdc45669ad9332686eca",
+      "prompt": "https://sn12domain.org/procgen/089d43302b0feb41a12e097c7b299530f789cb98d231cdc45669ad9332686eca.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/089d43302b0feb41a12e097c7b299530f789cb98d231cdc45669ad9332686eca.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/089d43302b0feb41a12e097c7b299530f789cb98d231cdc45669ad9332686eca/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/089d43302b0feb41a12e097c7b299530f789cb98d231cdc45669ad9332686eca.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/089d43302b0feb41a12e097c7b299530f789cb98d231cdc45669ad9332686eca/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 7.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.5,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 7.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 7.0
+          },
+          "checklist": {
+            "main_object": "black leather belt",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "square-shaped metallic buckle with a central pin",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "two visible holes on the belt loop for adjustment",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "braided texture on the inner side of the belt",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "black leather material with visible grain texture",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "one small hole on the belt tail for attaching a keeper",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "curved shape of the belt when coiled",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 4,
+            "score_b": 4
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|+2.0|]",
+        "issues": "Model A has simplified geometry and lacks texture details like the woven pattern and leather texture. Model B has incorrect structure with a tire-like belt and misaligned buckle, plus missing holes and incorrect shape."
+      }
+    },
+    {
+      "name": "0986f858717bf00b9ba89a812694ed9000322668581bf7319df78491b28d521e",
+      "prompt": "https://sn12domain.org/procgen/0986f858717bf00b9ba89a812694ed9000322668581bf7319df78491b28d521e.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0986f858717bf00b9ba89a812694ed9000322668581bf7319df78491b28d521e.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0986f858717bf00b9ba89a812694ed9000322668581bf7319df78491b28d521e/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "0ac0637c8197f002e3f37afe91bc5d3ad5647ddb88afb62485b31452939f22dd",
+      "prompt": "https://sn12domain.org/procgen/0ac0637c8197f002e3f37afe91bc5d3ad5647ddb88afb62485b31452939f22dd.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0ac0637c8197f002e3f37afe91bc5d3ad5647ddb88afb62485b31452939f22dd.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0ac0637c8197f002e3f37afe91bc5d3ad5647ddb88afb62485b31452939f22dd/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "0b64778247662c96f32d8acd266c4c23f08042abb03c38beacd7cafe6afd85ab",
+      "prompt": "https://sn12domain.org/procgen/0b64778247662c96f32d8acd266c4c23f08042abb03c38beacd7cafe6afd85ab.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0b64778247662c96f32d8acd266c4c23f08042abb03c38beacd7cafe6afd85ab.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0b64778247662c96f32d8acd266c4c23f08042abb03c38beacd7cafe6afd85ab/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "0cf6a46ae420d4f3febadffd257012b38ab0fb82577792fac92916e9a51b5fe6",
+      "prompt": "https://sn12domain.org/procgen/0cf6a46ae420d4f3febadffd257012b38ab0fb82577792fac92916e9a51b5fe6.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0cf6a46ae420d4f3febadffd257012b38ab0fb82577792fac92916e9a51b5fe6.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0cf6a46ae420d4f3febadffd257012b38ab0fb82577792fac92916e9a51b5fe6/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "0d3d0e247f6077c0644abb33d7e55fc9c04c41fc60574f96a9aa3f38881884ef",
+      "prompt": "https://sn12domain.org/procgen/0d3d0e247f6077c0644abb33d7e55fc9c04c41fc60574f96a9aa3f38881884ef.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/0d3d0e247f6077c0644abb33d7e55fc9c04c41fc60574f96a9aa3f38881884ef.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/0d3d0e247f6077c0644abb33d7e55fc9c04c41fc60574f96a9aa3f38881884ef/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0d3d0e247f6077c0644abb33d7e55fc9c04c41fc60574f96a9aa3f38881884ef.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0d3d0e247f6077c0644abb33d7e55fc9c04c41fc60574f96a9aa3f38881884ef/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color (darker gold), missing details on the eagle's wings and shield, and a distorted wheat sheaf. Model B has simplified eagle features, missing wheat details, and incorrect shape proportions."
+      }
+    },
+    {
+      "name": "0d65d241dcd73194cf0a231f16d3b8cbc287540bf20c4fbf84818a005256b85a",
+      "prompt": "https://sn12domain.org/procgen/0d65d241dcd73194cf0a231f16d3b8cbc287540bf20c4fbf84818a005256b85a.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0d65d241dcd73194cf0a231f16d3b8cbc287540bf20c4fbf84818a005256b85a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/0d65d241dcd73194cf0a231f16d3b8cbc287540bf20c4fbf84818a005256b85a/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "11aa71091bd743f04a7fad3297e4c557f2ef57b45e4b5cd27bebb9965906f76f",
+      "prompt": "https://sn12domain.org/procgen/11aa71091bd743f04a7fad3297e4c557f2ef57b45e4b5cd27bebb9965906f76f.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/11aa71091bd743f04a7fad3297e4c557f2ef57b45e4b5cd27bebb9965906f76f.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/11aa71091bd743f04a7fad3297e4c557f2ef57b45e4b5cd27bebb9965906f76f/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f",
+      "prompt": "https://sn12domain.org/procgen/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "leather bracelet",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "circular shape",
+                "side_a": null,
+                "side_b": null
+              },
+              {
+                "feature": "dark brown leather band",
+                "side_a": null,
+                "side_b": null
+              },
+              {
+                "feature": "central round metal disc",
+                "side_a": null,
+                "side_b": null
+              },
+              {
+                "feature": "three side metal accents",
+                "side_a": null,
+                "side_b": null
+              },
+              {
+                "feature": "metal clasp on one end",
+                "side_a": null,
+                "side_b": null
+              },
+              {
+                "feature": "light brown inner lining",
+                "side_a": null,
+                "side_b": null
+              },
+              {
+                "feature": "multiple small holes for adjustment",
+                "side_a": null,
+                "side_b": null
+              }
+            ],
+            "score_a": 17,
+            "score_b": 17
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect metal colors (silver to gray), missing the central circular metal piece, and simplified buckle. Model B has incorrect metal colors (silver to dark gray), wrong buckle shape, and incorrect inner texture."
+      }
+    },
+    {
+      "name": "14dc8004dcd03031010de03c6cf3769bb1878b86606a8c5ac2ec591eaf688fe7",
+      "prompt": "https://sn12domain.org/procgen/14dc8004dcd03031010de03c6cf3769bb1878b86606a8c5ac2ec591eaf688fe7.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/14dc8004dcd03031010de03c6cf3769bb1878b86606a8c5ac2ec591eaf688fe7.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/14dc8004dcd03031010de03c6cf3769bb1878b86606a8c5ac2ec591eaf688fe7/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "14ec52af462fe686bfed31518f0a8c095838f2f086ee39e4e54a604b856a7dbc",
+      "prompt": "https://sn12domain.org/procgen/14ec52af462fe686bfed31518f0a8c095838f2f086ee39e4e54a604b856a7dbc.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/14ec52af462fe686bfed31518f0a8c095838f2f086ee39e4e54a604b856a7dbc.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/14ec52af462fe686bfed31518f0a8c095838f2f086ee39e4e54a604b856a7dbc/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "19053bf8ed39deb29e8bc8d65c5a838b04205768699cef780b900f03cc0b20d5",
+      "prompt": "https://sn12domain.org/procgen/19053bf8ed39deb29e8bc8d65c5a838b04205768699cef780b900f03cc0b20d5.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/19053bf8ed39deb29e8bc8d65c5a838b04205768699cef780b900f03cc0b20d5.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/19053bf8ed39deb29e8bc8d65c5a838b04205768699cef780b900f03cc0b20d5/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "19fbb743b41b4db0c9c500fbd655ae03f4b1245dd55f5968e2c8447e79142807",
+      "prompt": "https://sn12domain.org/procgen/19fbb743b41b4db0c9c500fbd655ae03f4b1245dd55f5968e2c8447e79142807.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/19fbb743b41b4db0c9c500fbd655ae03f4b1245dd55f5968e2c8447e79142807.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/19fbb743b41b4db0c9c500fbd655ae03f4b1245dd55f5968e2c8447e79142807/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "1a432a564f00eb90152c6b49e370465763a34c2bca1135954fc0eee861c1ebc2",
+      "prompt": "https://sn12domain.org/procgen/1a432a564f00eb90152c6b49e370465763a34c2bca1135954fc0eee861c1ebc2.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/1a432a564f00eb90152c6b49e370465763a34c2bca1135954fc0eee861c1ebc2.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/1a432a564f00eb90152c6b49e370465763a34c2bca1135954fc0eee861c1ebc2/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/1a432a564f00eb90152c6b49e370465763a34c2bca1135954fc0eee861c1ebc2.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/1a432a564f00eb90152c6b49e370465763a34c2bca1135954fc0eee861c1ebc2/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 3.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "closed umbrella",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "red and white diagonal stripes on the canopy",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "tapered metal shaft",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "red handle at the bottom of the shaft",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "silver tip at the top of the shaft",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "canopy is folded and compact",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "single vertical shaft",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 15,
+            "score_b": 15
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|+2.0|]",
+        "issues": "Model A has incorrect umbrella shape and missing details like the folded section at the bottom. Model B has a distorted umbrella shape with incorrect proportions and missing details."
+      }
+    },
+    {
+      "name": "1aa49891a584cb68f6f4e19cb779cf0f3624fd3dd0ebdbe82e98911f41a3bad9",
+      "prompt": "https://sn12domain.org/procgen/1aa49891a584cb68f6f4e19cb779cf0f3624fd3dd0ebdbe82e98911f41a3bad9.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/1aa49891a584cb68f6f4e19cb779cf0f3624fd3dd0ebdbe82e98911f41a3bad9.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/1aa49891a584cb68f6f4e19cb779cf0f3624fd3dd0ebdbe82e98911f41a3bad9/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/1aa49891a584cb68f6f4e19cb779cf0f3624fd3dd0ebdbe82e98911f41a3bad9.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/1aa49891a584cb68f6f4e19cb779cf0f3624fd3dd0ebdbe82e98911f41a3bad9/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect wood texture and color, while Model B has similar issues with wood texture and color, but both models lack the distinct wood grain and color of the reference, with Model A showing more pronounced texture and color inaccuracies."
+      }
+    },
+    {
+      "name": "1cb5357de46383cbef3a7002c288581be809d81875f1580d95964e2f2e83a711",
+      "prompt": "https://sn12domain.org/procgen/1cb5357de46383cbef3a7002c288581be809d81875f1580d95964e2f2e83a711.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/1cb5357de46383cbef3a7002c288581be809d81875f1580d95964e2f2e83a711.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/1cb5357de46383cbef3a7002c288581be809d81875f1580d95964e2f2e83a711/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "210e54e2621b19970521096107308d7f5cc066e6ae6b1e00f1234926030d4f71",
+      "prompt": "https://sn12domain.org/procgen/210e54e2621b19970521096107308d7f5cc066e6ae6b1e00f1234926030d4f71.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/210e54e2621b19970521096107308d7f5cc066e6ae6b1e00f1234926030d4f71.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/210e54e2621b19970521096107308d7f5cc066e6ae6b1e00f1234926030d4f71/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "222e8c94fe38fee64567ecba3770c1c2a72754f7746bb0ebcf444e1406f56ce3",
+      "prompt": "https://sn12domain.org/procgen/222e8c94fe38fee64567ecba3770c1c2a72754f7746bb0ebcf444e1406f56ce3.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/222e8c94fe38fee64567ecba3770c1c2a72754f7746bb0ebcf444e1406f56ce3.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/222e8c94fe38fee64567ecba3770c1c2a72754f7746bb0ebcf444e1406f56ce3/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1",
+      "prompt": "https://sn12domain.org/procgen/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "236563b83bd203dfa807f7e3ce4571e318dff4b101a645df5f65793683d59ac9",
+      "prompt": "https://sn12domain.org/procgen/236563b83bd203dfa807f7e3ce4571e318dff4b101a645df5f65793683d59ac9.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/236563b83bd203dfa807f7e3ce4571e318dff4b101a645df5f65793683d59ac9.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/236563b83bd203dfa807f7e3ce4571e318dff4b101a645df5f65793683d59ac9/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "247155ea3c8aedee61714a3a7e642d8a1b2aa2aabd09bcb28e676e8f7fe987af",
+      "prompt": "https://sn12domain.org/procgen/247155ea3c8aedee61714a3a7e642d8a1b2aa2aabd09bcb28e676e8f7fe987af.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/247155ea3c8aedee61714a3a7e642d8a1b2aa2aabd09bcb28e676e8f7fe987af.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/247155ea3c8aedee61714a3a7e642d8a1b2aa2aabd09bcb28e676e8f7fe987af/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "26600a88e2cd8c2eaee2607eaadf98390ee97e14f4280d1f225c2cf0857288ee",
+      "prompt": "https://sn12domain.org/procgen/26600a88e2cd8c2eaee2607eaadf98390ee97e14f4280d1f225c2cf0857288ee.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/26600a88e2cd8c2eaee2607eaadf98390ee97e14f4280d1f225c2cf0857288ee.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/26600a88e2cd8c2eaee2607eaadf98390ee97e14f4280d1f225c2cf0857288ee/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/26600a88e2cd8c2eaee2607eaadf98390ee97e14f4280d1f225c2cf0857288ee.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/26600a88e2cd8c2eaee2607eaadf98390ee97e14f4280d1f225c2cf0857288ee/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect layer colors and textures, distorted geometry, and missing details like the rose-shaped frosting. Model B has simplified layers, wrong color tones, and lacks the detailed texture and shape of the reference."
+      }
+    },
+    {
+      "name": "2a10bd61ec3c05d8b9920742755a749082df530225ef67be3766d740ff0fbefd",
+      "prompt": "https://sn12domain.org/procgen/2a10bd61ec3c05d8b9920742755a749082df530225ef67be3766d740ff0fbefd.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2a10bd61ec3c05d8b9920742755a749082df530225ef67be3766d740ff0fbefd.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2a10bd61ec3c05d8b9920742755a749082df530225ef67be3766d740ff0fbefd/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "2b0571ccfef9eaf3e576e47e6e11dc4b8eb86d52b20b869dbaf9432693e761e7",
+      "prompt": "https://sn12domain.org/procgen/2b0571ccfef9eaf3e576e47e6e11dc4b8eb86d52b20b869dbaf9432693e761e7.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2b0571ccfef9eaf3e576e47e6e11dc4b8eb86d52b20b869dbaf9432693e761e7.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2b0571ccfef9eaf3e576e47e6e11dc4b8eb86d52b20b869dbaf9432693e761e7/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "2c214bb1a3bb63926bedea07f3541bd6e38e1b00c08b0a3a2f40341f2a429f1d",
+      "prompt": "https://sn12domain.org/procgen/2c214bb1a3bb63926bedea07f3541bd6e38e1b00c08b0a3a2f40341f2a429f1d.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2c214bb1a3bb63926bedea07f3541bd6e38e1b00c08b0a3a2f40341f2a429f1d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2c214bb1a3bb63926bedea07f3541bd6e38e1b00c08b0a3a2f40341f2a429f1d/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "2f1087d70f7f2209d0981dff206b851467fc647e1c1d7e3d8d85dc19cb5b2b82",
+      "prompt": "https://sn12domain.org/procgen/2f1087d70f7f2209d0981dff206b851467fc647e1c1d7e3d8d85dc19cb5b2b82.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/2f1087d70f7f2209d0981dff206b851467fc647e1c1d7e3d8d85dc19cb5b2b82.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/2f1087d70f7f2209d0981dff206b851467fc647e1c1d7e3d8d85dc19cb5b2b82/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2f1087d70f7f2209d0981dff206b851467fc647e1c1d7e3d8d85dc19cb5b2b82.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2f1087d70f7f2209d0981dff206b851467fc647e1c1d7e3d8d85dc19cb5b2b82/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color (darker gray), simplified geometry, and missing details like the transparent dome and metallic accents. Model B has significant geometric distortions, incorrect shape (e.g., curved handle, non-spherical dome), and wrong color scheme (darker, non-metallic)."
+      }
+    },
+    {
+      "name": "2fc94fd0485c3c24fb47fffbaca37914cbef6b51e34af04428ef8673c06e6d2d",
+      "prompt": "https://sn12domain.org/procgen/2fc94fd0485c3c24fb47fffbaca37914cbef6b51e34af04428ef8673c06e6d2d.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2fc94fd0485c3c24fb47fffbaca37914cbef6b51e34af04428ef8673c06e6d2d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/2fc94fd0485c3c24fb47fffbaca37914cbef6b51e34af04428ef8673c06e6d2d/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "3116a61e5da184405f2689549aba715ac2692db0d138d0fba267df627ddc1ee4",
+      "prompt": "https://sn12domain.org/procgen/3116a61e5da184405f2689549aba715ac2692db0d138d0fba267df627ddc1ee4.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3116a61e5da184405f2689549aba715ac2692db0d138d0fba267df627ddc1ee4.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3116a61e5da184405f2689549aba715ac2692db0d138d0fba267df627ddc1ee4/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "34c0ef46c3a72afe98e397dde755a6aff8bd16f0eb15a6eced31e6a1effea73e",
+      "prompt": "https://sn12domain.org/procgen/34c0ef46c3a72afe98e397dde755a6aff8bd16f0eb15a6eced31e6a1effea73e.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/34c0ef46c3a72afe98e397dde755a6aff8bd16f0eb15a6eced31e6a1effea73e.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/34c0ef46c3a72afe98e397dde755a6aff8bd16f0eb15a6eced31e6a1effea73e/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "359cc4bd9cff456cdfe4ed53a4c92b64f2c909ecc8c58a6a2d74e246764b9d09",
+      "prompt": "https://sn12domain.org/procgen/359cc4bd9cff456cdfe4ed53a4c92b64f2c909ecc8c58a6a2d74e246764b9d09.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/359cc4bd9cff456cdfe4ed53a4c92b64f2c909ecc8c58a6a2d74e246764b9d09.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/359cc4bd9cff456cdfe4ed53a4c92b64f2c909ecc8c58a6a2d74e246764b9d09/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/359cc4bd9cff456cdfe4ed53a4c92b64f2c909ecc8c58a6a2d74e246764b9d09.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/359cc4bd9cff456cdfe4ed53a4c92b64f2c909ecc8c58a6a2d74e246764b9d09/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "copper goblet",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "cup-shaped bowl with slightly flared rim",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "tapered stem with leaf-like engraving",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "flared circular base with decorative border",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic copper color",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "open top",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "smooth curved surface without visible seams",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 13,
+            "score_b": 13
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect stem and base details, missing decorative engravings, and darker color. Model B has simplified stem and base shapes, lacks detailed engravings, and has a different color tone."
+      }
+    },
+    {
+      "name": "363fa5990497e1f91d153135d5dc0495020cadbcf8c8023e589700ad65ab8f01",
+      "prompt": "https://sn12domain.org/procgen/363fa5990497e1f91d153135d5dc0495020cadbcf8c8023e589700ad65ab8f01.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/363fa5990497e1f91d153135d5dc0495020cadbcf8c8023e589700ad65ab8f01.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/363fa5990497e1f91d153135d5dc0495020cadbcf8c8023e589700ad65ab8f01/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/363fa5990497e1f91d153135d5dc0495020cadbcf8c8023e589700ad65ab8f01.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/363fa5990497e1f91d153135d5dc0495020cadbcf8c8023e589700ad65ab8f01/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color tone (dull gray vs reference's metallic silver), missing surface details (scratches, specks), and simplified geometry. Model B has incorrect color tone (dull gray vs reference's metallic silver), incorrect top cap shape (flattened vs reference's rounded), and simplified geometry."
+      }
+    },
+    {
+      "name": "377e90c46da3ca4940a4a5262c2d67411bf68d715cc1466c09a107e32d8e1ad3",
+      "prompt": "https://sn12domain.org/procgen/377e90c46da3ca4940a4a5262c2d67411bf68d715cc1466c09a107e32d8e1ad3.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/377e90c46da3ca4940a4a5262c2d67411bf68d715cc1466c09a107e32d8e1ad3.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/377e90c46da3ca4940a4a5262c2d67411bf68d715cc1466c09a107e32d8e1ad3/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "3898cfce950a9327353ec591e58b28d42cd1ff8642848ec531b994ffb19f8fc3",
+      "prompt": "https://sn12domain.org/procgen/3898cfce950a9327353ec591e58b28d42cd1ff8642848ec531b994ffb19f8fc3.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3898cfce950a9327353ec591e58b28d42cd1ff8642848ec531b994ffb19f8fc3.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3898cfce950a9327353ec591e58b28d42cd1ff8642848ec531b994ffb19f8fc3/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "3d68264bdf251269643a7a2b7ffde96060a0c3b0871be2a895805568da3b1c79",
+      "prompt": "https://sn12domain.org/procgen/3d68264bdf251269643a7a2b7ffde96060a0c3b0871be2a895805568da3b1c79.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/3d68264bdf251269643a7a2b7ffde96060a0c3b0871be2a895805568da3b1c79.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/3d68264bdf251269643a7a2b7ffde96060a0c3b0871be2a895805568da3b1c79/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3d68264bdf251269643a7a2b7ffde96060a0c3b0871be2a895805568da3b1c79.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3d68264bdf251269643a7a2b7ffde96060a0c3b0871be2a895805568da3b1c79/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has darker color and visible seam lines; Model B has similar seam lines but slightly different shading and minor surface imperfections."
+      }
+    },
+    {
+      "name": "3d79ee40909f550a1687e7506b876cdaf02c1493ee2d5baf89f97277f0a5da43",
+      "prompt": "https://sn12domain.org/procgen/3d79ee40909f550a1687e7506b876cdaf02c1493ee2d5baf89f97277f0a5da43.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3d79ee40909f550a1687e7506b876cdaf02c1493ee2d5baf89f97277f0a5da43.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3d79ee40909f550a1687e7506b876cdaf02c1493ee2d5baf89f97277f0a5da43/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "3fd0c1babd182e418ba247c09d40fbcde171285d0a139262546d07f957b8dcec",
+      "prompt": "https://sn12domain.org/procgen/3fd0c1babd182e418ba247c09d40fbcde171285d0a139262546d07f957b8dcec.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3fd0c1babd182e418ba247c09d40fbcde171285d0a139262546d07f957b8dcec.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/3fd0c1babd182e418ba247c09d40fbcde171285d0a139262546d07f957b8dcec/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "41e22c665970d04e9b4d87f53b8d446bb353679e7dac687cc737162ad7fc06dd",
+      "prompt": "https://sn12domain.org/procgen/41e22c665970d04e9b4d87f53b8d446bb353679e7dac687cc737162ad7fc06dd.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/41e22c665970d04e9b4d87f53b8d446bb353679e7dac687cc737162ad7fc06dd.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/41e22c665970d04e9b4d87f53b8d446bb353679e7dac687cc737162ad7fc06dd/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "42f59299e0faf935c7e75d9c125a02ced9cfc0107b795b316293ed6a93c849c9",
+      "prompt": "https://sn12domain.org/procgen/42f59299e0faf935c7e75d9c125a02ced9cfc0107b795b316293ed6a93c849c9.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/42f59299e0faf935c7e75d9c125a02ced9cfc0107b795b316293ed6a93c849c9.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/42f59299e0faf935c7e75d9c125a02ced9cfc0107b795b316293ed6a93c849c9/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "4620b70a91566841391c5817b4027bef4be3ce736347a61495179f220274379e",
+      "prompt": "https://sn12domain.org/procgen/4620b70a91566841391c5817b4027bef4be3ce736347a61495179f220274379e.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4620b70a91566841391c5817b4027bef4be3ce736347a61495179f220274379e.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4620b70a91566841391c5817b4027bef4be3ce736347a61495179f220274379e/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "4647e93787d12ccef5c54795cc143aa0499673341a9501296975845dd786c885",
+      "prompt": "https://sn12domain.org/procgen/4647e93787d12ccef5c54795cc143aa0499673341a9501296975845dd786c885.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4647e93787d12ccef5c54795cc143aa0499673341a9501296975845dd786c885.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4647e93787d12ccef5c54795cc143aa0499673341a9501296975845dd786c885/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "4a3ae09dc3c357998823932de2e2ec4d5b60471cec48b1d6ae8052294f8ee531",
+      "prompt": "https://sn12domain.org/procgen/4a3ae09dc3c357998823932de2e2ec4d5b60471cec48b1d6ae8052294f8ee531.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4a3ae09dc3c357998823932de2e2ec4d5b60471cec48b1d6ae8052294f8ee531.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4a3ae09dc3c357998823932de2e2ec4d5b60471cec48b1d6ae8052294f8ee531/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "4a52bcd254f458af9c26ac49e398ec44d54d5b8e60d2c35c0da9b18627b981fc",
+      "prompt": "https://sn12domain.org/procgen/4a52bcd254f458af9c26ac49e398ec44d54d5b8e60d2c35c0da9b18627b981fc.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/4a52bcd254f458af9c26ac49e398ec44d54d5b8e60d2c35c0da9b18627b981fc.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/4a52bcd254f458af9c26ac49e398ec44d54d5b8e60d2c35c0da9b18627b981fc/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4a52bcd254f458af9c26ac49e398ec44d54d5b8e60d2c35c0da9b18627b981fc.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4a52bcd254f458af9c26ac49e398ec44d54d5b8e60d2c35c0da9b18627b981fc/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect shape, missing details like the red light mesh and control knob, and wrong base color. Model B has incorrect shape, missing the red light mesh, and wrong control knob position."
+      }
+    },
+    {
+      "name": "4ae340701be620218a3f389fae080a94da59b3172de930ebc752991220b8e3ad",
+      "prompt": "https://sn12domain.org/procgen/4ae340701be620218a3f389fae080a94da59b3172de930ebc752991220b8e3ad.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4ae340701be620218a3f389fae080a94da59b3172de930ebc752991220b8e3ad.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4ae340701be620218a3f389fae080a94da59b3172de930ebc752991220b8e3ad/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "4caaf5f374ba7fff20424eeab4ca172903cac82652e04bc9f6e523bdeea843cf",
+      "prompt": "https://sn12domain.org/procgen/4caaf5f374ba7fff20424eeab4ca172903cac82652e04bc9f6e523bdeea843cf.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4caaf5f374ba7fff20424eeab4ca172903cac82652e04bc9f6e523bdeea843cf.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/4caaf5f374ba7fff20424eeab4ca172903cac82652e04bc9f6e523bdeea843cf/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "55e169e31034b2f1aa1428e5656f91db2148f5304845802a70069b3f39a36486",
+      "prompt": "https://sn12domain.org/procgen/55e169e31034b2f1aa1428e5656f91db2148f5304845802a70069b3f39a36486.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/55e169e31034b2f1aa1428e5656f91db2148f5304845802a70069b3f39a36486.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/55e169e31034b2f1aa1428e5656f91db2148f5304845802a70069b3f39a36486/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/55e169e31034b2f1aa1428e5656f91db2148f5304845802a70069b3f39a36486.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/55e169e31034b2f1aa1428e5656f91db2148f5304845802a70069b3f39a36486/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified shapes, missing details like the reference's antenna balls and surface texture, and incorrect proportions. Model B has more accurate proportions but incorrect antenna shapes and missing details like the reference's antenna balls and surface texture."
+      }
+    },
+    {
+      "name": "58707379db197501290a8c9f16137527f63d8f792e4ace0f1692da52e91cb7a7",
+      "prompt": "https://sn12domain.org/procgen/58707379db197501290a8c9f16137527f63d8f792e4ace0f1692da52e91cb7a7.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/58707379db197501290a8c9f16137527f63d8f792e4ace0f1692da52e91cb7a7.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/58707379db197501290a8c9f16137527f63d8f792e4ace0f1692da52e91cb7a7/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "5a66953595695196784ed1ad2f3702fdf47b50b1c263f42bd93547fad0231e89",
+      "prompt": "https://sn12domain.org/procgen/5a66953595695196784ed1ad2f3702fdf47b50b1c263f42bd93547fad0231e89.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/5a66953595695196784ed1ad2f3702fdf47b50b1c263f42bd93547fad0231e89.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/5a66953595695196784ed1ad2f3702fdf47b50b1c263f42bd93547fad0231e89/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "5b139d9e1a007f430cd293582f77e69a2dc17e6a60a3dd5b5215385e8abda763",
+      "prompt": "https://sn12domain.org/procgen/5b139d9e1a007f430cd293582f77e69a2dc17e6a60a3dd5b5215385e8abda763.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/5b139d9e1a007f430cd293582f77e69a2dc17e6a60a3dd5b5215385e8abda763.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/5b139d9e1a007f430cd293582f77e69a2dc17e6a60a3dd5b5215385e8abda763/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/5b139d9e1a007f430cd293582f77e69a2dc17e6a60a3dd5b5215385e8abda763.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/5b139d9e1a007f430cd293582f77e69a2dc17e6a60a3dd5b5215385e8abda763/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect shape (rectangular instead of cushion), wrong metal color (dark gray instead of silver), and missing gemstone details. Model B has correct shape but wrong metal color (dark gray instead of silver) and simplified gemstone details."
+      }
+    },
+    {
+      "name": "6289fc6c0a90b3f6a032427e32276675d22f18df7a120a445cc32bec1f544c52",
+      "prompt": "https://sn12domain.org/procgen/6289fc6c0a90b3f6a032427e32276675d22f18df7a120a445cc32bec1f544c52.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6289fc6c0a90b3f6a032427e32276675d22f18df7a120a445cc32bec1f544c52.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6289fc6c0a90b3f6a032427e32276675d22f18df7a120a445cc32bec1f544c52/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "629d1359d3de740bc42b3a1e9905a2311406572ae6fa2fbc1e32c6ee5d3f2731",
+      "prompt": "https://sn12domain.org/procgen/629d1359d3de740bc42b3a1e9905a2311406572ae6fa2fbc1e32c6ee5d3f2731.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/629d1359d3de740bc42b3a1e9905a2311406572ae6fa2fbc1e32c6ee5d3f2731.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/629d1359d3de740bc42b3a1e9905a2311406572ae6fa2fbc1e32c6ee5d3f2731/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "63f028148e1b9451ec5e66897cb4628c41a90b7f068775605495f37bf495380a",
+      "prompt": "https://sn12domain.org/procgen/63f028148e1b9451ec5e66897cb4628c41a90b7f068775605495f37bf495380a.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/63f028148e1b9451ec5e66897cb4628c41a90b7f068775605495f37bf495380a.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/63f028148e1b9451ec5e66897cb4628c41a90b7f068775605495f37bf495380a/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/63f028148e1b9451ec5e66897cb4628c41a90b7f068775605495f37bf495380a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/63f028148e1b9451ec5e66897cb4628c41a90b7f068775605495f37bf495380a/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "leather-bound book",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "rectangular shape with slightly rounded corners",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "brown leather cover with visible texture",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "large gold fleur-de-lis emblem on the front cover",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "smaller gold fleur-de-lis emblem on the spine",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gold decorative border around the edges",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "black label with gold text on the spine",
+                "side_a": "partial",
+                "side_b": "no"
+              },
+              {
+                "feature": "gold text on the top of the spine",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 14,
+            "score_b": 13
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect spine design, missing decorative elements, and wrong texture pattern. Model B has simplified binding rings, altered fleur-de-lis shape, and missing spine text."
+      }
+    },
+    {
+      "name": "68212967533e8f9eb81cf970ca091f8af9d0c40076f3a67b5f3deee11dd60e71",
+      "prompt": "https://sn12domain.org/procgen/68212967533e8f9eb81cf970ca091f8af9d0c40076f3a67b5f3deee11dd60e71.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/68212967533e8f9eb81cf970ca091f8af9d0c40076f3a67b5f3deee11dd60e71.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/68212967533e8f9eb81cf970ca091f8af9d0c40076f3a67b5f3deee11dd60e71/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "68c1272a599afbe1ca2c2687df63b41192b78a9a16279431e8d6a7a7617632bd",
+      "prompt": "https://sn12domain.org/procgen/68c1272a599afbe1ca2c2687df63b41192b78a9a16279431e8d6a7a7617632bd.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/68c1272a599afbe1ca2c2687df63b41192b78a9a16279431e8d6a7a7617632bd.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/68c1272a599afbe1ca2c2687df63b41192b78a9a16279431e8d6a7a7617632bd/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "6942e285f853d05cd7f587c4b9f9aa6178d7b805c2cffd27b4072b4706f23206",
+      "prompt": "https://sn12domain.org/procgen/6942e285f853d05cd7f587c4b9f9aa6178d7b805c2cffd27b4072b4706f23206.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6942e285f853d05cd7f587c4b9f9aa6178d7b805c2cffd27b4072b4706f23206.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6942e285f853d05cd7f587c4b9f9aa6178d7b805c2cffd27b4072b4706f23206/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "6a47f9d95e71f26a35e85997c73d7fa9e6e8b103f7a8881b3b5ade62b1099b0a",
+      "prompt": "https://sn12domain.org/procgen/6a47f9d95e71f26a35e85997c73d7fa9e6e8b103f7a8881b3b5ade62b1099b0a.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6a47f9d95e71f26a35e85997c73d7fa9e6e8b103f7a8881b3b5ade62b1099b0a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6a47f9d95e71f26a35e85997c73d7fa9e6e8b103f7a8881b3b5ade62b1099b0a/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "6bb5c762e22c726af5e2177984f2c1013d8402c7edf2098069a2b17777a5e374",
+      "prompt": "https://sn12domain.org/procgen/6bb5c762e22c726af5e2177984f2c1013d8402c7edf2098069a2b17777a5e374.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6bb5c762e22c726af5e2177984f2c1013d8402c7edf2098069a2b17777a5e374.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6bb5c762e22c726af5e2177984f2c1013d8402c7edf2098069a2b17777a5e374/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "6dc94845095b46aa62aa32705bac66d4c6898e7037d120d4764816753281be50",
+      "prompt": "https://sn12domain.org/procgen/6dc94845095b46aa62aa32705bac66d4c6898e7037d120d4764816753281be50.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/6dc94845095b46aa62aa32705bac66d4c6898e7037d120d4764816753281be50.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/6dc94845095b46aa62aa32705bac66d4c6898e7037d120d4764816753281be50/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6dc94845095b46aa62aa32705bac66d4c6898e7037d120d4764816753281be50.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6dc94845095b46aa62aa32705bac66d4c6898e7037d120d4764816753281be50/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect shape details like a simplified spout and handle, plus surface texture errors. Model B has geometric distortions in the spout and handle, and incorrect surface reflections."
+      }
+    },
+    {
+      "name": "6dedef71b4486584fd16de2b5f6802240a88234540153a1d895c2d9e90d68838",
+      "prompt": "https://sn12domain.org/procgen/6dedef71b4486584fd16de2b5f6802240a88234540153a1d895c2d9e90d68838.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6dedef71b4486584fd16de2b5f6802240a88234540153a1d895c2d9e90d68838.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6dedef71b4486584fd16de2b5f6802240a88234540153a1d895c2d9e90d68838/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "6ed171e33b667bf8869a4b685b3e4f6cf3585c389967b76300364bce1c7d64eb",
+      "prompt": "https://sn12domain.org/procgen/6ed171e33b667bf8869a4b685b3e4f6cf3585c389967b76300364bce1c7d64eb.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6ed171e33b667bf8869a4b685b3e4f6cf3585c389967b76300364bce1c7d64eb.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/6ed171e33b667bf8869a4b685b3e4f6cf3585c389967b76300364bce1c7d64eb/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "72f2fc7bf208b4d04febf7d863e0fe757b982ede4e512fc48f0ad9063bfd7cff",
+      "prompt": "https://sn12domain.org/procgen/72f2fc7bf208b4d04febf7d863e0fe757b982ede4e512fc48f0ad9063bfd7cff.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/72f2fc7bf208b4d04febf7d863e0fe757b982ede4e512fc48f0ad9063bfd7cff.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/72f2fc7bf208b4d04febf7d863e0fe757b982ede4e512fc48f0ad9063bfd7cff/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "796888d638ea23defa5dce92394b2c10bf404e7bce55196ec68ef031e7b15c9c",
+      "prompt": "https://sn12domain.org/procgen/796888d638ea23defa5dce92394b2c10bf404e7bce55196ec68ef031e7b15c9c.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/796888d638ea23defa5dce92394b2c10bf404e7bce55196ec68ef031e7b15c9c.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/796888d638ea23defa5dce92394b2c10bf404e7bce55196ec68ef031e7b15c9c/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "79897adaecf4fcdbc207efe00e78eb55d365d6c21fd0814970dfec8a28cfad15",
+      "prompt": "https://sn12domain.org/procgen/79897adaecf4fcdbc207efe00e78eb55d365d6c21fd0814970dfec8a28cfad15.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/79897adaecf4fcdbc207efe00e78eb55d365d6c21fd0814970dfec8a28cfad15.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/79897adaecf4fcdbc207efe00e78eb55d365d6c21fd0814970dfec8a28cfad15/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "7c2dee9d5664e708f875a66031bc69e7d99d0d7a0b62c91aa11fda81954a649a",
+      "prompt": "https://sn12domain.org/procgen/7c2dee9d5664e708f875a66031bc69e7d99d0d7a0b62c91aa11fda81954a649a.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/7c2dee9d5664e708f875a66031bc69e7d99d0d7a0b62c91aa11fda81954a649a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/7c2dee9d5664e708f875a66031bc69e7d99d0d7a0b62c91aa11fda81954a649a/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "7db53eaf28d925dfc545a6dea1fe1049f76e5ddd51624fca1dd010c0c90dcd87",
+      "prompt": "https://sn12domain.org/procgen/7db53eaf28d925dfc545a6dea1fe1049f76e5ddd51624fca1dd010c0c90dcd87.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/7db53eaf28d925dfc545a6dea1fe1049f76e5ddd51624fca1dd010c0c90dcd87.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/7db53eaf28d925dfc545a6dea1fe1049f76e5ddd51624fca1dd010c0c90dcd87/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "7e277d269a9e66e2b86f06c7cd64a3a5169c58522959eaa0c3bc82b4e7bbda83",
+      "prompt": "https://sn12domain.org/procgen/7e277d269a9e66e2b86f06c7cd64a3a5169c58522959eaa0c3bc82b4e7bbda83.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/7e277d269a9e66e2b86f06c7cd64a3a5169c58522959eaa0c3bc82b4e7bbda83.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/7e277d269a9e66e2b86f06c7cd64a3a5169c58522959eaa0c3bc82b4e7bbda83/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/7e277d269a9e66e2b86f06c7cd64a3a5169c58522959eaa0c3bc82b4e7bbda83.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/7e277d269a9e66e2b86f06c7cd64a3a5169c58522959eaa0c3bc82b4e7bbda83/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color scheme (dark gray instead of stainless steel), missing control buttons, and distorted oven door glass. Model B has incorrect color scheme (black instead of stainless steel), missing control buttons, and simplified vent details."
+      }
+    },
+    {
+      "name": "8070a7da551d2894e9a9ec4ac5d99b929117933a24ce7f648a8a8eb2e0140930",
+      "prompt": "https://sn12domain.org/procgen/8070a7da551d2894e9a9ec4ac5d99b929117933a24ce7f648a8a8eb2e0140930.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8070a7da551d2894e9a9ec4ac5d99b929117933a24ce7f648a8a8eb2e0140930.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8070a7da551d2894e9a9ec4ac5d99b929117933a24ce7f648a8a8eb2e0140930/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "810200dd82531d421480a05e80297252c7e700c05cf30f2b4112dd50eeaf1e16",
+      "prompt": "https://sn12domain.org/procgen/810200dd82531d421480a05e80297252c7e700c05cf30f2b4112dd50eeaf1e16.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/810200dd82531d421480a05e80297252c7e700c05cf30f2b4112dd50eeaf1e16.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/810200dd82531d421480a05e80297252c7e700c05cf30f2b4112dd50eeaf1e16/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/810200dd82531d421480a05e80297252c7e700c05cf30f2b4112dd50eeaf1e16.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/810200dd82531d421480a05e80297252c7e700c05cf30f2b4112dd50eeaf1e16/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect handle shapes and proportions, while Model B has similar handle issues but also shows subtle geometric distortions in the cup's curvature compared to the reference."
+      }
+    },
+    {
+      "name": "81e089e42c4b4d3b5633c77adf41f23b6328c9b37f137e70c79c410b6af071c0",
+      "prompt": "https://sn12domain.org/procgen/81e089e42c4b4d3b5633c77adf41f23b6328c9b37f137e70c79c410b6af071c0.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/81e089e42c4b4d3b5633c77adf41f23b6328c9b37f137e70c79c410b6af071c0.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/81e089e42c4b4d3b5633c77adf41f23b6328c9b37f137e70c79c410b6af071c0/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/81e089e42c4b4d3b5633c77adf41f23b6328c9b37f137e70c79c410b6af071c0.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/81e089e42c4b4d3b5633c77adf41f23b6328c9b37f137e70c79c410b6af071c0/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect stem shape and color, distorted surface with unnatural patterns, and lacks realistic texture details. Model B has simplified stem details and less accurate color shading, but overall shape and surface patterns are closer to the reference."
+      }
+    },
+    {
+      "name": "8ab63ee01f7343b44778aeed7c0a07c2ef6fc7b2e9ce6ece011963a693d75d22",
+      "prompt": "https://sn12domain.org/procgen/8ab63ee01f7343b44778aeed7c0a07c2ef6fc7b2e9ce6ece011963a693d75d22.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8ab63ee01f7343b44778aeed7c0a07c2ef6fc7b2e9ce6ece011963a693d75d22.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8ab63ee01f7343b44778aeed7c0a07c2ef6fc7b2e9ce6ece011963a693d75d22/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "8d6cf57b408268e080b8bebd16fa450c54d1677f836a06b0e32ee3eb4fb54240",
+      "prompt": "https://sn12domain.org/procgen/8d6cf57b408268e080b8bebd16fa450c54d1677f836a06b0e32ee3eb4fb54240.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8d6cf57b408268e080b8bebd16fa450c54d1677f836a06b0e32ee3eb4fb54240.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8d6cf57b408268e080b8bebd16fa450c54d1677f836a06b0e32ee3eb4fb54240/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "8e64523f0e99c7c8ee62156a308e4a0e8a99ff803865eb8abb3dbd8101619e81",
+      "prompt": "https://sn12domain.org/procgen/8e64523f0e99c7c8ee62156a308e4a0e8a99ff803865eb8abb3dbd8101619e81.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8e64523f0e99c7c8ee62156a308e4a0e8a99ff803865eb8abb3dbd8101619e81.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8e64523f0e99c7c8ee62156a308e4a0e8a99ff803865eb8abb3dbd8101619e81/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "8e730f9daf44484a95f8801ef70b5ba4aec2c5efc7f6ac41da035e3364780a68",
+      "prompt": "https://sn12domain.org/procgen/8e730f9daf44484a95f8801ef70b5ba4aec2c5efc7f6ac41da035e3364780a68.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/8e730f9daf44484a95f8801ef70b5ba4aec2c5efc7f6ac41da035e3364780a68.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/8e730f9daf44484a95f8801ef70b5ba4aec2c5efc7f6ac41da035e3364780a68/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8e730f9daf44484a95f8801ef70b5ba4aec2c5efc7f6ac41da035e3364780a68.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8e730f9daf44484a95f8801ef70b5ba4aec2c5efc7f6ac41da035e3364780a68/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "leather-bound book",
+            "main_object_correct_a": false,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "dark brown leather cover with gold embossing",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "decorative gold filigree on front cover corners and spine",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "textured leather with visible wear and creases",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "spine with gold lettering and decorative panels",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "hardcover with raised bands on spine",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gold embossed design on bottom of spine",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 2,
+            "score_b": 9
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [cl|-7|]",
+        "issues": "Model A has incorrect binding style, missing decorative elements, and wrong color tones. Model B lacks detailed text and ornamental designs, with simplified and incorrect text patterns."
+      }
+    },
+    {
+      "name": "8eff7d19122b705c06c6e8b122d04164f7be8a74cce90a57a72609deb6abccdc",
+      "prompt": "https://sn12domain.org/procgen/8eff7d19122b705c06c6e8b122d04164f7be8a74cce90a57a72609deb6abccdc.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8eff7d19122b705c06c6e8b122d04164f7be8a74cce90a57a72609deb6abccdc.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/8eff7d19122b705c06c6e8b122d04164f7be8a74cce90a57a72609deb6abccdc/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "934fafca5624c4cc34a58e9a718fe6463d9c91f7d5a8b48297b9384871992763",
+      "prompt": "https://sn12domain.org/procgen/934fafca5624c4cc34a58e9a718fe6463d9c91f7d5a8b48297b9384871992763.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/934fafca5624c4cc34a58e9a718fe6463d9c91f7d5a8b48297b9384871992763.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/934fafca5624c4cc34a58e9a718fe6463d9c91f7d5a8b48297b9384871992763/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "948c634aedcc0bd31ed8cc7c71b57fa5e7f87389e109ac25fe69bbc6b5ba6932",
+      "prompt": "https://sn12domain.org/procgen/948c634aedcc0bd31ed8cc7c71b57fa5e7f87389e109ac25fe69bbc6b5ba6932.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/948c634aedcc0bd31ed8cc7c71b57fa5e7f87389e109ac25fe69bbc6b5ba6932.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/948c634aedcc0bd31ed8cc7c71b57fa5e7f87389e109ac25fe69bbc6b5ba6932/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "94c5f3e06111be9d9860354d6a56c53348e9c88f616108a7df6d70c3f442fdcd",
+      "prompt": "https://sn12domain.org/procgen/94c5f3e06111be9d9860354d6a56c53348e9c88f616108a7df6d70c3f442fdcd.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/94c5f3e06111be9d9860354d6a56c53348e9c88f616108a7df6d70c3f442fdcd.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/94c5f3e06111be9d9860354d6a56c53348e9c88f616108a7df6d70c3f442fdcd/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/94c5f3e06111be9d9860354d6a56c53348e9c88f616108a7df6d70c3f442fdcd.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/94c5f3e06111be9d9860354d6a56c53348e9c88f616108a7df6d70c3f442fdcd/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 7.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 8.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 7.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 7.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "center punch",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "tapered pointed tip at one end",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "cylindrical shank connecting tip to handle",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "slightly rounded handle at opposite end",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic silver color",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "small circular mark on handle",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 6,
+            "score_b": 7
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect shape with extra holes and wrong proportions; Model B has a more accurate shape but still lacks the metallic texture and correct color of the reference."
+      }
+    },
+    {
+      "name": "98f6a2fed8340dfe9dc46c055454f1b47c71a6b60a99c26f25a68218bf56be60",
+      "prompt": "https://sn12domain.org/procgen/98f6a2fed8340dfe9dc46c055454f1b47c71a6b60a99c26f25a68218bf56be60.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/98f6a2fed8340dfe9dc46c055454f1b47c71a6b60a99c26f25a68218bf56be60.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/98f6a2fed8340dfe9dc46c055454f1b47c71a6b60a99c26f25a68218bf56be60/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "99ee40336bde35013d337478cba74c606612f0fc31f6036c35686d671f4f1f4d",
+      "prompt": "https://sn12domain.org/procgen/99ee40336bde35013d337478cba74c606612f0fc31f6036c35686d671f4f1f4d.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/99ee40336bde35013d337478cba74c606612f0fc31f6036c35686d671f4f1f4d.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/99ee40336bde35013d337478cba74c606612f0fc31f6036c35686d671f4f1f4d/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/99ee40336bde35013d337478cba74c606612f0fc31f6036c35686d671f4f1f4d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/99ee40336bde35013d337478cba74c606612f0fc31f6036c35686d671f4f1f4d/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color tone and simplified decorative patterns; Model B has incorrect color tone, simplified patterns, and distorted bowl shape."
+      }
+    },
+    {
+      "name": "99f0fdae2a84ad6b1985bc6b98b7377c4f4d3e146ff7521a3438a641172f8270",
+      "prompt": "https://sn12domain.org/procgen/99f0fdae2a84ad6b1985bc6b98b7377c4f4d3e146ff7521a3438a641172f8270.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/99f0fdae2a84ad6b1985bc6b98b7377c4f4d3e146ff7521a3438a641172f8270.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/99f0fdae2a84ad6b1985bc6b98b7377c4f4d3e146ff7521a3438a641172f8270/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "9ad7fcf2b18a3b782666a4b60358922fb9ba695826becc22e40ed45a7ef38975",
+      "prompt": "https://sn12domain.org/procgen/9ad7fcf2b18a3b782666a4b60358922fb9ba695826becc22e40ed45a7ef38975.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9ad7fcf2b18a3b782666a4b60358922fb9ba695826becc22e40ed45a7ef38975.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9ad7fcf2b18a3b782666a4b60358922fb9ba695826becc22e40ed45a7ef38975/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "9c4f878f351ec4daba97bf83b2452587c8f264d8b78fdd666fb3a285a67e72e8",
+      "prompt": "https://sn12domain.org/procgen/9c4f878f351ec4daba97bf83b2452587c8f264d8b78fdd666fb3a285a67e72e8.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9c4f878f351ec4daba97bf83b2452587c8f264d8b78fdd666fb3a285a67e72e8.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9c4f878f351ec4daba97bf83b2452587c8f264d8b78fdd666fb3a285a67e72e8/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "9dd3934f15cd47e034410209743e526af94175ee94de8f65e939de4de390b128",
+      "prompt": "https://sn12domain.org/procgen/9dd3934f15cd47e034410209743e526af94175ee94de8f65e939de4de390b128.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9dd3934f15cd47e034410209743e526af94175ee94de8f65e939de4de390b128.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9dd3934f15cd47e034410209743e526af94175ee94de8f65e939de4de390b128/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "9e5045997ab8d68b8a7ddf057879ef8f9b234b9d8a902dbccacd035eda373458",
+      "prompt": "https://sn12domain.org/procgen/9e5045997ab8d68b8a7ddf057879ef8f9b234b9d8a902dbccacd035eda373458.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9e5045997ab8d68b8a7ddf057879ef8f9b234b9d8a902dbccacd035eda373458.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/9e5045997ab8d68b8a7ddf057879ef8f9b234b9d8a902dbccacd035eda373458/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "a18795e0384b6c34bc31229045403cc216ba7d2ec56e8a3b333ffcbed0f45962",
+      "prompt": "https://sn12domain.org/procgen/a18795e0384b6c34bc31229045403cc216ba7d2ec56e8a3b333ffcbed0f45962.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/a18795e0384b6c34bc31229045403cc216ba7d2ec56e8a3b333ffcbed0f45962.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/a18795e0384b6c34bc31229045403cc216ba7d2ec56e8a3b333ffcbed0f45962/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a18795e0384b6c34bc31229045403cc216ba7d2ec56e8a3b333ffcbed0f45962.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a18795e0384b6c34bc31229045403cc216ba7d2ec56e8a3b333ffcbed0f45962/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color (black interior), simplified and distorted patterns, and missing details. Model B has incorrect shape (non-circular, open structure) and wrong decorative elements."
+      }
+    },
+    {
+      "name": "a1f0f7fcbaeaf07c83dee2f6215d8770751f34d13c1cb410101802dc2d2cd0aa",
+      "prompt": "https://sn12domain.org/procgen/a1f0f7fcbaeaf07c83dee2f6215d8770751f34d13c1cb410101802dc2d2cd0aa.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a1f0f7fcbaeaf07c83dee2f6215d8770751f34d13c1cb410101802dc2d2cd0aa.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a1f0f7fcbaeaf07c83dee2f6215d8770751f34d13c1cb410101802dc2d2cd0aa/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "a6789ff9f5a567313176535ef3061164a6d503e2d441a0328fe7dd078d466317",
+      "prompt": "https://sn12domain.org/procgen/a6789ff9f5a567313176535ef3061164a6d503e2d441a0328fe7dd078d466317.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/a6789ff9f5a567313176535ef3061164a6d503e2d441a0328fe7dd078d466317.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/a6789ff9f5a567313176535ef3061164a6d503e2d441a0328fe7dd078d466317/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a6789ff9f5a567313176535ef3061164a6d503e2d441a0328fe7dd078d466317.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a6789ff9f5a567313176535ef3061164a6d503e2d441a0328fe7dd078d466317/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 7.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "pendant necklace",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "cushion-cut gemstone with faceted surface",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "silver-colored metal bail connecting to chain",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "four-prong setting holding the gemstone",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "silver-colored chain with oval links",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gemstone has deep red color with internal reflections",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "pendant hangs from the chain",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 10,
+            "score_b": 13
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 consensus",
+        "issues": "Model A has incorrect chain style, pendant shape, and gemstone faceting. Model B has incorrect gemstone shape, color, and pendant geometry."
+      }
+    },
+    {
+      "name": "a6ab1d61336011ddb56032250f12ad5290bcc9d67abe6b849092a34fe8581f9a",
+      "prompt": "https://sn12domain.org/procgen/a6ab1d61336011ddb56032250f12ad5290bcc9d67abe6b849092a34fe8581f9a.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/a6ab1d61336011ddb56032250f12ad5290bcc9d67abe6b849092a34fe8581f9a.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/a6ab1d61336011ddb56032250f12ad5290bcc9d67abe6b849092a34fe8581f9a/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a6ab1d61336011ddb56032250f12ad5290bcc9d67abe6b849092a34fe8581f9a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/a6ab1d61336011ddb56032250f12ad5290bcc9d67abe6b849092a34fe8581f9a/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified textures and missing details like the leather's texture and stitching. Model B has incorrect belt design with added elements and wrong proportions, and the tag's sheep illustration is distorted."
+      }
+    },
+    {
+      "name": "aa35bef7fc701162b4ccfe02d8e213096d16bb1596903f2ea8200628ea11397f",
+      "prompt": "https://sn12domain.org/procgen/aa35bef7fc701162b4ccfe02d8e213096d16bb1596903f2ea8200628ea11397f.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aa35bef7fc701162b4ccfe02d8e213096d16bb1596903f2ea8200628ea11397f.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aa35bef7fc701162b4ccfe02d8e213096d16bb1596903f2ea8200628ea11397f/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "aaaf00bc508250cba723456588eea97341a4c33e194854a164ad14de34c125b9",
+      "prompt": "https://sn12domain.org/procgen/aaaf00bc508250cba723456588eea97341a4c33e194854a164ad14de34c125b9.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aaaf00bc508250cba723456588eea97341a4c33e194854a164ad14de34c125b9.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aaaf00bc508250cba723456588eea97341a4c33e194854a164ad14de34c125b9/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "aed492b395ce7ed1626b6a91101fe7f34f546493acd393b2b3f88b80eba1f943",
+      "prompt": "https://sn12domain.org/procgen/aed492b395ce7ed1626b6a91101fe7f34f546493acd393b2b3f88b80eba1f943.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aed492b395ce7ed1626b6a91101fe7f34f546493acd393b2b3f88b80eba1f943.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aed492b395ce7ed1626b6a91101fe7f34f546493acd393b2b3f88b80eba1f943/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "aee3f01ac8353a69e3a82694a31fd98ae34b59b50301918b70bdfcbb0ce999be",
+      "prompt": "https://sn12domain.org/procgen/aee3f01ac8353a69e3a82694a31fd98ae34b59b50301918b70bdfcbb0ce999be.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aee3f01ac8353a69e3a82694a31fd98ae34b59b50301918b70bdfcbb0ce999be.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/aee3f01ac8353a69e3a82694a31fd98ae34b59b50301918b70bdfcbb0ce999be/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "b06cfa9d77a4793c127456756f6cef549540b491b35c4143f2db1d3c82712b66",
+      "prompt": "https://sn12domain.org/procgen/b06cfa9d77a4793c127456756f6cef549540b491b35c4143f2db1d3c82712b66.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/b06cfa9d77a4793c127456756f6cef549540b491b35c4143f2db1d3c82712b66.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/b06cfa9d77a4793c127456756f6cef549540b491b35c4143f2db1d3c82712b66/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b06cfa9d77a4793c127456756f6cef549540b491b35c4143f2db1d3c82712b66.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b06cfa9d77a4793c127456756f6cef549540b491b35c4143f2db1d3c82712b66/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect blade shape and texture, while Model B has a blade with wrong shape and texture, and the handle's metal ring is missing."
+      }
+    },
+    {
+      "name": "b34526f85e366cf136c38031206d1bdada85dd85a4e1e612c03689ddccfa4dc5",
+      "prompt": "https://sn12domain.org/procgen/b34526f85e366cf136c38031206d1bdada85dd85a4e1e612c03689ddccfa4dc5.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b34526f85e366cf136c38031206d1bdada85dd85a4e1e612c03689ddccfa4dc5.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b34526f85e366cf136c38031206d1bdada85dd85a4e1e612c03689ddccfa4dc5/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "b46601e568547c9a897e132b65902417f66e77cf13fc0cbd1eb31d774c726ba8",
+      "prompt": "https://sn12domain.org/procgen/b46601e568547c9a897e132b65902417f66e77cf13fc0cbd1eb31d774c726ba8.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b46601e568547c9a897e132b65902417f66e77cf13fc0cbd1eb31d774c726ba8.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b46601e568547c9a897e132b65902417f66e77cf13fc0cbd1eb31d774c726ba8/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "b57d8464ce0f0f6c4694035517dc9f4f1840c299444e18adbd933e3e394591a5",
+      "prompt": "https://sn12domain.org/procgen/b57d8464ce0f0f6c4694035517dc9f4f1840c299444e18adbd933e3e394591a5.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b57d8464ce0f0f6c4694035517dc9f4f1840c299444e18adbd933e3e394591a5.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/b57d8464ce0f0f6c4694035517dc9f4f1840c299444e18adbd933e3e394591a5/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "bab1aad0767e19c693ef6967d651e4894560c3fb4cad5e9501cd795eeff86200",
+      "prompt": "https://sn12domain.org/procgen/bab1aad0767e19c693ef6967d651e4894560c3fb4cad5e9501cd795eeff86200.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/bab1aad0767e19c693ef6967d651e4894560c3fb4cad5e9501cd795eeff86200.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/bab1aad0767e19c693ef6967d651e4894560c3fb4cad5e9501cd795eeff86200/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "bce73681c4e215462df29c20281816bbf12dd0d2e3d9db227344981dae3b7abb",
+      "prompt": "https://sn12domain.org/procgen/bce73681c4e215462df29c20281816bbf12dd0d2e3d9db227344981dae3b7abb.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/bce73681c4e215462df29c20281816bbf12dd0d2e3d9db227344981dae3b7abb.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/bce73681c4e215462df29c20281816bbf12dd0d2e3d9db227344981dae3b7abb/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/bce73681c4e215462df29c20281816bbf12dd0d2e3d9db227344981dae3b7abb.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/bce73681c4e215462df29c20281816bbf12dd0d2e3d9db227344981dae3b7abb/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified base shape, missing wood grain details, and incorrect metal rod length. Model B has incorrect base shape, missing wood grain details, and wrong stripe patterns."
+      }
+    },
+    {
+      "name": "beaeb40ff0a8492790308a59133fccb1df6c1d584f5cd87a3aad1c6310c02bd9",
+      "prompt": "https://sn12domain.org/procgen/beaeb40ff0a8492790308a59133fccb1df6c1d584f5cd87a3aad1c6310c02bd9.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/beaeb40ff0a8492790308a59133fccb1df6c1d584f5cd87a3aad1c6310c02bd9.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/beaeb40ff0a8492790308a59133fccb1df6c1d584f5cd87a3aad1c6310c02bd9/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c0445af098738f85395274b8f6761b9662db191c583d4b014aaf506d9c5f8638",
+      "prompt": "https://sn12domain.org/procgen/c0445af098738f85395274b8f6761b9662db191c583d4b014aaf506d9c5f8638.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/c0445af098738f85395274b8f6761b9662db191c583d4b014aaf506d9c5f8638.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/c0445af098738f85395274b8f6761b9662db191c583d4b014aaf506d9c5f8638/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c0445af098738f85395274b8f6761b9662db191c583d4b014aaf506d9c5f8638.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c0445af098738f85395274b8f6761b9662db191c583d4b014aaf506d9c5f8638/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 4.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "purple pendant",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "tapered teardrop shape",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic silver bail with loop",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "transparent purple glass body",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "internal crystal inclusion",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "smooth curved surface",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 9,
+            "score_b": 10
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect metal cap color (black instead of silver) and simplified internal structure. Model B has incorrect internal structure and lacks the transparent quality of the reference."
+      }
+    },
+    {
+      "name": "c08df0f66ed3ca91204015e449c957c6fd3d87328707301073e2500c78ae387f",
+      "prompt": "https://sn12domain.org/procgen/c08df0f66ed3ca91204015e449c957c6fd3d87328707301073e2500c78ae387f.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c08df0f66ed3ca91204015e449c957c6fd3d87328707301073e2500c78ae387f.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c08df0f66ed3ca91204015e449c957c6fd3d87328707301073e2500c78ae387f/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c2018e34e13db368c257b13d3b59103ece04abd156172db9169d494b8b8d6c16",
+      "prompt": "https://sn12domain.org/procgen/c2018e34e13db368c257b13d3b59103ece04abd156172db9169d494b8b8d6c16.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c2018e34e13db368c257b13d3b59103ece04abd156172db9169d494b8b8d6c16.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c2018e34e13db368c257b13d3b59103ece04abd156172db9169d494b8b8d6c16/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c24679c3c918f4662d288d71ed4896bfe2afb375e13fd0bff7b4bcab0f1010f3",
+      "prompt": "https://sn12domain.org/procgen/c24679c3c918f4662d288d71ed4896bfe2afb375e13fd0bff7b4bcab0f1010f3.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c24679c3c918f4662d288d71ed4896bfe2afb375e13fd0bff7b4bcab0f1010f3.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c24679c3c918f4662d288d71ed4896bfe2afb375e13fd0bff7b4bcab0f1010f3/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c3264114c292837c51f2e6019a60e11607ab3813c915d7ef43aa3ac14606cd78",
+      "prompt": "https://sn12domain.org/procgen/c3264114c292837c51f2e6019a60e11607ab3813c915d7ef43aa3ac14606cd78.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c3264114c292837c51f2e6019a60e11607ab3813c915d7ef43aa3ac14606cd78.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c3264114c292837c51f2e6019a60e11607ab3813c915d7ef43aa3ac14606cd78/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c3fc0675c95b43873323677e23ffc2ffcc76d0e3c31df39e87d2e0649258a3d6",
+      "prompt": "https://sn12domain.org/procgen/c3fc0675c95b43873323677e23ffc2ffcc76d0e3c31df39e87d2e0649258a3d6.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c3fc0675c95b43873323677e23ffc2ffcc76d0e3c31df39e87d2e0649258a3d6.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c3fc0675c95b43873323677e23ffc2ffcc76d0e3c31df39e87d2e0649258a3d6/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c45e8af141efe5df9e8a5cfc4549f9f19bd325325e1d882ffc8983fd0bbc5a80",
+      "prompt": "https://sn12domain.org/procgen/c45e8af141efe5df9e8a5cfc4549f9f19bd325325e1d882ffc8983fd0bbc5a80.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c45e8af141efe5df9e8a5cfc4549f9f19bd325325e1d882ffc8983fd0bbc5a80.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c45e8af141efe5df9e8a5cfc4549f9f19bd325325e1d882ffc8983fd0bbc5a80/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "c5b044048c2fbee2d5da0f8f6e335937b7b94aad081c56c4a7a6e95b05b49565",
+      "prompt": "https://sn12domain.org/procgen/c5b044048c2fbee2d5da0f8f6e335937b7b94aad081c56c4a7a6e95b05b49565.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c5b044048c2fbee2d5da0f8f6e335937b7b94aad081c56c4a7a6e95b05b49565.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/c5b044048c2fbee2d5da0f8f6e335937b7b94aad081c56c4a7a6e95b05b49565/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "ca97f80f0155e5420c3d50be05da9b06c57e607bf3899841fcb4dcdad2a86e9d",
+      "prompt": "https://sn12domain.org/procgen/ca97f80f0155e5420c3d50be05da9b06c57e607bf3899841fcb4dcdad2a86e9d.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ca97f80f0155e5420c3d50be05da9b06c57e607bf3899841fcb4dcdad2a86e9d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ca97f80f0155e5420c3d50be05da9b06c57e607bf3899841fcb4dcdad2a86e9d/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "cdb6fa285416e4fe88524beda633af0c7304d6ced0132673705c554373b580e0",
+      "prompt": "https://sn12domain.org/procgen/cdb6fa285416e4fe88524beda633af0c7304d6ced0132673705c554373b580e0.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/cdb6fa285416e4fe88524beda633af0c7304d6ced0132673705c554373b580e0.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/cdb6fa285416e4fe88524beda633af0c7304d6ced0132673705c554373b580e0/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "cfda630b89ab4f98b48ede29bea0e7f7c61fa5ee4feede38c0124c444085f50c",
+      "prompt": "https://sn12domain.org/procgen/cfda630b89ab4f98b48ede29bea0e7f7c61fa5ee4feede38c0124c444085f50c.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/cfda630b89ab4f98b48ede29bea0e7f7c61fa5ee4feede38c0124c444085f50c.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/cfda630b89ab4f98b48ede29bea0e7f7c61fa5ee4feede38c0124c444085f50c/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "d370de58194f2682c9648d1375a4aad9f53c7ccd7596f0d5f431e67ff2161d2d",
+      "prompt": "https://sn12domain.org/procgen/d370de58194f2682c9648d1375a4aad9f53c7ccd7596f0d5f431e67ff2161d2d.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d370de58194f2682c9648d1375a4aad9f53c7ccd7596f0d5f431e67ff2161d2d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d370de58194f2682c9648d1375a4aad9f53c7ccd7596f0d5f431e67ff2161d2d/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "d390a48da30ed0a2695013e8b9908d2f924ec9d690f20baec67dc1879590cc8a",
+      "prompt": "https://sn12domain.org/procgen/d390a48da30ed0a2695013e8b9908d2f924ec9d690f20baec67dc1879590cc8a.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/d390a48da30ed0a2695013e8b9908d2f924ec9d690f20baec67dc1879590cc8a.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/d390a48da30ed0a2695013e8b9908d2f924ec9d690f20baec67dc1879590cc8a/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d390a48da30ed0a2695013e8b9908d2f924ec9d690f20baec67dc1879590cc8a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d390a48da30ed0a2695013e8b9908d2f924ec9d690f20baec67dc1879590cc8a/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 7.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 7.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect gemstone shapes (round vs oval), missing small chain links, and wrong clasp. Model B has distorted chain links, incorrect gemstone cuts, and extra small dots on the chain."
+      }
+    },
+    {
+      "name": "d3c2872f08a2a1b1bdbf398523d58af6f42f74e779bac28f9c6b6f6da9d0b855",
+      "prompt": "https://sn12domain.org/procgen/d3c2872f08a2a1b1bdbf398523d58af6f42f74e779bac28f9c6b6f6da9d0b855.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d3c2872f08a2a1b1bdbf398523d58af6f42f74e779bac28f9c6b6f6da9d0b855.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d3c2872f08a2a1b1bdbf398523d58af6f42f74e779bac28f9c6b6f6da9d0b855/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "d677b88217831a1b19cf0d61c2d3a85a5efbceaadbbd365da13546189ac22dd2",
+      "prompt": "https://sn12domain.org/procgen/d677b88217831a1b19cf0d61c2d3a85a5efbceaadbbd365da13546189ac22dd2.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d677b88217831a1b19cf0d61c2d3a85a5efbceaadbbd365da13546189ac22dd2.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/d677b88217831a1b19cf0d61c2d3a85a5efbceaadbbd365da13546189ac22dd2/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "db5b4507c16e48f05fa8b9cba9221d126871c119800612e8e7da6487fa169cd2",
+      "prompt": "https://sn12domain.org/procgen/db5b4507c16e48f05fa8b9cba9221d126871c119800612e8e7da6487fa169cd2.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/db5b4507c16e48f05fa8b9cba9221d126871c119800612e8e7da6487fa169cd2.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/db5b4507c16e48f05fa8b9cba9221d126871c119800612e8e7da6487fa169cd2/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "de72033f3cd261095d64c86f159b8512e8e49d0789b8f2d35491fa4ca6b24a29",
+      "prompt": "https://sn12domain.org/procgen/de72033f3cd261095d64c86f159b8512e8e49d0789b8f2d35491fa4ca6b24a29.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/de72033f3cd261095d64c86f159b8512e8e49d0789b8f2d35491fa4ca6b24a29.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/de72033f3cd261095d64c86f159b8512e8e49d0789b8f2d35491fa4ca6b24a29/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "e366268da7a3a5b8e57bb192e85acb02d78e4c7f372b985c3c9dc6c47d4e908a",
+      "prompt": "https://sn12domain.org/procgen/e366268da7a3a5b8e57bb192e85acb02d78e4c7f372b985c3c9dc6c47d4e908a.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/e366268da7a3a5b8e57bb192e85acb02d78e4c7f372b985c3c9dc6c47d4e908a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/e366268da7a3a5b8e57bb192e85acb02d78e4c7f372b985c3c9dc6c47d4e908a/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "e9be7f183cd706d07afe4a502057b71497856894a5341ac06cc3dad73a51ac68",
+      "prompt": "https://sn12domain.org/procgen/e9be7f183cd706d07afe4a502057b71497856894a5341ac06cc3dad73a51ac68.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/e9be7f183cd706d07afe4a502057b71497856894a5341ac06cc3dad73a51ac68.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/e9be7f183cd706d07afe4a502057b71497856894a5341ac06cc3dad73a51ac68/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "ea7c22fce019a7f59a56b65d0c30e4702dd01c896122160b566fe66571276b78",
+      "prompt": "https://sn12domain.org/procgen/ea7c22fce019a7f59a56b65d0c30e4702dd01c896122160b566fe66571276b78.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ea7c22fce019a7f59a56b65d0c30e4702dd01c896122160b566fe66571276b78.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ea7c22fce019a7f59a56b65d0c30e4702dd01c896122160b566fe66571276b78/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "ebc5b44f93f506a4c0507a3bd93e98710dee857f3f2050c78744994fde331298",
+      "prompt": "https://sn12domain.org/procgen/ebc5b44f93f506a4c0507a3bd93e98710dee857f3f2050c78744994fde331298.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ebc5b44f93f506a4c0507a3bd93e98710dee857f3f2050c78744994fde331298.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ebc5b44f93f506a4c0507a3bd93e98710dee857f3f2050c78744994fde331298/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "ed34d305840ae43be732a63d68b0c280872c4256adfb25188a0cbc8234c5f01c",
+      "prompt": "https://sn12domain.org/procgen/ed34d305840ae43be732a63d68b0c280872c4256adfb25188a0cbc8234c5f01c.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ed34d305840ae43be732a63d68b0c280872c4256adfb25188a0cbc8234c5f01c.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ed34d305840ae43be732a63d68b0c280872c4256adfb25188a0cbc8234c5f01c/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "ef075c112e04143835dbe5bbb05dfc823920a7b0eb67ab53e12e9efb1483e16d",
+      "prompt": "https://sn12domain.org/procgen/ef075c112e04143835dbe5bbb05dfc823920a7b0eb67ab53e12e9efb1483e16d.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/ef075c112e04143835dbe5bbb05dfc823920a7b0eb67ab53e12e9efb1483e16d.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/ef075c112e04143835dbe5bbb05dfc823920a7b0eb67ab53e12e9efb1483e16d/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ef075c112e04143835dbe5bbb05dfc823920a7b0eb67ab53e12e9efb1483e16d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/ef075c112e04143835dbe5bbb05dfc823920a7b0eb67ab53e12e9efb1483e16d/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has less accurate flower details and shadowing compared to Model B, which shows more significant geometric distortion and incorrect petal shapes."
+      }
+    },
+    {
+      "name": "f12b2a70cadb9da3cd29dadebb00636172c6f184c252b4f654dccbff487bcbb5",
+      "prompt": "https://sn12domain.org/procgen/f12b2a70cadb9da3cd29dadebb00636172c6f184c252b4f654dccbff487bcbb5.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f12b2a70cadb9da3cd29dadebb00636172c6f184c252b4f654dccbff487bcbb5.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f12b2a70cadb9da3cd29dadebb00636172c6f184c252b4f654dccbff487bcbb5/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "f26722c96091801e560f13be7846249633f28608026dd736c0b5d85ccd9283af",
+      "prompt": "https://sn12domain.org/procgen/f26722c96091801e560f13be7846249633f28608026dd736c0b5d85ccd9283af.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/f26722c96091801e560f13be7846249633f28608026dd736c0b5d85ccd9283af.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/f26722c96091801e560f13be7846249633f28608026dd736c0b5d85ccd9283af/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f26722c96091801e560f13be7846249633f28608026dd736c0b5d85ccd9283af.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f26722c96091801e560f13be7846249633f28608026dd736c0b5d85ccd9283af/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 2.5
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 3.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "glass bowl",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "round, shallow bowl shape",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "transparent material",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "open top",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "smooth curved sides",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "flat circular base",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "thin rim around the top edge",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 14,
+            "score_b": 15
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|+2.0|]",
+        "issues": "Model A has darker color, less accurate shape with a more pronounced inward curve and a distinct base ring. Model B has a lighter color but similar shape issues, with less accurate curvature and a less defined base ring."
+      }
+    },
+    {
+      "name": "f2c8ea80878d37492bbebe5e526edeb3a9aeacc79a085b67158284b58f0f168a",
+      "prompt": "https://sn12domain.org/procgen/f2c8ea80878d37492bbebe5e526edeb3a9aeacc79a085b67158284b58f0f168a.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f2c8ea80878d37492bbebe5e526edeb3a9aeacc79a085b67158284b58f0f168a.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f2c8ea80878d37492bbebe5e526edeb3a9aeacc79a085b67158284b58f0f168a/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "f98e9c3f74669315bc0f7fd81c3dbbfd4850cd02cb0b87191d54810bbf1e147f",
+      "prompt": "https://sn12domain.org/procgen/f98e9c3f74669315bc0f7fd81c3dbbfd4850cd02cb0b87191d54810bbf1e147f.png",
+      "left_js": null,
+      "left_png": null,
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f98e9c3f74669315bc0f7fd81c3dbbfd4850cd02cb0b87191d54810bbf1e147f.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/f98e9c3f74669315bc0f7fd81c3dbbfd4850cd02cb0b87191d54810bbf1e147f/grid.png",
+      "winner": "right",
+      "detail": {
+        "reason": "no preview from left"
+      }
+    },
+    {
+      "name": "fb633d8fc5274bd5fc20ecae1a1b40fc637376f6a3fefba74abe7e761b27b01d",
+      "prompt": "https://sn12domain.org/procgen/fb633d8fc5274bd5fc20ecae1a1b40fc637376f6a3fefba74abe7e761b27b01d.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/fb633d8fc5274bd5fc20ecae1a1b40fc637376f6a3fefba74abe7e761b27b01d.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/fb633d8fc5274bd5fc20ecae1a1b40fc637376f6a3fefba74abe7e761b27b01d/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/fb633d8fc5274bd5fc20ecae1a1b40fc637376f6a3fefba74abe7e761b27b01d.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/fb633d8fc5274bd5fc20ecae1a1b40fc637376f6a3fefba74abe7e761b27b01d/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 3.0,
+            "penalty_b": 3.0
+          },
+          "artifact_compare": {
+            "penalty_a": 3.0,
+            "penalty_b": 3.0
+          },
+          "checklist": {
+            "main_object": "white wedge",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "tapered triangular shape",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "smooth matte surface",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "flat base",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "single object",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 11,
+            "score_b": 11
+          }
+        },
+        "s3": {
+          "fired": true,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has color deviation and less accurate shape compared to the reference; Model B has similar color deviation and shape inaccuracies as Model A, with no significant improvement over Model A."
+      }
+    },
+    {
+      "name": "fec29daef8a780abd8b5d6d6b10eddd2cb6f220fd7d2998dadb6e56bc90a1813",
+      "prompt": "https://sn12domain.org/procgen/fec29daef8a780abd8b5d6d6b10eddd2cb6f220fd7d2998dadb6e56bc90a1813.png",
+      "left_js": "https://subnet404.xyz/rounds/20/leader/generated_1/fec29daef8a780abd8b5d6d6b10eddd2cb6f220fd7d2998dadb6e56bc90a1813.js",
+      "left_png": "https://subnet404.xyz/rounds/20/leader/generated_1/fec29daef8a780abd8b5d6d6b10eddd2cb6f220fd7d2998dadb6e56bc90a1813/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/fec29daef8a780abd8b5d6d6b10eddd2cb6f220fd7d2998dadb6e56bc90a1813.js",
+      "right_png": "https://subnet404.xyz/rounds/20/5EcrCvTP1QsbuP5cRDpuLVonK5TvMPMFDV1gYo7FLco2oFUS/submitted/fec29daef8a780abd8b5d6d6b10eddd2cb6f220fd7d2998dadb6e56bc90a1813/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "leather-bound book",
+            "main_object_correct_a": false,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "closed book with visible pages",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "brown leather cover with marbled pattern",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "gold embossed title on spine",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "gold decorative corner accents",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "stitched edges on cover",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "two horizontal bands on spine",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "leaf-shaped emblem on lower spine",
+                "side_a": "no",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 9,
+            "score_b": 14
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 consensus",
+        "issues": "Model A has incorrect stitching details, missing decorative elements, and wrong spine design. Model B has simplified and incorrect decorative patterns, wrong spine design, and missing corner ornaments."
+      }
+    }
+  ]
+}
