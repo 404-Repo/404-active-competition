@@ -7,5 +7,19 @@
     "total_generation_time": 0.0,
     "termination_reason": "download_failed",
     "payload": null
+  },
+  "miner-20-leader-2-r1": {
+    "pod_id": "miner-20-leader-2",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1372.0240560323,
+      1287.8882967233658,
+      1390.9549622312188,
+      1231.2922405004501
+    ],
+    "total_generation_time": 5282.159555487335,
+    "termination_reason": "completed",
+    "payload": null
   }
 }
