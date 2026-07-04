@@ -30,5 +30,18 @@
       }
     ],
     "reason": ""
+  },
+  "5ELoQxfLuzMobTVuywjSJjHfZrQhz1bzbxb2yygX5yox9NQB": {
+    "hotkey": "5ELoQxfLuzMobTVuywjSJjHfZrQhz1bzbxb2yygX5yox9NQB",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7226.85863750428
+      }
+    ],
+    "reason": "Repeat 1: time (7226.9s) exceeds limit (7200.0s)"
   }
 }
