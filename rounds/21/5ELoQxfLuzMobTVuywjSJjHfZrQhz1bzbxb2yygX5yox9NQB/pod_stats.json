@@ -1,0 +1,25 @@
+{
+  "miner-21-5eloqxfluz-0-r1": {
+    "pod_id": "miner-21-5eloqxfluz-0",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1782.4136437624693,
+      1802.2581547647715,
+      1831.931207984686,
+      1810.255630992353
+    ],
+    "total_generation_time": 7226.85863750428,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-21-5eloqxfluz-0-r2": {
+    "pod_id": "miner-21-5eloqxfluz-0",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [],
+    "total_generation_time": 0.0,
+    "termination_reason": "unreachable",
+    "payload": null
+  }
+}
