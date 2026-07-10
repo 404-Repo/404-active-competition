@@ -30,5 +30,18 @@
     "outcome": "rejected",
     "repeats": [],
     "reason": "Failed to build a docker image"
+  },
+  "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk": {
+    "hotkey": "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk",
+    "outcome": "pending",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6112.40098965168
+      }
+    ],
+    "reason": ""
   }
 }
