@@ -1,31 +1,168 @@
 {
   "left": "leader",
   "right": "5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF",
-  "score": 60,
-  "margin": 0.46875,
+  "score": 12,
+  "margin": 0.09375,
   "duels": [
     {
       "name": "01ac60a9f8eadffb8d9ea4dca910178da76ab82bc74235ec370e0e38ca0ee9a2",
       "prompt": "https://sn12domain.org/procgen/01ac60a9f8eadffb8d9ea4dca910178da76ab82bc74235ec370e0e38ca0ee9a2.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/01ac60a9f8eadffb8d9ea4dca910178da76ab82bc74235ec370e0e38ca0ee9a2.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/01ac60a9f8eadffb8d9ea4dca910178da76ab82bc74235ec370e0e38ca0ee9a2/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/01ac60a9f8eadffb8d9ea4dca910178da76ab82bc74235ec370e0e38ca0ee9a2.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/01ac60a9f8eadffb8d9ea4dca910178da76ab82bc74235ec370e0e38ca0ee9a2/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "blue vase with net",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "blue glass body with a glossy finish",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "netting covering the entire vase",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "flared, wide opening at the top",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "narrow neck connecting to the body",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "rounded, bulbous body",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "netting with diamond-shaped mesh pattern",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "netting made of light-colored rope",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 17,
+            "score_b": 17
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect net texture with simplified nodes and altered shape; Model B has incorrect net texture with simplified nodes and altered shape, plus color shift to darker tones."
       }
     },
     {
       "name": "02be098d82f74e45789e1f5746a9e9ec977bed30589f902f178359675a7890b2",
       "prompt": "https://sn12domain.org/procgen/02be098d82f74e45789e1f5746a9e9ec977bed30589f902f178359675a7890b2.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/02be098d82f74e45789e1f5746a9e9ec977bed30589f902f178359675a7890b2.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/02be098d82f74e45789e1f5746a9e9ec977bed30589f902f178359675a7890b2/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/02be098d82f74e45789e1f5746a9e9ec977bed30589f902f178359675a7890b2.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/02be098d82f74e45789e1f5746a9e9ec977bed30589f902f178359675a7890b2/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 7.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect chain color (black instead of silver), distorted gem shape, and missing gem facets. Model B has incorrect gem shape (not square), wrong gem cut details, and incorrect bail design."
       }
     },
     {
@@ -80,7 +217,7 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 4,
+          "n_consistent": 3,
           "angles": [
             {
               "label": "front_left",
@@ -94,8 +231,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 3.0,
-              "pen_b": 5.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_above",
@@ -105,7 +242,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color tone and simplified structural details; Model B has incorrect color tone, altered lattice pattern, and missing top/bottom decorative elements."
+        "issues": "Model A has incorrect color tone and simplified structural details. Model B has incorrect color tone, altered lattice pattern, and simplified structural details."
       }
     },
     {
@@ -153,7 +290,7 @@
           },
           "artifact_compare": {
             "penalty_a": 7.0,
-            "penalty_b": 6.0
+            "penalty_b": 7.0
           },
           "checklist": {
             "main_object": "chrome faucet",
@@ -231,7 +368,7 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/0a7b605c080996719b589f718af468b35c6858b29c702578e9c5d259c6794bfa/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/0a7b605c080996719b589f718af468b35c6858b29c702578e9c5d259c6794bfa.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/0a7b605c080996719b589f718af468b35c6858b29c702578e9c5d259c6794bfa/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
         "s1": {
           "choice": "draw",
@@ -261,7 +398,7 @@
           ]
         },
         "s2": {
-          "choice": "draw",
+          "choice": "A",
           "source": "consensus_3",
           "best_view": {
             "penalty_a": 5.0,
@@ -299,7 +436,7 @@
               {
                 "feature": "small water droplets scattered on the label",
                 "side_a": "partial",
-                "side_b": "partial"
+                "side_b": "no"
               },
               {
                 "feature": "clear liquid inside the bottle",
@@ -308,15 +445,11 @@
               }
             ],
             "score_a": 12,
-            "score_b": 11
+            "score_b": 10
           }
         },
-        "s3": {
-          "fired": true,
-          "choice": "B"
-        },
         "s4": {
-          "choice": "B",
+          "choice": "A",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -336,8 +469,8 @@
             }
           }
         },
-        "decided_by": "S3 gray-rescue",
-        "issues": "Model A has incorrect label details, missing water droplets, and wrong cap design. Model B has similar label and cap issues but also shows incorrect bottle shape and water level."
+        "decided_by": "S2 consensus",
+        "issues": "Model A has incorrect cap shape, missing label details, and wrong bottle proportions. Model B has incorrect cap shape, missing label details, and wrong bottle proportions, with additional surface artifacts."
       }
     },
     {
@@ -484,31 +617,149 @@
           }
         },
         "decided_by": "S2 strong_voter [bv|-2.0|]",
-        "issues": "Model A has incorrect shape (flat blade instead of curved), missing soil detail, and wrong handle design. Model B has incorrect blade shape, missing soil detail, and incorrect handle texture."
+        "issues": "Model A has incorrect shape (flat blade instead of curved), missing soil detail, and wrong handle attachment. Model B has incorrect blade shape, wrong soil appearance, and missing handle details."
       }
     },
     {
       "name": "0e037708bc88931fe1f5f0f7d140f66914d76fc5cc8fa16d6c66a342d1a8a917",
       "prompt": "https://sn12domain.org/procgen/0e037708bc88931fe1f5f0f7d140f66914d76fc5cc8fa16d6c66a342d1a8a917.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/0e037708bc88931fe1f5f0f7d140f66914d76fc5cc8fa16d6c66a342d1a8a917.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/0e037708bc88931fe1f5f0f7d140f66914d76fc5cc8fa16d6c66a342d1a8a917/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/0e037708bc88931fe1f5f0f7d140f66914d76fc5cc8fa16d6c66a342d1a8a917.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/0e037708bc88931fe1f5f0f7d140f66914d76fc5cc8fa16d6c66a342d1a8a917/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "A",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 4.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "saw blade",
+            "main_object_correct_a": false,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "curved rectangular blade with serrated edge",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "toothed edge along the entire length",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small curved tab at the non-toothed end",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "smooth metallic surface",
+                "side_a": "yes",
+                "side_b": "partial"
+              }
+            ],
+            "score_a": 4,
+            "score_b": 8
+          }
+        },
+        "s4": {
+          "choice": "A",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|-2.0|]",
+        "issues": "Model A lacks the curved end and small protrusion of the reference; Model B adds incorrect circular loops at the ends."
       }
     },
     {
       "name": "0f3720ff15c1ab5dde06829b6945ff48064135f1d8ca606e56d4c2dca050f5fc",
       "prompt": "https://sn12domain.org/procgen/0f3720ff15c1ab5dde06829b6945ff48064135f1d8ca606e56d4c2dca050f5fc.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/0f3720ff15c1ab5dde06829b6945ff48064135f1d8ca606e56d4c2dca050f5fc.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/0f3720ff15c1ab5dde06829b6945ff48064135f1d8ca606e56d4c2dca050f5fc/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/0f3720ff15c1ab5dde06829b6945ff48064135f1d8ca606e56d4c2dca050f5fc.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/0f3720ff15c1ab5dde06829b6945ff48064135f1d8ca606e56d4c2dca050f5fc/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color tone (gray instead of chrome), missing reflective highlights, and simplified geometry. Model B has incorrect color tone (matte gray instead of chrome), missing reflective highlights, and simplified geometry with less defined details."
       }
     },
     {
@@ -631,12 +882,40 @@
       "name": "1064634defa9d53d5f8a8c719bed064643904fd06e7f1a951870a6860322f65e",
       "prompt": "https://sn12domain.org/procgen/1064634defa9d53d5f8a8c719bed064643904fd06e7f1a951870a6860322f65e.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/1064634defa9d53d5f8a8c719bed064643904fd06e7f1a951870a6860322f65e.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/1064634defa9d53d5f8a8c719bed064643904fd06e7f1a951870a6860322f65e/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/1064634defa9d53d5f8a8c719bed064643904fd06e7f1a951870a6860322f65e.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/1064634defa9d53d5f8a8c719bed064643904fd06e7f1a951870a6860322f65e/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect wheel positions and counts, while Model B has incorrect wheel positions, counts, and additional structural elements not present in the reference."
       }
     },
     {
@@ -646,10 +925,10 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/106a8b2862857499e0b928921995d6ff20da99c3c2053d17bc4cecfbbaa1f22b/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/106a8b2862857499e0b928921995d6ff20da99c3c2053d17bc4cecfbbaa1f22b.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/106a8b2862857499e0b928921995d6ff20da99c3c2053d17bc4cecfbbaa1f22b/grid.png",
-      "winner": "left",
+      "winner": "draw",
       "detail": {
         "s1": {
-          "choice": "A",
+          "choice": "draw",
           "n_total": 4,
           "n_consistent": 3,
           "angles": [
@@ -660,23 +939,99 @@
             },
             {
               "label": "front_right",
-              "pen_a": 2.0,
-              "pen_b": 4.0
-            },
-            {
-              "label": "front_below",
               "pen_a": 4.0,
               "pen_b": 4.0
             },
             {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
               "label": "front_above",
-              "pen_a": 3.0,
-              "pen_b": 5.0
+              "pen_a": 1.5,
+              "pen_b": 4.0
             }
           ]
         },
-        "decided_by": "S1",
-        "issues": "Model A has slightly off-color panels and less defined frame details compared to Model B, which closely matches the reference's color and frame precision."
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "sliding wardrobe",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "two sliding doors",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "wooden frame around the doors",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "black metal track between doors",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small black handle on each door",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "light brown frame color",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gray sliding doors",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 15,
+            "score_b": 15
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has slightly off-color panels and less defined frame details compared to the reference. Model B closely matches the reference but has minor pixelation artifacts in some views."
       }
     },
     {
@@ -716,7 +1071,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect shape and missing structural details like the interior ribs and hull planks. Model B has incorrect shape, missing interior ribs, and simplified hull planks with wrong proportions."
+        "issues": "Model A has incorrect shape and missing structural details like interior supports. Model B has incorrect shape, missing structural details, and wrong color tone compared to the reference."
       }
     },
     {
@@ -756,31 +1111,87 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has a simplified circular opening instead of the reference's oval shape and lacks the reference's small details like screw holes. Model B has an incorrect oval opening shape and orientation, with a more pronounced inner edge and misaligned position compared to the reference."
+        "issues": "Model A has a simplified circular opening instead of the reference's oval shape and lacks the reference's small details like screw holes. Model B features an incorrect oval opening shape and orientation, with a visible surface artifact in one view."
       }
     },
     {
       "name": "140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f",
       "prompt": "https://sn12domain.org/procgen/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/140ae45c2abd2015c7a587a554eb2b1e5ec9097f518dc35440d2c8cae38d947f/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect metal colors (darker gray) and simplified buckle design. Model B has correct metal colors but simplified buckle and missing small metal accents on the leather strap."
       }
     },
     {
       "name": "166b41f5f0f7aee3bb71c963b1104994befc94ace0b5d3ff465959d4792bd438",
       "prompt": "https://sn12domain.org/procgen/166b41f5f0f7aee3bb71c963b1104994befc94ace0b5d3ff465959d4792bd438.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/166b41f5f0f7aee3bb71c963b1104994befc94ace0b5d3ff465959d4792bd438.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/166b41f5f0f7aee3bb71c963b1104994befc94ace0b5d3ff465959d4792bd438/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/166b41f5f0f7aee3bb71c963b1104994befc94ace0b5d3ff465959d4792bd438.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/166b41f5f0f7aee3bb71c963b1104994befc94ace0b5d3ff465959d4792bd438/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color scheme (gold accents instead of aged brown), missing text details, and simplified surface texture. Model B has simplified surface details, incorrect crack patterns, and lacks the aged texture and color variation of the reference."
       }
     },
     {
@@ -795,7 +1206,7 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -804,8 +1215,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 3.0,
-              "pen_b": 5.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_below",
@@ -860,19 +1271,47 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect chain link shapes, wrong pendant color and texture, and simplified geometric details. Model B has incorrect chain link shapes, wrong pendant color and texture, and simplified geometric details, with additional issues like missing chain links and incorrect pendant attachment."
+        "issues": "Model A has incorrect chain link shapes and colors, a simplified locket with missing details, and wrong material appearance. Model B has a chain with incorrect link shapes and colors, a locket with wrong proportions and missing details, and incorrect material shading."
       }
     },
     {
       "name": "1d88f068c731f8a81a78cc14523367d6dab837a1eb6c1430e6a1003e20f33603",
       "prompt": "https://sn12domain.org/procgen/1d88f068c731f8a81a78cc14523367d6dab837a1eb6c1430e6a1003e20f33603.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/1d88f068c731f8a81a78cc14523367d6dab837a1eb6c1430e6a1003e20f33603.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/1d88f068c731f8a81a78cc14523367d6dab837a1eb6c1430e6a1003e20f33603/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/1d88f068c731f8a81a78cc14523367d6dab837a1eb6c1430e6a1003e20f33603.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/1d88f068c731f8a81a78cc14523367d6dab837a1eb6c1430e6a1003e20f33603/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified shapes, incorrect cheese types, and wrong colors. Model B has incorrect cheese shapes, missing details, and wrong colors."
       }
     },
     {
@@ -919,60 +1358,352 @@
       "name": "1ecd3d5bb3ddf37642496bc0fc908adde4a8ce55334aa933a49c48d287bd29e1",
       "prompt": "https://sn12domain.org/procgen/1ecd3d5bb3ddf37642496bc0fc908adde4a8ce55334aa933a49c48d287bd29e1.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/1ecd3d5bb3ddf37642496bc0fc908adde4a8ce55334aa933a49c48d287bd29e1.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/1ecd3d5bb3ddf37642496bc0fc908adde4a8ce55334aa933a49c48d287bd29e1/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/1ecd3d5bb3ddf37642496bc0fc908adde4a8ce55334aa933a49c48d287bd29e1.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/1ecd3d5bb3ddf37642496bc0fc908adde4a8ce55334aa933a49c48d287bd29e1/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 4.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "spray bottle",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "transparent plastic body with curved sides",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "transparent spray nozzle on top",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "transparent straw inside the bottle",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "measurement markings on the side",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "screw-on cap with ridged texture",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small text at the bottom of the bottle",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 11,
+            "score_b": 12
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect cap shape and missing measurement markings; Model B has incorrect cap shape, wrong bottle curvature, and missing measurement markings."
       }
     },
     {
       "name": "2281d8fc0929ed8a1aeaf67f0e56c595383fc837e0718ad7477e0af54fa59337",
       "prompt": "https://sn12domain.org/procgen/2281d8fc0929ed8a1aeaf67f0e56c595383fc837e0718ad7477e0af54fa59337.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/2281d8fc0929ed8a1aeaf67f0e56c595383fc837e0718ad7477e0af54fa59337.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/2281d8fc0929ed8a1aeaf67f0e56c595383fc837e0718ad7477e0af54fa59337/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/2281d8fc0929ed8a1aeaf67f0e56c595383fc837e0718ad7477e0af54fa59337.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/2281d8fc0929ed8a1aeaf67f0e56c595383fc837e0718ad7477e0af54fa59337/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color tone (too dark/brownish) and lacks detailed texture patterns. Model B has incorrect color tone and introduces artificial vertical lines on the surface."
       }
     },
     {
       "name": "23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1",
       "prompt": "https://sn12domain.org/procgen/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/23601ad2f4675001bb3bedb44ddf0785f0aec25df5e7aeeb8c3a6ad6236415f1/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified shapes, missing detailed chocolate drizzle, incorrect window/door designs, and basic geometric distortions. Model B has incorrect roof shape, missing chimney details, and wrong window/door placements, with less accurate texture and color matching."
       }
     },
     {
       "name": "24420e73e05915a7081b332cfb634422986524b9bbb47e18ba8e15039757e43c",
       "prompt": "https://sn12domain.org/procgen/24420e73e05915a7081b332cfb634422986524b9bbb47e18ba8e15039757e43c.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/24420e73e05915a7081b332cfb634422986524b9bbb47e18ba8e15039757e43c.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/24420e73e05915a7081b332cfb634422986524b9bbb47e18ba8e15039757e43c/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/24420e73e05915a7081b332cfb634422986524b9bbb47e18ba8e15039757e43c.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/24420e73e05915a7081b332cfb634422986524b9bbb47e18ba8e15039757e43c/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 2.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 2.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 2.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 3.0,
+            "penalty_b": 3.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "orange capsule container",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "two-part rounded body with distinct seam",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small circular hole on upper right side",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "smooth curved surface without sharp edges",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "uniform bright orange color",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "flat circular base for standing",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small opening at the top",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 13,
+            "score_b": 13
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has a darker color and missing the small hole on the upper part. Model B has a similar color but includes small white artifacts on the upper part."
       }
     },
     {
       "name": "257751d724507093b9805abea25f43843c72ec72982d0a45f68f034bd16956e8",
       "prompt": "https://sn12domain.org/procgen/257751d724507093b9805abea25f43843c72ec72982d0a45f68f034bd16956e8.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/257751d724507093b9805abea25f43843c72ec72982d0a45f68f034bd16956e8.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/257751d724507093b9805abea25f43843c72ec72982d0a45f68f034bd16956e8/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/257751d724507093b9805abea25f43843c72ec72982d0a45f68f034bd16956e8.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/257751d724507093b9805abea25f43843c72ec72982d0a45f68f034bd16956e8/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect screen graphics, missing top logo, and simplified geometry. Model B has incorrect screen graphics, misaligned screen bezel, and simplified geometry."
       }
     },
     {
@@ -1053,7 +1784,7 @@
         },
         "s2": {
           "choice": "A",
-          "source": "strong_voter",
+          "source": "consensus_3",
           "best_view": {
             "penalty_a": 5.0,
             "penalty_b": 6.0
@@ -1083,13 +1814,8 @@
                 "side_b": "yes"
               },
               {
-                "feature": "brand text 'UNDER SHAW' on blade",
+                "feature": "branding text on blade",
                 "side_a": "no",
-                "side_b": "no"
-              },
-              {
-                "feature": "smooth, polished blade surface",
-                "side_a": "yes",
                 "side_b": "no"
               },
               {
@@ -1098,7 +1824,7 @@
                 "side_b": "yes"
               }
             ],
-            "score_a": 12,
+            "score_a": 10,
             "score_b": 5
           }
         },
@@ -1123,7 +1849,7 @@
             }
           }
         },
-        "decided_by": "S2 strong_voter [cl|+7|]",
+        "decided_by": "S2 consensus",
         "issues": "Model A has incorrect blade shape and handle proportions, while Model B has wrong blade curvature and missing reference text, with Model A's issues being more geometrically distorted."
       }
     },
@@ -1164,19 +1890,119 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color (dark gray/black instead of silver), missing reflective details, and geometric distortions. Model B has incorrect color (dark gray/black instead of silver) and surface texture artifacts, but better shape than Model A."
+        "issues": "Model A has incorrect color (dark gray/black instead of silver), missing reflective details, and geometric distortions. Model B has incorrect color (dark gray/black instead of silver), surface texture artifacts, and shape distortions."
       }
     },
     {
       "name": "346e2c515bdb90ba2a9f73b93fe3d87ff54ebd1967462252a55c953c73d391ca",
       "prompt": "https://sn12domain.org/procgen/346e2c515bdb90ba2a9f73b93fe3d87ff54ebd1967462252a55c953c73d391ca.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/346e2c515bdb90ba2a9f73b93fe3d87ff54ebd1967462252a55c953c73d391ca.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/346e2c515bdb90ba2a9f73b93fe3d87ff54ebd1967462252a55c953c73d391ca/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/346e2c515bdb90ba2a9f73b93fe3d87ff54ebd1967462252a55c953c73d391ca.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/346e2c515bdb90ba2a9f73b93fe3d87ff54ebd1967462252a55c953c73d391ca/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "A",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 7.0
+          },
+          "checklist": {
+            "main_object": "wine bottle",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "silver metallic screw cap with ridged top",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "tapered neck leading to a rounded body",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "transparent glass with yellowish liquid inside",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "white label with gold and black text",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "small droplets on the glass surface",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "curved base for stability",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 7,
+            "score_b": 7
+          }
+        },
+        "s4": {
+          "choice": "A",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 consensus",
+        "issues": "Model A has incorrect cap color (black instead of silver), wrong label design, and missing liquid details. Model B has incorrect cap color, wrong label design, additional brown label elements, and incorrect liquid color."
       }
     },
     {
@@ -1235,8 +2061,8 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 6.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_right",
@@ -1263,12 +2089,40 @@
       "name": "382d91474fc4f58b16e4ddfa495953b4349f67ae35c76b1606776fc1b57ca1b3",
       "prompt": "https://sn12domain.org/procgen/382d91474fc4f58b16e4ddfa495953b4349f67ae35c76b1606776fc1b57ca1b3.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/382d91474fc4f58b16e4ddfa495953b4349f67ae35c76b1606776fc1b57ca1b3.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/382d91474fc4f58b16e4ddfa495953b4349f67ae35c76b1606776fc1b57ca1b3/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/382d91474fc4f58b16e4ddfa495953b4349f67ae35c76b1606776fc1b57ca1b3.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/382d91474fc4f58b16e4ddfa495953b4349f67ae35c76b1606776fc1b57ca1b3/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has distorted map details, missing clear map outlines, and incorrect base ring shape. Model B has simplified map details, incorrect base ring shape, and missing top ring detail."
       }
     },
     {
@@ -1384,31 +2238,234 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has simplified details, missing wood grain texture, and incorrect shelf proportions. Model B has incorrect structural elements like vertical slats and misaligned base, with overall shape distortion."
+        "issues": "Model A has simplified details, missing wood grain texture, and incorrect shelf design. Model B has incorrect proportions, missing wood grain, and distorted structural elements."
       }
     },
     {
       "name": "3d8d68cf1eb8fcb94185fc27127c69bf4fd2a46a523efc702545369df2e26154",
       "prompt": "https://sn12domain.org/procgen/3d8d68cf1eb8fcb94185fc27127c69bf4fd2a46a523efc702545369df2e26154.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/3d8d68cf1eb8fcb94185fc27127c69bf4fd2a46a523efc702545369df2e26154.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/3d8d68cf1eb8fcb94185fc27127c69bf4fd2a46a523efc702545369df2e26154/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/3d8d68cf1eb8fcb94185fc27127c69bf4fd2a46a523efc702545369df2e26154.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/3d8d68cf1eb8fcb94185fc27127c69bf4fd2a46a523efc702545369df2e26154/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "metal clip",
+            "main_object_correct_a": false,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "rectangular body with rounded corners",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "slotted opening on one side",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "central latch mechanism",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic silver surface",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "slightly textured finish",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 7,
+            "score_b": 10
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has wrong color (dark gray instead of silver), simplified geometry, and missing details like the latch mechanism's texture. Model B has incorrect color variation (mixed dark and light gray), wrong latch shape, and geometric distortions in proportions."
       }
     },
     {
       "name": "3f1e10d8f11158b97b5c191556337d703b71af5d748bab62c8506043e7982465",
       "prompt": "https://sn12domain.org/procgen/3f1e10d8f11158b97b5c191556337d703b71af5d748bab62c8506043e7982465.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/3f1e10d8f11158b97b5c191556337d703b71af5d748bab62c8506043e7982465.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/3f1e10d8f11158b97b5c191556337d703b71af5d748bab62c8506043e7982465/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/3f1e10d8f11158b97b5c191556337d703b71af5d748bab62c8506043e7982465.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/3f1e10d8f11158b97b5c191556337d703b71af5d748bab62c8506043e7982465/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "playpen",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "square wooden frame with 4 corner posts",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "colored mesh panels in rainbow pattern",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "single door with a round knob on the right side",
+                "side_a": "partial",
+                "side_b": "no"
+              },
+              {
+                "feature": "small label on the front left corner",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "interior floor with blue and yellow sections",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small toy visible inside",
+                "side_a": "yes",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 11,
+            "score_b": 8
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect door design, missing interior elements, and wrong mesh colors. Model B has incorrect mesh structure, missing interior elements, and wrong mesh colors."
       }
     },
     {
@@ -1418,7 +2475,7 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/426b72efd322a3842fabd2e2c8bc9329283cfbd18c88cb53c387b4d9c24fc7a5/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/426b72efd322a3842fabd2e2c8bc9329283cfbd18c88cb53c387b4d9c24fc7a5.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/426b72efd322a3842fabd2e2c8bc9329283cfbd18c88cb53c387b4d9c24fc7a5/grid.png",
-      "winner": "draw",
+      "winner": "right",
       "detail": {
         "s1": {
           "choice": "draw",
@@ -1437,8 +2494,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 7.0,
-              "pen_b": 6.5
+              "pen_a": 7.5,
+              "pen_b": 7.5
             },
             {
               "label": "front_above",
@@ -1448,10 +2505,10 @@
           ]
         },
         "s2": {
-          "choice": "draw",
-          "source": "consensus_3",
+          "choice": "B",
+          "source": "strong_voter",
           "best_view": {
-            "penalty_a": 6.0,
+            "penalty_a": 7.0,
             "penalty_b": 5.0
           },
           "artifact_compare": {
@@ -1488,12 +2545,8 @@
             "score_b": 3
           }
         },
-        "s3": {
-          "fired": false,
-          "choice": null
-        },
         "s4": {
-          "choice": "draw",
+          "choice": "B",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -1513,7 +2566,7 @@
             }
           }
         },
-        "decided_by": "S3 (gate did not fire) → draw",
+        "decided_by": "S2 strong_voter [bv|+2.0|]",
         "issues": "Model A has simplified geometric shape, missing detailed texture pattern, and incorrect proportions. Model B has simplified geometric shape, missing detailed texture pattern, and incorrect proportions, with additional distortion in the grid pattern."
       }
     },
@@ -1646,7 +2699,7 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 2,
+          "n_consistent": 1,
           "angles": [
             {
               "label": "front_left",
@@ -1661,7 +2714,7 @@
             {
               "label": "front_below",
               "pen_a": 4.0,
-              "pen_b": 6.0
+              "pen_b": 4.0
             },
             {
               "label": "front_above",
@@ -1671,7 +2724,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color tones and lacks the detailed texture pattern of the reference. Model B has a similar color issue but also shows small red artifacts on the edges."
+        "issues": "Model A has washed-out colors and lacks the detailed speckled pattern of the reference. Model B has a similar color issue but also exhibits small red artifacts on the edges."
       }
     },
     {
@@ -1790,24 +2843,156 @@
       "name": "4b90a3274df2b1a426c90b905f1583d6469406bc9e6c6c8d27b828bb698fdb59",
       "prompt": "https://sn12domain.org/procgen/4b90a3274df2b1a426c90b905f1583d6469406bc9e6c6c8d27b828bb698fdb59.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/4b90a3274df2b1a426c90b905f1583d6469406bc9e6c6c8d27b828bb698fdb59.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/4b90a3274df2b1a426c90b905f1583d6469406bc9e6c6c8d27b828bb698fdb59/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/4b90a3274df2b1a426c90b905f1583d6469406bc9e6c6c8d27b828bb698fdb59.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/4b90a3274df2b1a426c90b905f1583d6469406bc9e6c6c8d27b828bb698fdb59/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect shape and missing surface details like the reference's layered edges and spots. Model B has a wrong overall shape, incorrect internal structure, and missing surface details compared to the reference."
       }
     },
     {
       "name": "4e0004aa73683b4837aecf52ba0469259090d60f76ad8c3d58e1f2248181478e",
       "prompt": "https://sn12domain.org/procgen/4e0004aa73683b4837aecf52ba0469259090d60f76ad8c3d58e1f2248181478e.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/4e0004aa73683b4837aecf52ba0469259090d60f76ad8c3d58e1f2248181478e.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/4e0004aa73683b4837aecf52ba0469259090d60f76ad8c3d58e1f2248181478e/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/4e0004aa73683b4837aecf52ba0469259090d60f76ad8c3d58e1f2248181478e.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/4e0004aa73683b4837aecf52ba0469259090d60f76ad8c3d58e1f2248181478e/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "metal lantern",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "cylindrical base with flared bottom",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "two side handles attached to the glass enclosure",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "glass enclosure with twisted wire support",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "bulb inside the glass enclosure emitting light",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metal top with a small loop handle",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic silver color",
+                "side_a": "partial",
+                "side_b": "partial"
+              }
+            ],
+            "score_a": 14,
+            "score_b": 14
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect color (black instead of silver) and simplified geometry with missing details like the top vent and base texture. Model B has incorrect color (black instead of silver) and simplified geometry with missing details like the top vent and base texture, plus some incorrect handle and cage shapes."
       }
     },
     {
@@ -1984,12 +3169,12 @@
                 "side_b": "partial"
               },
               {
-                "feature": "blue color with brown and yellow speckles",
+                "feature": "blue base color with brown and yellow speckles",
                 "side_a": "partial",
                 "side_b": "partial"
               },
               {
-                "feature": "visible seam between two halves",
+                "feature": "visible seam between the two halves",
                 "side_a": "yes",
                 "side_b": "yes"
               }
@@ -2024,19 +3209,47 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has incorrect text ('SULIMAZE'), missing surface texture details, and simplified geometry. Model B has incorrect text ('SublimAZE'), simplified geometry, and missing surface texture details."
+        "issues": "Model A has incorrect text ('SULIMAZE'), missing surface details, and wrong color tone. Model B has incorrect text ('SublimAZE'), missing surface details, and wrong color tone. Model B's text is closer to the reference but still incorrect, while Model A's text is more distorted."
       }
     },
     {
       "name": "52f7a05959fd765b35f068589e7cf9d48b49f0dd27d34e37e4c50893ba26739c",
       "prompt": "https://sn12domain.org/procgen/52f7a05959fd765b35f068589e7cf9d48b49f0dd27d34e37e4c50893ba26739c.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/52f7a05959fd765b35f068589e7cf9d48b49f0dd27d34e37e4c50893ba26739c.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/52f7a05959fd765b35f068589e7cf9d48b49f0dd27d34e37e4c50893ba26739c/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/52f7a05959fd765b35f068589e7cf9d48b49f0dd27d34e37e4c50893ba26739c.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/52f7a05959fd765b35f068589e7cf9d48b49f0dd27d34e37e4c50893ba26739c/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 2.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified details like missing text on the central window and less defined wheel patterns. Model B has incorrect wheel designs with star-like patterns and misaligned text on the central window."
       }
     },
     {
@@ -2065,8 +3278,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 6.0,
-              "pen_b": 6.0
+              "pen_a": 5.0,
+              "pen_b": 5.0
             },
             {
               "label": "front_above",
@@ -2123,24 +3336,157 @@
       "name": "59d80cd90a1d017d57e107ab3710a534df8cf53b64862460e9ada4f00030d2ac",
       "prompt": "https://sn12domain.org/procgen/59d80cd90a1d017d57e107ab3710a534df8cf53b64862460e9ada4f00030d2ac.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/59d80cd90a1d017d57e107ab3710a534df8cf53b64862460e9ada4f00030d2ac.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/59d80cd90a1d017d57e107ab3710a534df8cf53b64862460e9ada4f00030d2ac/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/59d80cd90a1d017d57e107ab3710a534df8cf53b64862460e9ada4f00030d2ac.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/59d80cd90a1d017d57e107ab3710a534df8cf53b64862460e9ada4f00030d2ac/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 7.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 7.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 4.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "blue van",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "single large red 'V' logo on side panel",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "white stripe running horizontally across the side",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "front grille with vertical slats",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "two visible wheels with silver hubcaps",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "front bumper with chrome trim",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "single side door with handle",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "windshield with wipers",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 17,
+            "score_b": 17
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 consensus",
+        "issues": "Model A has simplified geometry with missing details like the front grille, side mirror, and incorrect wheel design. Model B has a more accurate shape but still lacks fine details such as the front grille, side mirror, and incorrect wheel design compared to the reference."
       }
     },
     {
       "name": "59e63584b30efa5cd1f5883245c4e94fecbb1c9ba4ecd9351b696aa0d9da5b0a",
       "prompt": "https://sn12domain.org/procgen/59e63584b30efa5cd1f5883245c4e94fecbb1c9ba4ecd9351b696aa0d9da5b0a.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/59e63584b30efa5cd1f5883245c4e94fecbb1c9ba4ecd9351b696aa0d9da5b0a.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/59e63584b30efa5cd1f5883245c4e94fecbb1c9ba4ecd9351b696aa0d9da5b0a/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/59e63584b30efa5cd1f5883245c4e94fecbb1c9ba4ecd9351b696aa0d9da5b0a.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/59e63584b30efa5cd1f5883245c4e94fecbb1c9ba4ecd9351b696aa0d9da5b0a/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 7.5,
+              "pen_b": 6.5
+            },
+            {
+              "label": "front_right",
+              "pen_a": 7.5,
+              "pen_b": 6.5
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 7.5
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect shape (not an infinity symbol), wrong clasp design, and incorrect gem appearance. Model B has incorrect shape (not an infinity symbol), wrong clasp design, and incorrect gem appearance."
       }
     },
     {
@@ -2159,8 +3505,8 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 6.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_right",
@@ -2230,7 +3576,7 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/5d404b7b0bcc05c3ee7fa9c57bb3b32b985e9c35d3ea0669bd7af28d370621c7/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/5d404b7b0bcc05c3ee7fa9c57bb3b32b985e9c35d3ea0669bd7af28d370621c7.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/5d404b7b0bcc05c3ee7fa9c57bb3b32b985e9c35d3ea0669bd7af28d370621c7/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
         "s1": {
           "choice": "draw",
@@ -2260,8 +3606,8 @@
           ]
         },
         "s2": {
-          "choice": "B",
-          "source": "strong_voter",
+          "choice": "draw",
+          "source": "consensus_3",
           "best_view": {
             "penalty_a": 6.0,
             "penalty_b": 4.0
@@ -2273,7 +3619,7 @@
           "checklist": {
             "main_object": "frying pan",
             "main_object_correct_a": true,
-            "main_object_correct_b": true,
+            "main_object_correct_b": false,
             "features": [
               {
                 "feature": "single long handle attached to the right side",
@@ -2286,7 +3632,7 @@
                 "side_b": "yes"
               },
               {
-                "feature": "metallic silver textured finish",
+                "feature": "metallic silver color",
                 "side_a": "partial",
                 "side_b": "partial"
               },
@@ -2296,22 +3642,26 @@
                 "side_b": "no"
               },
               {
-                "feature": "rounded edge of the pan",
-                "side_a": "yes",
-                "side_b": "yes"
+                "feature": "smooth interior cooking surface",
+                "side_a": "partial",
+                "side_b": "no"
               },
               {
-                "feature": "handle with a circular hole at the end",
-                "side_a": "no",
+                "feature": "slightly raised edges around cooking surface",
+                "side_a": "yes",
                 "side_b": "no"
               }
             ],
-            "score_a": 12,
-            "score_b": 10
+            "score_a": 13,
+            "score_b": 5
           }
         },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
         "s4": {
-          "choice": "B",
+          "choice": "draw",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -2331,7 +3681,7 @@
             }
           }
         },
-        "decided_by": "S2 strong_voter [bv|+2.0|]",
+        "decided_by": "S3 (gate did not fire) → draw",
         "issues": "Model A has incorrect color (darker gray), missing handle detail, and surface texture mismatch. Model B has incorrect color (darker gray), wrong handle shape, and surface texture mismatch."
       }
     },
@@ -2339,12 +3689,40 @@
       "name": "5eced26ba98b3bacdba176dc90ba2a300f854021269b914ba60fcc1b103ef6ac",
       "prompt": "https://sn12domain.org/procgen/5eced26ba98b3bacdba176dc90ba2a300f854021269b914ba60fcc1b103ef6ac.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/5eced26ba98b3bacdba176dc90ba2a300f854021269b914ba60fcc1b103ef6ac.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/5eced26ba98b3bacdba176dc90ba2a300f854021269b914ba60fcc1b103ef6ac/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/5eced26ba98b3bacdba176dc90ba2a300f854021269b914ba60fcc1b103ef6ac.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/5eced26ba98b3bacdba176dc90ba2a300f854021269b914ba60fcc1b103ef6ac/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified geometry, lacks detailed wear and paint chipping, and incorrect color tone. Model B has geometric distortions, incorrect support structure, and mismatched surface details compared to the reference."
       }
     },
     {
@@ -2384,7 +3762,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect bracelet texture and color, missing watch crown detail, and incorrect dial design. Model B has incorrect bracelet texture and color, but the dial design is closer to the reference compared to Model A."
+        "issues": "Model A has incorrect bracelet texture and color, missing watch crown detail, and blacked-out watch faces in some views. Model B has incorrect bracelet texture and color, but the watch faces are visible in all views."
       }
     },
     {
@@ -2530,7 +3908,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has less pronounced curvature and lacks fine surface details compared to the reference. Model B has similar curvature but with slightly thicker and less uniform coloring, deviating from the reference's subtle texture and color."
+        "issues": "Model A has less pronounced curvature and lacks fine surface details compared to the reference. Model B has similar curvature but exhibits slight color variations and less defined surface texture."
       }
     },
     {
@@ -2641,7 +4019,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has incorrect shape with a cylindrical body instead of a tapered end, wrong color tone, and missing the small circular hole. Model B has incorrect shape with a rounded end and additional features not present in the reference, plus wrong color and surface details."
+        "issues": "Model A has incorrect shape with a cylindrical body instead of a tapered end, missing the small circular hole, and wrong color/shading. Model B has incorrect shape with a rounded end instead of a tapered one, missing the hexagonal opening and small circular hole, and wrong color/shading."
       }
     },
     {
@@ -2721,7 +4099,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has a simplified, less detailed handle and a less accurate spout shape compared to the reference. Model B has a more accurate shape but lacks the glossy surface and reflective highlights seen in the reference."
+        "issues": "Model A has a simplified, less detailed handle and a less accurate spout shape compared to the reference. Model B has a more accurate shape but lacks the reflective surface and highlights seen in the reference."
       }
     },
     {
@@ -2761,7 +4139,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified and incorrect decorative patterns, less defined shape details, and a duller color. Model B has distorted shape proportions, missing intricate patterns, and incorrect surface reflections."
+        "issues": "Model A has simplified and incorrect decorative patterns, less defined shape details, and a duller color. Model B has distorted shape proportions, incorrect decorative patterns, and surface artifacts."
       }
     },
     {
@@ -2841,7 +4219,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks detailed engravings on the handle, has incorrect blade shape and color, and simplified metal accents. Model B has incorrect blade shape, missing handle engravings, and wrong metal accent details."
+        "issues": "Model A has simplified geometry with incorrect blade shape, missing handle details, and wrong color scheme. Model B has accurate shape but lacks the reference's floral engravings on the handle and has incorrect blade curvature."
       }
     },
     {
@@ -2865,12 +4243,12 @@
             },
             {
               "label": "front_right",
-              "pen_a": 7.0,
+              "pen_a": 7.5,
               "pen_b": 3.0
             },
             {
               "label": "front_below",
-              "pen_a": 6.0,
+              "pen_a": 6.5,
               "pen_b": 3.0
             },
             {
@@ -2897,12 +4275,12 @@
             "main_object_correct_b": true,
             "features": [
               {
-                "feature": "rounded crown with slight indentation at top",
+                "feature": "rounded top with slight indentation at center",
                 "side_a": "yes",
                 "side_b": "yes"
               },
               {
-                "feature": "flat, slightly curved brim",
+                "feature": "flat, circular brim",
                 "side_a": "yes",
                 "side_b": "yes"
               },
@@ -2917,13 +4295,18 @@
                 "side_b": "yes"
               },
               {
-                "feature": "soft, textured fabric appearance",
+                "feature": "soft, textured surface",
                 "side_a": "partial",
                 "side_b": "partial"
+              },
+              {
+                "feature": "symmetrical left-right profile",
+                "side_a": "yes",
+                "side_b": "yes"
               }
             ],
-            "score_a": 12,
-            "score_b": 12
+            "score_a": 14,
+            "score_b": 14
           }
         },
         "s3": {
@@ -2996,7 +4379,7 @@
           "source": "consensus_3",
           "best_view": {
             "penalty_a": 5.0,
-            "penalty_b": 6.0
+            "penalty_b": 5.0
           },
           "artifact_compare": {
             "penalty_a": 5.0,
@@ -3123,7 +4506,7 @@
         "s1": {
           "choice": "A",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -3137,8 +4520,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 3.0,
-              "pen_b": 5.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_above",
@@ -3148,31 +4531,87 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has surface artifacts (irregular reflections) and slight geometric distortions in shape compared to the reference. Model B has incorrect reflection patterns and color variations, with some views showing unnatural highlights and a different base color tone."
+        "issues": "Model A has surface artifacts (irregular reflections) and slight geometric distortions in shape compared to the reference. Model B has incorrect reflection patterns and color variations, with some views showing white highlights not present in the reference."
       }
     },
     {
       "name": "86a1ef30b55dc20497a30609a4b2c842c3dedeae8470c53c251326027d482c2e",
       "prompt": "https://sn12domain.org/procgen/86a1ef30b55dc20497a30609a4b2c842c3dedeae8470c53c251326027d482c2e.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/86a1ef30b55dc20497a30609a4b2c842c3dedeae8470c53c251326027d482c2e.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/86a1ef30b55dc20497a30609a4b2c842c3dedeae8470c53c251326027d482c2e/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/86a1ef30b55dc20497a30609a4b2c842c3dedeae8470c53c251326027d482c2e.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/86a1ef30b55dc20497a30609a4b2c842c3dedeae8470c53c251326027d482c2e/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect eye placement and shape, and the beak is misaligned. Model B has a glossy surface that doesn't match the matte reference, and the beak is also misaligned."
       }
     },
     {
       "name": "872b778c74ad953bd1e929ef89bcd8b96aee84feaa56afb7a7e4c8190e0b4660",
       "prompt": "https://sn12domain.org/procgen/872b778c74ad953bd1e929ef89bcd8b96aee84feaa56afb7a7e4c8190e0b4660.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/872b778c74ad953bd1e929ef89bcd8b96aee84feaa56afb7a7e4c8190e0b4660.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/872b778c74ad953bd1e929ef89bcd8b96aee84feaa56afb7a7e4c8190e0b4660/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/872b778c74ad953bd1e929ef89bcd8b96aee84feaa56afb7a7e4c8190e0b4660.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/872b778c74ad953bd1e929ef89bcd8b96aee84feaa56afb7a7e4c8190e0b4660/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified bead details and less defined wire structure; Model B has more accurate bead colors and wire details but still lacks some texture and shading compared to the reference."
       }
     },
     {
@@ -3284,7 +4723,7 @@
               },
               {
                 "feature": "green leafy vegetables (spinach or similar)",
-                "side_a": "partial",
+                "side_a": "yes",
                 "side_b": "partial"
               },
               {
@@ -3303,7 +4742,7 @@
                 "side_b": "yes"
               }
             ],
-            "score_a": 14,
+            "score_a": 15,
             "score_b": 14
           }
         },
@@ -3369,7 +4808,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect geometry with distorted facets and a different shape compared to the reference. Model B has wrong color (blue tint) and less detailed geometry with blurred facets."
+        "issues": "Model A has incorrect geometry with distorted facets and a different shape compared to the reference. Model B has wrong color (blue tint) and simplified geometry with missing detailed facets."
       }
     },
     {
@@ -3438,8 +4877,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 7.0,
-              "pen_b": 6.5
+              "pen_a": 7.5,
+              "pen_b": 7.0
             },
             {
               "label": "front_above",
@@ -3456,24 +4895,80 @@
       "name": "9437161ce9cdd6f065899a46e9cc4e4edbbcbb75baeba3a354d020da9ef92828",
       "prompt": "https://sn12domain.org/procgen/9437161ce9cdd6f065899a46e9cc4e4edbbcbb75baeba3a354d020da9ef92828.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/9437161ce9cdd6f065899a46e9cc4e4edbbcbb75baeba3a354d020da9ef92828.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/9437161ce9cdd6f065899a46e9cc4e4edbbcbb75baeba3a354d020da9ef92828/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/9437161ce9cdd6f065899a46e9cc4e4edbbcbb75baeba3a354d020da9ef92828.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/9437161ce9cdd6f065899a46e9cc4e4edbbcbb75baeba3a354d020da9ef92828/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified embossed patterns, a less detailed metal clasp, and incorrect book spine thickness. Model B features a distorted metal clasp shape, misaligned embossed designs, and an incorrect book spine thickness."
       }
     },
     {
       "name": "94f2d48128ba728edca685ce9da5e196a1d0cf93dcd62b0498cad881ea6f33c9",
       "prompt": "https://sn12domain.org/procgen/94f2d48128ba728edca685ce9da5e196a1d0cf93dcd62b0498cad881ea6f33c9.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/94f2d48128ba728edca685ce9da5e196a1d0cf93dcd62b0498cad881ea6f33c9.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/94f2d48128ba728edca685ce9da5e196a1d0cf93dcd62b0498cad881ea6f33c9/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/94f2d48128ba728edca685ce9da5e196a1d0cf93dcd62b0498cad881ea6f33c9.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/94f2d48128ba728edca685ce9da5e196a1d0cf93dcd62b0498cad881ea6f33c9/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified and less detailed landscape art, missing fine details like trees and rocks, and incorrect spine design. Model B has a more accurate landscape but incorrect spine text and color, and simplified mountain details."
       }
     },
     {
@@ -3483,12 +4978,12 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/9637ba9ed15b95520dfd213d9b87bd0096b8611c3d41e60fec9910ff186349f1/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/9637ba9ed15b95520dfd213d9b87bd0096b8611c3d41e60fec9910ff186349f1.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/9637ba9ed15b95520dfd213d9b87bd0096b8611c3d41e60fec9910ff186349f1/grid.png",
-      "winner": "draw",
+      "winner": "right",
       "detail": {
         "s1": {
-          "choice": "draw",
+          "choice": "B",
           "n_total": 4,
-          "n_consistent": 0,
+          "n_consistent": 1,
           "angles": [
             {
               "label": "front_left",
@@ -3497,8 +4992,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 4.0,
-              "pen_b": 4.0
+              "pen_a": 5.0,
+              "pen_b": 3.0
             },
             {
               "label": "front_below",
@@ -3512,50 +5007,95 @@
             }
           ]
         },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect bulb color and missing transparent glass section; Model B has incorrect bulb shape and color, plus surface artifacts."
+      }
+    },
+    {
+      "name": "96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0",
+      "prompt": "https://sn12domain.org/procgen/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0.png",
+      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0.js",
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0.js",
+      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
         "s2": {
           "choice": "draw",
           "source": "consensus_3",
           "best_view": {
-            "penalty_a": 5.0,
-            "penalty_b": 4.0
-          },
-          "artifact_compare": {
-            "penalty_a": 5.0,
+            "penalty_a": 6.0,
             "penalty_b": 5.0
           },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
           "checklist": {
-            "main_object": "light bulb",
+            "main_object": "wooden compass",
             "main_object_correct_a": true,
             "main_object_correct_b": true,
             "features": [
               {
-                "feature": "round opaque bulb",
+                "feature": "square wooden base with red and white painted panels",
                 "side_a": "yes",
                 "side_b": "yes"
               },
               {
-                "feature": "transparent glass base",
-                "side_a": "partial",
-                "side_b": "no"
-              },
-              {
-                "feature": "metallic screw base",
+                "feature": "transparent dome over compass face",
                 "side_a": "yes",
                 "side_b": "yes"
               },
               {
-                "feature": "visible filament inside",
-                "side_a": "no",
+                "feature": "hinged lid with red and white paint",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic compass needle with red and black markings",
+                "side_a": "yes",
+                "side_b": "partial"
+              },
+              {
+                "feature": "two visible screws on the base",
+                "side_a": "yes",
                 "side_b": "no"
               },
               {
-                "feature": "black tip on screw base",
-                "side_a": "no",
+                "feature": "text labels 'LIIEAIE' and 'SCEII' on the base",
+                "side_a": "yes",
                 "side_b": "yes"
               }
             ],
-            "score_a": 8,
-            "score_b": 9
+            "score_a": 15,
+            "score_b": 12
           }
         },
         "s3": {
@@ -3584,19 +5124,7 @@
           }
         },
         "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has incorrect bulb color and missing transparent glass section; Model B has incorrect bulb shape and color, plus surface artifacts."
-      }
-    },
-    {
-      "name": "96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0",
-      "prompt": "https://sn12domain.org/procgen/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0.png",
-      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0.js",
-      "left_png": null,
-      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0.js",
-      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/96ae231d8489cff9611bb12f702ba35cb120ac595c5de8d26f97996b7b4b7af0/grid.png",
-      "winner": "right",
-      "detail": {
-        "reason": "no preview from left"
+        "issues": "Model A has simplified shapes, missing detailed textures and paint wear, and incorrect text on the base. Model B has incorrect text on the lid, wrong color scheme, and geometric distortions in the lid and base structure."
       }
     },
     {
@@ -3615,8 +5143,8 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 4.0,
-              "pen_b": 6.0
+              "pen_a": 3.0,
+              "pen_b": 5.0
             },
             {
               "label": "front_right",
@@ -3653,37 +5181,37 @@
             "features": [
               {
                 "feature": "gabled roof with dark gray shingles",
-                "side_a": null,
+                "side_a": "yes",
                 "side_b": null
               },
               {
                 "feature": "two brick chimneys with different tops",
-                "side_a": null,
+                "side_a": "yes",
                 "side_b": null
               },
               {
                 "feature": "four windows with white frames and panes",
-                "side_a": null,
+                "side_a": "partial",
                 "side_b": null
               },
               {
-                "feature": "front door with a small awning above",
-                "side_a": null,
+                "feature": "front door with brown color and small window",
+                "side_a": "yes",
                 "side_b": null
               },
               {
                 "feature": "open fireplace with visible fire",
-                "side_a": null,
+                "side_a": "yes",
                 "side_b": null
               },
               {
                 "feature": "white picket fence surrounding the house",
-                "side_a": null,
+                "side_a": "yes",
                 "side_b": null
               },
               {
                 "feature": "small potted plant near the fireplace",
-                "side_a": null,
+                "side_a": "yes",
                 "side_b": null
               }
             ],
@@ -3713,7 +5241,7 @@
           }
         },
         "decided_by": "S2 strong_voter [bv|-2.0|]",
-        "issues": "Model A has simplified roof tiles, missing dormer window, incorrect chimney shapes, and simplified fence. Model B has incorrect roof tile pattern, missing dormer window, incorrect chimney shapes, and simplified fence details."
+        "issues": "Model A has simplified roof tiles, missing dormer window, incorrect chimney shapes, and simplified fence. Model B has incorrect roof tile pattern, missing dormer window, incorrect chimney shapes, and simplified fence."
       }
     },
     {
@@ -3800,12 +5328,40 @@
       "name": "a42a052b31ccef2c851eb604473398b57d59c4c7691563ab9189ee9b787480b5",
       "prompt": "https://sn12domain.org/procgen/a42a052b31ccef2c851eb604473398b57d59c4c7691563ab9189ee9b787480b5.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/a42a052b31ccef2c851eb604473398b57d59c4c7691563ab9189ee9b787480b5.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/a42a052b31ccef2c851eb604473398b57d59c4c7691563ab9189ee9b787480b5/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/a42a052b31ccef2c851eb604473398b57d59c4c7691563ab9189ee9b787480b5.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/a42a052b31ccef2c851eb604473398b57d59c4c7691563ab9189ee9b787480b5/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect color (gold instead of silver), missing texture details, and wrong shape with additional features. Model B lacks texture details and has a simplified shape without the reference's metallic elements."
       }
     },
     {
@@ -3845,7 +5401,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect wheel colors (black instead of dark gray with silver centers) and a simplified blade shape. Model B has incorrect wheel colors (black instead of dark gray with silver centers), a simplified blade shape, and incorrect metal color (darker gray instead of silver)."
+        "issues": "Model A has incorrect wheel colors (black instead of dark gray with silver centers) and a misaligned blade. Model B has incorrect blade shape and color, and the wheel details are missing."
       }
     },
     {
@@ -3892,12 +5448,112 @@
       "name": "a65986bb1721822fd0318711d95f86fd4b6144ae585e7849169707b7d3289faf",
       "prompt": "https://sn12domain.org/procgen/a65986bb1721822fd0318711d95f86fd4b6144ae585e7849169707b7d3289faf.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/a65986bb1721822fd0318711d95f86fd4b6144ae585e7849169707b7d3289faf.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/a65986bb1721822fd0318711d95f86fd4b6144ae585e7849169707b7d3289faf/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/a65986bb1721822fd0318711d95f86fd4b6144ae585e7849169707b7d3289faf.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/a65986bb1721822fd0318711d95f86fd4b6144ae585e7849169707b7d3289faf/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "A",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 7.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "citrus fruit",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "round spherical shape",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "yellow to orange gradient color",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "small brown stem at top",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "wrinkled textured surface",
+                "side_a": "yes",
+                "side_b": "partial"
+              },
+              {
+                "feature": "multiple dark spots and blemishes",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small brown stem at bottom left",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 6,
+            "score_b": 6
+          }
+        },
+        "s4": {
+          "choice": "A",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|-2.0|]",
+        "issues": "Model A has simplified surface details, incorrect color tone, and lacks realistic texture variations. Model B features exaggerated vertical ridges, unnatural green spots, and inconsistent blemish patterns, deviating from the reference's organic texture and color."
       }
     },
     {
@@ -3937,7 +5593,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect ring structure with overlapping rings and missing inner details; Model B has wrong color tone, distorted ring shape, and missing floral details."
+        "issues": "Model A has incorrect ring structure with overlapping rings and missing inner details; Model B has wrong color tone, distorted ring shape, and missing inner engravings."
       }
     },
     {
@@ -3984,12 +5640,40 @@
       "name": "ab30cd0de1e77de5bd219cf6b70390c3a3f2cd2a7dceed08c1182f2abdf5965d",
       "prompt": "https://sn12domain.org/procgen/ab30cd0de1e77de5bd219cf6b70390c3a3f2cd2a7dceed08c1182f2abdf5965d.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/ab30cd0de1e77de5bd219cf6b70390c3a3f2cd2a7dceed08c1182f2abdf5965d.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/ab30cd0de1e77de5bd219cf6b70390c3a3f2cd2a7dceed08c1182f2abdf5965d/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/ab30cd0de1e77de5bd219cf6b70390c3a3f2cd2a7dceed08c1182f2abdf5965d.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/ab30cd0de1e77de5bd219cf6b70390c3a3f2cd2a7dceed08c1182f2abdf5965d/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect whisk wire count and shape, and a misaligned handle hole. Model B has incorrect whisk wire count, shape, and color, with a missing handle hole."
       }
     },
     {
@@ -4029,19 +5713,47 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has wrong color (dark gray instead of stainless steel), missing brand text, and simplified geometric details. Model B has similar wrong color and simplified details but also incorrect door handle placement and missing vent details."
+        "issues": "Model A has wrong color (dark gray instead of stainless steel), missing brand text, and simplified geometric details. Model B has wrong color (black instead of stainless steel), missing brand text, and incorrect pattern details."
       }
     },
     {
       "name": "b4e66d2654db4004e3f38deead3f1a68025a78a0233de42b04e138a846c5aa9c",
       "prompt": "https://sn12domain.org/procgen/b4e66d2654db4004e3f38deead3f1a68025a78a0233de42b04e138a846c5aa9c.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/b4e66d2654db4004e3f38deead3f1a68025a78a0233de42b04e138a846c5aa9c.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/b4e66d2654db4004e3f38deead3f1a68025a78a0233de42b04e138a846c5aa9c/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/b4e66d2654db4004e3f38deead3f1a68025a78a0233de42b04e138a846c5aa9c.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/b4e66d2654db4004e3f38deead3f1a68025a78a0233de42b04e138a846c5aa9c/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect floral patterns and missing details; Model B has simplified and distorted floral designs with missing elements."
       }
     },
     {
@@ -4102,7 +5814,7 @@
                 "side_b": "yes"
               },
               {
-                "feature": "bright blue glowing neon tube",
+                "feature": "bright blue glowing outline",
                 "side_a": "partial",
                 "side_b": "partial"
               },
@@ -4164,12 +5876,116 @@
       "name": "b708e4dac0f1a5928d17911611f1574a66df17bb1adcfb414ac9857b0e74ad08",
       "prompt": "https://sn12domain.org/procgen/b708e4dac0f1a5928d17911611f1574a66df17bb1adcfb414ac9857b0e74ad08.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/b708e4dac0f1a5928d17911611f1574a66df17bb1adcfb414ac9857b0e74ad08.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/b708e4dac0f1a5928d17911611f1574a66df17bb1adcfb414ac9857b0e74ad08/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/b708e4dac0f1a5928d17911611f1574a66df17bb1adcfb414ac9857b0e74ad08.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/b708e4dac0f1a5928d17911611f1574a66df17bb1adcfb414ac9857b0e74ad08/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 8.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 7.5
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 7.5
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 7.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "bottle opener",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "metallic black handle with textured surface",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "wooden handle with visible grain pattern",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "wooden handle has a circular hole",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "metallic head with open square cutout",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "text 'GORHEON' embossed on the metal",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "metal and wood handle connected by a black metal band",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 4,
+            "score_b": 1
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has simplified geometry with incorrect handle shape and missing details like the 'GORHEON' text and bottle opener cutout. Model B has incorrect overall shape, missing the bottle opener cutout, and wrong handle design."
       }
     },
     {
@@ -4235,7 +6051,7 @@
                 "side_b": "yes"
               },
               {
-                "feature": "single red cherry with stem",
+                "feature": "single red cherry with stem on ice cream",
                 "side_a": "yes",
                 "side_b": "yes"
               },
@@ -4250,7 +6066,7 @@
                 "side_b": "yes"
               },
               {
-                "feature": "cherry positioned centrally on ice cream",
+                "feature": "cherry is positioned centrally on ice cream",
                 "side_a": "yes",
                 "side_b": "yes"
               }
@@ -4309,8 +6125,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 7.0,
-              "pen_b": 5.0
+              "pen_a": 6.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_below",
@@ -4332,12 +6148,40 @@
       "name": "bad1fe4169b857ec634fc492131fe24efb64257105dcf4cb52b56d52dac61c6e",
       "prompt": "https://sn12domain.org/procgen/bad1fe4169b857ec634fc492131fe24efb64257105dcf4cb52b56d52dac61c6e.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/bad1fe4169b857ec634fc492131fe24efb64257105dcf4cb52b56d52dac61c6e.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/bad1fe4169b857ec634fc492131fe24efb64257105dcf4cb52b56d52dac61c6e/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/bad1fe4169b857ec634fc492131fe24efb64257105dcf4cb52b56d52dac61c6e.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/bad1fe4169b857ec634fc492131fe24efb64257105dcf4cb52b56d52dac61c6e/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect text ('МИНТА' instead of 'NINJA'), wrong color scheme (darker tones), and simplified geometry. Model B has reversed text ('ВИНИА' instead of 'NINJA'), incorrect bowl shape, and misaligned components."
       }
     },
     {
@@ -4377,7 +6221,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified and less detailed basket with incorrect lighting, while Model B lacks the suspension ropes and has a different basket structure compared to the reference."
+        "issues": "Model A has simplified and less detailed basket with incorrect lighting and missing structural elements compared to the reference. Model B lacks the suspension ropes and basket details, with a more basic structure and missing features."
       }
     },
     {
@@ -4387,12 +6231,12 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/bd3f6d8fd03414a6cc58cbfbd3743b9cfe31227da6597ff7b69c566ba4a65add/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/bd3f6d8fd03414a6cc58cbfbd3743b9cfe31227da6597ff7b69c566ba4a65add.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/bd3f6d8fd03414a6cc58cbfbd3743b9cfe31227da6597ff7b69c566ba4a65add/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
         "s1": {
-          "choice": "B",
+          "choice": "draw",
           "n_total": 4,
-          "n_consistent": 1,
+          "n_consistent": 0,
           "angles": [
             {
               "label": "front_left",
@@ -4406,8 +6250,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_above",
@@ -4416,7 +6260,83 @@
             }
           ]
         },
-        "decided_by": "S1",
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "round hut",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "thatched conical roof with layered thatch",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "two wooden doors on the front",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "beige fabric walls with horizontal wooden bands",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "wooden door frames and vertical supports around the hut",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small rectangular window on the left door",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "slightly tapered roof edges",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 12,
+            "score_b": 12
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
         "issues": "Model A has simplified roof structure, incorrect door design, and missing small details like the reference's thatch texture. Model B lacks the reference's distinct thatch texture, has a more uniform roof pattern, and simplified structural details."
       }
     },
@@ -4427,12 +6347,12 @@
       "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/c182ea8d9b6958a9a144b234ab2deed8b4d7428d133d9e9dc854f5fa9fe5722c/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/c182ea8d9b6958a9a144b234ab2deed8b4d7428d133d9e9dc854f5fa9fe5722c.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/c182ea8d9b6958a9a144b234ab2deed8b4d7428d133d9e9dc854f5fa9fe5722c/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
         "s1": {
-          "choice": "B",
+          "choice": "draw",
           "n_total": 4,
-          "n_consistent": 1,
+          "n_consistent": 0,
           "angles": [
             {
               "label": "front_left",
@@ -4451,12 +6371,88 @@
             },
             {
               "label": "front_above",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             }
           ]
         },
-        "decided_by": "S1",
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 4.0,
+            "penalty_b": 4.0
+          },
+          "checklist": {
+            "main_object": "putty knife",
+            "main_object_correct_a": false,
+            "main_object_correct_b": false,
+            "features": [
+              {
+                "feature": "triangular metal blade with rounded tip",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "wooden handle attached via metal ferrule",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "handle has a small hole near the end",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "metal ferrule connects blade and handle",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "blade is flat and broad",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "wooden handle is cylindrical",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 8,
+            "score_b": 8
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
         "issues": "Model A has incorrect blade shape and color, and the handle lacks the end hole. Model B has a more accurate shape but incorrect blade color and texture, with minor geometric distortions."
       }
     },
@@ -4497,31 +6493,221 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A lacks realistic details like rust, reflections, and proper handlebar/handle shape; Model B includes extra wheels and incorrect structure beyond the reference's handlebar and bell."
+        "issues": "Model A lacks realistic details like rust, reflections, and proper handlebar/brake lever geometry. Model B includes extra elements (bicycle wheels) not present in the reference, and has incorrect wheel colors and additional red spots on the bell."
       }
     },
     {
       "name": "c2f743613ee4fc35d3e3da77ef6eff98b7dff45d16333ebe4297e55c9832115f",
       "prompt": "https://sn12domain.org/procgen/c2f743613ee4fc35d3e3da77ef6eff98b7dff45d16333ebe4297e55c9832115f.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/c2f743613ee4fc35d3e3da77ef6eff98b7dff45d16333ebe4297e55c9832115f.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/c2f743613ee4fc35d3e3da77ef6eff98b7dff45d16333ebe4297e55c9832115f/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/c2f743613ee4fc35d3e3da77ef6eff98b7dff45d16333ebe4297e55c9832115f.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/c2f743613ee4fc35d3e3da77ef6eff98b7dff45d16333ebe4297e55c9832115f/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 3.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "tennis ball",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "spherical shape",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "dark blue surface",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "white curved seam lines forming a cross pattern",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "four distinct seam sections",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "smooth, glossy surface",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 10,
+            "score_b": 11
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|+2.0|]",
+        "issues": "Model A has incorrect white line patterns (misaligned and extra lines) and missing parts of the ball. Model B has incorrect white line patterns (misaligned and missing segments) but the ball shape is closer to the reference."
       }
     },
     {
       "name": "cba91bdab65665facbf1ffc7b0dd00d665c0c9ef00fc10cff50b2fb15f88ae0a",
       "prompt": "https://sn12domain.org/procgen/cba91bdab65665facbf1ffc7b0dd00d665c0c9ef00fc10cff50b2fb15f88ae0a.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/cba91bdab65665facbf1ffc7b0dd00d665c0c9ef00fc10cff50b2fb15f88ae0a.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/cba91bdab65665facbf1ffc7b0dd00d665c0c9ef00fc10cff50b2fb15f88ae0a/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/cba91bdab65665facbf1ffc7b0dd00d665c0c9ef00fc10cff50b2fb15f88ae0a.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/cba91bdab65665facbf1ffc7b0dd00d665c0c9ef00fc10cff50b2fb15f88ae0a/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 4.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "cookie bar",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "rectangular shape with rounded ends",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "brown color with lighter brown speckles",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "textured surface with small holes and embedded nuts",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "uniform length and width throughout",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "no visible edges or seams",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 11,
+            "score_b": 12
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|+2.0|]",
+        "issues": "Model A has incorrect color tone and lacks detailed texture; Model B has geometric distortion and incorrect texture pattern."
       }
     },
     {
@@ -4568,8 +6754,8 @@
             "penalty_b": 6.0
           },
           "artifact_compare": {
-            "penalty_a": 5.0,
-            "penalty_b": 5.0
+            "penalty_a": 4.0,
+            "penalty_b": 4.0
           },
           "checklist": {
             "main_object": "crayon",
@@ -4642,8 +6828,8 @@
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 5.0,
-              "pen_b": 5.0
+              "pen_a": 6.0,
+              "pen_b": 6.0
             },
             {
               "label": "front_right",
@@ -4663,7 +6849,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect shape (rectangular instead of rounded), wrong color (gray instead of stainless steel), missing details like the yellow handle and proper mesh. Model B has incorrect shape (rectangular instead of rounded), wrong color (dark gray instead of stainless steel), missing details like the yellow handle and proper mesh, and incorrect mesh pattern."
+        "issues": "Model A has incorrect shape (rectangular instead of rounded), wrong color (gray instead of stainless steel), and missing details like the yellow handle and proper mesh. Model B has incorrect shape (rectangular instead of rounded), wrong color (dark gray instead of stainless steel), and missing details like the yellow handle and proper mesh, plus additional incorrect elements like side panels and a different mesh pattern."
       }
     },
     {
@@ -4678,7 +6864,163 @@
         "s1": {
           "choice": "B",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect blade color (black instead of gray) and simplified bamboo texture details. Model B has incorrect bamboo color (yellow instead of natural brown) and simplified texture details, plus the blade is black instead of gray."
+      }
+    },
+    {
+      "name": "d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473",
+      "prompt": "https://sn12domain.org/procgen/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473.png",
+      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473.js",
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473.js",
+      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473/grid.png",
+      "winner": "draw",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 4.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "digital device",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "square main body with rounded corners",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "large rectangular screen on the front",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "red rectangular button on the right side",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "micro-USB port on the bottom edge",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "power symbol above the screen",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "text label below the screen",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 12,
+            "score_b": 12
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect screen appearance (not reflective), missing power button, and wrong port shape. Model B has incorrect screen appearance (not reflective), missing power button, and wrong port shape, plus incorrect red button shape and position."
+      }
+    },
+    {
+      "name": "d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1",
+      "prompt": "https://sn12domain.org/procgen/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1.png",
+      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1.js",
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1.js",
+      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1/grid.png",
+      "winner": "right",
+      "detail": {
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -4697,61 +7039,164 @@
             },
             {
               "label": "front_above",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color for the blade (black instead of gray) and simplified bamboo texture details. Model B has incorrect color for the blade (black instead of gray) and simplified bamboo texture details, plus additional black bands on the handle not present in the reference."
-      }
-    },
-    {
-      "name": "d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473",
-      "prompt": "https://sn12domain.org/procgen/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473.png",
-      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473.js",
-      "left_png": null,
-      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473.js",
-      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d2e3e47d9f0a758db3cfee17335a3bd27560c408fa57da3a89128e980af8b473/grid.png",
-      "winner": "right",
-      "detail": {
-        "reason": "no preview from left"
-      }
-    },
-    {
-      "name": "d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1",
-      "prompt": "https://sn12domain.org/procgen/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1.png",
-      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1.js",
-      "left_png": null,
-      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1.js",
-      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d3faebdde500cec36e2e9fef1201bda6993ec4dd57cfafc82e566fc7da69a5e1/grid.png",
-      "winner": "right",
-      "detail": {
-        "reason": "no preview from left"
+        "issues": "Model A has incorrect chain attachment points, missing small components, and wrong base shape. Model B has incorrect chain attachment points, wrong base shape, and missing small components."
       }
     },
     {
       "name": "d563a0f209d911669efaf13c5b8cbc581fdfe5eb2d6ce988eef843e45915b851",
       "prompt": "https://sn12domain.org/procgen/d563a0f209d911669efaf13c5b8cbc581fdfe5eb2d6ce988eef843e45915b851.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/d563a0f209d911669efaf13c5b8cbc581fdfe5eb2d6ce988eef843e45915b851.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/d563a0f209d911669efaf13c5b8cbc581fdfe5eb2d6ce988eef843e45915b851/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d563a0f209d911669efaf13c5b8cbc581fdfe5eb2d6ce988eef843e45915b851.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d563a0f209d911669efaf13c5b8cbc581fdfe5eb2d6ce988eef843e45915b851/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 7.5
+            },
+            {
+              "label": "front_right",
+              "pen_a": 3.0,
+              "pen_b": 7.5
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 8.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has incorrect shape (not leaf-like), missing detailed floral patterns, and wrong color tone. Model B has incorrect shape (flat oval with base), missing detailed floral patterns, and wrong color tone."
       }
     },
     {
       "name": "d76dac2316549ae357da14a9c02f64d991176489ea02993b3bc904e85768384b",
       "prompt": "https://sn12domain.org/procgen/d76dac2316549ae357da14a9c02f64d991176489ea02993b3bc904e85768384b.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/d76dac2316549ae357da14a9c02f64d991176489ea02993b3bc904e85768384b.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/d76dac2316549ae357da14a9c02f64d991176489ea02993b3bc904e85768384b/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d76dac2316549ae357da14a9c02f64d991176489ea02993b3bc904e85768384b.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/d76dac2316549ae357da14a9c02f64d991176489ea02993b3bc904e85768384b/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 0,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "bed base with mattress",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "rectangular mattress with visible top and side edges",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "rectangular base supporting the mattress",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "label or tag on the left side of the mattress",
+                "side_a": "partial",
+                "side_b": "partial"
+              },
+              {
+                "feature": "matte light beige color for both mattress and base",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "mattress slightly elevated above the base",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 12,
+            "score_b": 12
+          }
+        },
+        "s3": {
+          "fired": true,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has incorrect color tones for the base and top, while Model B has a more accurate color match but includes a small logo-like feature on the top that is not present in the reference."
       }
     },
     {
@@ -4798,12 +7243,40 @@
       "name": "db5846f676bc9139a3a174d75c7bddb32cdba3b46b668fa5f5e1953121471af7",
       "prompt": "https://sn12domain.org/procgen/db5846f676bc9139a3a174d75c7bddb32cdba3b46b668fa5f5e1953121471af7.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/db5846f676bc9139a3a174d75c7bddb32cdba3b46b668fa5f5e1953121471af7.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/db5846f676bc9139a3a174d75c7bddb32cdba3b46b668fa5f5e1953121471af7/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/db5846f676bc9139a3a174d75c7bddb32cdba3b46b668fa5f5e1953121471af7.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/db5846f676bc9139a3a174d75c7bddb32cdba3b46b668fa5f5e1953121471af7/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "B",
+          "n_total": 4,
+          "n_consistent": 1,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 7.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 6.5,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 6.5,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has wrong color (black instead of silver), incorrect shape with hexagonal end and internal cavity, and missing curved transition. Model B has wrong shape with rectangular body and circular end, missing curved transition, and incorrect surface details."
       }
     },
     {
@@ -4816,9 +7289,9 @@
       "winner": "left",
       "detail": {
         "s1": {
-          "choice": "A",
+          "choice": "draw",
           "n_total": 4,
-          "n_consistent": 1,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
@@ -4832,8 +7305,8 @@
             },
             {
               "label": "front_below",
-              "pen_a": 7.5,
-              "pen_b": 7.5
+              "pen_a": 8.0,
+              "pen_b": 7.0
             },
             {
               "label": "front_above",
@@ -4842,8 +7315,80 @@
             }
           ]
         },
-        "decided_by": "S1",
-        "issues": "Model A has simplified details and lacks the vintage texture and wear of the reference. Model B has incorrect color tones and a less realistic metallic finish compared to the reference."
+        "s2": {
+          "choice": "A",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 4.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "checklist": {
+            "main_object": "brass compass",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "round brass case with slightly textured surface",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "transparent glass cover over the dial",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "white dial with black markings and numbers",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "red needle with a red pivot point",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "black directional pointer with multiple points",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "small red 'E' marking on the dial",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 11,
+            "score_b": 11
+          }
+        },
+        "s4": {
+          "choice": "A",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [bv|-2.0|]",
+        "issues": "Model A has simplified details and lacks the vintage texture and wear of the reference; Model B has incorrect color tones and a less realistic metallic finish compared to the reference."
       }
     },
     {
@@ -4886,8 +7431,8 @@
           "choice": "B",
           "source": "strong_voter",
           "best_view": {
-            "penalty_a": 6.0,
-            "penalty_b": 4.0
+            "penalty_a": 5.0,
+            "penalty_b": 3.0
           },
           "artifact_compare": {
             "penalty_a": 3.0,
@@ -4960,12 +7505,12 @@
         "s1": {
           "choice": "draw",
           "n_total": 4,
-          "n_consistent": 3,
+          "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 7.0,
-              "pen_b": 4.0
+              "pen_a": 6.0,
+              "pen_b": 5.0
             },
             {
               "label": "front_right",
@@ -5214,24 +7759,156 @@
       "name": "ebdc038b42b03199fb99fc6f284f0375e003989fc5644e74ff2584d0af35c2c6",
       "prompt": "https://sn12domain.org/procgen/ebdc038b42b03199fb99fc6f284f0375e003989fc5644e74ff2584d0af35c2c6.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/ebdc038b42b03199fb99fc6f284f0375e003989fc5644e74ff2584d0af35c2c6.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/ebdc038b42b03199fb99fc6f284f0375e003989fc5644e74ff2584d0af35c2c6/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/ebdc038b42b03199fb99fc6f284f0375e003989fc5644e74ff2584d0af35c2c6.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/ebdc038b42b03199fb99fc6f284f0375e003989fc5644e74ff2584d0af35c2c6/grid.png",
-      "winner": "right",
+      "winner": "draw",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "draw",
+          "source": "consensus_3",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 5.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "wooden bookcase",
+            "main_object_correct_a": true,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "3 horizontal shelves",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gold ornate frame around the front",
+                "side_a": "partial",
+                "side_b": "yes"
+              },
+              {
+                "feature": "wooden panel on the left side",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gold decorative corner pieces",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "gold door handle on the left",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "wooden base with slight overhang",
+                "side_a": "yes",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 10,
+            "score_b": 15
+          }
+        },
+        "s3": {
+          "fired": false,
+          "choice": null
+        },
+        "s4": {
+          "choice": "draw",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S3 (gate did not fire) → draw",
+        "issues": "Model A has missing decorative details on the gold trim and incorrect shelf depth. Model B has incorrect gold trim color and texture, and the shelves are slatted instead of solid."
       }
     },
     {
       "name": "ec26af8a2ac8a0e1852013ffc1e0e5b0b7b8eac46c8dbeaf76c11515fee7f7be",
       "prompt": "https://sn12domain.org/procgen/ec26af8a2ac8a0e1852013ffc1e0e5b0b7b8eac46c8dbeaf76c11515fee7f7be.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/ec26af8a2ac8a0e1852013ffc1e0e5b0b7b8eac46c8dbeaf76c11515fee7f7be.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/ec26af8a2ac8a0e1852013ffc1e0e5b0b7b8eac46c8dbeaf76c11515fee7f7be/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/ec26af8a2ac8a0e1852013ffc1e0e5b0b7b8eac46c8dbeaf76c11515fee7f7be.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/ec26af8a2ac8a0e1852013ffc1e0e5b0b7b8eac46c8dbeaf76c11515fee7f7be/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 2,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 4.0,
+              "pen_b": 7.5
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 7.5
+            },
+            {
+              "label": "front_above",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A lacks the metallic sheen and detailed engravings of the reference, with a dull, matte appearance. Model B has incorrect color tones (darker than reference) and misaligned end caps, plus missing the engraved text and patterns."
       }
     },
     {
@@ -5246,7 +7923,7 @@
         "s1": {
           "choice": "B",
           "n_total": 4,
-          "n_consistent": 2,
+          "n_consistent": 1,
           "angles": [
             {
               "label": "front_left",
@@ -5255,8 +7932,8 @@
             },
             {
               "label": "front_right",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             },
             {
               "label": "front_below",
@@ -5271,7 +7948,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color assignments (e.g., yellow cylinder with red edge, purple grip without texture), missing details (trigger, small components), and geometric distortions. Model B has wrong color assignments (blue grip, red cylinder with yellow edge), missing details (trigger, small components), and geometric distortions."
+        "issues": "Model A has incorrect color assignments (e.g., yellow cylinder with red edge, purple grip without texture), missing details (trigger, small components), and geometric distortions. Model B has wrong color assignments (blue grip, red cylinder), missing details (trigger, small components), and geometric distortions."
       }
     },
     {
@@ -5300,42 +7977,175 @@
             },
             {
               "label": "front_below",
-              "pen_a": 4.0,
-              "pen_b": 6.0
+              "pen_a": 3.0,
+              "pen_b": 5.0
             },
             {
               "label": "front_above",
               "pen_a": 4.0,
-              "pen_b": 6.0
+              "pen_b": 7.0
             }
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has simplified and incorrect handle shape, missing texture details, and wrong color tone. Model B has incorrect handle shape, surface holes, and wrong color tone."
+        "issues": "Model A has simplified and less detailed handle, incorrect spout shape, and lacks surface texture. Model B has incorrect handle shape, missing twisted texture, and surface holes."
       }
     },
     {
       "name": "f124d022737dddad960f7b99eb4993e31bd0b4442da2f657541dd53d1d37320d",
       "prompt": "https://sn12domain.org/procgen/f124d022737dddad960f7b99eb4993e31bd0b4442da2f657541dd53d1d37320d.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/f124d022737dddad960f7b99eb4993e31bd0b4442da2f657541dd53d1d37320d.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/f124d022737dddad960f7b99eb4993e31bd0b4442da2f657541dd53d1d37320d/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/f124d022737dddad960f7b99eb4993e31bd0b4442da2f657541dd53d1d37320d.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/f124d022737dddad960f7b99eb4993e31bd0b4442da2f657541dd53d1d37320d/grid.png",
-      "winner": "right",
+      "winner": "left",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "A",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 3.0,
+              "pen_b": 8.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 8.5
+            },
+            {
+              "label": "front_below",
+              "pen_a": 3.0,
+              "pen_b": 8.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 3.0,
+              "pen_b": 8.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has geometric distortions and lacks detailed surface textures and color accuracy compared to the reference. Model B has severe geometric distortions, missing features, and incorrect shape, with no resemblance to the reference."
       }
     },
     {
       "name": "f74e986b3084c34a883bcc227e14be14fdcb5a021cd3da18698f071153a9be62",
       "prompt": "https://sn12domain.org/procgen/f74e986b3084c34a883bcc227e14be14fdcb5a021cd3da18698f071153a9be62.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/f74e986b3084c34a883bcc227e14be14fdcb5a021cd3da18698f071153a9be62.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/f74e986b3084c34a883bcc227e14be14fdcb5a021cd3da18698f071153a9be62/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/f74e986b3084c34a883bcc227e14be14fdcb5a021cd3da18698f071153a9be62.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/f74e986b3084c34a883bcc227e14be14fdcb5a021cd3da18698f071153a9be62/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 5.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 7.0,
+              "pen_b": 5.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 7.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 7.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 6.0
+          },
+          "checklist": {
+            "main_object": "wooden xylophone",
+            "main_object_correct_a": false,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "7 wooden bars arranged in a row",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "Each bar has a flat bottom and rounded top",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "Metallic caps on the top ends of the bars",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "Small metal rivets on some bars",
+                "side_a": "no",
+                "side_b": "partial"
+              },
+              {
+                "feature": "Wooden frame connecting the bars",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "Wooden handle on the left side",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "Light brown wood color with visible grain",
+                "side_a": "partial",
+                "side_b": "yes"
+              }
+            ],
+            "score_a": 7,
+            "score_b": 16
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [cl|-9|]",
+        "issues": "Model A has incorrect metal cap shapes and colors, missing wood grain details, and wrong button positions. Model B has incorrect base color and shape, and wrong button positions."
       }
     },
     {
@@ -5382,12 +8192,112 @@
       "name": "f9d89484ebe9a80aa4f41ab4fdc5ba3a91216c51ac3452281ba12fbd23d66ea2",
       "prompt": "https://sn12domain.org/procgen/f9d89484ebe9a80aa4f41ab4fdc5ba3a91216c51ac3452281ba12fbd23d66ea2.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/f9d89484ebe9a80aa4f41ab4fdc5ba3a91216c51ac3452281ba12fbd23d66ea2.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/f9d89484ebe9a80aa4f41ab4fdc5ba3a91216c51ac3452281ba12fbd23d66ea2/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/f9d89484ebe9a80aa4f41ab4fdc5ba3a91216c51ac3452281ba12fbd23d66ea2.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/f9d89484ebe9a80aa4f41ab4fdc5ba3a91216c51ac3452281ba12fbd23d66ea2/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 4,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 6.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            },
+            {
+              "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 6.0
+            }
+          ]
+        },
+        "s2": {
+          "choice": "B",
+          "source": "strong_voter",
+          "best_view": {
+            "penalty_a": 5.0,
+            "penalty_b": 6.0
+          },
+          "artifact_compare": {
+            "penalty_a": 6.0,
+            "penalty_b": 7.0
+          },
+          "checklist": {
+            "main_object": "bamboo drum",
+            "main_object_correct_a": false,
+            "main_object_correct_b": true,
+            "features": [
+              {
+                "feature": "cylindrical body with tapered bottom",
+                "side_a": "yes",
+                "side_b": "yes"
+              },
+              {
+                "feature": "open top with fabric drumhead",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "visible bamboo grain texture",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "string tensioning system around body",
+                "side_a": "no",
+                "side_b": "yes"
+              },
+              {
+                "feature": "metallic tuning knob on right side",
+                "side_a": "no",
+                "side_b": "no"
+              },
+              {
+                "feature": "small engraved text on side",
+                "side_a": "no",
+                "side_b": "no"
+              }
+            ],
+            "score_a": 2,
+            "score_b": 9
+          }
+        },
+        "s4": {
+          "choice": "B",
+          "side_verdicts": {
+            "a": "ok",
+            "b": "ok"
+          },
+          "per_angle": {
+            "a": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            },
+            "b": {
+              "right": "ok",
+              "back": "ok",
+              "left": "ok",
+              "top_down": "ok"
+            }
+          }
+        },
+        "decided_by": "S2 strong_voter [cl|-7|]",
+        "issues": "Model A has incorrect color tone and lacks the reference's natural wood texture and drumhead details. Model B features wrong structural elements like metal rods and incorrect drumhead design, deviating significantly from the reference's traditional drum appearance."
       }
     },
     {
@@ -5474,7 +8384,7 @@
             "penalty_b": 4.0
           },
           "artifact_compare": {
-            "penalty_a": 5.0,
+            "penalty_a": 6.0,
             "penalty_b": 5.0
           },
           "checklist": {
@@ -5569,7 +8479,7 @@
           ]
         },
         "decided_by": "S1",
-        "issues": "Model A has incorrect color tone, distorted white line patterns, and surface artifacts. Model B has less accurate white line patterns and some surface distortions, but overall closer to the reference than Model A."
+        "issues": "Model A has incorrect color tone and distorted white line patterns. Model B has accurate color but distorted white line patterns and surface artifacts."
       }
     },
     {
@@ -5584,17 +8494,17 @@
         "s1": {
           "choice": "B",
           "n_total": 4,
-          "n_consistent": 2,
+          "n_consistent": 3,
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 4.0,
+              "pen_a": 6.0,
               "pen_b": 4.0
             },
             {
               "label": "front_right",
-              "pen_a": 4.0,
-              "pen_b": 4.0
+              "pen_a": 5.0,
+              "pen_b": 3.0
             },
             {
               "label": "front_below",
@@ -5603,8 +8513,8 @@
             },
             {
               "label": "front_above",
-              "pen_a": 5.0,
-              "pen_b": 3.0
+              "pen_a": 4.0,
+              "pen_b": 4.0
             }
           ]
         },
@@ -5616,32 +8526,20 @@
       "name": "feb0135e0083aa31a69e27b2990a124889492868d017239977663858efc2686c",
       "prompt": "https://sn12domain.org/procgen/feb0135e0083aa31a69e27b2990a124889492868d017239977663858efc2686c.png",
       "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/feb0135e0083aa31a69e27b2990a124889492868d017239977663858efc2686c.js",
-      "left_png": null,
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/feb0135e0083aa31a69e27b2990a124889492868d017239977663858efc2686c/grid.png",
       "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/feb0135e0083aa31a69e27b2990a124889492868d017239977663858efc2686c.js",
       "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/feb0135e0083aa31a69e27b2990a124889492868d017239977663858efc2686c/grid.png",
       "winner": "right",
       "detail": {
-        "reason": "no preview from left"
-      }
-    },
-    {
-      "name": "fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd",
-      "prompt": "https://sn12domain.org/procgen/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd.png",
-      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd.js",
-      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd/grid.png",
-      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd.js",
-      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd/grid.png",
-      "winner": "draw",
-      "detail": {
         "s1": {
-          "choice": "draw",
+          "choice": "B",
           "n_total": 4,
           "n_consistent": 2,
           "angles": [
             {
               "label": "front_left",
-              "pen_a": 4.0,
-              "pen_b": 4.0
+              "pen_a": 5.0,
+              "pen_b": 3.0
             },
             {
               "label": "front_right",
@@ -5655,21 +8553,61 @@
             },
             {
               "label": "front_above",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            }
+          ]
+        },
+        "decided_by": "S1",
+        "issues": "Model A has simplified corks without texture details and less accurate bottle shape. Model B has exaggerated blue color and cork texture errors."
+      }
+    },
+    {
+      "name": "fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd",
+      "prompt": "https://sn12domain.org/procgen/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd.png",
+      "left_js": "https://subnet404.xyz/rounds/23/leader/generated_1/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd.js",
+      "left_png": "https://subnet404.xyz/rounds/23/leader/generated_1/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd/grid.png",
+      "right_js": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd.js",
+      "right_png": "https://subnet404.xyz/rounds/23/5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF/submitted/fefd689e783a5865b46d97061d111108b42976b5847297df88833f88af705acd/grid.png",
+      "winner": "left",
+      "detail": {
+        "s1": {
+          "choice": "draw",
+          "n_total": 4,
+          "n_consistent": 3,
+          "angles": [
+            {
+              "label": "front_left",
+              "pen_a": 4.0,
+              "pen_b": 4.0
+            },
+            {
+              "label": "front_right",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_below",
+              "pen_a": 5.0,
+              "pen_b": 3.0
+            },
+            {
+              "label": "front_above",
               "pen_a": 3.0,
               "pen_b": 5.0
             }
           ]
         },
         "s2": {
-          "choice": "draw",
-          "source": "consensus_3",
+          "choice": "A",
+          "source": "strong_voter",
           "best_view": {
-            "penalty_a": 4.0,
-            "penalty_b": 4.0
+            "penalty_a": 3.0,
+            "penalty_b": 5.0
           },
           "artifact_compare": {
-            "penalty_a": 4.0,
-            "penalty_b": 5.0
+            "penalty_a": 5.0,
+            "penalty_b": 6.0
           },
           "checklist": {
             "main_object": "polka dot bracelet",
@@ -5692,7 +8630,7 @@
                 "side_b": "yes"
               },
               {
-                "feature": "uniform thickness throughout",
+                "feature": "uniform circular cross-section",
                 "side_a": "yes",
                 "side_b": "yes"
               },
@@ -5702,21 +8640,17 @@
                 "side_b": "yes"
               },
               {
-                "feature": "randomly distributed dots",
-                "side_a": "yes",
-                "side_b": "yes"
+                "feature": "consistent dot size variation",
+                "side_a": "partial",
+                "side_b": "partial"
               }
             ],
-            "score_a": 15,
-            "score_b": 15
+            "score_a": 14,
+            "score_b": 14
           }
         },
-        "s3": {
-          "fired": true,
-          "choice": null
-        },
         "s4": {
-          "choice": "draw",
+          "choice": "A",
           "side_verdicts": {
             "a": "ok",
             "b": "ok"
@@ -5736,8 +8670,8 @@
             }
           }
         },
-        "decided_by": "S3 (gate did not fire) → draw",
-        "issues": "Model A has less defined polka dots and a slightly different shape compared to the reference. Model B has significantly distorted polka dot patterns and a thicker ring shape, with many dots missing or misaligned."
+        "decided_by": "S2 strong_voter [bv|-2.0|]",
+        "issues": "Model A has less defined polka dots and a slightly different shape compared to the reference. Model B has significantly distorted polka dot patterns and a thicker ring shape, with some dots missing or misaligned."
       }
     }
   ]
