@@ -111,5 +111,18 @@
       }
     ],
     "reason": "Repeat 1: 128 failed prompts exceed tolerance (12); Repeat 2: 128 failed prompts exceed tolerance (12); Repeat 3: 128 failed prompts exceed tolerance (12)"
+  },
+  "5ExhiJkJubyzciUVj6j4CdLGCTqbbmGteCjJszhS14j1JbSa": {
+    "hotkey": "5ExhiJkJubyzciUVj6j4CdLGCTqbbmGteCjJszhS14j1JbSa",
+    "outcome": "pending",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 4454.846820503473
+      }
+    ],
+    "reason": ""
   }
 }
