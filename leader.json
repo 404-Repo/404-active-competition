@@ -4,6 +4,9 @@
     "repo": "no-repo/no-repo",
     "commit": "28900bbb82c04f210eda8907713f57b9f6792992",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/no-docker:0.0.1",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.0,
     "effective_block": 0
   },
@@ -12,6 +15,9 @@
     "repo": "mokabetrade/zfs-harvester",
     "commit": "3ad56cd149a1595fbcc7032bb98a978cda57bdd6",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5exgc2o4kf:3ad56cd-threejs-1",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8116145
   },
@@ -20,6 +26,9 @@
     "repo": "huypg-zenai/abc2",
     "commit": "a5a80e55d35da78d10a03848389e51d8304fa646",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5h9bvdjbyh:a5a80e5-threejs-2",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8137427
   },
@@ -28,6 +37,9 @@
     "repo": "TuttiGenerator/alipna",
     "commit": "f2eb07a26710a58ebd0f1656b737ebcaf29fe920",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5e2wuwn1d5:f2eb07a-threejs-3",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8159025
   },
@@ -36,6 +48,9 @@
     "repo": "TuttiGenerator/bitstream-core",
     "commit": "325ba2cd10587c81313f78f8403a0e9ac507f5bf",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f2exchigd:325ba2c-threejs-4",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8180615
   },
@@ -44,6 +59,9 @@
     "repo": "Fluxmire/miniature-enigma",
     "commit": "fa72f44eb552d902c93b550db1d78a5236d4486c",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dlkzfzfkl:fa72f44-threejs-5",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8202214
   },
@@ -52,6 +70,9 @@
     "repo": "huypg-zenai/alo2",
     "commit": "168e14caef9e93a613a4c0dfd623450e95599f07",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fxwvy4nwv:168e14c-threejs-6",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8223813
   },
@@ -60,6 +81,9 @@
     "repo": "huypg-zenai/alo2",
     "commit": "168e14caef9e93a613a4c0dfd623450e95599f07",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fxwvy4nwv:168e14c-threejs-6",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.8,
     "effective_block": 8245414
   },
@@ -68,6 +92,9 @@
     "repo": "huypg-zenai/alo2",
     "commit": "168e14caef9e93a613a4c0dfd623450e95599f07",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fxwvy4nwv:168e14c-threejs-6",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.6,
     "effective_block": 8267010
   },
@@ -76,6 +103,9 @@
     "repo": "TuttiGenerator/wertox",
     "commit": "adffb2c9a896ac21e3a0b83df9213112a13f0ba3",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7ziwr84c:adffb2c-threejs-9",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8288610
   },
@@ -84,6 +114,9 @@
     "repo": "TuttiGenerator/wertox",
     "commit": "adffb2c9a896ac21e3a0b83df9213112a13f0ba3",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7ziwr84c:adffb2c-threejs-9",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.8,
     "effective_block": 8310203
   },
@@ -92,6 +125,9 @@
     "repo": "TuttiGenerator/wertox",
     "commit": "adffb2c9a896ac21e3a0b83df9213112a13f0ba3",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7ziwr84c:adffb2c-threejs-9",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.6,
     "effective_block": 8331803
   },
@@ -100,6 +136,9 @@
     "repo": "TuttiGenerator/wertox",
     "commit": "adffb2c9a896ac21e3a0b83df9213112a13f0ba3",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7ziwr84c:adffb2c-threejs-9",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.4,
     "effective_block": 8353402
   },
@@ -108,6 +147,9 @@
     "repo": "mokabetrade/experiment_6",
     "commit": "7c67027b06fcd4ee6e92ca053584671e16c9837e",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gghl6qnvp:7c67027-threejs-13",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8389389
   },
@@ -116,6 +158,9 @@
     "repo": "mokabetrade/experiment_6",
     "commit": "7c67027b06fcd4ee6e92ca053584671e16c9837e",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gghl6qnvp:7c67027-threejs-13",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.8,
     "effective_block": 8410960
   },
@@ -124,6 +169,9 @@
     "repo": "huypg-zenai/mesiu2",
     "commit": "a1748150e88f2bc99776ec9d24bab59fcc67fecc",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c5ascsxck:a174815-threejs-15",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8432547
   },
@@ -132,6 +180,9 @@
     "repo": "Fluxmire/experiment_4",
     "commit": "c7316a2a9b414531b0a2fc6e2d0c1ee3645480d4",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f6ario7tb:c7316a2-threejs-16",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8454134
   },
@@ -140,6 +191,9 @@
     "repo": "mokabetrade/experiment_6",
     "commit": "3bb25cbbe5d0525183b548db9d1c5cbed3d7b611",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5gghl6qnvp:3bb25cb-threejs-17",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8475702
   },
@@ -148,6 +202,9 @@
     "repo": "TuttiGenerator/quantum-chutes",
     "commit": "fbe76498380e579449ddf7a756067858b7b35ca8",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5h1grukc32:fbe7649-threejs-18",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8497219
   },
@@ -156,6 +213,9 @@
     "repo": "TuttiGenerator/quantum-chutes",
     "commit": "fbe76498380e579449ddf7a756067858b7b35ca8",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5h1grukc32:fbe7649-threejs-18",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.8,
     "effective_block": 8517950
   },
@@ -164,6 +224,9 @@
     "repo": "TuttiGenerator/quantum-chutes",
     "commit": "fbe76498380e579449ddf7a756067858b7b35ca8",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5h1grukc32:fbe7649-threejs-18",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.6,
     "effective_block": 8539207
   },
@@ -172,6 +235,9 @@
     "repo": "Fluxmire/literate-tribble",
     "commit": "fcd5fbc678528ad7ca8918e7997a598b69cff049",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5djhg8hvtr:fcd5fbc-threejs-21",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 1.0,
     "effective_block": 8560766
   },
@@ -180,7 +246,21 @@
     "repo": "Fluxmire/literate-tribble",
     "commit": "fcd5fbc678528ad7ca8918e7997a598b69cff049",
     "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5djhg8hvtr:fcd5fbc-threejs-21",
+    "hardware": [
+      "4xH200"
+    ],
     "weight": 0.8,
     "effective_block": 8582365
+  },
+  {
+    "hotkey": "5Fqc6PRkG4VyFzzpWWMk5MWfwmUMfdFkhxDqfiYU37nFB8FW",
+    "repo": "mokabetrade/shiny-guide",
+    "commit": "205dd88d88dab3edf8e9ebe48e45777a758d1e10",
+    "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5fqc6prkg4:205dd88-threejs-23",
+    "hardware": [
+      "4xH200"
+    ],
+    "weight": 1.0,
+    "effective_block": 8611152
   }
 ]
