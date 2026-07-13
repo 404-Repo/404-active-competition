@@ -7,7 +7,7 @@
       "4xH200"
     ],
     "tag": "dd9ca84-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5FcKB8JfSurdR5TLv9vqsiNVefYKGvd4ZQx3ojLMp9JAXzME": {
@@ -18,7 +18,7 @@
       "4xH200"
     ],
     "tag": "07ab925-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk": {
@@ -29,7 +29,7 @@
       "4xH200"
     ],
     "tag": "3dedeb3-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5EfAQLaGQz6o7AJcuSeTbMxwb9BScHA2W9WmjjBVqtanr22R": {
@@ -40,7 +40,7 @@
       "4xH200"
     ],
     "tag": "9ad52d0-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5DDEt92nY1F19iaz6HFPFGU2FtTU3m2QhfDmdyhJJLHuRFPC": {
@@ -51,7 +51,7 @@
       "4xH200"
     ],
     "tag": "bdf8aaa-threejs-24",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5FF5opUuiLneZvN7j5cSLCjjGt967b8Ew3uLT1BwuMGwaqhP": {
@@ -62,7 +62,7 @@
       "4xH200"
     ],
     "tag": "099392c-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf": {
@@ -73,8 +73,8 @@
       "4xH200"
     ],
     "tag": "f81590e-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5c7ziwr84c:f81590e-threejs-24"
   },
   "5FWEHD7wgy8GMrSC1JWTvHBUPfrHQV8ZcgNWCdF4eb6kMwUt": {
     "repo": "Uglejo/zero-latency",
@@ -84,7 +84,7 @@
       "4xH200"
     ],
     "tag": "833f599-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5E2WuWN1d56BQUcaipsdMEWqUaQScbNdtgGgBdRWq1qdzfLC": {
@@ -95,7 +95,7 @@
       "4xH200"
     ],
     "tag": "1241634-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5DjjhCLQMipFrAekeKgN9hq678SDVokiaWmoxb1yV9pLJoaA": {
@@ -106,7 +106,7 @@
       "4xH200"
     ],
     "tag": "5377111-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5DAakdWtREMkTUMtVMVjVKWQHQFEvKZhcktuP9r2doUpweRk": {
@@ -117,7 +117,7 @@
       "4xH200"
     ],
     "tag": "826c88d-threejs-24",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5GBa8JUKVCoNj74w3H4JPLtYX8XN6D2esZMQq3no8yQQmpJR": {
@@ -128,7 +128,7 @@
       "4xH200"
     ],
     "tag": "5729ef1-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5CV4JwN8bVxQwArFiUqvDsibWiMsLiz8YW44yfo4KD3TmpZF": {
@@ -139,7 +139,7 @@
       "4xH200"
     ],
     "tag": "ff36a1c-threejs-24",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5F2EXchigdSUvt4hoakYyZvqx1FERo8p8TqWR9M2DrmGzxtA": {
@@ -150,7 +150,7 @@
       "4xH200"
     ],
     "tag": "a6fdc57-threejs-24",
-    "status": "pending",
+    "status": "failure",
     "docker_image": null
   },
   "5FNWUfhA3Wwq5wvbP9ci3gstHssqDvYSygRQ5aZY4n6Rukyn": {
@@ -161,7 +161,7 @@
       "4xH200"
     ],
     "tag": "3424407-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5EeRZbouPvGvRZ4mcqbJsjHg7FSd9kxRDh7Q4dot59AT7i5L": {
@@ -172,7 +172,7 @@
       "4xH200"
     ],
     "tag": "9f4a4a5-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5DJHG8HVtRCmHk3LnJho4YecVgafJo6AByTcwDtshWDhS1vD": {
@@ -183,8 +183,8 @@
       "4xH200"
     ],
     "tag": "fcd5fbc-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5djhg8hvtr:fcd5fbc-threejs-24"
   },
   "5ELoQxfLuzMobTVuywjSJjHfZrQhz1bzbxb2yygX5yox9NQB": {
     "repo": "Fluxmire/ubiquitous-couscous",
@@ -194,8 +194,8 @@
       "4xH200"
     ],
     "tag": "a718b61-threejs-24",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5eloqxfluz:a718b61-threejs-24"
   },
   "5DLKzFZFKL1v71v6y39LHPqeRf2iR5cR8yCChqaa3vDM1rYD": {
     "repo": "Fluxmire/congenial-garbanzo",
@@ -205,8 +205,8 @@
       "4xH200"
     ],
     "tag": "0fbb9f1-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dlkzfzfkl:0fbb9f1-threejs-24"
   },
   "5DoTES2gKUKE67h7D6qQ54UXUwqTDdk9aV5kLN7DYZuzJjHG": {
     "repo": "Fluxmire/laughing-octo-robot",
@@ -216,8 +216,8 @@
       "4xH200"
     ],
     "tag": "eeb1d22-threejs-24",
-    "status": "pending",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5dotes2gku:eeb1d22-threejs-24"
   },
   "5En5jFsaMJXaha9Tnxh4HBnPvD5XAsyodZUGLCv8A3GsDb4v": {
     "repo": "Fluxmire/solid-enigma",
@@ -227,7 +227,7 @@
       "4xH200"
     ],
     "tag": "935e651-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Fs844KLMnqRJq1yoCiiJjK6RGNsVLJ2gxpAsy6CoXs1YC7E": {
@@ -238,7 +238,7 @@
       "4xH200"
     ],
     "tag": "1581891-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5CHvUfGBqrWLANVnMHkp1ayKTaKkTZwfA1v6WugcbP93RJ5Q": {
@@ -249,8 +249,8 @@
       "4xH200"
     ],
     "tag": "dad3fc3-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5chvufgbqr:dad3fc3-threejs-24"
   },
   "5G1pQeo7c1pgtGYG6couzVVubnCTaDVdzfXCG8VRsL3NXjJ4": {
     "repo": "mokabetrade/experiment_6",
@@ -260,7 +260,7 @@
       "4xH200"
     ],
     "tag": "c87879d-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5GTHnU4xjcpmtGZ9fgGkYjeAiVM7DC9fRVyYhbBZGjeGXN2x": {
@@ -271,7 +271,7 @@
       "4xH200"
     ],
     "tag": "d83582f-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5D5eb1f9Semdhx67xiRfh95B8CbxyxCXmgokHJe2pMnCpQiJ": {
@@ -282,8 +282,8 @@
       "4xH200"
     ],
     "tag": "2c5cfda-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5d5eb1f9se:2c5cfda-threejs-24"
   },
   "5CtEC66XSu4RQcEHW312TShe3eDb4jzFgAJRXZPRc5ZuwoGd": {
     "repo": "Uglejo/silent-daemon",
@@ -293,8 +293,8 @@
       "4xH200"
     ],
     "tag": "907682a-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5ctec66xsu:907682a-threejs-24"
   },
   "5Gpbd45k1RuDcq6M8FnYYgkcG3nkZzdAm9KXz6LNswe1qNTm": {
     "repo": "Fluxmire/refactored-octo-fishstick",
@@ -304,7 +304,7 @@
       "4xH200"
     ],
     "tag": "49f1897-threejs-24",
-    "status": "pending",
+    "status": "in_progress",
     "docker_image": null
   },
   "5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF": {
@@ -315,7 +315,7 @@
       "4xH200"
     ],
     "tag": "df68a6a-threejs-24",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5cd8dxzgxq:df68a6a-threejs-24"
   }
 }
