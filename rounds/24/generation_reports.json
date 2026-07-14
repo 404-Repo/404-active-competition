@@ -4,5 +4,18 @@
     "outcome": "rejected",
     "repeats": [],
     "reason": "Failed to build a docker image"
+  },
+  "5CHvUfGBqrWLANVnMHkp1ayKTaKkTZwfA1v6WugcbP93RJ5Q": {
+    "hotkey": "5CHvUfGBqrWLANVnMHkp1ayKTaKkTZwfA1v6WugcbP93RJ5Q",
+    "outcome": "pending",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6721.903230011463
+      }
+    ],
+    "reason": ""
   }
 }
