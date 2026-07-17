@@ -56,5 +56,18 @@
     "outcome": "rejected",
     "repeats": [],
     "reason": "Failed to deploy a docker image"
+  },
+  "5DDEt92nY1F19iaz6HFPFGU2FtTU3m2QhfDmdyhJJLHuRFPC": {
+    "hotkey": "5DDEt92nY1F19iaz6HFPFGU2FtTU3m2QhfDmdyhJJLHuRFPC",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 9207.558157756925
+      }
+    ],
+    "reason": "Repeat 1: time (9207.6s) exceeds limit (7200.0s)"
   }
 }
