@@ -7,5 +7,28 @@
     "total_generation_time": 0.0,
     "termination_reason": "requested",
     "payload": null
+  },
+  "miner-25-5ddet92ny1-2-r1": {
+    "pod_id": "miner-25-5ddet92ny1-2",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      2240.577044159174,
+      2389.9058370366693,
+      2219.6016254127026,
+      2357.473651148379
+    ],
+    "total_generation_time": 9207.558157756925,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-25-5ddet92ny1-2-r2": {
+    "pod_id": "miner-25-5ddet92ny1-2",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [],
+    "total_generation_time": 0.0,
+    "termination_reason": "unreachable",
+    "payload": null
   }
 }
