@@ -2,19 +2,15 @@
   "miner-27-leader-0-r1": {
     "pod_id": "miner-27-leader-0",
     "repeat_index": 1,
-    "provider": "verda",
-    "batch_times": [],
-    "total_generation_time": 0.0,
-    "termination_reason": "requested",
-    "payload": null
-  },
-  "miner-27-leader-3-r1": {
-    "pod_id": "miner-27-leader-3",
-    "repeat_index": 1,
-    "provider": "verda",
-    "batch_times": [],
-    "total_generation_time": 0.0,
-    "termination_reason": "download_failed",
+    "provider": "runpod",
+    "batch_times": [
+      1647.2546706179855,
+      1801.5146682089835,
+      1788.3897198849882,
+      1637.6798357900116
+    ],
+    "total_generation_time": 6874.838894501969,
+    "termination_reason": "completed",
     "payload": null
   }
 }
