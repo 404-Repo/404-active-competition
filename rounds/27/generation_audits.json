@@ -12,7 +12,7 @@
   "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk": {
     "hotkey": "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk",
     "verdict": "failed",
-    "reason": "submitted vs generated #1: -28.12%"
+    "reason": "source audit: SR1279/RLStepone - 128/128 submitted .js outputs are byte-identi"
   },
   "5HEVXjZPZikXTmMJHRoeMbGJhqT9nYX9oq5zVw4ccFXEK35u": {
     "hotkey": "5HEVXjZPZikXTmMJHRoeMbGJhqT9nYX9oq5zVw4ccFXEK35u",
@@ -23,5 +23,10 @@
     "hotkey": "5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF",
     "verdict": "failed",
     "reason": "generation report: Repeat 1: time (9466.8s) exceeds limit (7200.0s)"
+  },
+  "5Gzki9BoAZVBC7bGVmjdcXwAGsjA3zGwSMiT2B1mM1bg77ea": {
+    "hotkey": "5Gzki9BoAZVBC7bGVmjdcXwAGsjA3zGwSMiT2B1mM1bg77ea",
+    "verdict": "failed",
+    "reason": "source audit: Fluxmire/experiment_56 - 128/128 submitted .js outputs are byte-"
   }
 }
