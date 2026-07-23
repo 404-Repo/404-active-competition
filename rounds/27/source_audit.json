@@ -1,22 +1,82 @@
 [
   {
     "hotkey": "5Da1owt7azsAmy25SZhVGNWJmovL76HV7TEvvFxzS6tESN9P",
-    "verdict": "passed",
-    "reason": "Fluxmire/shiny-carnival@a5273b8 - LLM-agent threejs pipeline (40x ensemble + judge bracket), no shady code/external comms/caching, Apache-2.0 deps"
+    "verdict": "failed",
+    "reason": "Fluxmire/shiny-carnival - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
   },
   {
     "hotkey": "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk",
-    "verdict": "passed",
-    "reason": "SR1279/RLStepone@1c1738b - dual-coder ensemble variant of the standard pipeline, no shady code/external comms/caching, Apache-2.0 deps"
+    "verdict": "failed",
+    "reason": "SR1279/RLStepone - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned; audit repeat #1 confirms: submitted vs regenerated margin -28.12%"
   },
   {
     "hotkey": "5Gpbd45k1RuDcq6M8FnYYgkcG3nkZzdAm9KXz6LNswe1qNTm",
-    "verdict": "passed",
-    "reason": "Fluxmire/refactored-octo-fishstick@49f1897 - identical to shiny-carnival base template bar model checkpoint, no shady code/external comms/caching, Apache-2.0 deps"
+    "verdict": "failed",
+    "reason": "Fluxmire/refactored-octo-fishstick - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
   },
   {
     "hotkey": "5HEVXjZPZikXTmMJHRoeMbGJhqT9nYX9oq5zVw4ccFXEK35u",
-    "verdict": "passed",
-    "reason": "Fluxmire/experiment_78@0550b8a - dual-coder variant matching RLStepone's code, no shady code/external comms/caching, Apache-2.0 deps"
+    "verdict": "failed",
+    "reason": "Fluxmire/experiment_78 - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5Cd8dXZgXQ8tnyyPYazW968vBFkpS8v4tSCpG5M9nU8tGEVF",
+    "verdict": "failed",
+    "reason": "Fluxmire/solid-spork - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5Gzki9BoAZVBC7bGVmjdcXwAGsjA3zGwSMiT2B1mM1bg77ea",
+    "verdict": "failed",
+    "reason": "Fluxmire/experiment_56 - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5D2vwjResmZJ3ZWpX4Z7kG85cZT4Ymd6i1FeE262QNM7ze6L",
+    "verdict": "failed",
+    "reason": "Fluxmire/fluffy-couscous - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5GHLbkt3qHtnRpMnLjjuqFzk2iLeec8mzXdmT5CovcrLKpFe",
+    "verdict": "failed",
+    "reason": "SR1279/GoldLion - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5FcKB8JfSurdR5TLv9vqsiNVefYKGvd4ZQx3ojLMp9JAXzME",
+    "verdict": "failed",
+    "reason": "SR1279/Cucumber - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5EfAQLaGQz6o7AJcuSeTbMxwb9BScHA2W9WmjjBVqtanr22R",
+    "verdict": "failed",
+    "reason": "SR1279/Pumpkin - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5DDEt92nY1F19iaz6HFPFGU2FtTU3m2QhfDmdyhJJLHuRFPC",
+    "verdict": "failed",
+    "reason": "SR1279/DoYourBest - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5EUa1oQQYMTXN2HYwyYFuhwqch4R3Mbehc9esbbBf6UJcHXY",
+    "verdict": "failed",
+    "reason": "SR1279/MiraclePairs - 121/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5GgEDzkWvGyQQSpXJ3Yxbdi981iK9CHyjqs1vzvLuPJMx7rk",
+    "verdict": "failed",
+    "reason": "SR1279/Boeing747 - 128/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5DoXqpS422EAYqCNegXdcetJJxS8qfRqUE1fd4KRvWzYsS2s",
+    "verdict": "failed",
+    "reason": "SR1279/Rampage - 112/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5ECBaw1D7hs9Nqf7ytUeU8sfmCYX6HXXU4FUARiPeFNhUSYs",
+    "verdict": "failed",
+    "reason": "SR1279/DarkShadow - 122/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5DWqhiF4KBq4tvqFTXrQ4YzoXmtDDASZwE71ajsGsx2bmAAk",
+    "verdict": "failed",
+    "reason": "SR1279/TripleOops - 122/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
   }
 ]
