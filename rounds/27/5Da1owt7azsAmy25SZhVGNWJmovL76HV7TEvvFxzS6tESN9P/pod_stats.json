@@ -7,5 +7,28 @@
     "total_generation_time": 0.0,
     "termination_reason": "requested",
     "payload": null
+  },
+  "miner-27-5da1owt7az-2-r1": {
+    "pod_id": "miner-27-5da1owt7az-2",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1706.749587867991,
+      2362.5623134429916,
+      2395.472186559986,
+      1959.7298331149796
+    ],
+    "total_generation_time": 8424.513920985948,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-27-5da1owt7az-2-r2": {
+    "pod_id": "miner-27-5da1owt7az-2",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [],
+    "total_generation_time": 0.0,
+    "termination_reason": "unreachable",
+    "payload": null
   }
 }
