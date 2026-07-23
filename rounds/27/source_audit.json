@@ -1,0 +1,22 @@
+[
+  {
+    "hotkey": "5Da1owt7azsAmy25SZhVGNWJmovL76HV7TEvvFxzS6tESN9P",
+    "verdict": "passed",
+    "reason": "Fluxmire/shiny-carnival@a5273b8 - LLM-agent threejs pipeline (40x ensemble + judge bracket), no shady code/external comms/caching, Apache-2.0 deps"
+  },
+  {
+    "hotkey": "5DM3du3QiMKKn3DkBdHWp8X4gLwV3EedwrY1aaMgscDZ6Ezk",
+    "verdict": "passed",
+    "reason": "SR1279/RLStepone@1c1738b - dual-coder ensemble variant of the standard pipeline, no shady code/external comms/caching, Apache-2.0 deps"
+  },
+  {
+    "hotkey": "5Gpbd45k1RuDcq6M8FnYYgkcG3nkZzdAm9KXz6LNswe1qNTm",
+    "verdict": "passed",
+    "reason": "Fluxmire/refactored-octo-fishstick@49f1897 - identical to shiny-carnival base template bar model checkpoint, no shady code/external comms/caching, Apache-2.0 deps"
+  },
+  {
+    "hotkey": "5HEVXjZPZikXTmMJHRoeMbGJhqT9nYX9oq5zVw4ccFXEK35u",
+    "verdict": "passed",
+    "reason": "Fluxmire/experiment_78@0550b8a - dual-coder variant matching RLStepone's code, no shady code/external comms/caching, Apache-2.0 deps"
+  }
+]
