@@ -78,5 +78,10 @@
     "hotkey": "5DWqhiF4KBq4tvqFTXrQ4YzoXmtDDASZwE71ajsGsx2bmAAk",
     "verdict": "failed",
     "reason": "SR1279/TripleOops - 122/128 submitted .js outputs are byte-identical (sha256) to other hotkeys' submissions (cross-repo hash audit); no HF model revision pinned"
+  },
+  {
+    "hotkey": "5FZ6C9vbHX7AMks8gFLmCXytyFAZ8Uwm2kbvRPf8VjnMJ8cg",
+    "verdict": "passed",
+    "reason": "mokabetrade/curly-pancake@ffb7ddf - clean pipeline, real load-balancer infra across two vLLM replicas; coder model pinned to commit revision, but judge/critic (zai-org/GLM-4.6V-Flash) and embedder (DINOv3) are unpinned/on floating main ref - same gap as current leader, not unique to this submission; partial output overlap (~25% of sampled tasks) with known-duplicate repos, well below the 100% seen in confirmed cases - monitor but not blocking"
   }
 ]
