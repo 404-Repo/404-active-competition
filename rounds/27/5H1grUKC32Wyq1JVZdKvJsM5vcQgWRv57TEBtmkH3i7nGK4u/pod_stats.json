@@ -1,23 +1,23 @@
 {
-  "miner-27-5h1grukc32-1-r1": {
-    "pod_id": "miner-27-5h1grukc32-1",
-    "repeat_index": 1,
-    "provider": "verda",
-    "batch_times": [],
-    "total_generation_time": 0.0,
-    "termination_reason": "requested",
-    "payload": null
-  },
-  "miner-27-5h1grukc32-2-r1": {
-    "pod_id": "miner-27-5h1grukc32-2",
+  "miner-27-5h1grukc32-0-r1": {
+    "pod_id": "miner-27-5h1grukc32-0",
     "repeat_index": 1,
     "provider": "runpod",
     "batch_times": [
-      1421.1475921950187,
-      1927.4158888919628,
-      1541.3475524010137
+      1287.5431614969857
     ],
-    "total_generation_time": 4889.911033487995,
+    "total_generation_time": 1287.5431614969857,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-27-5h1grukc32-0-r2": {
+    "pod_id": "miner-27-5h1grukc32-0",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1231.3175900829956
+    ],
+    "total_generation_time": 1231.3175900829956,
     "termination_reason": "unreachable",
     "payload": null
   }
