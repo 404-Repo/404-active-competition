@@ -7,5 +7,18 @@
     "total_generation_time": 0.0,
     "termination_reason": "requested",
     "payload": null
+  },
+  "miner-27-5h1grukc32-2-r1": {
+    "pod_id": "miner-27-5h1grukc32-2",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1421.1475921950187,
+      1927.4158888919628,
+      1541.3475524010137
+    ],
+    "total_generation_time": 4889.911033487995,
+    "termination_reason": "unreachable",
+    "payload": null
   }
 }
