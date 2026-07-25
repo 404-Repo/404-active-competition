@@ -4,5 +4,18 @@
     "outcome": "rejected",
     "repeats": [],
     "reason": "Failed to build a docker image"
+  },
+  "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf": {
+    "hotkey": "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7293.595765140024
+      }
+    ],
+    "reason": "Repeat 1: time (7293.6s) exceeds limit (7200.0s)"
   }
 }
