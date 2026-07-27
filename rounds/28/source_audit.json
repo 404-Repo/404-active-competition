@@ -1,0 +1,42 @@
+[
+  {
+    "hotkey": "5FF5opUuiLneZvN7j5cSLCjjGt967b8Ew3uLT1BwuMGwaqhP",
+    "verdict": "passed",
+    "reason": "mokabetrade/novel@31c8b30 - clean pipeline; single-replica vLLM per model (native --data-parallel-size + MTP speculative decoding for coder, no load-balancer fork); all 3 HF models (coder Qwen-3.6-27B-SleekSteve, judge/critic GLM-4.6V-Flash, embedder DINOv3) pinned to explicit commit SHAs verified live via HF API and wired into loaders; no shady code, undisclosed external comms, result caching, or copyleft licensing found; soft-only: unreachable dead code in restart_vllm (would float to main if ever activated), floating httpx/openai/aiohttp version ranges."
+  },
+  {
+    "hotkey": "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf",
+    "verdict": "passed",
+    "reason": "mokabetrade/expert-enigma@8eaf634 - byte-identical codebase to mokabetrade/novel (config-only diff: coder model swapped to Qwen-3.6-27B-AronHorn); all 3 HF models pinned to commit SHAs wired into loaders; no shady code, undisclosed external comms, result caching, or copyleft licensing found; soft warning: transformers/torch/numpy/Pillow used but undeclared in requirements.txt, floating dependency ranges."
+  },
+  {
+    "hotkey": "5DAakdWtREMkTUMtVMVjVKWQHQFEvKZhcktuP9r2doUpweRk",
+    "verdict": "passed",
+    "reason": "mokabetrade/zfs-harvester@09f418b - carries a real load-balancer fork (new balancer.py, weighted round-robin) spreading coder requests across multiple vLLM replicas, replacing native --data-parallel-size/speculative-decoding used by the base template; all 3 HF models pinned to commit SHAs actually passed to loaders; no shady code, undisclosed external comms, or result caching found; soft warning: undeclared transformers/torch/numpy/Pillow deps, floating dependency ranges."
+  },
+  {
+    "hotkey": "5GTHnU4xjcpmtGZ9fgGkYjeAiVM7DC9fRVyYhbBZGjeGXN2x",
+    "verdict": "passed",
+    "reason": "mokabetrade/cryptic-pipeline@d9836da - same load-balancer fork as zfs-harvester (balancer.py, weighted round-robin across vLLM replicas); all 3 HF models pinned to commit SHAs wired into loaders; no shady code, undisclosed external comms, or result caching found; notable: falls back to a degraded no-vLLM REPLACE mode on failed GPU/network preflight - logged, not hidden; soft warning on floating dependency ranges."
+  },
+  {
+    "hotkey": "5E2WuWN1d56BQUcaipsdMEWqUaQScbNdtgGgBdRWq1qdzfLC",
+    "verdict": "passed",
+    "reason": "Uglejo/miniature-tower@af51ac9 - same load-balancer fork (balancer.py) as mokabetrade's zfs-harvester/cryptic-pipeline despite different GitHub org, indicating the fork has spread across operators; all 3 HF models pinned to commit SHAs wired into loaders; no shady code, undisclosed external comms, or result caching found; soft warning on floating dependency ranges only, otherwise cleanest of the fork group."
+  },
+  {
+    "hotkey": "5Fs844KLMnqRJq1yoCiiJjK6RGNsVLJ2gxpAsy6CoXs1YC7E",
+    "verdict": "passed",
+    "reason": "Uglejo/async-horizon@569051b - byte-identical codebase to mokabetrade/novel and expert-enigma (config-only diff); all 3 HF models pinned to commit SHAs wired into loaders; no shady code, undisclosed external comms, or result caching found; soft warning on floating httpx/openai/aiohttp ranges and a hand-rolled PNG decoder in place of Pillow."
+  },
+  {
+    "hotkey": "5CtEC66XSu4RQcEHW312TShe3eDb4jzFgAJRXZPRc5ZuwoGd",
+    "verdict": "passed",
+    "reason": "Uglejo/silent-daemon@b34843d - byte-identical codebase to novel/expert-enigma/async-horizon (config-only diff); all 3 HF models pinned to commit SHAs wired into loaders; coder model variant (Qwen-3.6-27B-AronHorn) is not on the pre-approved license list, and unlike sibling submissions this audit did not independently re-verify its license (same family confirmed Apache-2.0 elsewhere this round) - recommend a quick spot-check; no shady code, undisclosed external comms, or result caching found; ships api.debug=true."
+  },
+  {
+    "hotkey": "5CV4JwN8bVxQwArFiUqvDsibWiMsLiz8YW44yfo4KD3TmpZF",
+    "verdict": "passed",
+    "reason": "TuttiGenerator/animated-copper@28a7754 - byte-identical codebase to mokabetrade/novel (config-only diff, same coder model variant Qwen-3.6-27B-SleekSteve); all 3 HF models pinned to commit SHAs wired into loaders; no shady code, undisclosed external comms, or result caching found; ships api.debug=true, soft warning on floating dependency ranges."
+  }
+]
