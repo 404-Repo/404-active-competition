@@ -2,10 +2,15 @@
   "miner-29-leader-0-r1": {
     "pod_id": "miner-29-leader-0",
     "repeat_index": 1,
-    "provider": "verda",
-    "batch_times": [],
-    "total_generation_time": 0.0,
-    "termination_reason": "requested",
+    "provider": "runpod",
+    "batch_times": [
+      1874.1889381820802,
+      1673.3267692730296,
+      2035.6823842489393,
+      1667.5171647210373
+    ],
+    "total_generation_time": 7250.715256425086,
+    "termination_reason": "completed",
     "payload": null
   }
 }
