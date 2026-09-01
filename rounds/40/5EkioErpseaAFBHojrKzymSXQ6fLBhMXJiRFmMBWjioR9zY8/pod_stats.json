@@ -1,0 +1,25 @@
+{
+  "miner-40-5ekioerpse-0-r1": {
+    "pod_id": "miner-40-5ekioerpse-0",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      2076.9540243810043,
+      2096.303672202863,
+      2162.9956696340814,
+      2097.172657120973
+    ],
+    "total_generation_time": 8433.426023338921,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-40-5ekioerpse-0-r2": {
+    "pod_id": "miner-40-5ekioerpse-0",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [],
+    "total_generation_time": 0.0,
+    "termination_reason": "unreachable",
+    "payload": null
+  }
+}
