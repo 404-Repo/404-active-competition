@@ -37,5 +37,18 @@
       }
     ],
     "reason": ""
+  },
+  "5CwmaRVvvAqeETVuvKwtmmr2iqVd9NGqAsJnRWEorKyg4noR": {
+    "hotkey": "5CwmaRVvvAqeETVuvKwtmmr2iqVd9NGqAsJnRWEorKyg4noR",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 112,
+        "failed_prompts": 16,
+        "generation_time": 6866.338629591279
+      }
+    ],
+    "reason": "Repeat 1: 16 failed prompts exceed tolerance (12)"
   }
 }
