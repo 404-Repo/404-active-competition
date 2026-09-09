@@ -392,7 +392,7 @@
       "4xH200"
     ],
     "tag": "876fbf6-threejs-43",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5C7fUU3RE5iMsCtZqRedkZDQYobEMi7R7SeC8MqkRATm5uAN": {
@@ -403,7 +403,7 @@
       "4xH200"
     ],
     "tag": "e03adb4-threejs-43",
-    "status": "in_progress",
+    "status": "failure",
     "docker_image": null
   },
   "5ETmFkSzgd8q2LSb9kfk3KcaMYvRCmtHZu3eNiembzTGD3Fj": {
@@ -425,7 +425,7 @@
       "4xH200"
     ],
     "tag": "33d0580-threejs-43",
-    "status": "in_progress",
-    "docker_image": null
+    "status": "success",
+    "docker_image": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5ggiozydqz:33d0580-threejs-43"
   }
 }
