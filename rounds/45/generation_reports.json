@@ -1,7 +1,7 @@
 {
   "5F1BTPggEiw4FWNV8ENcSQL7sFFmFqyxBRhYLAjSM4XVip9D": {
     "hotkey": "5F1BTPggEiw4FWNV8ENcSQL7sFFmFqyxBRhYLAjSM4XVip9D",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
@@ -14,6 +14,12 @@
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 6833.959616883658
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6968.498898790218
       }
     ],
     "reason": ""
