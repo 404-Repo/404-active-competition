@@ -372,5 +372,16 @@
     ],
     "weight": 1.0,
     "effective_block": 9050176
+  },
+  {
+    "hotkey": "5F1BTPggEiw4FWNV8ENcSQL7sFFmFqyxBRhYLAjSM4XVip9D",
+    "repo": "computer-vision-ai-lab/cobalt-osprey-5",
+    "commit": "cb4d0a7282a6989c0dc8c07ec71f4cb6d9a317da",
+    "docker": "europe-west3-docker.pkg.dev/gen-456515/active-competition/5f1btpggei:cb4d0a7-threejs-45",
+    "hardware": [
+      "4xH200"
+    ],
+    "weight": 1.0,
+    "effective_block": 9093253
   }
 ]
