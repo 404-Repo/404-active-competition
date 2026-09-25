@@ -11,5 +11,18 @@
       }
     ],
     "reason": ""
+  },
+  "5DU5HVPK5z7JuzydA5sjeYKD9BkaGJeJZsNZD3ri6MPzwxmo": {
+    "hotkey": "5DU5HVPK5z7JuzydA5sjeYKD9BkaGJeJZsNZD3ri6MPzwxmo",
+    "outcome": "rejected",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7307.076300081797
+      }
+    ],
+    "reason": "Repeat 1: time (7307.1s) exceeds limit (7200.0s)"
   }
 }
