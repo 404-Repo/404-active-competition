@@ -1,0 +1,28 @@
+{
+  "miner-48-5elcpreeck-0-r1": {
+    "pod_id": "miner-48-5elcpreeck-0",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1526.004126643762,
+      1621.4580081114545,
+      1679.7727847024798,
+      1667.4211506638676
+    ],
+    "total_generation_time": 6494.656070121564,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-48-5elcpreeck-0-r2": {
+    "pod_id": "miner-48-5elcpreeck-0",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1561.9319876199588,
+      1627.2790029775351
+    ],
+    "total_generation_time": 3189.210990597494,
+    "termination_reason": "unreachable",
+    "payload": null
+  }
+}
