@@ -94,5 +94,18 @@
     "outcome": "rejected",
     "repeats": [],
     "reason": "Failed to deploy a docker image"
+  },
+  "5Ckw9KeML1GwHcwPAxvQCLcDZtZHfNnRnGoCSCNatkjRwczo": {
+    "hotkey": "5Ckw9KeML1GwHcwPAxvQCLcDZtZHfNnRnGoCSCNatkjRwczo",
+    "outcome": "pending",
+    "repeats": [
+      {
+        "repeat_index": 1,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5736.337040979415
+      }
+    ],
+    "reason": ""
   }
 }
