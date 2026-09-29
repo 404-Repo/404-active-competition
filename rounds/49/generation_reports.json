@@ -142,15 +142,21 @@
   },
   "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf": {
     "hotkey": "5C7ziwR84CJPZAmXTrgjDosPFoJYRxybDsf3b4AjsGEApAqf",
-    "outcome": "pending",
+    "outcome": "rejected",
     "repeats": [
       {
         "repeat_index": 1,
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 6663.228936149739
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7295.8561436180025
       }
     ],
-    "reason": ""
+    "reason": "Repeat 2: time (7295.9s) exceeds limit (7200.0s)"
   }
 }
