@@ -27,16 +27,22 @@
   },
   "5CwmaRVvvAqeETVuvKwtmmr2iqVd9NGqAsJnRWEorKyg4noR": {
     "hotkey": "5CwmaRVvvAqeETVuvKwtmmr2iqVd9NGqAsJnRWEorKyg4noR",
-    "outcome": "pending",
+    "outcome": "rejected",
     "repeats": [
       {
         "repeat_index": 1,
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 7125.803234600462
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 8136.912229791284
       }
     ],
-    "reason": ""
+    "reason": "Repeat 2: time (8136.9s) exceeds limit (7200.0s)"
   },
   "5FCGYqThLseqGWdDXPuf4RsM8C5JhNAuDfnb1fo5pMW1uRPq": {
     "hotkey": "5FCGYqThLseqGWdDXPuf4RsM8C5JhNAuDfnb1fo5pMW1uRPq",
