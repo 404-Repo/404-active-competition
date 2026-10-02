@@ -160,7 +160,7 @@
   },
   "5ExhiJkJubyzciUVj6j4CdLGCTqbbmGteCjJszhS14j1JbSa": {
     "hotkey": "5ExhiJkJubyzciUVj6j4CdLGCTqbbmGteCjJszhS14j1JbSa",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
@@ -173,6 +173,12 @@
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 5972.299836869352
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5984.922044544481
       }
     ],
     "reason": ""
