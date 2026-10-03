@@ -236,19 +236,25 @@
   },
   "5FCGYqThLseqGWdDXPuf4RsM8C5JhNAuDfnb1fo5pMW1uRPq": {
     "hotkey": "5FCGYqThLseqGWdDXPuf4RsM8C5JhNAuDfnb1fo5pMW1uRPq",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
         "generated_prompts": 128,
         "failed_prompts": 0,
-        "generation_time": 6054.071247112937
+        "generation_time": null
       },
       {
         "repeat_index": 2,
         "generated_prompts": 128,
         "failed_prompts": 0,
-        "generation_time": 6240.147976217791
+        "generation_time": null
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6269.033979560249
       }
     ],
     "reason": ""
