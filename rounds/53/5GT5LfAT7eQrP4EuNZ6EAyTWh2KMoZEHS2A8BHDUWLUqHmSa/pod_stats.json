@@ -1,0 +1,27 @@
+{
+  "miner-53-5gt5lfat7e-1-r1": {
+    "pod_id": "miner-53-5gt5lfat7e-1",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1542.4245183160529,
+      1521.3291073245928,
+      1744.7549620755017,
+      1604.0236162450165
+    ],
+    "total_generation_time": 6412.532203961164,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-53-5gt5lfat7e-1-r2": {
+    "pod_id": "miner-53-5gt5lfat7e-1",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1851.176109551452
+    ],
+    "total_generation_time": 1851.176109551452,
+    "termination_reason": "unreachable",
+    "payload": null
+  }
+}
