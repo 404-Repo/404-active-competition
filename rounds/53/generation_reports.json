@@ -85,7 +85,7 @@
   },
   "5EkioErpseaAFBHojrKzymSXQ6fLBhMXJiRFmMBWjioR9zY8": {
     "hotkey": "5EkioErpseaAFBHojrKzymSXQ6fLBhMXJiRFmMBWjioR9zY8",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
@@ -98,6 +98,12 @@
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 6971.6139966072515
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 6836.752454875968
       }
     ],
     "reason": ""
