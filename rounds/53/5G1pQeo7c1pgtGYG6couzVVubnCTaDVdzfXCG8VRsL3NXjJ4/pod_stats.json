@@ -1,0 +1,42 @@
+{
+  "miner-53-5g1pqeo7c1-1-r1": {
+    "pod_id": "miner-53-5g1pqeo7c1-1",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1624.0538109932095,
+      1658.1615541335195,
+      1620.5609411438927,
+      1746.3910036087036
+    ],
+    "total_generation_time": 6649.167309879325,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-53-5g1pqeo7c1-1-r2": {
+    "pod_id": "miner-53-5g1pqeo7c1-1",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1623.6311281882226,
+      1651.9700820455328,
+      1645.8576771942899,
+      1890.9931609276682
+    ],
+    "total_generation_time": 6812.4520483557135,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-53-5g1pqeo7c1-1-r3": {
+    "pod_id": "miner-53-5g1pqeo7c1-1",
+    "repeat_index": 3,
+    "provider": "runpod",
+    "batch_times": [
+      1658.151668926701,
+      1655.1458358587697
+    ],
+    "total_generation_time": 3313.2975047854707,
+    "termination_reason": "unreachable",
+    "payload": null
+  }
+}
