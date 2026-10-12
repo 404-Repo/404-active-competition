@@ -1,0 +1,28 @@
+{
+  "miner-53-5fnwufha3w-0-r1": {
+    "pod_id": "miner-53-5fnwufha3w-0",
+    "repeat_index": 1,
+    "provider": "runpod",
+    "batch_times": [
+      1601.161170371808,
+      1651.5781577797607,
+      1587.0703901881352,
+      1745.294409263879
+    ],
+    "total_generation_time": 6585.104127603583,
+    "termination_reason": "completed",
+    "payload": null
+  },
+  "miner-53-5fnwufha3w-0-r2": {
+    "pod_id": "miner-53-5fnwufha3w-0",
+    "repeat_index": 2,
+    "provider": "runpod",
+    "batch_times": [
+      1599.7844257634133,
+      1647.6308844853193
+    ],
+    "total_generation_time": 3247.4153102487326,
+    "termination_reason": "unreachable",
+    "payload": null
+  }
+}
