@@ -212,15 +212,21 @@
   },
   "5Cyeoeeu65thGbTDTy4TDWkx9UanxKyas3XBCsyWkXvTobtG": {
     "hotkey": "5Cyeoeeu65thGbTDTy4TDWkx9UanxKyas3XBCsyWkXvTobtG",
-    "outcome": "pending",
+    "outcome": "rejected",
     "repeats": [
       {
         "repeat_index": 1,
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 6912.3228222783655
+      },
+      {
+        "repeat_index": 2,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 7613.4713951945305
       }
     ],
-    "reason": ""
+    "reason": "Repeat 2: time (7613.5s) exceeds limit (7200.0s)"
   }
 }
