@@ -2,11 +2,32 @@
 https://github.com/404-Repo/404-competition-0
 https://github.com/404-Repo/404-competition-1
 
-# Competition State Repository
+# Closed-Source Model Competition State Repository
 
-This repository contains the complete state of the 404-GEN `threejs` competition. Each file is single-writer or append-only so the repo doubles as an audit log.
+This repository contains state for the 404-GEN closed-source model competition and historical `threejs` rounds. Each file is single-writer or append-only so the repo doubles as an audit log.
 
-In `threejs`, miners produce a **Three.js module** (one `.js` per prompt) for each input image prompt. The validator stack downloads the `.js`, renders multi-view PNGs, runs DINOv3 on the prompt + views, and judges duels via VLMs.
+In the historical `threejs` rounds, miners produce a **Three.js module** (one `.js` per prompt) for each input image prompt. The validator stack downloads the `.js`, renders multi-view PNGs, runs DINOv3 on the prompt + views, and judges duels via VLMs.
+
+## Closed-source model submission copies
+
+The [workflow](.github/workflows/build-and-push.yml) copies submitted source at
+the exact commit to the `miner-repo-archive` R2 bucket:
+
+```text
+sources/v2/rounds/<number>/<full-hotkey>/<owner>/<repo>/<full-commit>/source.zip
+sources/v2/rounds/<number>/<full-hotkey>/<owner>/<repo>/<full-commit>/manifest.json
+```
+
+`source.zip` contains the committed repository files. `manifest.json` records the
+round, hotkey, repository, commit and ZIP SHA-256. Retries verify existing objects
+and fail if their bytes differ.
+
+The workflow runs when a push changes `submissions.json`. To copy a specific
+round manually, run it in GitHub Actions and enter the round number, such as `57`.
+
+Configure `REPO_R2_ENDPOINT`, `REPO_R2_ACCESS_KEY_ID` and
+`REPO_R2_SECRET_ACCESS_KEY` with read/create access to the bucket. For private
+submission repositories, set `MINER_GITHUB_TOKEN` with repository access.
 
 ## Stages
 
@@ -45,8 +66,6 @@ Competition configuration. Defined by `subnet_common.competition.config.Competit
   "generation_stage_minutes": 240,
   "finalization_buffer_hours": 1,
   "win_margin": 0.05,
-  "weight_decay": 0.2,
-  "weight_floor": 0.2,
   "prompts_per_round": 128,
   "carryover_prompts": 32,
   "round_duration_days": 3
@@ -63,8 +82,6 @@ Competition configuration. Defined by `subnet_common.competition.config.Competit
 | `generation_stage_minutes` | int | Minutes miners have to generate and upload after seed reveal |
 | `finalization_buffer_hours` | float | Skip day if FINALIZING with less than this remaining |
 | `win_margin` | float | Challenger must win by this fraction of duels to dethrone the leader |
-| `weight_decay` | float | Weight reduction per round if leader is not defeated |
-| `weight_floor` | float | Minimum leader weight |
 | `prompts_per_round` | int | Number of prompts to select for each round |
 | `carryover_prompts` | int | Number of prompts retained from the previous round |
 | `round_duration_days` | int | Round duration in days |
@@ -101,7 +118,7 @@ Leadership history, append-only. **Flat array** of `LeaderEntry` objects (no top
     "hotkey": "5ABC123...",
     "repo": "user/3d-gen-model",
     "commit": "a1b2c3d4e5f6...",
-    "docker": "europe-west3-docker.pkg.dev/.../dendrite-test:0.0.1",
+    "docker": "",
     "weight": 1.0,
     "effective_block": 12000
   }
@@ -113,8 +130,8 @@ Leadership history, append-only. **Flat array** of `LeaderEntry` objects (no top
 | `hotkey` | string | Miner hotkey |
 | `repo` | string | GitHub repository |
 | `commit` | string | Git commit SHA |
-| `docker` | string | Docker image reference |
-| `weight` | float | Weight assigned to this leader (new winners enter at 1.0; defending leaders decay toward `weight_floor`) |
+| `docker` | string | Legacy compatibility field; empty for new leaders |
+| `weight` | float | Weight assigned to this leader (new winners enter at 1.0; unchanged on defense) |
 | `effective_block` | int | Block number from which this entry is the active leader |
 
 **Writer:** round-manager during FINALIZING.
@@ -338,8 +355,7 @@ Round result. `RoundResult`.
 {
   "winner_hotkey": "5ABC123...",
   "repo": "user/3d-gen-model",
-  "commit": "a1b2c3d4e5f6...",
-  "docker_image": "ghcr.io/user/3d-gen-model:a1b2c3d-threejs-1"
+  "commit": "a1b2c3d4e5f6..."
 }
 ```
 
@@ -348,7 +364,6 @@ Round result. `RoundResult`.
 | `winner_hotkey` | string | Hotkey of the winning miner, or the literal `leader` if the incumbent defended |
 | `repo` | string | Winner's GitHub repository |
 | `commit` | string | Winner's commit SHA |
-| `docker_image` | string | Docker image of the winner |
 
 **Writer:** judge-service at the end of DUELS.
 
