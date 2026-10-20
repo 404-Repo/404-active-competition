@@ -1,18 +1,10 @@
-name: Copy closed-source model submissions to R2
+name: Bake and push images GCR
 
 on:
   push:
     paths:
       - '**/submissions.json'
   workflow_dispatch:
-    inputs:
-      round:
-        description: 'Round number to copy (for example, 57)'
-        type: string
-        required: true
-
-permissions:
-  contents: read
 
 jobs:
   setup:
@@ -20,65 +12,61 @@ jobs:
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
       submission_file: ${{ steps.find-submissions.outputs.file }}
-      has_submissions: ${{ steps.set-matrix.outputs.has_submissions }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-          persist-credentials: false
       - name: Get changed submissions file
         id: find-submissions
-        env:
-          INPUT_ROUND: ${{ inputs.round }}
         run: |
-          if [ "$GITHUB_EVENT_NAME" = workflow_dispatch ]; then
-            [[ "$INPUT_ROUND" =~ ^(0|[1-9][0-9]*)$ ]] || exit 1
-            CHANGED_FILE="rounds/$INPUT_ROUND/submissions.json"
-          else
-            CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD -- '**/submissions.json' | head -1 || true)
-            if [ -z "$CHANGED_FILE" ]; then
-              CHANGED_FILE=$(find rounds -maxdepth 2 -name 'submissions.json' | sort -V | tail -1)
-            fi
+          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep 'submissions.json' | head -1)
+          if [ -z "$CHANGED_FILE" ]; then
+            CHANGED_FILE=$(find rounds -maxdepth 2 -name 'submissions.json' | sort -V | tail -1)
           fi
-          [[ "$CHANGED_FILE" =~ ^rounds/(0|[1-9][0-9]*)/submissions\.json$ ]] || exit 1
-          test -f "$CHANGED_FILE"
-          printf 'file=%s\n' "$CHANGED_FILE" >> "$GITHUB_OUTPUT"
+          echo "file=$CHANGED_FILE" >> $GITHUB_OUTPUT
       - name: Set matrix
         id: set-matrix
-        env:
-          SUBMISSION_FILE: ${{ steps.find-submissions.outputs.file }}
         run: |
-          MATRIX=$(jq -ce 'if type == "object" and all(keys[]; test("^[1-9A-HJ-NP-Za-km-z]{48}$")) then keys else error("Invalid submissions object or hotkey") end' "$SUBMISSION_FILE")
-          printf 'matrix=%s\n' "$MATRIX" >> "$GITHUB_OUTPUT"
-          printf 'has_submissions=%s\n' "$(jq 'length > 0' <<< "$MATRIX")" >> "$GITHUB_OUTPUT"
+          echo "matrix=$(jq -c 'keys' ${{ steps.find-submissions.outputs.file }})" >> $GITHUB_OUTPUT
 
-  copy-source:
-    name: Copy source to R2 / ${{ matrix.repo }}
+  bake-push:
+    name: Bake and push images to Google Cloud
     runs-on: arc-x86
     timeout-minutes: 135
     needs: setup
-    if: needs.setup.outputs.has_submissions == 'true'
     strategy:
       fail-fast: false
       max-parallel: 10
       matrix:
         repo: ${{ fromJson(needs.setup.outputs.matrix) }}
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    env:
+      CONTEXT: ${{ matrix.repo }}
+      DOCKERFILE: docker/Dockerfile
     steps:
-      - name: Checkout
+      - 
+        name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MINER_GITHUB_TOKEN || github.token }}
-          persist-credentials: false
-      - name: Get repository info
-        id: get-repo-info
-        env:
-          SUBMISSION_FILE: ${{ needs.setup.outputs.submission_file }}
-          MINER_HOTKEY: ${{ matrix.repo }}
+          submodules: true
+          token: ${{ secrets.MINER_GITHUB_TOKEN }} 
+      -
+        name: Get changed submissions file
+        id: find-submissions
         run: |
-          REPO_INFO=$(jq -ce --arg hotkey "$MINER_HOTKEY" '.[$hotkey] | select(type == "object") | select(.repo | strings | test("^[A-Za-z0-9_-]+/[A-Za-z0-9_.-]+$")) | select(.repo | split("/")[1] | . != "." and . != "..") | select(.commit | strings | test("^[0-9a-f]{40}$")) | select(.round | type == "string")' "$SUBMISSION_FILE")
-          printf 'repo-info=%s\n' "$REPO_INFO" >> "$GITHUB_OUTPUT"
-      - name: Clone repository
+          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep 'submissions.json' | head -1)
+          if [ -z "$CHANGED_FILE" ]; then
+            CHANGED_FILE=$(find rounds -maxdepth 2 -name 'submissions.json' | sort -V | tail -1)
+          fi
+          echo "file=$CHANGED_FILE" >> $GITHUB_OUTPUT
+      -
+        name: Get repository info
+        id: get-repo-info
+        run: |
+          echo "repo-info=$(jq -c '."${{ matrix.repo }}"' ${{ steps.find-submissions.outputs.file }})" >> $GITHUB_OUTPUT
+      -
+        name: Clone repository
         uses: actions/checkout@v4
         continue-on-error: true
         id: clone-repo
@@ -87,8 +75,8 @@ jobs:
           ref: ${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}
           path: ${{ matrix.repo }}
           token: ${{ secrets.MINER_GITHUB_TOKEN }}
-          persist-credentials: false
-      - name: Fallback clone with GITHUB_TOKEN
+      -
+        name: Fallback clone with GITHUB_TOKEN
         if: steps.clone-repo.outcome == 'failure'
         uses: actions/checkout@v4
         with:
@@ -96,62 +84,113 @@ jobs:
           ref: ${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}
           path: ${{ matrix.repo }}
           token: ${{ github.token }}
-          persist-credentials: false
-      - name: Archive and upload to R2
-        env:
-          MINER_HOTKEY: ${{ matrix.repo }}
-          SUBMISSION_FILE: ${{ needs.setup.outputs.submission_file }}
-          REPOSITORY: ${{ fromJson(steps.get-repo-info.outputs.repo-info).repo }}
-          COMMIT_SHA: ${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}
-          ROUND_NAME: ${{ fromJson(steps.get-repo-info.outputs.repo-info).round }}
-          REPO_R2_ENDPOINT: ${{ secrets.REPO_R2_ENDPOINT }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.REPO_R2_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.REPO_R2_SECRET_ACCESS_KEY }}
-          AWS_REQUEST_CHECKSUM_CALCULATION: WHEN_REQUIRED
-          AWS_RESPONSE_CHECKSUM_VALIDATION: WHEN_REQUIRED
+      -
+        name: Debug directory structure
+        run: |
+          ls -la ${{ matrix.repo }}
+          ls -la ${{ matrix.repo }}/docker
+      - 
+        name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v3'
+        with:
+          version: '>= 363.0.0'
+      - 
+        name: Log in to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          project_id: gen-456515
+          workload_identity_provider: projects/369621634572/locations/global/workloadIdentityPools/github-actions-pool/providers/github-actions-404-repo
+      - 
+        name: Configure Docker to use gcloud
+        run: |
+          gcloud auth configure-docker europe-west3-docker.pkg.dev
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      -
+        name: Set dynamic tag
+        run: |
+          COMMIT_SHA=$(echo "${{ fromJson(steps.get-repo-info.outputs.repo-info).commit }}" | cut -c1-7)
+          ROUND="${{ fromJson(steps.get-repo-info.outputs.repo-info).round }}"
+          MINER_HOTKEY_LOWER=$(echo "${{ matrix.repo }}" | tr '[:upper:]' '[:lower:]' | cut -c1-10)
+          echo "DOCKER_TAG=${COMMIT_SHA}-${ROUND}" >> $GITHUB_ENV
+          echo "MINER_HOTKEY_LOWER=${MINER_HOTKEY_LOWER}" >> $GITHUB_ENV
+      -
+        name: Archive and upload to R2
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip awscliv2.zip
           sudo ./aws/install
-          ROUND_NUMBER=$(basename "$(dirname "$SUBMISSION_FILE")")
-          SOURCE_KEY="sources/v2/rounds/$ROUND_NUMBER/$MINER_HOTKEY/$REPOSITORY/$COMMIT_SHA/source.zip"
-          MANIFEST_KEY="${SOURCE_KEY%source.zip}manifest.json"
-          test "$(git -C "$MINER_HOTKEY" rev-parse HEAD)" = "$COMMIT_SHA"
-          git -C "$MINER_HOTKEY" ls-tree -r "$COMMIT_SHA" | awk '$1 != "100644" && $1 != "100755" { exit 1 }'
-          # Override archive attributes so committed support files are not omitted or substituted.
-          mkdir -p "$MINER_HOTKEY/.git/info"
-          printf '* -export-ignore -export-subst\n' > "$MINER_HOTKEY/.git/info/attributes"
-          git -C "$MINER_HOTKEY" archive --format=zip "$COMMIT_SHA" > source.zip
-          SOURCE_SHA256=$(sha256sum source.zip | cut -d ' ' -f1)
-          GIT_TREE=$(git -C "$MINER_HOTKEY" rev-parse 'HEAD^{tree}')
-          jq -n --argjson round_number "$ROUND_NUMBER" --arg round "$ROUND_NAME" \
-            --arg hotkey "$MINER_HOTKEY" --arg repo "$REPOSITORY" --arg commit "$COMMIT_SHA" \
-            --arg git_tree "$GIT_TREE" --arg key "$SOURCE_KEY" --arg sha256 "$SOURCE_SHA256" \
-            --argjson size_bytes "$(wc -c < source.zip)" \
-            '{schema_version: 2, round_number: $round_number, round: $round, hotkey: $hotkey,
-              repo: $repo, commit: $commit, git_tree: $git_tree, entrypoint: "main.py",
-              source: {bucket: "miner-repo-archive", key: $key, sha256: $sha256, size_bytes: $size_bytes, format: "zip"}}' > manifest.json
-          upload_once() {
-            local file="$1" key="$2" content_type="$3"
-            if ! aws s3api put-object --bucket miner-repo-archive --key "$key" --body "$file" \
-              --content-type "$content_type" --if-none-match '*' --endpoint-url "$REPO_R2_ENDPOINT" > /dev/null; then
-              printf 'Upload failed or object exists; verifying stored %s\n' "$key"
-            fi
-            aws s3api get-object --bucket miner-repo-archive --key "$key" \
-              --endpoint-url "$REPO_R2_ENDPOINT" "$file.stored" > /dev/null
-            if ! cmp -s "$file" "$file.stored"; then
-              printf 'Stored object differs; refusing to overwrite %s\n' "$key" >&2
-              exit 1
-            fi
-          }
-          upload_once source.zip "$SOURCE_KEY" application/zip
-          upload_once manifest.json "$MANIFEST_KEY" application/json
-          printf 'source_key=%s\nmanifest_key=%s\nsha256=%s\n' "$SOURCE_KEY" "$MANIFEST_KEY" "$SOURCE_SHA256" >> "$GITHUB_OUTPUT"
-        id: archive
-      - name: Add to summary
+          tar -czf ${{ env.MINER_HOTKEY_LOWER }}_${{ env.DOCKER_TAG }}.tar.gz ${{ matrix.repo }}
+          aws s3 cp ${{ env.MINER_HOTKEY_LOWER }}_${{ env.DOCKER_TAG }}.tar.gz s3://miner-repo-archive/${{ env.MINER_HOTKEY_LOWER }}_${{ env.DOCKER_TAG }}.tar.gz --endpoint-url ${{ secrets.REPO_R2_ENDPOINT }}
         env:
-          SOURCE_KEY: ${{ steps.archive.outputs.source_key }}
-          MANIFEST_KEY: ${{ steps.archive.outputs.manifest_key }}
-          SOURCE_SHA256: ${{ steps.archive.outputs.sha256 }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.REPO_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.REPO_R2_SECRET_ACCESS_KEY }}
+      -
+        name: Build and push
+        uses: docker/bake-action@v6
+        continue-on-error: true
+        id: build1
+        timeout-minutes: 45
+        with:
+          source: .
+          files: |
+            ./docker-bake.hcl
+          push: true
+          provenance: false
+        env:
+          VERSION: ${{  env.DOCKER_TAG }}
+          GITHUB_TOKEN: ${{ secrets.MINER_GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.MINER_GITHUB_USER }}
+          CONTEXT: ${{ env.CONTEXT }}
+          MINER_HOTKEY: ${{ env.MINER_HOTKEY_LOWER }}
+          DOCKERFILE: ${{ env.DOCKERFILE }}
+          CACHE_FROM: type=registry,ref=europe-west3-docker.pkg.dev/gen-456515/eu-dockers-cache/shared
+          CACHE_TO: ${{ strategy.job-index == 0 && 'type=registry,ref=europe-west3-docker.pkg.dev/gen-456515/eu-dockers-cache/shared,mode=max,compression=zstd' || '' }}
+      -
+        name: Clean cache after failure
+        if: steps.build1.outcome == 'failure'
         run: |
-          printf 'Copied source: `s3://miner-repo-archive/%s`\n\nManifest: `s3://miner-repo-archive/%s`\n\nZIP SHA-256: `%s`\n' "$SOURCE_KEY" "$MANIFEST_KEY" "$SOURCE_SHA256" >> "$GITHUB_STEP_SUMMARY"
+          docker buildx rm --all-inactive || true
+          docker stop $(docker ps -aq) || true
+          docker rm $(docker ps -aq) || true
+          docker rmi $(docker images -aq) || true
+          docker volume rm $(docker volume ls -q) || true
+          docker system prune -af --volumes
+          docker buildx create --use --name fresh-builder
+      -
+        name: Retry build
+        if: steps.build1.outcome == 'failure'
+        uses: docker/bake-action@v6
+        timeout-minutes: 45
+        with:
+          source: .
+          files: |
+            ./docker-bake.hcl
+          push: true
+          provenance: false
+        env:
+          VERSION: ${{  env.DOCKER_TAG }}
+          GITHUB_TOKEN: ${{ secrets.MINER_GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.MINER_GITHUB_USER }}
+          CONTEXT: ${{ env.CONTEXT }}
+          MINER_HOTKEY: ${{ env.MINER_HOTKEY_LOWER }}
+          DOCKERFILE: ${{ env.DOCKERFILE }}
+          CACHE_FROM: type=registry,ref=europe-west3-docker.pkg.dev/gen-456515/eu-dockers-cache/shared
+          CACHE_TO: ${{ strategy.job-index == 0 && 'type=registry,ref=europe-west3-docker.pkg.dev/gen-456515/eu-dockers-cache/shared,mode=max,compression=zstd' || '' }}
+      -
+        name: Display image URL
+        run: |
+          echo "::notice title=Built Image::europe-west3-docker.pkg.dev/gen-456515/active-competition/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}"
+      -
+        name: Add to summary
+        run: |
+          echo "### Built Docker Images :whale:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Submission file:** \`${{ needs.setup.outputs.submission_file }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- \`europe-west3-docker.pkg.dev/gen-456515/active-competition/${{ env.MINER_HOTKEY_LOWER }}:${{ env.DOCKER_TAG }}\`" >> $GITHUB_STEP_SUMMARY
