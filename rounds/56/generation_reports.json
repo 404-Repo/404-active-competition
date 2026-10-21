@@ -64,7 +64,7 @@
   },
   "5DFGtwcMb5Zeva3KEEyGihaZoGoQPoDmZv25sZJupDvoFdio": {
     "hotkey": "5DFGtwcMb5Zeva3KEEyGihaZoGoQPoDmZv25sZJupDvoFdio",
-    "outcome": "pending",
+    "outcome": "completed",
     "repeats": [
       {
         "repeat_index": 1,
@@ -77,6 +77,12 @@
         "generated_prompts": 128,
         "failed_prompts": 0,
         "generation_time": 5464.695334676013
+      },
+      {
+        "repeat_index": 3,
+        "generated_prompts": 128,
+        "failed_prompts": 0,
+        "generation_time": 5430.404806576
       }
     ],
     "reason": ""
