@@ -35,5 +35,19 @@
     "total_generation_time": 0.0,
     "termination_reason": "submission_failed",
     "payload": null
+  },
+  "miner-56-5c7fuu3re5-1-r3": {
+    "pod_id": "miner-56-5c7fuu3re5-1",
+    "repeat_index": 3,
+    "provider": "runpod",
+    "batch_times": [
+      1495.9346858120116,
+      1630.330102656997,
+      1579.3058828980138,
+      1357.0774611940142
+    ],
+    "total_generation_time": 6062.648132561037,
+    "termination_reason": "completed",
+    "payload": null
   }
 }
