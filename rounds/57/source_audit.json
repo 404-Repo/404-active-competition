@@ -1,0 +1,7 @@
+[
+  {
+    "hotkey": "5C7fUU3RE5iMsCtZqRedkZDQYobEMi7R7SeC8MqkRATm5uAN",
+    "verdict": "failed",
+    "reason": "Security risk in huypg-zenai/huy6@1cbebbdddb9516268918794832eb9f43244c8b9f: the default-enabled SGL_WQ path executes the opaque native extension docker/opt/v5/wq/prebuilt/kopt_wq_ext.so with the Python process's permissions, including access to credentials and data available to that process. Its implementation sources kopt_wq_gemm.cuh and sgl_csrc/ are missing, preventing adequate source review for hidden behavior. Checksums and numerical self-tests do not establish that the binary is safe. This verdict concerns unverified native-code execution risk, not demonstrated malicious behavior."
+  }
+]
