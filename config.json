@@ -1,13 +1,13 @@
 {
-  "name": "gpt",
-  "description": "Image-to-Three.js Generation with Closed-Source Models",
-  "first_evaluation_date": "2026-10-26",
-  "last_competition_date": "2027-10-26",
+  "name": "test",
+  "description": "Image-to-Three.js test competition",
+  "first_evaluation_date": "2026-10-28",
+  "last_competition_date": "2027-10-28",
   "round_start_time": "08:00:00",
-  "generation_stage_minutes": 1440,
+  "generation_stage_minutes": 525600,
   "finalization_buffer_hours": 1,
   "win_margin": 0.07,
   "prompts_per_round": 128,
   "carryover_prompts": 32,
-  "round_duration_days": 3
+  "round_duration_days": 365
 }
