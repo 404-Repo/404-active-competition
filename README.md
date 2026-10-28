@@ -1,7 +1,8 @@
 ## Previous competitions
-https://github.com/404-Repo/404-competition-0
-https://github.com/404-Repo/404-competition-1
-https://github.com/404-Repo/404-active-competition
+
+- https://github.com/404-Repo/404-competition-0
+- https://github.com/404-Repo/404-competition-1
+- https://github.com/404-Repo/404-competition-2
 
 # Competition State Repository
 
