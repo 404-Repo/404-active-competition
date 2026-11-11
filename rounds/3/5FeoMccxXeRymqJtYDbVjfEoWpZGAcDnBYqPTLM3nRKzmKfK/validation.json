@@ -1,0 +1,14 @@
+{
+  "ref": "1536172bb1e7253e5967829e988570cde7a0d0ce",
+  "prompts": {
+    "efc3a1b038606553c647d648a52113e195ac44e4b7c6c92e6ba681c4ac946ee3": {
+      "status": "pending",
+      "attempts": 1,
+      "retryable": false,
+      "reason": "HTTPStatusError: Client error '404 Not Found' for url 'https://api.github.com/repos/Olauge-Secret/heron-gale/tarball/5a5c91a925f31bb4b95054117b785e386fcd2aa3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "charges": {},
+      "consumed_calls": 0,
+      "consumed_credits": "0"
+    }
+  }
+}
