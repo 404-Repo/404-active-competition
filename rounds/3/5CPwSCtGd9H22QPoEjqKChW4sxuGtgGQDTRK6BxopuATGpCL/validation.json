@@ -5446,8 +5446,8 @@
     },
     "7afccc8802690032993152e94adff33d349efeb9e4cf7c9045ecabd7fe6eb5c8": {
       "status": "pending",
-      "attempts": 3,
-      "deadline": "2026-11-11T05:01:39.606662Z",
+      "attempts": 0,
+      "deadline": null,
       "retryable": true,
       "reason": "RuntimeError: No saved preview outcome for this render request",
       "charges": {
@@ -5910,8 +5910,8 @@
     },
     "3d87b32364a8473a1a31b3a331cfae3de791615f014369ee9305724f51ce2e81": {
       "status": "pending",
-      "attempts": 3,
-      "deadline": "2026-11-11T05:34:02.375245Z",
+      "attempts": 0,
+      "deadline": null,
       "retryable": true,
       "reason": "RuntimeError: No saved preview outcome for this render request",
       "charges": {
