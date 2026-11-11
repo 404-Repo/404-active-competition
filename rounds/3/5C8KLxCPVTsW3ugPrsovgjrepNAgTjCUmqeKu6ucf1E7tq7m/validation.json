@@ -1,0 +1,14 @@
+{
+  "ref": "6ee0cabc4d4319badcbaa5244ba2c0ba35de9bc2",
+  "prompts": {
+    "efc3a1b038606553c647d648a52113e195ac44e4b7c6c92e6ba681c4ac946ee3": {
+      "status": "pending",
+      "attempts": 1,
+      "retryable": false,
+      "reason": "HTTPStatusError: Client error '404 Not Found' for url 'https://api.github.com/repos/Olauge-Secret/ibis-fen/tarball/f4f28478bde676278c7b5bdb8ae62c2428c97d02'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "charges": {},
+      "consumed_calls": 0,
+      "consumed_credits": "0"
+    }
+  }
+}
