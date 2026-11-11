@@ -279,6 +279,15 @@
       "charges": {},
       "consumed_calls": 0,
       "consumed_credits": "0"
+    },
+    "6c2c5df82723efbbeebdb529f659c22149e741605bd0e084ef2b1ea733b4d320": {
+      "status": "failed",
+      "attempts": 1,
+      "retryable": false,
+      "reason": "GitHub returned 404 Not Found for submitted source Olauge-Secret/heron-gale@5a5c91a925f31bb4b95054117b785e386fcd2aa3",
+      "charges": {},
+      "consumed_calls": 0,
+      "consumed_credits": "0"
     }
   }
 }
