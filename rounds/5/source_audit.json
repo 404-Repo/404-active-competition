@@ -1,10 +1,5 @@
 [
   {
-    "hotkey": "5F9dpCuo4YoVjWLjos84ECzGz5Yo7a6UGQ9cJ5JS8EzuQnyW",
-    "verdict": "failed",
-    "reason": "Disqualified because the generated models are not centered at the origin, which is a mandatory competition output requirement."
-  },
-  {
     "hotkey": "5HBnnZi24dU2zhVzQ2mp3Rdjbm6occeS8hGmC93biM42ENgi",
     "verdict": "failed",
     "reason": "Disqualified for applying deliberate post-selection non-uniform model scaling, an identified judge exploit. Competition output rules require models to be centered at the origin and normalized within the unit bounding box; renderer acceptance alone does not waive those requirements."
