@@ -1,0 +1,17 @@
+[
+  {
+    "hotkey": "5HpNP2uqmPH9NL4qM2pfV1teEfpJWf5FgUuvXMU5JiKmusSN",
+    "verdict": "passed",
+    "reason": "Static source audit passed."
+  },
+  {
+    "hotkey": "5G22zS7xXNPyazGAawfH8zrGw2cwR1fDDtUi9tMAKWsUcvdN",
+    "verdict": "failed",
+    "reason": "Non-uniform scaling was found in submitted model outputs."
+  },
+  {
+    "hotkey": "5DU5HVPK5z7JuzydA5sjeYKD9BkaGJeJZsNZD3ri6MPzwxmo",
+    "verdict": "failed",
+    "reason": "Non-uniform scaling was found in submitted model outputs."
+  }
+]
