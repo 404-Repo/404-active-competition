@@ -38,5 +38,10 @@
     "hotkey": "5EvWt42rQy9sWXq5GkP6THgojKsVKemo7HZFBdjLBhpqgNSJ",
     "verdict": "failed",
     "reason": "Non-uniform scaling was found in submitted model outputs."
+  },
+  {
+    "hotkey": "5F4X4hZKEDegcnDUCb9vKUQ7K36FWXsUPqThppP6YbkAfUck",
+    "verdict": "passed",
+    "reason": "No unsafe code, non-uniform whole-model scaling, texture exploit, or systematic material manipulation found."
   }
 ]
