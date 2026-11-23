@@ -1,8 +1,8 @@
 [
   {
     "hotkey": "5HpNP2uqmPH9NL4qM2pfV1teEfpJWf5FgUuvXMU5JiKmusSN",
-    "verdict": "passed",
-    "reason": "Static source audit passed."
+    "verdict": "failed",
+    "reason": "Tilting found, metallness and saturation adjustments to trick the judge"
   },
   {
     "hotkey": "5G22zS7xXNPyazGAawfH8zrGw2cwR1fDDtUi9tMAKWsUcvdN",
@@ -14,9 +14,19 @@
     "verdict": "failed",
     "reason": "Non-uniform scaling was found in submitted model outputs."
   },
-    {
-    "hotkey": "5GBa8JUKVCoNj74w3H4JPLtYX8XN6D2esZMQq3no8yQQmpJR",
+  {
+    "hotkey": "5GTHnU4xjcpmtGZ9fgGkYjeAiVM7DC9fRVyYhbBZGjeGXN2x",
     "verdict": "failed",
     "reason": "Non-uniform scaling was found in submitted model outputs."
+  },
+  {
+    "hotkey": "5H8ophuGFmq1H1uZ1RrReQ5ZrJWr9LgVppzK9ZrsTNfAJEx4",
+    "verdict": "failed",
+    "reason": "Non-uniform scaling was found in submitted model outputs."
+  },
+  {
+    "hotkey": "5Cczrqz1C1SFfc2juWT72jXK2feGeEZiQHT46hyeGBMA6VEW",
+    "verdict": "passed",
+    "reason": "valid solution"
   }
 ]
