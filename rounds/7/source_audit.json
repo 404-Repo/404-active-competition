@@ -3,5 +3,10 @@
     "hotkey": "5H4SRDci6yj8htbWjovMz71Phm7fxYafVYoLjGKdBpuGC8X2",
     "verdict": "passed",
     "reason": "Valid solution"
+  },
+  {
+    "hotkey": "5FprBFvdcQxrg3nqU9qvjEdFEacBy1UcwVJoWQR7rJ5yiHdd",
+    "verdict": "failed",
+    "reason": "A 'silver guide' bakes artificial highlight bands into vertex colours based on surface normals. This directly contradicts the miner’s own active instruction not to paint lighting highlights into colours or vertex colours."
   }
 ]
